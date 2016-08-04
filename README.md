@@ -6,6 +6,7 @@ A boilerplate for quick starting projects that use gulp, sass and hugo
 * [npm](https://www.npmjs.com/about)
 * [hugo](https://gohugo.io)
 * [gulp](https://gulpjs.com/)
+
 ---
 ## Installation
 These should only be needed to be done the first you are setting up your site.
@@ -58,13 +59,12 @@ gulp <task name>
 
 Feel free to tweak the gulpfile to your liking.
 
-* #### Clean
-  Deletes all files and subdirectories from `/public`.
-* #### Styles
-  Compiles your Sass into `/static/css`.
-* #### Hugo
-  Calls Hugo to generate your site. Files will be output to `/public`.
-* #### Build
-  Calls Clean, Styles and Hugo in that order.
-* #### Server
-  Starts a local server, opens your default browser, and serves `/public` at `http://localhost:8000`.
+* **Clean** - Deletes all files and subdirectories from `/public`.
+
+* **Styles** - Compiles your Sass into `/static/css`.
+
+* **Hugo** - Calls Hugo to generate your site. Files will be output to `/public`.
+
+* **Build** - Calls Clean, Styles and Hugo in that order.
+
+* **Server** - Starts a local server, opens your default browser, and serves `/public` at `http://localhost:8000`.
