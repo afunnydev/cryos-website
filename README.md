@@ -30,12 +30,6 @@ Install Hugo with Homebrew
 brew update && brew install hugo
 ```
 
-#### Gulp
-Gulp must be globally installed
-```bash
-npm install -g gulp
-```
-
 #### Dependencies
 Install  dependencies with NPM.
 
