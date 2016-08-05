@@ -24,6 +24,12 @@ git remote add origin https://github.com/<your repo path here>
 git push -u origin master
 ```
 
+#### Hugo
+Install Hugo with Homebrew
+```bash
+brew update && brew install hugo
+```
+
 #### Gulp
 Gulp must be globally installed
 ```bash
