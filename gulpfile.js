@@ -13,7 +13,7 @@ gulp.task('clean', function(done) {
 
 // Compile SCSS files to CSS
 gulp.task('styles', function() {
-    return gulp.src('src/scss/styles.scss')
+    return gulp.src('src/sass-materialize/materialize.scss')
         .pipe($.sourcemaps.init())
         .pipe($.sass())
         .on('error', $.sass.logError)
@@ -43,7 +43,7 @@ gulp.task('server', function() {
   });
 
   //watch for changes to files and build again if any are found
-  gulp.watch(['content/**/*.html','layouts/**/*.html', 'src/scss/**/*.scss'], ['build']);
+  gulp.watch(['content/**/*.html','layouts/**/*.html', 'src/sass-materialize/**/*.scss', 'src/sass-materialize/components/**/*.scss'], ['build']);
   gulp.watch(['public/**/*']).on('change', browser.reload);
 });
 

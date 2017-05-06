@@ -1,0 +1,62 @@
+//This contains styling that will apply to specific page
+
+/* ======= Style pour l'accueil ======= */
+
+/* Hero */
+
+#hero {
+	background-color: $rgris;
+}
+
+#hero img {
+	height: 90vh;
+}
+
+/* Produits */
+
+#produits {
+	padding-top: $navbar-height;
+	padding-bottom: $navbar-height;
+	.row .col {
+		border-top: 10px solid $rpurple;
+	}
+	.row .col:nth-child(2) {
+		margin: 0 12.5%;
+	}
+	.row .col h4 {
+		color: $rpurple;
+	}
+}
+
+/* Trouver un programme */
+
+#trouverp {
+	padding: 20px 10%;
+	background-color: $rblue;
+	color: white;
+
+	.btn {
+		background-color: white;
+		color: $rpurple;
+		border: 2px solid $rpurple;
+		-webkit-transition: 0.4s background-color;
+		-moz-transition: 0.4s background-color;
+		-ms-transition: 0.4s background-color;
+		-o-transition: 0.4s background-color;
+		transition: 0.4s background-color;
+		text-transform: none;
+	}
+
+	.btn:hover {
+		background-color: $rpurple;
+		color: white;
+	}
+}
+
+/* Nouvelles */
+
+#nouvelles {
+	background-color: $rgris;
+	color: black;
+	padding-top: 10px;
+}
