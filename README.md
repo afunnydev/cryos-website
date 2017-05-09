@@ -14,7 +14,7 @@ These should only be needed to be done the first you are setting up your site.
 
 #### Git
 ```bash
-# clone hugo-gulp-sass-boilerplate
+# clone the repo
 git clone https://akiamarketing@bitbucket.org/akiamarketing/cryos-hugo.git cryos
 cd cryos
 
@@ -69,6 +69,17 @@ Please have a look at the file `/sass-materialize/components/variables.scss` to 
 ## Known error
 Hugo needs to build prior to be served on the server. Sometime, build happen to slowly and content is server or browser is refreshed to quickly, you will get: `Cannot Get /`. Just refresh the browser again and it will work fine. If you prefer, just adjust de setTimeout in gulpfile.js, but you'll wait longer :)
 
+Something, there's and error in the console on the gulp default task
+
+```bash
+events.js:161
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: watch /Users/the2deux/Akia Marketing/Projets/Cryos/cryos-hugo/public/blogue ENOENT
+```
+
+Just redo the gulp command, should work... If you can debug, please feel free and teach me please :)
 ---
 
 ## Gulp Tasks
