@@ -1,3 +1,4 @@
-baseurl = "/"
+baseURL = "http://localhost:8000/"
 languageCode = "en-us"
 title = "Cryos"
+metaDataFormat = "toml"

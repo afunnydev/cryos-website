@@ -37,14 +37,18 @@ gulp.task('build', function(done) {
 
 // Start a server with LiveReload to preview the site in
 gulp.task('server', function() {
-  browser.init({
-    server: './public',
+  setTimeout(function(){
+    browser.init({
+    server: 'public/',
     port: 8000
   });
+  }, 1000);
 
   //watch for changes to files and build again if any are found
   gulp.watch(['content/**/*.html','layouts/**/*.html', 'src/sass-materialize/**/*.scss', 'src/sass-materialize/components/**/*.scss'], ['build']);
-  gulp.watch(['public/**/*']).on('change', browser.reload);
+  gulp.watch(['public/**/*']).on('change', function(){
+    setTimeout(browser.reload, 1000);
+  });
 });
 
 gulp.task('default', ['build', 'server']);

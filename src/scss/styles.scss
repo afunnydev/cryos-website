@@ -1,8 +1,0 @@
-//import variables and mixins
-@import 'partials/helpers/variables', 'partials/helpers/mixins', 'partials/helpers/placeholders';
-
-//general styling for functionality that is used throughout the site
-@import 'partials/components/header', 'partials/components/footer';
-
-//import specific page styles
-@import 'partials/pages/common','partials/pages/index';
