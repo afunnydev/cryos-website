@@ -43,12 +43,13 @@ gulp.task('server', function() {
     port: 8000
   });
   }, 1000);
-
+  setTimeout(function(){
   //watch for changes to files and build again if any are found
   gulp.watch(['content/**/*.html','layouts/**/*.html', 'src/sass-materialize/**/*.scss', 'src/sass-materialize/components/**/*.scss'], ['build']);
   gulp.watch(['public/**/*']).on('change', function(){
     setTimeout(browser.reload, 1000);
   });
+  }, 5000);
 });
 
 gulp.task('default', ['build', 'server']);

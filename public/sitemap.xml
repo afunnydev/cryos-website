@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>http://localhost:8000/produits/cryoscan-3d/</loc>
+    <lastmod>2017-05-09T12:51:12-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:8000/produits/cryovizion/</loc>
+    <lastmod>2017-05-09T12:50:31-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:8000/produits/orthese-cryos/</loc>
+    <lastmod>2017-05-09T12:49:55-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:8000/compagnie/a-propos/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:8000/compagnie/contact/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:8000/compagnie/emploi/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:8000/patients/cryovizion/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:8000/patients/faq/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:8000/patients/ortheses/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:8000/trouver-une-clinique/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:8000/authors/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:8000/categories/biomecanique/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:8000/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:8000/compagnie/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:8000/blogue/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:8000/</loc>
+    <lastmod>2017-05-09T12:51:12-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:8000/lefficacite-de-lanalyse-posturale-en-cas-de-douleurs-physiques/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:8000/patients/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:8000/authors/plegare/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:8000/produits/</loc>
+    <lastmod>2017-05-09T12:51:12-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:8000/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:8000/categories/test/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

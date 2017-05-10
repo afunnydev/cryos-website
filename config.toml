@@ -2,3 +2,14 @@ baseURL = "http://localhost:8000/"
 languageCode = "en-us"
 title = "Cryos"
 metaDataFormat = "toml"
+author = "Félix DeBlois-Beaucage"
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  author = "authors"
+
+[params]
+  author = "Félix DeBlois-Beaucage"
+
+

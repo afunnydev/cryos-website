@@ -4,5 +4,14 @@
     {{ partial "header.html" . }}
     
         {{ .Content }}
+        
+ 				<!-- Not working yet -->
+     			<h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+     			<span>written by {{ .Author.DisplayName }}</span>
+ 
+    			{{ .Summary }}
+ 				
+ 				
         {{ partial "footer.html" . }}
+ 			
 
