@@ -1,4 +1,27 @@
-
+@font-face {
+    font-family: 'Antenna-Light';
+    src: url("/fonts/antenna/Antenna-Light.eot"); /* IE9 Compat Modes */
+    src: url("/fonts/antenna/Antenna-Light.woff") format("woff"), /* Modern Browsers */
+         url("/fonts/antenna/Antenna-Light.ttf")  format("truetype"), /* Safari, Android, iOS */
+         url("/fonts/antenna/Antenna-Light.svg") format("svg"),
+         url("/fonts/antenna/Antenna-Light.otf") format("opentype"); /* Legacy iOS */
+}
+@font-face {
+    font-family: 'Antenna-Bold';
+    src: url("/fonts/antenna/Antenna-Bold.eot"); /* IE9 Compat Modes */
+    src: url("/fonts/antenna/Antenna-Bold.woff") format("woff"), /* Modern Browsers */
+         url("/fonts/antenna/Antenna-Bold.ttf")  format("truetype"), /* Safari, Android, iOS */
+         url("/fonts/antenna/Antenna-Bold.svg") format("svg"),
+         url("/fonts/antenna/Antenna-Bold.otf") format("opentype"); /* Legacy iOS */
+}
+@font-face {
+    font-family: 'Myriad';
+    src: url("/fonts/myriad/MyriadWebPro.eot"); /* IE9 Compat Modes */
+    src: url("/fonts/myriad/MyriadWebPro.woff") format("woff"), /* Modern Browsers */
+         url("/fonts/myriad/MyriadWebPro.ttf")  format("truetype"), /* Safari, Android, iOS */
+         url("/fonts/myriad/MyriadWebPro.svg") format("svg"),
+         url("/fonts/myriad/MyriadWebPro.otf") format("opentype"); /* Legacy iOS */
+}
 a {
   text-decoration: none;
 }
@@ -18,13 +41,14 @@ html{
     font-size: 15px;
   }
 
-  font-family: "Roboto", sans-serif;
+  font-family: "Myriad", sans-serif;
   font-weight: normal;
   color: $off-black;
 }
 h1, h2, h3, h4, h5, h6 {
 	font-weight: 400;
 	line-height: 1.1;
+  font-family: "Antenna-Light", sans-serif;
 }
 
 // Header Styles

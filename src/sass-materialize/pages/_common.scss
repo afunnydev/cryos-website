@@ -284,3 +284,12 @@ textarea {
         height: $navbar-brand-height;
     }
 }
+
+@media #{$small-and-down} {
+    #top-bar {
+        display: none;
+    }
+    .nav-wrapper .brand-logo img {
+        height: $navbar-brand-height-mobile;
+    }
+}

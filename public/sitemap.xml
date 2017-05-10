@@ -45,6 +45,11 @@
   </url>
   
   <url>
+    <loc>http://localhost:8000/authors/alice/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://localhost:8000/authors/</loc>
     <priority>0</priority>
   </url>
@@ -79,11 +84,6 @@
   
   <url>
     <loc>http://localhost:8000/patients/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://localhost:8000/authors/plegare/</loc>
     <priority>0</priority>
   </url>
   

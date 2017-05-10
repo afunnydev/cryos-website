@@ -11,11 +11,11 @@
     
     
     <item>
-      <title>Plegare</title>
-      <link>http://localhost:8000/authors/plegare/</link>
+      <title>Alice</title>
+      <link>http://localhost:8000/authors/alice/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:8000/authors/plegare/</guid>
+      <guid>http://localhost:8000/authors/alice/</guid>
       <description></description>
     </item>
     

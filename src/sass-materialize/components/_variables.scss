@@ -32,9 +32,8 @@
 
 // 1. Colors
 // ==========================================================================
-$rblue: blue;
-$rpurple: #92268f !default;
-$rgris: gray;
+$rblue: #1b91fc !default;
+$rpurple: #802e8d !default;
 
 $primary-color: $rpurple !default;
 $primary-color-light: lighten($primary-color, 15%) !default;
@@ -224,12 +223,13 @@ $element-bottom-margin: ($gutter-width*2)/3 !default;
 
 $navbar-height: 64px !default;
 $navbar-line-height: $navbar-height !default;
-$navbar-height-mobile: 40px !default;
+$navbar-height-mobile: 54px !default;
 $navbar-line-height-mobile: $navbar-height-mobile !default;
 $navbar-font-size: 0.9rem !default;
 $navbar-font-color: #000 !default;
 $navbar-brand-font-size: 2.1rem !default;
 $navbar-brand-height: 54px !default;
+$navbar-brand-height-mobile: 44px !default;
 $top-bar-height: 30px;
 $top-bar-line-height: $top-bar-height !default;
 

@@ -1,9 +1,0 @@
-givenName      = "Philippe"   # or firstName as alias
-familyName     = "Legaré" # or lastName as alias
-displayName    = "Philippe Legare, DPM"
-#thumbnail      = "static/authors/alice-thumb.jpg"
-#image          = "static/authors/alice-full.jpg"
-shortBio       = "My name is Alice and I'm a blogger."
-bio            = "My name is Alice and I'm a blogger... some other stuff"
-#email          = "alice.allison@email.com"
-#weight         = 10

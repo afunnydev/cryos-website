@@ -46,9 +46,9 @@ gulp.task('server', function() {
   setTimeout(function(){
   //watch for changes to files and build again if any are found
   gulp.watch(['content/**/*.html','layouts/**/*.html', 'src/sass-materialize/**/*.scss', 'src/sass-materialize/components/**/*.scss', 'static/**/*.js'], ['build']);
-  gulp.watch(['public/**/*']).on('change', function(){
-    setTimeout(browser.reload, 1000);
-  });
+  // gulp.watch(['public/**/*']).on('change', function(){
+  //   setTimeout(browser.reload, 1000);
+  // });
   }, 5000);
 });
 

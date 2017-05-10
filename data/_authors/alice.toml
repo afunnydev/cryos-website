@@ -1,0 +1,18 @@
+givenName      = "Alice"   # or firstName as alias
+familyName     = "Allison" # or lastName as alias
+displayName    = "Alice Allison"
+thumbnail      = "static/authors/alice-thumb.jpg"
+image          = "static/authors/alice-full.jpg"
+shortBio       = "My name is Alice and I'm a blogger."
+bio            = "My name is Alice and I'm a blogger... some other stuff"
+email          = "alice.allison@email.com"
+weight         = 10
+
+[social]
+    facebook   = "alice.allison"
+    twitter    = "alice"
+    googleplus = "aliceallison1"
+    website    = "www.example.com"
+
+[params]
+    random     = "whatever you want"
