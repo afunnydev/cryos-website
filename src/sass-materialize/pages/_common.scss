@@ -275,3 +275,12 @@ textarea {
 		color: white;
 	}
 }
+
+.nav-wrapper {
+    .fa-caret-down {
+        margin-left: 8px;
+    }
+    .brand-logo img {
+        height: $navbar-brand-height;
+    }
+}

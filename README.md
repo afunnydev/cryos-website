@@ -64,6 +64,8 @@ We're using sass to build materialize.css. You can see the reference files in `s
 
 Please have a look at the file `/sass-materialize/components/variables.scss` to see which variables you could use (*especially for colors*)
 
+You'll be glad to know we're using font-awesome for icons :) You should need it a lot since there's not much icon. I'll maybe remove it and use just some icons if I see it's not needed.
+
 ---
 
 ## Known error

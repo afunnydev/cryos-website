@@ -35,11 +35,12 @@
     }
 
     & > a, & > span {
-      font-size: 16px;
+      font-size: $navbar-font-size;
       color: $dropdown-color;
       display: block;
       line-height: 22px;
       padding: (($dropdown-item-height - 22) / 2) 16px;
+      text-transform: uppercase;
     }
 
     & > span > label {
