@@ -1,24 +1,29 @@
 <!doctype html>
-<html class="no-js" lang="">	
+<html class="no-js" lang="">
+
 <head>
-	  <meta name="generator" content="Hugo 0.16" />
-	  <meta charset="UTF-8">
-	  <meta http-equiv="x-ua-compatible" content="ie=edge">
-	  <title>Cryos Technologies | Orthèses Cryos dynamiques</title>
-	  <meta name="description" content="Le produit reconnu par les experts pour la correction de la dysfonction biomécanique par le mouvement naturel. Contactez-nous pour plus d&#39;informations.">
-	  <meta name="viewport" content="width=device-width, initial-scale=1">
-	  <link rel="shortcut icon" href="http://localhost:8000/img/favicon.ico" />
-	  
-	  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
-	  <link rel="stylesheet" href="http://localhost:8000/css/materialize.css" />
-	  <script src="http://localhost:8000/js/vendor/modernizr-2.8.3.min.js"></script>
-	</head>
+	<meta name="generator" content="Hugo 0.16" />
+	<meta charset="UTF-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>Cryos Technologies | Orthèses Cryos dynamiques</title>
+	<meta name="description" content="Le produit reconnu par les experts pour la correction de la dysfonction biomécanique par le mouvement naturel. Contactez-nous pour plus d&#39;informations.">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="http://localhost:8000/img/favicon.ico" />
+	
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1"
+	    crossorigin="anonymous">
+	<link rel="stylesheet" href="http://localhost:8000/css/materialize.css" />
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.min.css">
+	<script src="http://localhost:8000/js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+
 <body>
-		<!--[if lt IE 8]>
+	
+	<!--[if lt IE 8]>
         <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
-
-
 
     
   <nav class="nav-extended" id="top-bar">
@@ -77,6 +82,20 @@
     <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
     <script>window.jQuery || document.write('<script src="http:\/\/localhost:8000\//js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
     <script src="http://localhost:8000/js/vendor/materialize.min.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
+    
+    <script>window.jQuery.fn.owlCarousel || document.write('<script src="/js/bootstrap-3.0.3.min.js"><\/script>')</script>
+    
+    <div id="owl-carousel" class="hidden"></div>
+    <script>
+		$(function () {
+			if ($('#owl-carousel').is(':visible')) {
+				$("head").prepend('<link rel="stylesheet" href="http:\/\/localhost:8000\/css/owl.carousel.min.css" />');
+                $("head").prepend('<link rel="stylesheet" href="http:\/\/localhost:8000\/css/owl.carousel.default.min.css" />');
+			}
+		});
+	</script>
     <script src="http://localhost:8000/js/plugins.js"></script>
     <script src="http://localhost:8000/js/main.js"></script>
 
