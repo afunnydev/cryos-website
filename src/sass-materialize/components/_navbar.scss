@@ -53,7 +53,10 @@ nav {
     position: relative;
     z-index: 1;
     height: $navbar-height-mobile;
-    margin: 0 18px;
+    // margin: 0 18px;
+    padding: 0 10px;
+    background-color: $rpurple;
+    color: white;
 
     i {
       height: $navbar-height-mobile;
@@ -134,6 +137,7 @@ nav {
       display: block;
       padding: 0 15px;
       cursor: pointer;
+      font-family: "Antenna-Light", sans-serif;
 
       &.btn, &.btn-large, &.btn-flat, &.btn-floating {
         margin-top: -2px;
@@ -211,5 +215,10 @@ nav {
   }
   .navbar-fixed {
     height: $navbar-height;
+  }
+}
+@media #{$medium-and-down} {
+  nav {
+    padding: 0;
   }
 }

@@ -4,7 +4,7 @@
 	    <!-- Hero -->
 		<div id="hero">
 			<div class="container">
-				<script src="https://fast.wistia.com/embed/medias/6fsvqj1tr0.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_6fsvqj1tr0 videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
+				<script src="https://fast.wistia.com/embed/medias/6fsvqj1tr0.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_6fsvqj1tr0 videoFoam=true volume=0" style="height:100%;width:100%">&nbsp;</div></div></div>
 			</div>
 		</div>
 	<!-- End-Hero -->
@@ -12,14 +12,17 @@
 		<div id="produits" class="container">
 			<div class="row center-align">
 				<div class="col m3 s12">
+					<img src="{{.Site.BaseURL}}img/accueil/picto_orthese.jpg" class="responsive-img" alt="orthese cryos">
 					<h4>Orthèses cryos dynamiques</h4>
 					<p>Correction de la dysfonction biomécanique par le mouvement naturel</p>
 				</div>
 				<div class="col m3 s12">
+					<img src="{{.Site.BaseURL}}img/accueil/picto_cryovizion.jpg" class="responsive-img" alt="cryovizion cryos">
 					<h4>Système d'imagerie cryovizion</h4>
 					<p>En une seule image, une vision claire et exhaustive de l'état postural</p>
 				</div>
 				<div class="col m3 s12">
+					<img src="{{.Site.BaseURL}}img/accueil/picto_scan3D.jpg" class="responsive-img" alt="scan3D cryos">
 					<h4>Cryoscan 3D</h4>
 					<p>La nouvelle génération d'imagerie médicale du pied</p>
 				</div>
@@ -29,7 +32,7 @@
 	<!-- Trouver-un-programme -->
 		<div id="trouverp" class="center-align">
 			<div class="container">
-				<a id="trouver-btn" class="btn">Trouver une clinique</a>
+				<a class="btn vide trouver-btn">Trouver une clinique</a>
 			</div>
 		</div>
 	<!-- End-Trouver -->
@@ -41,6 +44,11 @@
 		</div>
 	<!-- End-Nouvelles -->
 	<!-- Partenaires -->
-
+		<div id="partenaires" class="container">
+			<h2>nos partenaires</h2>
+			{{ range $.Site.Data.partenaires.files }}
+			<!-- <img src="{{$.Site.BaseURL}}img/accueil/{{ . }}" alt="{{ . }}"> -->
+			{{ end }}
+		</div>
 	<!-- End-Partenaires -->
 {{ partial "footer.html" . }}

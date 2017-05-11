@@ -2,17 +2,17 @@
   <nav class="nav-extended" id="top-bar">
   	<div class="nav-content">
       <ul class="right">
-        <li class="tab"><a href="#test1">Trouver une clinique</a></li>
-        <li class="tab"><a class="active" href="#test2">Contact</a></li>
+        <li class="tab"><a href="{{.Site.BaseURL}}trouver-une-clinique">Trouver une clinique</a></li>
+        <li class="tab"><a href="{{.Site.BaseURL}}contact">Contact</a></li>
         <li class="tab disabled"></li>
-        <li class="tab"><a href="#test4">EN</a></li>
+        <li class="tab"><a href="#">EN</a></li>
       </ul>
     </div>
   </nav>
   <nav class="nav-extended">
     <div class="nav-wrapper">
       <a href="#" class="brand-logo"><img src="{{.Site.BaseURL}}img/Logo_CRYOS_SloganFR.png" class="responsive-img" alt="cryos-logo"></a>
-      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="fa fa-bars"></i></a>
+      <a href="#" data-activates="mobile-nav" class="button-collapse"><i class="fa fa-bars"></i></a>
       <ul id="nav-desktop" class="right hide-on-med-and-down">
         <li><a href="{{.Site.BaseURL}}">Accueil</a></li>
         <li><a class='dropdown-button' href='#' data-activates='dropdown1'>Produits <i class="fa fa-caret-down"></i></a></li>
@@ -37,9 +37,29 @@
         <li><a href="{{.Site.BaseURL}}compagnie/emploi">Emploi</a></li>
       </ul>
       <ul class="side-nav" id="mobile-nav">
-        <li><a href="{{.Site.BaseURL}}sass.html">Sass</a></li>
-        <li><a href="{{.Site.BaseURL}}badges.html">Components</a></li>
-        <li><a href="{{.Site.BaseURL}}collapsible.html">JavaScript</a></li>
+        <li class="side-top">
+          <a href="#!"><i class="fa fa-map-marker"></i></a>
+          <a href="#!"><i class="fa fa-search"></i></a>
+          <a href="#!" class="language-selector">EN</a>
+        </li>
+        <li><a class="subheader">Produits</a></li>
+        <li><a class="waves-effect sub" href="{{.Site.BaseURL}}produits/orthese-cryos">Orthèses</a></li>
+        <li><a class="waves-effect sub" href="{{.Site.BaseURL}}produits/cryovizion">Cryovizion</a></li>
+        <li><a class="waves-effect sub" href="{{.Site.BaseURL}}produits/cryoscan-3d">Scan 3D</a></li>
+        <li><div class="divider"></div></li>
+        <li><a class="subheader">Patients</a></li>
+        <li><a class="waves-effect sub" href="{{.Site.BaseURL}}patients/ortheses">Orthèses</a></li>
+        <li><a class="waves-effect sub" href="{{.Site.BaseURL}}patients/cryovizion">Cryovizion</a></li>
+        <li><a class="waves-effect sub" href="{{.Site.BaseURL}}patients/faq">FAQ</a></li>
+        <li><div class="divider"></div></li>
+        <li><a class="subheader">Compagnie</a></li>
+        <li><a class="waves-effect sub" href="{{.Site.BaseURL}}compagnie/a-propos">À propos</a></li>
+        <li><a class="waves-effect sub" href="{{.Site.BaseURL}}compagnie/contact">Nous joindre</a></li>
+        <li><a class="waves-effect sub" href="{{.Site.BaseURL}}compagnie/emploi">Emploi</a></li>
+        <li><div class="divider"></div></li>
+        <li><a class="waves-effect subheader single" href="{{.Site.BaseURL}}trouver-une-clinique">Trouver une clinique</a></li>
+        <li><div class="divider single"></div></li>
+        <li><a class="waves-effect subheader single" href="{{.Site.BaseURL}}compagnie/contact">Contact</a></li>
       </ul>
     </div>
   </nav>
