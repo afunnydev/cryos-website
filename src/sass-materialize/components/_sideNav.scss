@@ -75,7 +75,12 @@
   }
 
   .divider {
-    margin: ($sidenav-padding / 2) 0 0 0;
+    margin: ($sidenav-padding / 2) auto 0;
+    width: 80%;
+
+    &.single {
+      margin: 0;
+    }
   }
 
   .subheader {
@@ -85,10 +90,15 @@
 
     cursor: initial;
     pointer-events: none;
-    color: rgba(0,0,0,.54);
-    font-size: $sidenav-font-size;
+    color: rgba(0,0,0,.75);
+    font-size: 17px;
     font-weight: 500;
-    line-height: $sidenav-line-height;
+    line-height: 45px;
+    height: 45px;
+
+    &.single {
+      pointer-events: initial;
+    }
   }
 
   .userView {
@@ -175,7 +185,7 @@
     }
 
     a {
-      padding: 0 $sidenav-padding;
+      padding: 0 ($sidenav-padding * 2);
     }
 
     .userView {

@@ -26,6 +26,9 @@ ul {
       list-style-type: none;
     }
   }
+  // &.side-nav {
+  //   padding-left: 15px;
+  // }
 }
 
 a {
@@ -90,7 +93,7 @@ a {
 // Dividers
 
 .divider {
-  height: 1px;
+  height: 2px;
   overflow: hidden;
   background-color: color("grey", "lighten-2");
 }
