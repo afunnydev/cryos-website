@@ -1,0 +1,189 @@
+//This contains styling that will apply to specific page
+
+/* ======= Style pour la page À propos ======= */
+
+#emploi-intro {
+    h2 {
+        text-transform: uppercase;
+        font-family: "Antenna-Bold";
+        font-size: 16px;
+        color: $dblue;
+        padding-right: 1.5rem;
+    }
+    p {
+        font-family: "Antenna-Light";
+        font-size: 14px;
+        padding-right: 1.5rem;
+    }
+    .postes {
+        h2 {
+            margin-top: 151px;
+            margin-bottom: 10px;
+            color: $dblue;
+        }
+        ul {
+            margin: 0;
+            li {
+                font-family: "Antenna-Bold";
+                margin: 2.5px 0;
+                font-size: 14px;
+            }
+        }
+        p {
+            margin: 20px 0 40px;
+            a {
+                color: $dgrey;
+                font-size: 12px;
+            }
+            a:hover {
+                color: $dblue;
+            }
+        }
+    }
+}
+
+#postuler {
+    background-image: url('../img/a_propos/BG-bleu_texture.jpg');
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: center top;
+    .container {
+        h1 {
+            font-family: "Antenna-Bold";
+            font-size: 24px;
+            text-transform: uppercase;
+            color: white;
+        }
+        .pad_to_right {
+            padding-left: 0;
+            padding-right: 1.5rem;
+        }
+        label {
+            font-family: "Antenna-Bold";
+            font-size: 14px;
+            color: white;
+            text-transform: uppercase;
+        }
+        input {
+            border: 1px solid white !important;
+            background-color: white;
+            height: 20px;
+            font-size: 12px;
+            padding: 5px 0 5px 10px;
+            color: $dgrey;
+            font-family: "Antenna-Bold";
+            width: calc(100% - 10px);
+            margin-bottom: 10px;
+        }
+        textarea {
+            border: 1px solid white !important;
+            background-color: white;
+            height: 300px;
+            font-size: 12px;
+            padding: 5px 0 5px 10px;
+            width: calc(100% + 1px); // fix the width to the inputs
+            color: $dgrey;
+            font-family: "Antenna-Bold";
+            resize: none;
+        }
+        .attach_file {
+            height: 30px;
+            width: calc(100% + 2px);
+        }
+        .poste_envoyer {
+            height: 30px;
+            margin-top: 10px;
+            margin-bottom: 40px;
+            padding-left: 0;
+            color: $lblue;
+        }
+    }
+}
+
+#postes_details {
+    h1 {
+        font-family: "Antenna-Bold";
+        font-size: 24px;
+        text-transform: uppercase;
+        color: black;
+    }
+    .collapsible {
+        border: none;
+        box-shadow: none;
+        li {
+            border-top: 1px $dblue solid;
+        }
+        li:first-of-type {
+            border-top: none;
+        }
+        li.active {
+            .collapsible-header {
+                color: $dblue;
+            }
+        }
+    }
+    .collapsible-header {
+        border-bottom: none;
+        padding-left: 80px;
+        text-transform: uppercase;
+        font-size: 18px;
+        font-family: "Antenna-Bold";
+    }
+    .collapsible-header:hover {
+        color: $lblue;
+    }
+    .collapsible-body {
+        padding: 40px 80px;
+        border-bottom: none;
+        background-color: $lgrey;
+        margin-bottom: 40px;
+        h3 {
+            font-family: "Antenna-Bold";
+            font-size: 16px;
+            text-transform: uppercase;
+        }
+        p {
+            font-family: "Antenna-Light";
+            font-size: 14px;
+            color: $dgrey;
+        }
+        ul {
+            li {
+                border: none;
+                color: $dgrey;
+                font-size: 14px;
+                font-family: "Antenna-Light";
+                margin: 10px 0;
+                padding-right: 40px;
+            }
+            li:before {
+                content: "-";
+                text-indent: -5px;
+                margin-right: 5px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 640px) {
+    #emploi-intro {
+        .postes {
+            h2 {
+                margin-top: 40px;
+            }
+        }
+    }
+    #postes_details {
+        .collapsible-header{
+            padding-left: 0.75rem;
+        }
+        .collapsible-body {
+            padding: 0.75rem 1.50rem;
+            ul {
+                li {
+                    padding: 0;
+                }
+            }
+        }
+    }
+}

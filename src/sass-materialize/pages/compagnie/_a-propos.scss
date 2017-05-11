@@ -6,30 +6,18 @@
     clear: both;
     background-image: url('../img/a_propos/BG_gris_texture.jpg');
     background-repeat: no-repeat;
-    background-size: cover cover;
+    background-size: auto 100%;
+    background-position: center top;
     .container {
         .row {
             margin: 0;
         }
-        h1 {
-            font-size: 18px;
-            text-transform: uppercase;
-            font-family: "Antenna-Bold";
-            margin-top: 80px;
-            margin-bottom: 20px;
-        }
-        h1:after {
-            height: 2.5px;
-            margin-top: 7.5px;
-            display: block;
-            width: 110px;
-            background: $dblue;
-            content: '';
-        }
         h2 {
             color: $dblue;
-            font-size: 14px;
+            font-size: 16px;
             margin: 20px 0;
+            font-family: "Antenna-Bold";
+            text-transform: uppercase;
         }
         p {
             font-size: 14px;
@@ -56,7 +44,8 @@
 #mission {
     background-image: url('../img/a_propos/BG-bleu_texture.jpg');
     background-repeat: no-repeat;
-    background-size: cover cover;
+    background-size: auto 100%;
+    background-position: center top;
     .container {
         .row {
             margin: 0;
@@ -82,23 +71,9 @@
     background-color: $lgrey;
     padding-bottom: 40px;
     .container {
-        h1 {
-            font-size: 18px;
-            text-transform: uppercase;
-            font-family: "Antenna-Bold";
-            margin-top: 80px;
-            margin-bottom: 40px;
-            padding-left: 0.75rem; // corrects the alignment
-        }
-        h1:after {
-            height: 2.5px;
-            margin-top: 7.5px;
-            display: block;
-            width: 110px;
-            background: $dblue;
-            content: '';
-        }
         .valeur {
+            padding-left: 0;
+            padding-right: 1.5rem;
             h3 {
                 font-size: 16px;
                 text-transform: uppercase;
@@ -107,28 +82,8 @@
             }
             p {
                 font-size: 14px;
+                font-family: "Antenna-Light";
             }
-        }
-    }
-}
-
-#histoire {
-    .container {
-        h1 {
-            font-size: 18px;
-            text-transform: uppercase;
-            font-family: "Antenna-Bold";
-            margin-top: 80px;
-            margin-bottom: 40px;
-            padding-left: 0.75rem; // corrects the alignment
-        }
-        h1:after {
-            height: 2.5px;
-            margin-top: 7.5px;
-            display: block;
-            width: 110px;
-            background: $dblue;
-            content: '';
         }
     }
 }
@@ -136,22 +91,6 @@
 #equipe {
     background-image: url('../img/a_propos/BG_gris_texture.jpg');
     background-repeat: no-repeat;
-    background-size: cover cover;
-    .container {
-        h1 {
-            font-size: 18px;
-            text-transform: uppercase;
-            font-family: "Antenna-Bold";
-            margin-top: 80px;
-            margin-bottom: 20px;
-        }
-        h1:after {
-            height: 2.5px;
-            margin-top: 7.5px;
-            display: block;
-            width: 110px;
-            background: $dblue;
-            content: '';
-        }
-    }
+    background-size: auto 100%;
+    background-position: center top;
 }
