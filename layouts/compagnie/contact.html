@@ -1,5 +1,58 @@
-{{ partial "head.html" . }}
+{{ partial "head.html" . }} {{ partial "header.html" . }}
 
-    {{ partial "header.html" . }}
+<div class="container" id="contact-title">
+    <div class="row">
+        <div class="col s12">
+            <h1>Nous joindre</h1>
+        </div>
+    </div>
+</div>
+
+<div class="had-container" id="information">
+    <div class="container" >
+        <div class="row">
+            <div class="col s12 m6 l6">
+                <h1>Siège social cryos technologies</h1>
+                <p><span>adresse</span>385 rue de Salaberry</p>
+                <p><span></span>Joliette, Québec, Canada, J6E 4G4</p>
+                <p><span>téléphone</span>(450) 753-3704</p>
+                <p><span>fax</span>(450) 755-4953</p>
+                <p><span>email</span>sac-cus@cryos.com</p>
+            </div>
+            <div class="col s12 m6 l6">
+                <h1>Centre d'affaires états-unis</h1>
+                <p><span>adresse</span>1322 E 49th St, Chicago, IL 60615, États-Unis</p>
+                <p><span>téléphone</span>(000) 000-0000</p>
+                <p><span>fax</span>(000) 000-0000</p>
+                <p><span>email</span>sac-cus@cryos.com</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container" id="questions">
+    <div class="row">
+        <div class="col s12">
+            <h1>Vous avez des questions?</h1>
+            <h2>Consultez notre section FAQ <a href="{{.Site.BaseURL}}contact">ici</a></h2>
+            <p>Pour de plus amples renseignements, remplissez le formulaire ci-dessous et nous communiquerons avec vous sous
+                peu.</p>
+            <form action="">
+                <div class="col s12 m4 l4">
+                    <input type="text" placeholder="NOM ET PRÉNOM">
+                </div>
+                <div class="col s12 m4 l4">
+                    <input type="text" placeholder="ADRESSE COURRIEL">
+                </div>
+                <div class="col s12 m4 l4">
+                    <input type="text" placeholder="TÉLÉPHONE">
+                </div>
+                <div class="col s12">
+                    <textarea placeholder="QUELS RENSEIGNEMENTS DÉSIREZ-VOUS?"></textarea>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
 
 {{ partial "footer.html" . }}

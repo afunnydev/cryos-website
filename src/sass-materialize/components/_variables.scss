@@ -35,6 +35,15 @@
 $rblue: #1b91fc !default;
 $rpurple: #802e8d !default;
 
+// ColorByKamel --edited by Danny Boisvert
+$lgrey: #e9e9e9 !default; // Light grey
+$dgrey: #a1a1a1 !default; // Dark grey
+$lblue: #00b8f1 !default; // Light blue
+$lgreen: #12916d !default; // Dark green
+$dblue: #0066ff !default; // Other Royal blue?
+$dorange: #e68423 !default; // Orange
+$dyellow: #f3c833 !default; // ellow
+
 $primary-color: $rpurple !default;
 $primary-color-light: lighten($primary-color, 15%) !default;
 $primary-color-dark: darken($primary-color, 15%) !default;

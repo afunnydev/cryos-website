@@ -36,6 +36,16 @@
 	}
 }
 
+@media #{$small-and-down} {
+	#produits {
+		.row .col {
+			&:nth-child(2) {
+				margin:0;
+			}
+		}
+	}
+}
+
 /* Trouver un programme */
 
 #trouverp {

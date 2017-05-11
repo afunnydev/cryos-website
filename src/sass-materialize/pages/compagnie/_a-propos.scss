@@ -1,0 +1,157 @@
+//This contains styling that will apply to specific page
+
+/* ======= Style pour la page À propos ======= */
+
+#approche {
+    clear: both;
+    background-image: url('../img/a_propos/BG_gris_texture.jpg');
+    background-repeat: no-repeat;
+    background-size: cover cover;
+    .container {
+        .row {
+            margin: 0;
+        }
+        h1 {
+            font-size: 18px;
+            text-transform: uppercase;
+            font-family: "Antenna-Bold";
+            margin-top: 80px;
+            margin-bottom: 20px;
+        }
+        h1:after {
+            height: 2.5px;
+            margin-top: 7.5px;
+            display: block;
+            width: 110px;
+            background: $dblue;
+            content: '';
+        }
+        h2 {
+            color: $dblue;
+            font-size: 14px;
+            margin: 20px 0;
+        }
+        p {
+            font-size: 14px;
+            font-family: "Antenna-Light";
+            margin: 0;
+        }
+        ul {
+            margin: 0;
+            margin-bottom: 120px;
+        }
+        li {
+            font-size: 14px;
+            font-family: "Antenna-Light";
+            margin: 7.5px 0;
+        }
+        ul>li:before {
+            content: "-";
+            text-indent: -5px;
+            margin-right: 5px;
+        }
+    }
+}
+
+#mission {
+    background-image: url('../img/a_propos/BG-bleu_texture.jpg');
+    background-repeat: no-repeat;
+    background-size: cover cover;
+    .container {
+        .row {
+            margin: 0;
+        }
+        h1 {
+            color: $dblue;
+            font-size: 18px;
+            font-family: "Antenna-Bold";
+            text-transform: uppercase;
+            margin-top: 120px;
+            margin-bottom: 20px;
+        }
+        p {
+            color: #fff;
+            font-size: 24px;
+            font-family: "Antenna-Bold";
+            margin-bottom: 80px;
+        }
+    }
+}
+
+#valeurs {
+    background-color: $lgrey;
+    padding-bottom: 40px;
+    .container {
+        h1 {
+            font-size: 18px;
+            text-transform: uppercase;
+            font-family: "Antenna-Bold";
+            margin-top: 80px;
+            margin-bottom: 40px;
+            padding-left: 0.75rem; // corrects the alignment
+        }
+        h1:after {
+            height: 2.5px;
+            margin-top: 7.5px;
+            display: block;
+            width: 110px;
+            background: $dblue;
+            content: '';
+        }
+        .valeur {
+            h3 {
+                font-size: 16px;
+                text-transform: uppercase;
+                font-family: "Antenna-Bold"; // margin: 40px 0 10px;
+                color: $dblue;
+            }
+            p {
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+#histoire {
+    .container {
+        h1 {
+            font-size: 18px;
+            text-transform: uppercase;
+            font-family: "Antenna-Bold";
+            margin-top: 80px;
+            margin-bottom: 40px;
+            padding-left: 0.75rem; // corrects the alignment
+        }
+        h1:after {
+            height: 2.5px;
+            margin-top: 7.5px;
+            display: block;
+            width: 110px;
+            background: $dblue;
+            content: '';
+        }
+    }
+}
+
+#equipe {
+    background-image: url('../img/a_propos/BG_gris_texture.jpg');
+    background-repeat: no-repeat;
+    background-size: cover cover;
+    .container {
+        h1 {
+            font-size: 18px;
+            text-transform: uppercase;
+            font-family: "Antenna-Bold";
+            margin-top: 80px;
+            margin-bottom: 20px;
+        }
+        h1:after {
+            height: 2.5px;
+            margin-top: 7.5px;
+            display: block;
+            width: 110px;
+            background: $dblue;
+            content: '';
+        }
+    }
+}

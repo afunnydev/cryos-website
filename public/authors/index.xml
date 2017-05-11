@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors on Cryos</title>
-    <link>http://localhost:8000/authors/</link>
+    <link>http://treasurer-loran-26466.netlify.com/authors/</link>
     <description>Recent content in Authors on Cryos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://localhost:8000/authors/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://treasurer-loran-26466.netlify.com/authors/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Alice</title>
-      <link>http://localhost:8000/authors/alice/</link>
+      <link>http://treasurer-loran-26466.netlify.com/authors/alice/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:8000/authors/alice/</guid>
+      <guid>http://treasurer-loran-26466.netlify.com/authors/alice/</guid>
       <description></description>
     </item>
     

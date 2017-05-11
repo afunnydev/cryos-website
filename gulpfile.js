@@ -8,7 +8,8 @@ var gulp = require('gulp');
 
 gulp.task('clean', function(done) {
     //Delete our old css files
-    rimraf('{public,static/css}/**/*', done);
+    // rimraf('{public,static/css}/**/*', done);
+    rimraf('{public,static/materialize.css', done);
 });
 
 // Compile SCSS files to CSS
