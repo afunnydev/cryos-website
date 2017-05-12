@@ -17,4 +17,54 @@ jQuery(document).ready(function($){
       draggable: true // Choose whether you can drag to open on touch screens
     }
   );
+  $("#nouvelles-carousel").owlCarousel({
+    nav: true,
+    navText: ['<img src="../img/fleche-gauche.png" alt="" />','<img src="../img/fleche-droite.png" alt="" />'],
+    responsive : {
+      // breakpoint from 0 up
+      0 : {
+          items:1,
+          nav: false,
+          dots: true
+      },
+      // breakpoint from 600 up
+      600 : {
+          items:2
+      },
+      // breakpoint from 1000 up
+      1000 : {
+          items:3
+      }
+    }
+  });
+  $("#partenaires-carousel").owlCarousel({
+    nav: true,
+    navText: ['<img src="../img/fleche-gauche.png" alt="" />','<img src="../img/fleche-droite.png" alt="" />'],
+    responsive : {
+      // breakpoint from 0 up
+      0 : {
+          items:2
+      },
+      // breakpoint from 600 up
+      600 : {
+          items:3
+      },
+      // breakpoint from 1000 up
+      1000 : {
+          items:5
+      }
+    }
+  });
+  $('.nouvelles-img').each(function(){
+    $(this).hover(function(){
+      $('.blue-hover').stop();
+      $(this).children('.blue-hover').animate({
+        opacity: 1
+      }, 1000);
+      $(this).children('p').css('opacity', '1');
+    }, function(){
+      $(this).children('.blue-hover').css('opacity', '0');
+      $(this).children('p').css('opacity', '0');
+    });
+  });
 });

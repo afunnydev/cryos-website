@@ -2,104 +2,104 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://treasurer-loran-26466.netlify.com/produits/cryoscan-3d/</loc>
+    <loc>http://localhost:8000/produits/cryoscan-3d/</loc>
     <lastmod>2017-05-09T12:51:12-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://treasurer-loran-26466.netlify.com/produits/cryovizion/</loc>
+    <loc>http://localhost:8000/produits/cryovizion/</loc>
     <lastmod>2017-05-09T12:50:31-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://treasurer-loran-26466.netlify.com/produits/orthese-cryos/</loc>
+    <loc>http://localhost:8000/produits/orthese-cryos/</loc>
     <lastmod>2017-05-09T12:49:55-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://treasurer-loran-26466.netlify.com/compagnie/a-propos/</loc>
+    <loc>http://localhost:8000/compagnie/a-propos/</loc>
   </url>
   
   <url>
-    <loc>http://treasurer-loran-26466.netlify.com/compagnie/contact/</loc>
+    <loc>http://localhost:8000/compagnie/contact/</loc>
   </url>
   
   <url>
-    <loc>http://treasurer-loran-26466.netlify.com/compagnie/emploi/</loc>
+    <loc>http://localhost:8000/compagnie/emploi/</loc>
   </url>
   
   <url>
-    <loc>http://treasurer-loran-26466.netlify.com/patients/cryovizion/</loc>
+    <loc>http://localhost:8000/patients/cryovizion/</loc>
   </url>
   
   <url>
-    <loc>http://treasurer-loran-26466.netlify.com/patients/faq/</loc>
+    <loc>http://localhost:8000/patients/faq/</loc>
   </url>
   
   <url>
-    <loc>http://treasurer-loran-26466.netlify.com/patients/ortheses/</loc>
+    <loc>http://localhost:8000/patients/ortheses/</loc>
   </url>
   
   <url>
-    <loc>http://treasurer-loran-26466.netlify.com/trouver-une-clinique/</loc>
+    <loc>http://localhost:8000/trouver-une-clinique/</loc>
   </url>
   
   <url>
-    <loc>http://treasurer-loran-26466.netlify.com/authors/alice/</loc>
+    <loc>http://localhost:8000/authors/alice/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://treasurer-loran-26466.netlify.com/authors/</loc>
+    <loc>http://localhost:8000/authors/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://treasurer-loran-26466.netlify.com/categories/biomecanique/</loc>
+    <loc>http://localhost:8000/categories/biomecanique/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://treasurer-loran-26466.netlify.com/categories/</loc>
+    <loc>http://localhost:8000/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://treasurer-loran-26466.netlify.com/compagnie/</loc>
+    <loc>http://localhost:8000/compagnie/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://treasurer-loran-26466.netlify.com/blogue/</loc>
+    <loc>http://localhost:8000/blogue/</loc>
   </url>
   
   <url>
-    <loc>http://treasurer-loran-26466.netlify.com/</loc>
+    <loc>http://localhost:8000/</loc>
     <lastmod>2017-05-09T12:51:12-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://treasurer-loran-26466.netlify.com/lefficacite-de-lanalyse-posturale-en-cas-de-douleurs-physiques/</loc>
+    <loc>http://localhost:8000/lefficacite-de-lanalyse-posturale-en-cas-de-douleurs-physiques/</loc>
   </url>
   
   <url>
-    <loc>http://treasurer-loran-26466.netlify.com/patients/</loc>
+    <loc>http://localhost:8000/patients/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://treasurer-loran-26466.netlify.com/produits/</loc>
+    <loc>http://localhost:8000/produits/</loc>
     <lastmod>2017-05-09T12:51:12-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://treasurer-loran-26466.netlify.com/tags/</loc>
+    <loc>http://localhost:8000/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://treasurer-loran-26466.netlify.com/categories/test/</loc>
+    <loc>http://localhost:8000/categories/test/</loc>
     <priority>0</priority>
   </url>
   

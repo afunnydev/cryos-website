@@ -40,15 +40,73 @@
 	<div id="nouvelles">
 		<div class="container">
 			<h2>nouvelles</h2>
+			<div class="owl-carousel" id="nouvelles-carousel">
+			  <div class="nouvelles-img">
+			  	<img src="{{.Site.BaseURL}}img/orthese_Pro/ortheses_2.jpg" alt="">
+			  	<div class="blue-hover">
+			  		<i class="fa fa-facebook"></i>
+			  		<i class="fa fa-thumbs-o-up"></i>
+			  		<i class="fa fa-comments"></i>
+			  	</div>
+			  	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla porro rem aliquid voluptatum recusandae accusantium sint modi voluptates delectus ducimus. Expedita repellat obcaecati placeat quia doloribus eum saepe aliquid nemo.</p>
+			  </div>
+			  <div class="nouvelles-img">
+			  	<img src="{{.Site.BaseURL}}img/orthese_Pro/ortheses_3.jpg" alt="">
+			  	<div class="blue-hover">
+			  		<i class="fa fa-facebook"></i>
+			  		<i class="fa fa-thumbs-o-up"></i>
+			  		<i class="fa fa-comments"></i>
+			  	</div>
+			  	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla porro rem aliquid voluptatum recusandae accusantium sint modi voluptates delectus ducimus. Expedita repellat obcaecati placeat quia doloribus eum saepe aliquid nemo.</p>
+			  </div>
+			  <div class="nouvelles-img">
+			  	<img src="{{.Site.BaseURL}}img/orthese_Pro/ortheses_4.jpg" alt="">
+			  	<div class="blue-hover">
+			  		<i class="fa fa-facebook"></i>
+			  		<i class="fa fa-thumbs-o-up"></i>
+			  		<i class="fa fa-comments"></i>
+			  	</div>
+			  	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla porro rem aliquid voluptatum recusandae accusantium sint modi voluptates delectus ducimus. Expedita repellat obcaecati placeat quia doloribus eum saepe aliquid nemo.</p>
+			  </div>
+			  <div class="nouvelles-img">
+			  	<img src="{{.Site.BaseURL}}img/orthese_Pro/ortheses_2.jpg" alt="">
+			  	<div class="blue-hover">
+			  		<i class="fa fa-facebook"></i>
+			  		<i class="fa fa-thumbs-o-up"></i>
+			  		<i class="fa fa-comments"></i>
+			  	</div>
+			  	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla porro rem aliquid voluptatum recusandae accusantium sint modi voluptates delectus ducimus. Expedita repellat obcaecati placeat quia doloribus eum saepe aliquid nemo.</p>
+			  </div>
+			  <div class="nouvelles-img">
+			  	<img src="{{.Site.BaseURL}}img/orthese_Pro/ortheses_3.jpg" alt="">
+			  	<div class="blue-hover">
+			  		<i class="fa fa-facebook"></i>
+			  		<i class="fa fa-thumbs-o-up"></i>
+			  		<i class="fa fa-comments"></i>
+			  	</div>
+			  	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla porro rem aliquid voluptatum recusandae accusantium sint modi voluptates delectus ducimus. Expedita repellat obcaecati placeat quia doloribus eum saepe aliquid nemo.</p>
+			  </div>
+			  <div class="nouvelles-img">
+			  	<img src="{{.Site.BaseURL}}img/orthese_Pro/ortheses_4.jpg" alt="">
+			  	<div class="blue-hover">
+			  		<i class="fa fa-facebook"></i>
+			  		<i class="fa fa-thumbs-o-up"></i>
+			  		<i class="fa fa-comments"></i>
+			  	</div>
+			  	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla porro rem aliquid voluptatum recusandae accusantium sint modi voluptates delectus ducimus. Expedita repellat obcaecati placeat quia doloribus eum saepe aliquid nemo.</p>
+			  </div>
+			</div>
 		</div>
 	</div>
 	<!-- End-Nouvelles -->
 	<!-- Partenaires -->
 		<div id="partenaires" class="container">
 			<h2>nos partenaires</h2>
+			<div class="owl-carousel" id="partenaires-carousel">
 			{{ range $.Site.Data.partenaires.files }}
-			<!-- <img src="{{$.Site.BaseURL}}img/accueil/{{ . }}" alt="{{ . }}"> -->
+				<div><img src="{{$.Site.BaseURL}}img/accueil/{{ . }}" alt="{{ . }}"></div>
 			{{ end }}
+			</div>
 		</div>
 	<!-- End-Partenaires -->
 {{ partial "footer.html" . }}

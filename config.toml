@@ -1,8 +1,7 @@
-baseURL = "http://treasurer-loran-26466.netlify.com/"
+baseURL = "http://localhost:8000/"
 languageCode = "en-us"
 title = "Cryos"
 metaDataFormat = "toml"
-author = "Félix DeBlois-Beaucage"
 
 [taxonomies]
 	category = "categories"
@@ -10,6 +9,10 @@ author = "Félix DeBlois-Beaucage"
     author = "authors"
 
 [params]
-  	author = ["alice"]
-
+  	[author.felix]
+  		name = "Félix DeBlois-Beaucage"
+  		bio = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi aspernatur maxime eaque accusamus nobis debitis eum quidem reiciendis quisquam minima rem labore minus soluta ipsam."
+  	[author.alexis]
+  		name = "Alexis Grenon"
+  		bio = "Alexis fait du marketing sur facebook en masse, il est fort"
 
