@@ -2,3 +2,94 @@
 
 /* ======= Style pour le faq ======= */
 
+#faq {
+    h1 {
+        font-family: "Antenna-Bold";
+        font-size: 24px;
+        text-transform: uppercase;
+        color: black;
+    }
+    h3 {
+        font-family: "Antenna-Bold";
+        font-size: 18px;
+        text-transform: uppercase;
+        color: $dblue;
+    }
+    .collapsible {
+        border: none;
+        box-shadow: none;
+        li {
+            border-top: 1px $dblue solid;
+        }
+        li:first-of-type {
+            border-top: none;
+        }
+        li.active {
+            .collapsible-header {
+                color: $dblue;
+            }
+        }
+    }
+    .collapsible-header {
+        border-bottom: none;
+        padding-left: 80px;
+        text-transform: uppercase;
+        font-size: 14px;
+        font-family: "Antenna-Bold";
+    }
+    .collapsible-header:hover {
+        color: $lblue;
+    }
+    .collapsible-body {
+        padding: 40px 80px;
+        border-bottom: none;
+        background-color: $lgrey;
+        margin-bottom: 40px;
+        h3 {
+            font-family: "Antenna-Bold";
+            font-size: 16px;
+            text-transform: uppercase;
+        }
+        p {
+            font-family: "Antenna-Light";
+            font-size: 14px;
+            color: $dgrey;
+        }
+        ul {
+            li {
+                border: none;
+                color: $dgrey;
+                font-size: 14px;
+                font-family: "Antenna-Light";
+                margin: 10px 0;
+                padding-right: 40px;
+            }
+            li:before {
+                content: "-";
+                text-indent: -5px;
+                margin-right: 5px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 640px) {
+    #faq {
+        .collapsible-header{
+            padding-left: 0.75rem;
+            min-height: 60px;
+            p{
+                line-height: 18px;
+                margin: 10px 0;
+            }
+        }
+        .collapsible-body {
+            padding: 0.75rem 1.50rem;
+            ul {
+                li {
+                    padding: 0;
+                }
+            }
+        }
+    }
+}

@@ -3,33 +3,20 @@
 /* ======= Style pour la page À propos ======= */
 
 #approche {
-    clear: both;
     background-image: url('../img/a_propos/BG_gris_texture.jpg');
     background-repeat: no-repeat;
-    background-size: cover cover;
+    background-size: auto 100%;
+    background-position: center top;
     .container {
         .row {
             margin: 0;
         }
-        h1 {
-            font-size: 18px;
-            text-transform: uppercase;
-            font-family: "Antenna-Bold";
-            margin-top: 80px;
-            margin-bottom: 20px;
-        }
-        h1:after {
-            height: 2.5px;
-            margin-top: 7.5px;
-            display: block;
-            width: 110px;
-            background: $dblue;
-            content: '';
-        }
         h2 {
             color: $dblue;
-            font-size: 14px;
+            font-size: 16px;
             margin: 20px 0;
+            font-family: "Antenna-Bold";
+            text-transform: uppercase;
         }
         p {
             font-size: 14px;
@@ -56,7 +43,8 @@
 #mission {
     background-image: url('../img/a_propos/BG-bleu_texture.jpg');
     background-repeat: no-repeat;
-    background-size: cover cover;
+    background-size: auto 100%;
+    background-position: center top;
     .container {
         .row {
             margin: 0;
@@ -82,23 +70,9 @@
     background-color: $lgrey;
     padding-bottom: 40px;
     .container {
-        h1 {
-            font-size: 18px;
-            text-transform: uppercase;
-            font-family: "Antenna-Bold";
-            margin-top: 80px;
-            margin-bottom: 40px;
-            padding-left: 0.75rem; // corrects the alignment
-        }
-        h1:after {
-            height: 2.5px;
-            margin-top: 7.5px;
-            display: block;
-            width: 110px;
-            background: $dblue;
-            content: '';
-        }
         .valeur {
+            padding-left: 0;
+            padding-right: 1.5rem;
             h3 {
                 font-size: 16px;
                 text-transform: uppercase;
@@ -107,28 +81,8 @@
             }
             p {
                 font-size: 14px;
+                font-family: "Antenna-Light";
             }
-        }
-    }
-}
-
-#histoire {
-    .container {
-        h1 {
-            font-size: 18px;
-            text-transform: uppercase;
-            font-family: "Antenna-Bold";
-            margin-top: 80px;
-            margin-bottom: 40px;
-            padding-left: 0.75rem; // corrects the alignment
-        }
-        h1:after {
-            height: 2.5px;
-            margin-top: 7.5px;
-            display: block;
-            width: 110px;
-            background: $dblue;
-            content: '';
         }
     }
 }
@@ -136,22 +90,142 @@
 #equipe {
     background-image: url('../img/a_propos/BG_gris_texture.jpg');
     background-repeat: no-repeat;
-    background-size: cover cover;
+    background-size: auto 100%;
+    background-position: center top;
+    min-height: 400px;
+}
+
+#histoire {
     .container {
+        .owl-carousel,
+        .owl-content {
+            min-height: 450px;
+        }
+        .owl-carousel .owl-nav {
+            margin: 10px 0 40px;
+        }
+        .owl-carousel .owl-prev,
+        .owl-carousel .owl-next {
+            img {
+                height: 20px;
+            }
+        }
+        .owl-carousel .owl-prev {
+            width: 25px;
+            float: left;
+        }
+        .owl-carousel .owl-next {
+            width: 25px;
+            float: left;
+        }
+        .owl-content {
+            .year {
+                width: 15%;
+                margin-right: 2%;
+                float: left;
+                span {
+                    padding: 4px 10px;
+                    border: 2px $dblue solid;
+                    border-radius: 7.5px;
+                    font-family: "Antenna-Light";
+                    font-size: 14px;
+                    color: $dgrey;
+                    display: inline-block;
+                }
+            }
+            ul {
+                float: left;
+                margin: 0;
+                width: 80%;
+                margin-bottom: 40px;
+                li {
+                    font-family: "Antenna-Bold";
+                    font-size: 12px;
+                    color: $dgrey;
+                    margin-bottom: 10px;
+                }
+            }
+            ul:after {
+                height: 1px;
+                display: block;
+                margin-top: 30px;
+                width: 110px;
+                background: $dgrey;
+                content: '';
+            }
+        }
+        .histoire-img {
+            min-height: 450px;
+            margin-top: 40px;
+            background-image: url('../img/orthese_pro/Pattern_orange.jpg');
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            background-position: center top;
+        }
+    }
+}
+
+#equipe {
+    .owl-carousel .owl-prev,
+    .owl-carousel .owl-next {
+        position: absolute;
+        top: 10px;
+        height: 30px;
+        margin: auto !important;
+        img {
+            height: 20px;
+        }
+    }
+    .owl-carousel .owl-prev {
+        left: 10px;
+        top: calc(33% - 20px);
+    }
+    .owl-carousel .owl-next {
+        right: 10px;
+        top: calc(33% - 20px);
+    }
+    .member {
+        margin-bottom: 80px;
+        img {
+            height: 150px;
+            width: 150px;
+            display: inline-block;
+            margin-top: 20px;
+        }
         h1 {
-            font-size: 18px;
-            text-transform: uppercase;
             font-family: "Antenna-Bold";
-            margin-top: 80px;
-            margin-bottom: 20px;
+            font-size: 16px;
+            margin: 30px 0 5px;
+            text-transform: uppercase;
         }
-        h1:after {
-            height: 2.5px;
-            margin-top: 7.5px;
-            display: block;
-            width: 110px;
-            background: $dblue;
-            content: '';
+        h2 {
+            font-family: "Antenna-Light";
+            font-size: 12px;
+            margin: 0;
+            text-transform: uppercase;
         }
+    }
+}
+
+#trouver_clinique {
+    background-image: url('../img/a_propos/barreMauve_trouverclinique.jpg');
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: center top;
+    min-height: 100px;
+    margin-top: -20px; // fix the dead white zone
+    margin-bottom: -41px; // fix the dead white zone
+    .center-align {
+        height: 100px;
+    }
+    a {
+        font-family: "Antenna-Bold";
+        display: inline-block;
+        margin-top: 28px;
+        color: $rpurple;
+        border-radius: 7.5px;
+        padding: 5px 15px;
+        border: 2px solid $rpurple;
+        background-color: white;
     }
 }

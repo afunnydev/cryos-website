@@ -3,26 +3,22 @@
 This contains general styling that will apply to all pages
 
 ========== 1. General ========== */
-
-/*! HTML5 Boilerplate v5.3.0 | MIT License | https://html5boilerplate.com/ */
-
-/*
+    /*! HTML5 Boilerplate v5.3.0 | MIT License | https://html5boilerplate.com/ */
+    /*
  * What follows is the result of much research on cross-browser styling.
  * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
  * Kroc Camen, and the H5BP dev community and team.
  */
-
-/* ==========================================================================
+    /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
 
-html {
-    color: #222;
-    font-size: 1em;
-    line-height: 1.4;
-}
-
-/*
+    html {
+        color: #222;
+        font-size: 1em;
+        line-height: 1.4;
+    }
+    /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
  *
@@ -30,126 +26,115 @@ html {
  * Customize the background color to match your design.
  */
 
-::-moz-selection {
-    background: #b3d4fc;
-    text-shadow: none;
-}
+     ::-moz-selection {
+        background: #b3d4fc;
+        text-shadow: none;
+    }
 
-::selection {
-    background: #b3d4fc;
-    text-shadow: none;
-}
-
-/*
+     ::selection {
+        background: #b3d4fc;
+        text-shadow: none;
+    }
+    /*
  * A better looking default horizontal rule
  */
 
-hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
-}
-
-/*
+    hr {
+        display: block;
+        height: 1px;
+        border: 0;
+        border-top: 1px solid #ccc;
+        margin: 1em 0;
+        padding: 0;
+    }
+    /*
  * Remove the gap between audio, canvas, iframes,
  * images, videos and the bottom of their containers:
  * https://github.com/h5bp/html5-boilerplate/issues/440
  */
 
-audio,
-canvas,
-iframe,
-img,
-svg,
-video {
-    vertical-align: middle;
-}
-
-/*
+    audio,
+    canvas,
+    iframe,
+    img,
+    svg,
+    video {
+        vertical-align: middle;
+    }
+    /*
  * Remove default fieldset styles.
  */
 
-fieldset {
-    border: 0;
-    margin: 0;
-    padding: 0;
-}
-
-/*
+    fieldset {
+        border: 0;
+        margin: 0;
+        padding: 0;
+    }
+    /*
  * Allow only vertical resizing of textareas.
  */
 
-textarea {
-    resize: vertical;
-}
-
-/* ==========================================================================
+    textarea {
+        resize: vertical;
+    }
+    /* ==========================================================================
    Browser Upgrade Prompt
    ========================================================================== */
 
-.browserupgrade {
-    margin: 0.2em 0;
-    background: #ccc;
-    color: #000;
-    padding: 0.2em 0;
-}
-
-/* ==========================================================================
+    .browserupgrade {
+        margin: 0.2em 0;
+        background: #ccc;
+        color: #000;
+        padding: 0.2em 0;
+    }
+    /* ==========================================================================
    Helper classes
    ========================================================================== */
-
-/*
+    /*
  * Hide visually and from screen readers
  */
 
-.hidden {
-    display: none !important;
-}
-
-/*
+    .hidden {
+        display: none !important;
+    }
+    /*
  * Hide only visually, but have it available for screen readers:
  * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
  */
 
-.visuallyhidden {
-    border: 0;
-    clip: rect(0 0 0 0);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    width: 1px;
-}
-
-/*
+    .visuallyhidden {
+        border: 0;
+        clip: rect(0 0 0 0);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px;
+    }
+    /*
  * Extends the .visuallyhidden class to allow the element
  * to be focusable when navigated to via the keyboard:
  * https://www.drupal.org/node/897638
  */
 
-.visuallyhidden.focusable:active,
-.visuallyhidden.focusable:focus {
-    clip: auto;
-    height: auto;
-    margin: 0;
-    overflow: visible;
-    position: static;
-    width: auto;
-}
-
-/*
+    .visuallyhidden.focusable:active,
+    .visuallyhidden.focusable:focus {
+        clip: auto;
+        height: auto;
+        margin: 0;
+        overflow: visible;
+        position: static;
+        width: auto;
+    }
+    /*
  * Hide visually and from screen readers, but maintain layout
  */
 
-.invisible {
-    visibility: hidden;
-}
-
-/*
+    .invisible {
+        visibility: hidden;
+    }
+    /*
  * Clearfix: contain floats
  *
  * For modern browsers
@@ -161,300 +146,297 @@ textarea {
  *    `:before` to contain the top-margins of child elements.
  */
 
-.clearfix:before,
-.clearfix:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
-}
+    .clearfix:before,
+    .clearfix:after {
+        content: " ";
+        /* 1 */
+        display: table;
+        /* 2 */
+    }
 
-.clearfix:after {
-    clear: both;
-}
-
-/* ==========================================================================
+    .clearfix:after {
+        clear: both;
+    }
+    /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
-}
+    @media only screen and (min-width: 35em) {
+        /* Style adjustments for viewports that meet the condition */
+    }
 
-@media print,
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 1.25dppx),
-       (min-resolution: 120dpi) {
-    /* Style adjustments for high resolution devices */
-}
-
-/* ==========================================================================
+    @media print,
+    (-webkit-min-device-pixel-ratio: 1.25),
+    (min-resolution: 1.25dppx),
+    (min-resolution: 120dpi) {
+        /* Style adjustments for high resolution devices */
+    }
+    /* ==========================================================================
    Print styles.
    Inlined to avoid the additional HTTP request:
    http://www.phpied.com/delay-loading-your-print-css/
    ========================================================================== */
 
-@media print {
-    *,
-    *:before,
-    *:after,
-    *:first-letter,
-    *:first-line {
-        background: transparent !important;
-        color: #000 !important; /* Black prints faster:
+    @media print {
+        *,
+        *:before,
+        *:after,
+        *:first-letter,
+        *:first-line {
+            background: transparent !important;
+            color: #000 !important;
+            /* Black prints faster:
                                    http://www.sanbeiji.com/archives/953 */
-        box-shadow: none !important;
-        text-shadow: none !important;
-    }
-
-    a,
-    a:visited {
-        text-decoration: underline;
-    }
-
-    a[href]:after {
-        content: " (" attr(href) ")";
-    }
-
-    abbr[title]:after {
-        content: " (" attr(title) ")";
-    }
-
-    /*
+            box-shadow: none !important;
+            text-shadow: none !important;
+        }
+        a,
+        a:visited {
+            text-decoration: underline;
+        }
+        a[href]:after {
+            content: " (" attr(href) ")";
+        }
+        abbr[title]:after {
+            content: " (" attr(title) ")";
+        }
+        /*
      * Don't show links that are fragment identifiers,
      * or use the `javascript:` pseudo protocol
      */
-
-    a[href^="#"]:after,
-    a[href^="javascript:"]:after {
-        content: "";
-    }
-
-    pre,
-    blockquote {
-        border: 1px solid #999;
-        page-break-inside: avoid;
-    }
-
-    /*
+        a[href^="#"]:after,
+        a[href^="javascript:"]:after {
+            content: "";
+        }
+        pre,
+        blockquote {
+            border: 1px solid #999;
+            page-break-inside: avoid;
+        }
+        /*
      * Printing Tables:
      * http://css-discuss.incutio.com/wiki/Printing_Tables
      */
-
-    thead {
-        display: table-header-group;
-    }
-
-    tr,
-    img {
-        page-break-inside: avoid;
-    }
-
-    img {
-        max-width: 100% !important;
-    }
-
-    p,
-    h2,
-    h3 {
-        orphans: 3;
-        widows: 3;
-    }
-
-    h2,
-    h3 {
-        page-break-after: avoid;
-    }
-}
-
-/* ======= 2. Navigation ======= */
-
-#top-bar {
-	background-color: $rpurple;
-	ul a {
-		color: white;
-	}
-}
-
-.nav-wrapper {
-    .fa-caret-down {
-        margin-left: 8px;
-    }
-    .brand-logo img {
-        height: $navbar-brand-height;
-    }
-}
-
-.side-nav a.sub {
-    font-family: 'Antenna-Bold';
-    font-size: 13px;
-    padding-left: 41px
-}
-
-.side-nav li.side-top {
-    height: 50px;
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
-    line-height: 50px;
-    padding-left: 32px;
-    position: relative;
-
-    a {
-        height: 50px;
-        line-height: 50px;
-        width: inherit;
-        display: inline-flex;
-        align-items: center;
-        padding: 0;
-
-        i {
-            font-size: 2em;
-            margin-right: 15px;
-            display: block;
-            color: $rpurple;
+        thead {
+            display: table-header-group;
         }
-
-        &.language-selector {
-            position: absolute;
-            right: 10px;
-            color: $rpurple;
-            font-family: 'Antenna-Bold';
+        tr,
+        img {
+            page-break-inside: avoid;
+        }
+        img {
+            max-width: 100% !important;
+        }
+        p,
+        h2,
+        h3 {
+            orphans: 3;
+            widows: 3;
+        }
+        h2,
+        h3 {
+            page-break-after: avoid;
         }
     }
-}
+    /* ======= 2. Navigation ======= */
 
-@media #{$small-and-down} {
     #top-bar {
-        display: none;
-    }
-    .nav-wrapper .brand-logo img {
-        height: $navbar-brand-height-mobile;
-        max-width: inherit;
-    }
-}
-
-/* ======= 3. Footer ======= */
-
-#footer {
-    background-color: #e9e9e9;
-    padding-top: 30px;
-
-    img {
-        max-width: 40%;
-        float:left;
-        display: block;
-    }
-    
-    p {
-        font-size: 0.2rem;
-    }
-    
-    .adresse {
-        text-align: right;
-
-        p {
-            color: $rpurple;
-            font-size: 0.8rem;
-            font-weight: 900;
-            margin: 3px 0 3px;
+        background-color: $rpurple;
+        ul a {
+            color: white;
         }
     }
+
+    .nav-wrapper {
+        .fa-caret-down {
+            margin-left: 8px;
+        }
+        .brand-logo img {
+            height: $navbar-brand-height;
+        }
+    }
+
+    @media #{$small-and-down} {
+        #top-bar {
+            display: none;
+        }
+        .nav-wrapper .brand-logo img {
+            height: $navbar-brand-height-mobile;
+        }
+    }
+    /* ======= 3. Headers (h1, h2, h3...) ======= */
+
+    h1.blue-bar {
+        font-size: 24px;
+        text-transform: uppercase;
+        font-family: "Antenna-Bold";
+        margin-top: 80px;
+        margin-bottom: 20px;
+    }
+
+    h1.blue-bar:after {
+        height: 2px;
+        margin-top: 7.5px;
+        display: block;
+        width: 110px;
+        background: $dblue;
+        content: '';
+    }
+
+    .side-nav a.sub {
+        font-family: 'Antenna-Bold';
+        font-size: 13px;
+        padding-left: 41px
+    }
+
+    .side-nav li.side-top {
+        height: 50px;
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+        line-height: 50px;
+        padding-left: 32px;
+        position: relative;
+        a {
+            height: 50px;
+            line-height: 50px;
+            width: inherit;
+            display: inline-flex;
+            align-items: center;
+            padding: 0;
+            i {
+                font-size: 2em;
+                margin-right: 15px;
+                display: block;
+                color: $rpurple;
+            }
+            &.language-selector {
+                position: absolute;
+                right: 10px;
+                color: $rpurple;
+                font-family: 'Antenna-Bold';
+            }
+        }
+    }
+
+    @media #{$small-and-down} {
+        #top-bar {
+            display: none;
+        }
+        .nav-wrapper .brand-logo img {
+            height: $navbar-brand-height-mobile;
+            max-width: inherit;
+        }
+    }
+    /* ======= 3. Footer ======= */
+
+    #footer {
+        background-color: #e9e9e9;
+        padding-top: 30px;
+        img {
+            max-width: 40%;
+            float: left;
+            display: block;
+        }
+        p {
+            font-size: 0.2rem;
+        }
+        .adresse {
+            text-align: right;
+            p {
+                color: $rpurple;
+                font-size: 0.8rem;
+                font-weight: 900;
+                margin: 3px 0 3px;
+            }
+        }
+        .trouver-btn.btn {
+            font-size: 0.6rem;
+            height: 24px;
+            line-height: 24px
+        }
+        .row.copyright {
+            margin-bottom: 0;
+            padding-bottom: 5px;
+        }
+    }
+
+    @media #{$medium-and-down} {
+        #footer {
+            text-align: center;
+            .valign-wrapper {
+                display: block;
+            }
+            .adresse {
+                text-align: center;
+                margin-top: 15px;
+                p {
+                    font-size: 1rem;
+                }
+            }
+            .info-footer {
+                text-align: center;
+                p {
+                    padding-bottom: 10px;
+                    font-size: 0.7rem;
+                }
+            }
+            img {
+                max-width: 20%;
+                float: none;
+                display: block;
+                padding-bottom: 10px;
+                margin: auto;
+            }
+            .trouver-btn.btn {
+                font-size: 0.8rem;
+                font-weight: 500;
+            }
+        }
+    }
+
+    @media only screen and (min-width: 1400px) {
+        #footer {
+            .trouver-btn.btn {
+                font-size: 1rem;
+                height: 35px;
+                line-height: 35px;
+            }
+            .info-footer p {
+                font-size: 0.9rem;
+            }
+            .adresse p {
+                font-size: 1.3rem;
+            }
+        }
+    }
+    /* ======= 4. Buttons ======= */
 
     .trouver-btn.btn {
-        font-size: 0.6rem;
-        height: 24px;
-        line-height: 24px
-    }
-
-    .row.copyright {
-        margin-bottom: 0;
-        padding-bottom: 5px;
-    }
-}
-
-@media #{$medium-and-down} {
-    #footer {
-        text-align: center;
-
-        .valign-wrapper {
-            display: block;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        padding: 0 4px;
+        text-transform: none;
+        font-weight: 900;
+        box-sizing: content-box;
+        &.vide {
+            background-color: white;
+            color: $rpurple;
+            border: 2px solid $rpurple;
+            -webkit-transition: 0.4s background-color;
+            -moz-transition: 0.4s background-color;
+            -ms-transition: 0.4s background-color;
+            -o-transition: 0.4s background-color;
+            transition: 0.4s background-color;
         }
-
-        .adresse{
-            text-align: center;
-            margin-top: 15px;
-
-            p {
-                font-size: 1rem;
-            }
+        &.vide:hover {
+            background-color: $rpurple;
+            color: white;
         }
-
-        .info-footer {
-            text-align: center;
-            p {
-                padding-bottom: 10px;
-                font-size: 0.7rem;
-            }
-        }
-
-        img {
-            max-width: 20%;
-            float:none;
-            display: block;
-            padding-bottom: 10px;
-            margin: auto;
-        }
-        .trouver-btn.btn {
-            font-size: 0.8rem;
-            font-weight: 500;
+        &.plein {
+            background-color: $rpurple;
+            border: 2px solid $rpurple;
+            color: white;
         }
     }
-}
-@media only screen and (min-width : 1400px) {
-    #footer {
-        .trouver-btn.btn {
-            font-size: 1rem;
-            height: 35px;
-            line-height: 35px;
-        }
-        .info-footer p {
-            font-size: 0.9rem;
-        }
-        .adresse p {
-            font-size: 1.3rem;
-        }
-    }
-}
-
-/* ======= 4. Buttons ======= */
-
-.trouver-btn.btn {
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
-    padding: 0 4px;
-    text-transform: none;
-    font-weight: 900;
-    box-sizing: content-box;
-
-    &.vide {
-        background-color: white;
-        color: $rpurple;
-        border: 2px solid $rpurple;
-        -webkit-transition: 0.4s background-color;
-        -moz-transition: 0.4s background-color;
-        -ms-transition: 0.4s background-color;
-        -o-transition: 0.4s background-color;
-        transition: 0.4s background-color;
-    }
-
-    &.vide:hover {
-        background-color: $rpurple;
-        color: white;
-    }
-
-    &.plein {
-        background-color: $rpurple;
-        border: 2px solid $rpurple;
-        color: white;
-    }
-}
