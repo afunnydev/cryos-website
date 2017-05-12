@@ -16,4 +16,19 @@ jQuery(document).ready(function ($) {
     closeOnClick: true, // Closes side-nav on <a> clicks, useful for Angular/Meteor
     draggable: true // Choose whether you can drag to open on touch screens
   });
+  $("#histoire .owl-carousel").owlCarousel({
+    items: 1,
+    nav: true,
+    navText: ['<img src="../../img/fleche-gauche.png" alt="" />', '<img src="../../img/fleche-droite.png" alt="" />']
+  });
+  $('.year').each(function(){
+    var h = $(this).parent().find(".list").height();
+    $(this).css('height',h);
+    $(this).find('span').css('margin-top', h/2 - $(this).find('span').height());
+  });
+  $("#equipe .owl-carousel").owlCarousel({
+    items: 3,
+    nav: true,
+    navText: ['<img src="../../img/fleche-gauche.png" alt="" />', '<img src="../../img/fleche-droite.png" alt="" />']
+  });
 });
