@@ -1,5 +1,13 @@
 {{ partial "head.html" . }}
 
-    {{ partial "header.html" . }}
+  {{ partial "header.html" . }}
 
+	{{ range where $.Site.Pages "Type" "post" }}
+		{{$author := index .Site.Params.authors (.Params.author) }}
+		<div>
+			{{ .Title }}
+			{{ $author.display_name }}
+			{{ .Summary }}
+		</div>
+	{{ end }}
 {{ partial "footer.html" . }}

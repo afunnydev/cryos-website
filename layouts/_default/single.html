@@ -1,4 +1,4 @@
-
+{{$author := index .Site.Params.authors (.Params.author) }}
 {{ partial "head.html" . }}
 
     {{ partial "header.html" . }}
@@ -7,7 +7,7 @@
         
  				<!-- Not working yet -->
      			<h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-     			<span>written by {{ .Author.DisplayName }}</span>
+     			<span>written by {{ $author.display_name }}</span>
  
     			{{ .Summary }}
  				

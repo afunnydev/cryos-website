@@ -62,6 +62,7 @@ jQuery(document).ready(function ($) {
       }, 1000);
       $(this).children('p').css('opacity', '1');
     }, function(){
+      $('.blue-hover').stop();
       $(this).children('.blue-hover').css('opacity', '0');
       $(this).children('p').css('opacity', '0');
     });

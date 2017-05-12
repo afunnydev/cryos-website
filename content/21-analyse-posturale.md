@@ -1,10 +1,11 @@
 +++
 
-title = "L’EFFICACITÉ DE L’ANALYSE POSTURALE EN CAS DE DOULEURS PHYSIQUES."
+title = "L'efficacité de l'analyse posturale en cas de douleurs physiques"
 slug = "lefficacite-de-lanalyse-posturale-en-cas-de-douleurs-physiques"
 authors = ["alice"]
 categories = ["biomecanique", "test"]
-
+author="andree"
+type="post"
 
 +++
 
