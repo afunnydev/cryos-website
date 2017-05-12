@@ -1,5 +1,110 @@
-{{ partial "head.html" . }}
+{{ partial "head.html" . }} {{ partial "header.html" . }}
 
-    {{ partial "header.html" . }}
+<div class="container" id="oc-carousel">
+    <div class="row">
+        <div class="col s12" style="margin-top: 80px;">
+            <div class="col s12 m5 l4 oc-title">
+                <h1>Orthèse Cryos Dynamique</h1>
+                <p>Correction de la dysfonction biomécanique par le mouvement naturel</p>
+                <div><span class="token">Études de cas</span></div>
+            </div>
+            <div class="col s12 m7 l8" style="padding:0;">
+                <div class="owl-carousel">
+                    <div class="owl-content">
+                        <img src="{{.Site.BaseURL}}img/orthese_pro/orthese.jpg" alt="">
+                        <h3>Efficacité du mouvement</h3>
+                        <p>Sans immobiliser le pied, les orthèses dynamiques Cryos le guident dans le mouvement approprié, ce
+                            qui préserve et stimule sa force, sa souplesse et sa mobilité durant la correction.</p>
+                    </div>
+                    <div class="owl-content">
+                        <img src="{{.Site.BaseURL}}img/orthese_pro/ortheses_2.jpg" alt="">
+                        <h3>Petites</h3>
+                        <p>Elles s’insèrent facilement dans tous les types de chaussures, ce qui permet de les porter plus souvent
+                            et d’obtenir de meilleurs résultats, plus rapidement. Il n’est donc plus nécessaire d’acheter
+                            des chaussures spécialement conçues pour les orthèses puisque les patients conservent les leurs
+                            et bénéficient ainsi d’économies substantielles. </p>
+                    </div>
+                    <div class="owl-content">
+                        <img src="{{.Site.BaseURL}}img/orthese_pro/ortheses_3.jpg" alt="">
+                        <h3>Confortables</h3>
+                        <p>Les orthèses sont uniques et adaptées aux besoins particuliers du patient, ce qui lui permet d’oublier
+                            qu’il en porte.</p>
+                    </div>
+                    <div class="owl-content">
+                        <img src="{{.Site.BaseURL}}img/orthese_pro/ortheses_4.jpg" alt="">
+                        <h3>Résistantes</h3>
+                        <p>Elles sont fabriquées à partir d’un polymère hypoallergène, un matériau particulièrement durable
+                            et résistant qui prolonge leur durée de vie. </p>
+                    </div>
+                    <div class="owl-content">
+                        <img src="{{.Site.BaseURL}}img/orthese_pro/ortheses_5.jpg" alt="">
+                        <h3>Discrètes</h3>
+                        <p>Elles sont très discrètes. Le patient peut donc les porter en toute confiance. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="had-container" id="orange">
+    <div class="container">
+        <div class="row">
+            <h1 class="black-bar">Les parties de l'orthèse</h1>
+            <div class="item-1 col s12">
+                <div class="col s12 m12 l7 oc-img"></div>
+                <div class="col s12 m12 l5 oc-txt">
+                    <h3>L’arrière pied dynamique </h3>
+                    <p>L'encoche et les bras (soit médial ou latéral) permettent un positionnement correctif de l'arrière pied,
+                        normalement sans l'ajout de matériau extrinsèque. Ils guident l'articulation sous-astragalienne au
+                        moment du contact du talon vers la pronation ou supination, selon le cas, permettant à l'articulation
+                        médio-tarse de s'engager totalement, menant à la résupination et à une propulsion saine. Aussi, l'encoche
+                        libère l'orthèse pour générer plus de torsion ; ceci augmente la flexion-extension et maximise le
+                        transfert des forces de façon à optimiser l'efficacité musculaire lors du cycle de marche. L'orthèse
+                        possède la capacité intrinsèque de diriger correctement ces forces ; ce facteur clé permet à l'orthèse
+                        de requérir très peu et souvent aucun matériau extrinsèque pour guider et contrôler le positionnement
+                        du pied.</p>
+                </div>
+            </div>
+            <div class="item-2 col s12">
+                <div class="col s12 m12 l7 oc-img hide-on-med-and-up"></div>
+                <div class="col s12 m12 l5 oc-txt">
+                    <h3>Le contrôle de l’arche flexible</h3>
+                    <p>Grâce à l'arche flexible, ajustée aux besoins spécifiques de chaque patient, le pied n'est pas immobilisé,
+                        mais plutôt guidé dans son mouvement naturel.</p>
+                </div>
+                <div class="col s12 m12 l7 oc-img hide-on-small-only"></div>
+            </div>
+            <div class="item-3 col s12">
+                <div class="col s12 m12 l7 oc-img"></div>
+                <div class="col s12 m12 l5 oc-txt">
+                    <h3>Polymère hypoallergène : un plastique spécialement adapté</h3>
+                    <p>Les orthèses Cryos sont fabriquées à partir d'un polymère hypoallergénique spécialement conçu afin d'augmenter
+                        ses propriétés de force, de flexibilité et de mémoire flexion-extension. C'est un matériau particulièrement
+                        durable et résistant allongeant ainsi la durée de vie des orthèses.</p>
+                </div>
+            </div>
+            <div class="item-4 col s12">
+                <div class="col s12 m12 l7 oc-img hide-on-med-and-up"></div>
+                <div class="col s12 m12 l5 oc-txt">
+                    <h3>Les dents de scie de l’avant du pied </h3>
+                    <p>Assurent le positionnement adéquat de l'avant-pied et stabilisent ou auto-corrigent la position de l'orthèse
+                        en mouvement.</p>
+                </div>
+                <div class="col s12 m12 l7 oc-img hide-on-small-only"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="had-container" id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col s12 center-align">
+                <a href="{{.Site.BaseURL}}compagnie/contact">Contactez-nous pour plus de détails</a>
+            </div>
+        </div>
+    </div>
+</div>
 
 {{ partial "footer.html" . }}

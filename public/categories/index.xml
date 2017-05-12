@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Cryos</title>
-    <link>http://treasurer-loran-26466.netlify.com/categories/</link>
+    <link>http://localhost:8000/categories/</link>
     <description>Recent content in Categories on Cryos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://treasurer-loran-26466.netlify.com/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost:8000/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Biomecanique</title>
-      <link>http://treasurer-loran-26466.netlify.com/categories/biomecanique/</link>
+      <link>http://localhost:8000/categories/biomecanique/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://treasurer-loran-26466.netlify.com/categories/biomecanique/</guid>
+      <guid>http://localhost:8000/categories/biomecanique/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Test</title>
-      <link>http://treasurer-loran-26466.netlify.com/categories/test/</link>
+      <link>http://localhost:8000/categories/test/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://treasurer-loran-26466.netlify.com/categories/test/</guid>
+      <guid>http://localhost:8000/categories/test/</guid>
       <description></description>
     </item>
     
