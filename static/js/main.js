@@ -85,10 +85,17 @@ jQuery(document).ready(function ($) {
   $("#oc-carousel .owl-carousel").owlCarousel({
     items: 1,
     nav: true,
+    dots: true,
     navText: ['<img src="../../img/fleche-gauche.png" alt="" />', '<img src="../../img/fleche-droite.png" alt="" />']
   });
   $('.oc-img').each(function () {
-    var h = $(this).parent().find(".oc-txt").height();
-    $(this).css('min-height', h);
+    var w = $(this).width();
+    $(this).css('min-height', w * 0.60);
+  });
+  $(window).resize(function () {
+    $('.oc-img').each(function () {
+      var w = $(this).width();
+      $(this).css('min-height', w * 0.60);
+    });
   });
 });
