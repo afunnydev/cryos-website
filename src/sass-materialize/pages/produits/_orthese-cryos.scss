@@ -62,16 +62,14 @@
     min-height: 1500px;
     background-image: url('../img/orthese_pro/Pattern_orange.jpg');
     background-repeat: no-repeat;
-    background-size: 125% 150%;
+    background-size: 100% 120%;
     background-position: center top;
     .oc-img {
-        min-width: 550px !important;
-        min-height: 325px;
+        min-height: 375px;
         border: 5px solid white;
     }
     .oc-txt {
-        min-width: 400px !important;
-        min-height: 450px;
+        // min-width: 400px !important;
         h3 {
             font-size: 18px;
             font-family: "Antenna-Light";
@@ -141,6 +139,29 @@
         padding: 5px 15px;
         border: 2px solid $dblue;
         background-color: white;
+    }
+}
+
+#clients_satisfaits {
+    background-image: url('../img/orthese_pro/fondMauve_clientsSatisfaits.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center top;
+    min-height: 500px;
+    margin-bottom: -40px;
+    p {
+        text-align: center;
+        color: white;
+        margin-top: 80px;
+    }
+    img {
+        width: 150px;
+        height: 150px;
+        display: inline-block;
+        margin-bottom: 80px;
+    }
+    .timg{
+        text-align: center;
     }
 }
 
