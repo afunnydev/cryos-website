@@ -1,0 +1,166 @@
+//This contains styling that will apply to specific page
+
+/* ======= Style pour la page Orthèse Cryos ======= */
+
+#oc-carousel {
+    .owl-carousel .owl-nav {
+        margin: 0 0 80px;
+    }
+    .owl-carousel .owl-prev,
+    .owl-carousel .owl-next {
+        img {
+            height: 20px;
+        }
+    }
+    .owl-carousel .owl-prev {
+        width: 25px;
+        float: left;
+    }
+    .owl-carousel .owl-next {
+        width: 25px;
+        float: left;
+    }
+    .oc-title {
+        padding: 0 50px 0 0;
+        h1 {
+            font-size: 24px;
+            text-transform: uppercase;
+            color: black;
+            font-family: "Antenna-Bold";
+            margin-top: 140px;
+        }
+        p {
+            font-size: 14px;
+            font-family: "Antenna-Light"
+        }
+        .token {
+            background-color: $dorange;
+            padding: 5px 10px;
+            color: white;
+            border-radius: 7.5px;
+            font-size: 12px;
+        }
+    }
+    .owl-content {
+        h3 {
+            font-size: 18px;
+            text-transform: uppercase;
+            font-family: "Antenna-Bold";
+            color: $dorange;
+            margin-bottom: 5px;
+        }
+        p {
+            font-size: 14px;
+            font-family: "Antenna-Light";
+            padding-right: 100px;
+        }
+    }
+}
+
+#orange {
+    margin-bottom: -20px;
+    min-height: 1500px;
+    background-image: url('../img/orthese_pro/Pattern_orange.jpg');
+    background-repeat: no-repeat;
+    background-size: 125% 150%;
+    background-position: center top;
+    .oc-img {
+        min-width: 550px !important;
+        min-height: 325px;
+        border: 5px solid white;
+    }
+    .oc-txt {
+        min-width: 400px !important;
+        min-height: 450px;
+        h3 {
+            font-size: 18px;
+            font-family: "Antenna-Light";
+            text-transform: uppercase;
+            color: black;
+            margin-top: 50px;
+        }
+        p {
+            font-size: 14px;
+            font-family: "Antenna-Light";
+            color: white;
+        }
+    }
+    .item-1 .oc-img {
+        background-image: url('../img/orthese_pro/orthese1_EN.jpg');
+        background-repeat: no-repeat;
+        background-size: 200% 200%;
+        background-position: right top;
+    }
+    .item-2 .oc-img {
+        background-image: url('../img/orthese_pro/orthese2_EN.jpg');
+        background-repeat: no-repeat;
+        background-size: 200% 200%;
+        background-position: -200px top;
+    }
+    .item-3 .oc-img {
+        background-image: url('../img/orthese_pro/orthese3_EN.jpg');
+        background-repeat: no-repeat;
+        background-size: 200% 200%;
+        background-position: -200px top;
+    }
+    .item-4 .oc-img {
+        background-image: url('../img/orthese_pro/orthese4_EN.jpg');
+        background-repeat: no-repeat;
+        background-size: 200% 200%;
+        background-position: left -75px;
+    }
+    .item-1,
+    .item-2,
+    .item-3,
+    .item-4 {
+        margin-top: 40px;
+        padding: 0;
+    }
+    .item-4 {
+        margin-bottom: 40px;
+    }
+}
+
+#contact {
+    background-image: url('../img/orthese_pro/barre_contactezNous.jpg');
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: center top;
+    min-height: 100px;
+    margin-top: -20px; // fix the dead white zone
+    margin-bottom: -20px; // fix the dead white zone
+    .center-align {
+        height: 100px;
+    }
+    a {
+        font-family: "Antenna-Bold";
+        display: inline-block;
+        margin-top: 28px;
+        color: $dblue;
+        border-radius: 7.5px;
+        padding: 5px 15px;
+        border: 2px solid $dblue;
+        background-color: white;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 640px) {
+    #orange {
+        .oc-img {
+            background-image: url('../img/orthese_pro/orthese1_EN.jpg');
+            background-repeat: no-repeat;
+            background-size: 200% 200%;
+            background-position: right top;
+            min-width: 100px !important;
+            min-height: 250px !important;
+            border: 5px solid white;
+        }
+        .oc-text {
+            min-height: none !important;
+            min-width: none !important;
+            h3 {
+                margin-top: 20px !important;
+            }
+        }
+    }
+}

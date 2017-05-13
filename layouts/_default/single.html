@@ -3,13 +3,19 @@
 
     {{ partial "header.html" . }}
     
+				<img src="{{ $.Site.BaseURL }}{{ .Params.blog_img }}" alt="{{ .Title }}">
+    		<h2>{{ .Title }}</h2>
         {{ .Content }}
         
  				<!-- Not working yet -->
-     			<h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-     			<span>written by {{ $author.display_name }}</span>
- 
-    			{{ .Summary }}
+     			
+     			<h4>Écrit par {{ $author.display_name }}</h4>
+     			<p> {{ $author.user_email }}</p>
+     			<p> {{ $author.user_url }}</p>
+     			<p> {{ $author.address }}</p>
+     			<p> {{ $author.city }}</p>
+     			<p> {{ $author.phone }}</p>
+     			<p> {{ $author.description }}</p>
  				
  				
         {{ partial "footer.html" . }}

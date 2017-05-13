@@ -18,44 +18,44 @@ jQuery(document).ready(function ($) {
   });
   $("#nouvelles-carousel").owlCarousel({
     nav: true,
-    navText: ['<img src="../img/fleche-gauche.png" alt="" />','<img src="../img/fleche-droite.png" alt="" />'],
-    responsive : {
+    navText: ['<img src="../img/fleche-gauche.png" alt="" />', '<img src="../img/fleche-droite.png" alt="" />'],
+    responsive: {
       // breakpoint from 0 up
-      0 : {
-          items:1,
-          nav: false,
-          dots: true
+      0: {
+        items: 1,
+        nav: false,
+        dots: true
       },
       // breakpoint from 600 up
-      600 : {
-          items:2
+      600: {
+        items: 2
       },
       // breakpoint from 1000 up
-      1000 : {
-          items:3
+      1000: {
+        items: 3
       }
     }
   });
   $("#partenaires-carousel").owlCarousel({
     nav: true,
-    navText: ['<img src="../img/fleche-gauche.png" alt="" />','<img src="../img/fleche-droite.png" alt="" />'],
-    responsive : {
+    navText: ['<img src="../img/fleche-gauche.png" alt="" />', '<img src="../img/fleche-droite.png" alt="" />'],
+    responsive: {
       // breakpoint from 0 up
-      0 : {
-          items:2
+      0: {
+        items: 2
       },
       // breakpoint from 600 up
-      600 : {
-          items:3
+      600: {
+        items: 3
       },
       // breakpoint from 1000 up
-      1000 : {
-          items:5
+      1000: {
+        items: 5
       }
     }
   });
-  $('.nouvelles-img').each(function(){
-    $(this).hover(function(){
+  $('.nouvelles-img').each(function () {
+    $(this).hover(function () {
       $('.blue-hover').stop();
       $(this).children('.blue-hover').animate({
         opacity: 1
@@ -72,14 +72,23 @@ jQuery(document).ready(function ($) {
     nav: true,
     navText: ['<img src="../../img/fleche-gauche.png" alt="" />', '<img src="../../img/fleche-droite.png" alt="" />']
   });
-  $('.year').each(function(){
+  $('.year').each(function () {
     var h = $(this).parent().find(".list").height();
-    $(this).css('height',h);
-    $(this).find('span').css('margin-top', h/2 - $(this).find('span').height());
+    $(this).css('height', h);
+    $(this).find('span').css('margin-top', h / 2 - $(this).find('span').height());
   });
   $("#equipe .owl-carousel").owlCarousel({
     items: 3,
     nav: true,
     navText: ['<img src="../../img/fleche-gauche.png" alt="" />', '<img src="../../img/fleche-droite.png" alt="" />']
+  });
+  $("#oc-carousel .owl-carousel").owlCarousel({
+    items: 1,
+    nav: true,
+    navText: ['<img src="../../img/fleche-gauche.png" alt="" />', '<img src="../../img/fleche-droite.png" alt="" />']
+  });
+  $('.oc-img').each(function () {
+    var h = $(this).parent().find(".oc-txt").height();
+    $(this).css('min-height', h);
   });
 });

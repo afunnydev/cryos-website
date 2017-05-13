@@ -5,9 +5,9 @@
 	{{ range where $.Site.Pages "Type" "post" }}
 		{{$author := index .Site.Params.authors (.Params.author) }}
 		<div>
-			{{ .Title }}
-			{{ $author.display_name }}
-			{{ .Summary }}
+			<a href="{{ .Permalink }}"><h3>{{ .Title }}</h3></a>
+			<p>{{ .Summary }}</p>
+			<h6>Écrit par {{ $author.display_name }}</h6>
 		</div>
 	{{ end }}
 {{ partial "footer.html" . }}

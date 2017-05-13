@@ -1,9 +1,11 @@
 +++
 
-title = "Comment soulager les douleurs de croissance qui causent des maux de jambes à mon enfant?"
-slug = "douleur-de-croissance"
+slug = "douleur-de-croissance/"
+title = "Les douleurs de croissance de votre enfant - Cryos Technologies"
+description = "Les douleurs de croissance sont normales, mais elles apportent plusieurs questions. Voici les soulagements possibles quant au mal de jambes de votre enfant."
 categories = ["biomecanique", "test"]
 author= "william"
+blog_img = "img/posts/soulager_douleur.jpg"
 type="post"
 
 +++
