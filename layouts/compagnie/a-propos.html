@@ -64,7 +64,6 @@
         </div>
     </div>
 </div>
-
 <div class="had-container" id="histoire">
     <div class="container">
         <div class="row">
@@ -184,7 +183,16 @@
         <div class="row">
             <div class="col s12">
                 <h1 class="blue-bar">L'équipe</h1>
-                <div class="owl-carousel hide-on-small-only">
+                <div class="owl-carousel">
+                    {{ range sort $.Site.Data.equipe }}
+                        <div class="member center-align">
+                            <img src="{{$.Site.BaseURL}}img/equipe/{{ .photo }}" alt="{{ .fonction }}">
+                            <h1>{{ .nom }}</h1>
+                            <h2>{{ .fonction }}</h2>
+                        </div>
+                    {{ end }}
+                </div>
+                <!-- <div class="hide-on-med-and-up">
                     <div class="member center-align">
                         <img src="{{.Site.BaseURL}}img/a_propos/Nicholas.png" alt="">
                         <h1>Nicholas Watts</h1>
@@ -202,32 +210,10 @@
                     </div>
                     <div class="member center-align">
                         <img src="{{.Site.BaseURL}}img/a_propos/Frederic.png" alt="">
-                        <h1>Autre</h1>
-                        <h2>Titre</h2>
-                    </div>
-                </div>
-                <div class="hide-on-med-and-up">
-                    <div class="member center-align">
-                        <img src="{{.Site.BaseURL}}img/a_propos/Nicholas.png" alt="">
-                        <h1>Nicholas Watts</h1>
-                        <h2>Ingénieur en recherche</h2>
-                    </div>
-                    <div class="member center-align">
-                        <img src="{{.Site.BaseURL}}img/a_propos/Philippe.png" alt="">
-                        <h1>Philippe Légaré</h1>
-                        <h2>DMP</h2>
-                    </div>
-                    <div class="member center-align">
-                        <img src="{{.Site.BaseURL}}img/a_propos/Frederic.png" alt="">
                         <h1>Frederic Gremillet</h1>
                         <h2>DMP</h2>
                     </div>
-                    <div class="member center-align">
-                        <img src="{{.Site.BaseURL}}img/a_propos/Frederic.png" alt="">
-                        <h1>Frederic Gremillet</h1>
-                        <h2>DMP</h2>
-                    </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>

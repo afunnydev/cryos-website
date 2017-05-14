@@ -2,4 +2,92 @@
 
     {{ partial "header.html" . }}
 
+<div class="container cryovizion" id="oc-carousel">
+    <div class="row">
+        <div class="col s12">
+            <div class="col s12 m5 l4 oc-title">
+                <h1>Le système d’imagerie posturale CryoVizion</h1>
+                <p>Obtenez une compréhension globale de votre état postural.</p>
+                <!-- <div><span class="token">Études de cas</span></div> -->
+            </div>
+            <div class="col s12 m7 l8" style="padding:0;">
+                <div class="owl-carousel">
+                    <div class="owl-content">
+                        <img src="{{.Site.BaseURL}}img/cryovizion_Pro/video_cryovizion.jpg" alt="">
+                        <h3>Les étapes du CryoVizion</h3>
+                        <p>Le CryoVizion est un système d’imagerie non-invasif facilitant l’obtention une compréhension globale de votre état postural. Il produit des topographies colorées du relief de votre système musculo-squelettique permettant au podiatre traitant de mieux évaluer et de mesurer votre état. </p>
+                    </div>
+                    <div class="owl-content">
+                        <img src="{{.Site.BaseURL}}img/cryovizion_Pro/video_cryovizion_2.jpg" alt="">
+                        <h3>Les étapes du CryoVizion</h3>
+                        <span class="chiffre">1</span>
+                        <p>Vous entrez dans une cabine d'observation où des caméras captent le reflet de la lumière projetée sur l'ensemble de votre corps.</p>
+                    </div>
+                    <div class="owl-content">
+                        <img src="{{.Site.BaseURL}}img/cryovizion_Pro/video_cryovizion.jpg" alt="">
+                        <h3>Les étapes du CryoVizion</h3>
+                        <span class="chiffre">2</span>
+                        <p>Le logiciel CryoVizion produit des topographies colorées du relief de votre système musculo-squelettique permettant au podiatre de mieux évaluer et de mesurer votre état.</p>
+                    </div>
+                    <div class="owl-content">
+                        <img src="{{.Site.BaseURL}}img/cryovizion_Pro/video_cryovizion_2.jpg" alt="">
+                        <h3>Les étapes du CryoVizion</h3>
+                        <span class="chiffre">3</span>
+                        <p>Vous pouvez maintenant voir et comprendre votre état postural grâce à l'imagerie générée par le système CryoVizion et aux explications détaillées de votre podiatre.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="had-container" id="vert">
+    <div class="container">
+        <div class="row">
+            <h1 class="black-bar">Plus d'informations</h1>
+            <div class="item-1 col s12">
+                <div class="col s12 m12 l7 oc-img"></div>
+                <div class="col s12 m12 l5 oc-txt">
+                    <h3>Faites équipe avec votre podiatre</h3>
+                    <p>Obtenez une meilleure compréhension de votre évaluation et de meilleurs résultats en ralliant l’expertise de votre podiatre à votre détermination. </p>
+                </div>
+            </div>
+            <div class="item-2 col s12">
+                <div class="col s12 m12 l7 oc-img hide-on-large-only"></div>
+                <div class="col s12 m12 l5 oc-txt">
+                    <h3>Clarifiez votre évaluation</h3>
+                    <p>Voyez concrètement votre état en images pour mieux comprendre vos problèmes posturaux. </p>
+                </div>
+                <div class="col s12 m12 l7 oc-img hide-on-med-and-down"></div>
+            </div>
+            <div class="item-3 col s12">
+                <div class="col s12 m12 l7 oc-img"></div>
+                <div class="col s12 m12 l5 oc-txt">
+                    <h3>Visualisez votre progression</h3>
+                    <p>Suivez de façon objective votre évolution en comparant les résultats de vos traitements. </p>
+                </div>
+            </div>
+            <div class="col m6 offset-m3 s12 center-align single oc-txt">
+            	<h3>Obtenez la paix d’esprit</h3>
+              <p>Demeurez en confiance tout au long de votre traitement. La technologie CryoVizion est scientifiquement validée et utilisée en milieu clinique depuis plus de 10 ans. </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+{{ partial "contact-btn-section.html" . }}
+
+<div class="had-container" id="clients_satisfaits">
+    <div class="container">
+        <div class="row">
+            <div class="col s12">
+                <h1 class="white-bar">Témoignage</h1>
+                <p>J'ai été incroyablement surpris par l'efficacité du système d'imagerie CryoVizion. Le fait de voir mes défauts de posture en images m'a aidé à comprendre ma situation et, de ce fait, de mieux pouvoir appliquer les conseils avisés de mon podiatre. De plus, grâce aux orthèses Cryos fabriquées selon les résultats obtenus, finis les maux de dos!</p>
+                <p class="nom">-Josselin Bey, designer graphique</p>
+                <div class="timg"><img src="{{.Site.BaseURL}}img/temoignage/josselin_bey.png" alt="Client satisfait"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
 {{ partial "footer.html" . }}

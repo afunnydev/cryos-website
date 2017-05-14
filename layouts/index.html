@@ -39,7 +39,7 @@
 	<!-- Trouver-un-programme -->
 		<div id="trouverp" class="center-align">
 			<div class="container">
-				<a class="btn vide trouver-btn" href="{{.Site.BaseURL}}trouver-une-clinique">Trouver une clinique</a>
+				<a class="btn vide trouver-btn" href="{{.Site.BaseURL}}trouver-une-clinique">Trouver une clinique <i class="fa fa-chevron-right"></i></a>
 			</div>
 	</div>
 	<!-- End-Trouver -->
@@ -48,60 +48,21 @@
 		<div class="container">
 			<h2>nouvelles</h2>
 			<div class="owl-carousel" id="nouvelles-carousel">
-			  <div class="nouvelles-img">
-			  	<img src="{{.Site.BaseURL}}img/orthese_Pro/ortheses_2.jpg" alt="">
-			  	<div class="blue-hover">
-			  		<i class="fa fa-facebook"></i>
-			  		<i class="fa fa-thumbs-o-up"></i>
-			  		<i class="fa fa-comments"></i>
-			  	</div>
-			  	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla porro rem aliquid voluptatum recusandae accusantium sint modi voluptates delectus ducimus. Expedita repellat obcaecati placeat quia doloribus eum saepe aliquid nemo.</p>
-			  </div>
-			  <div class="nouvelles-img">
-			  	<img src="{{.Site.BaseURL}}img/orthese_Pro/ortheses_3.jpg" alt="">
-			  	<div class="blue-hover">
-			  		<i class="fa fa-facebook"></i>
-			  		<i class="fa fa-thumbs-o-up"></i>
-			  		<i class="fa fa-comments"></i>
-			  	</div>
-			  	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla porro rem aliquid voluptatum recusandae accusantium sint modi voluptates delectus ducimus. Expedita repellat obcaecati placeat quia doloribus eum saepe aliquid nemo.</p>
-			  </div>
-			  <div class="nouvelles-img">
-			  	<img src="{{.Site.BaseURL}}img/orthese_Pro/ortheses_4.jpg" alt="">
-			  	<div class="blue-hover">
-			  		<i class="fa fa-facebook"></i>
-			  		<i class="fa fa-thumbs-o-up"></i>
-			  		<i class="fa fa-comments"></i>
-			  	</div>
-			  	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla porro rem aliquid voluptatum recusandae accusantium sint modi voluptates delectus ducimus. Expedita repellat obcaecati placeat quia doloribus eum saepe aliquid nemo.</p>
-			  </div>
-			  <div class="nouvelles-img">
-			  	<img src="{{.Site.BaseURL}}img/orthese_Pro/ortheses_2.jpg" alt="">
-			  	<div class="blue-hover">
-			  		<i class="fa fa-facebook"></i>
-			  		<i class="fa fa-thumbs-o-up"></i>
-			  		<i class="fa fa-comments"></i>
-			  	</div>
-			  	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla porro rem aliquid voluptatum recusandae accusantium sint modi voluptates delectus ducimus. Expedita repellat obcaecati placeat quia doloribus eum saepe aliquid nemo.</p>
-			  </div>
-			  <div class="nouvelles-img">
-			  	<img src="{{.Site.BaseURL}}img/orthese_Pro/ortheses_3.jpg" alt="">
-			  	<div class="blue-hover">
-			  		<i class="fa fa-facebook"></i>
-			  		<i class="fa fa-thumbs-o-up"></i>
-			  		<i class="fa fa-comments"></i>
-			  	</div>
-			  	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla porro rem aliquid voluptatum recusandae accusantium sint modi voluptates delectus ducimus. Expedita repellat obcaecati placeat quia doloribus eum saepe aliquid nemo.</p>
-			  </div>
-			  <div class="nouvelles-img">
-			  	<img src="{{.Site.BaseURL}}img/orthese_Pro/ortheses_4.jpg" alt="">
-			  	<div class="blue-hover">
-			  		<i class="fa fa-facebook"></i>
-			  		<i class="fa fa-thumbs-o-up"></i>
-			  		<i class="fa fa-comments"></i>
-			  	</div>
-			  	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla porro rem aliquid voluptatum recusandae accusantium sint modi voluptates delectus ducimus. Expedita repellat obcaecati placeat quia doloribus eum saepe aliquid nemo.</p>
-			  </div>
+				<!-- check if isfront is true in the .md -->
+			  {{ range where .Site.Pages ".Params.isfront" true }}
+			  	<div class="nouvelles-img">
+				  	<img src="{{.Site.BaseURL}}{{ .Params.blog_img}}" alt="{{ .Title }}">
+				  	<div class="blue-hover">
+				  		<!-- <i class="fa fa-facebook"></i>
+				  		<i class="fa fa-thumbs-o-up"></i>
+				  		<i class="fa fa-comments"></i> -->
+				  	</div>
+				  	<h6>{{ .Params.titre }}</h6>
+				  	<p class="summary">{{ .Summary }}</p>
+				  	<!-- The short one is showing only between 600px and 820px because summary too big -->
+				  	<p class="short">{{ .Params.short_desc }}</p>
+				  </div>
+			  {{ end }}
 			</div>
 		</div>
 	</div>
@@ -109,10 +70,15 @@
 	<!-- Partenaires -->
 		<div id="partenaires" class="container">
 			<h2>nos partenaires</h2>
-			<div class="owl-carousel" id="partenaires-carousel">
+			<div class="owl-carousel hide-on-small-only" id="partenaires-carousel">
 			{{ range $.Site.Data.partenaires.files }}
-				<div><img src="{{$.Site.BaseURL}}img/accueil/{{ . }}" alt="{{ . }}"></div>
+				<div><img src="{{$.Site.BaseURL}}img/logos/{{ . }}" alt="{{ . }}"></div>
 			{{ end }}
+			</div>
+			<div class="hide-on-med-and-up row">
+				{{ range $.Site.Data.partenaires.files }}
+					<div class="col s6"><img src="{{$.Site.BaseURL}}img/logos/{{ . }}" alt="{{ . }}" class="responsive-img"></div>
+				{{ end }}
 			</div>
 		</div>
 	<!-- End-Partenaires -->

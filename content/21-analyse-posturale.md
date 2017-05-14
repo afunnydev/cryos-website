@@ -8,6 +8,8 @@ categories = ["Biomécanique", "Blessures sportives", "Orthèses plantaires", "P
 author = "philippe_legare"
 blog_img = "img/posts/anayse-posturale.jpg"
 type="post"
+isfront = true
+short_desc = "Les professionnels de la santé utilisent les systèmes d’imagerie pour diverses raisons médicales. Selon l’approche préconisée, certains podiatres ont recours à l’imagerie, afin de mieux évaluer et de mesurer les problèmes posturaux et biomécaniques."
 
 +++
 

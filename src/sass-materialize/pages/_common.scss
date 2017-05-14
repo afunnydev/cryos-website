@@ -439,7 +439,7 @@ h1.white-bar:after {
     .trouver-btn.btn {
         font-size: 0.6rem;
         height: 24px;
-        line-height: 24px
+        line-height: 24px;
     }
     .row.copyright {
         margin-bottom: 0;
@@ -512,7 +512,7 @@ h1.white-bar:after {
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
-    padding: 0 4px;
+    padding: 0 5px 0 20px;
     text-transform: none;
     font-weight: 900;
     box-sizing: content-box;
@@ -520,20 +520,44 @@ h1.white-bar:after {
         background-color: white;
         color: $rpurple;
         border: 2px solid $rpurple;
-        -webkit-transition: 0.4s background-color;
-        -moz-transition: 0.4s background-color;
-        -ms-transition: 0.4s background-color;
-        -o-transition: 0.4s background-color;
-        transition: 0.4s background-color;
+        -webkit-transition: 0.4s all;
+        -moz-transition: 0.4s all;
+        -ms-transition: 0.4s all;
+        -o-transition: 0.4s all;
+        transition: 0.4s all;
+        overflow: hidden;
+        .fa-chevron-right {
+            -webkit-transition: 0.4s all;
+            -moz-transition: 0.4s all;
+            -ms-transition: 0.4s all;
+            -o-transition: 0.4s all;
+            transition: 0.4s all;
+            opacity: 0;
+            font-size: 0.8rem;
+            -webkit-transform: translateX(40px);
+            -moz-transform: translateX(40px);
+            -o-transform: translateX(40px);
+            -ms-transform: translateX(40px);
+        }
     }
     &.vide:hover {
-        background-color: $rpurple;
-        color: white;
+        // background-color: $rpurple;
+        // color: white;
+        transform: scale(1.05);
+        padding-right: 10px;
+        .fa-chevron-right {
+            opacity: 1;
+            -webkit-transform: translateX(0);
+            -moz-transform: translateX(0);
+            -o-transform: translateX(0);
+            -ms-transform: translateX(0);
+        }
     }
     &.plein {
         background-color: $rpurple;
         border: 2px solid $rpurple;
         color: white;
+        padding: inherit;
     }
 } // required for owl dots
 #owl-demo .item {

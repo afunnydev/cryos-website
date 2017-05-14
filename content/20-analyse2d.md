@@ -8,6 +8,8 @@ categories = ["Orthèses plantaires", "Pieds plats"]
 author= "frederic"
 blog_img = "img/posts/analyse-3d-morphologie-des-pieds.jpg"
 type="post"
+isfront = true
+short_desc = "Les orthèses sur mesure sont fabriquées à partir d’une empreinte des pieds. Cette dernière doit être précise pour atteindre les résultats visés par le traitement. Bien qu’il existe diverses techniques de prise d’empreintes, certaines s’avèrent plus efficaces et augmentent la qualité des orthèses."
 
 +++
 

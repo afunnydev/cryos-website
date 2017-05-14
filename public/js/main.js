@@ -31,13 +31,14 @@ jQuery(document).ready(function ($) {
         items: 2
       },
       // breakpoint from 1000 up
-      1000: {
+      1500: {
         items: 3
       }
     }
   });
   $("#partenaires-carousel").owlCarousel({
     nav: true,
+    margin: 30,
     navText: ['<img src="../img/fleche-gauche.png" alt="" />', '<img src="../img/fleche-droite.png" alt="" />'],
     responsive: {
       // breakpoint from 0 up
@@ -50,7 +51,7 @@ jQuery(document).ready(function ($) {
       },
       // breakpoint from 1000 up
       1000: {
-        items: 5
+        items: 4
       }
     }
   });
@@ -59,12 +60,12 @@ jQuery(document).ready(function ($) {
       $('.blue-hover').stop();
       $(this).children('.blue-hover').animate({
         opacity: 1
-      }, 1000);
-      $(this).children('p').css('opacity', '1');
+      }, 400);
+      $(this).children('p, h6').css('opacity', '1');
     }, function(){
       $('.blue-hover').stop();
       $(this).children('.blue-hover').css('opacity', '0');
-      $(this).children('p').css('opacity', '0');
+      $(this).children('p, h6').css('opacity', '0');
     });
   });
   $("#histoire .owl-carousel").owlCarousel({
