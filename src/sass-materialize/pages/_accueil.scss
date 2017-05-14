@@ -15,10 +15,23 @@
 /* Produits */
 
 #produits {
-	padding-top: $navbar-height;
+	padding-top: 40px;
 	padding-bottom: $navbar-height;
+	text-align: center;
+	p:nth-child(1) {
+		margin-bottom: 50px;
+	}
 	.row .col {
 		border-top: 10px solid $rpurple;
+		border-left: 1px solid white;
+		border-right: 1px solid white;
+		border-bottom: 1px solid white;
+		cursor: pointer;
+		-webkit-transition: 0.3s box-shadow;
+		-moz-transition: 0.3s box-shadow;
+		-ms-transition: 0.3s box-shadow;
+		-o-transition: 0.3s box-shadow;
+		transition: 0.3s box-shadow;
 	
 		&:nth-child(2) {
 			margin: 0 12.5%;
@@ -32,6 +45,12 @@
 
 		p {
 			color: #a1a1a1;
+		}
+		&:hover {
+			border-left: 1px solid rgba(0,0,0,0.1);
+			border-right: 1px solid rgba(0,0,0,0.1);
+			border-bottom: 1px solid rgba(0,0,0,0.1);
+			box-shadow:0 11px 15px rgba(0,0,0,0.1);
 		}
 	}
 }

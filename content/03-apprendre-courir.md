@@ -2,8 +2,9 @@
 
 slug = "apprendre-a-courir-sans-se-blesser/"
 title = "Apprendre à courir sans se blesser - Cryos Technologies"
+titre = "Apprendre à courir sans se blesser"
 description = "Quatre recommandations de podiatre pour apprendre à courir sans se faire mal."
-categories = ["biomecanique", "test"]
+categories = ["Blessures sportives"]
 author= "philippe_legare"
 blog_img = "img/posts/apprendreacourrir.jpg"
 type="post"

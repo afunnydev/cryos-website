@@ -2,10 +2,11 @@
 
 slug = "un-regard-podiatrique-sur-lexercice-de-la-course-minimaliste-et-pieds-nus/"
 title = "Conseils de podiatres | Course minimaliste et Pieds nus - Cryos Technologies"
+titre = "Conseils de podiatres | Course minimaliste et Pieds nus"
 description = "Des podiatres Cryos posent un regard sur la pratique de la course minimaliste et pieds nus. Découvrez leurs recommandations."
-categories = ["biomecanique", "test"]
+categories = ["Blessures sportives", "Douleur aux pieds", "Sport d'été"]
 author= "philippe_legare"
-blog_img = "{{ $.Site.BaseURL }}/img/posts/course-minimaliste.jpg"
+blog_img = "img/posts/course-minimaliste.jpg"
 type="post"
 
 +++

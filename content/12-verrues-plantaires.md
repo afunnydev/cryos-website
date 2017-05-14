@@ -2,8 +2,9 @@
 
 slug = "conseils-dun-podiatre-traitements-pour-vos-verrues-plantaires/"
 title = "Les conseils d’un podiatre sur les traitements des verrues plantaires. - Cryos Technologies"
+titre = "Les conseils d’un podiatre sur les traitements des verrues plantaires"
 description = "Un podiatre vous informe sur les traitements efficaces et les moyens de prévenir les verrues plantaires. Découvrez les causes, les traitements et conseils."
-categories = ["biomecanique", "test"]
+categories = ["Verrues plantaires"]
 author= "elizabeth"
 blog_img = "img/posts/verrues-plantaires.jpg"
 type="post"

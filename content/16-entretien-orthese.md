@@ -2,10 +2,11 @@
 
 slug = "les-etapes-dentretien-de-suivis-et-de-changement-dortheses-plantaires/"
 title = "Les étapes de suivis et d’entretien de vos orthèses plantaires - Cryos Technologies"
+titre = "Les étapes de suivis et d’entretien de vos orthèses plantaires"
 description = "Découvrez les méthodes d'entretien d’orthèse plantaire, les suivis, les modifications et la fréquence des changements pour un traitement optimal."
-categories = ["biomecanique", "test"]
+categories = ["Orthèses plantaires"]
 author= "audree"
-blog_img = "{{ $.Site.BaseURL }}/img/posts/changer-orthese-plantaire.jpg"
+blog_img = "img/posts/changer-orthese-plantaire.jpg"
 type="post"
 
 +++

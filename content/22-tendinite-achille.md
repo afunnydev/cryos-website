@@ -1,11 +1,12 @@
 +++
 
 slug = "comment-soigner-une-tendinite-au-tendon-dachille/"
-title = "Comment soigner une tendinite au tendon d'Achille? | Cryos - Cryos Technologies"
+title = "Comment soigner une tendinite au tendon d'Achille? - Cryos Technologies"
+titre = "Comment soigner une tendinite au tendon d'Achille?"
 description = "Découvrez les conseils d'un podiatre sur les causes, les signes avant-coureurs, les douleurs et les traitements d'une tendinite au tendon d'Achille."
-categories = ["biomecanique", "test"]
+categories = ["Blessures sportives", "Douleur aux pieds"]
 author= "arnaud"
-blog_img = "{{ $.Site.BaseURL }}/img/posts/comment-soigner-une-tendinite-au-tendon-dachille.jpg"
+blog_img = "img/posts/comment-soigner-une-tendinite-au-tendon-dachille.jpg"
 type="post"
 
 +++

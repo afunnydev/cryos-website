@@ -2,8 +2,9 @@
 
 slug = "talons-hauts-ortheses-plantaires-avoir-du-style-douleurs-aux-pieds/"
 title = "Orthèse plantaire et talon haut : tout ce qu’il y a à savoir! - Cryos Technologies"
+titre = "Orthèse plantaire et talon haut : tout ce qu’il y a à savoir!"
 description = "Une femme qui porte un talon haut devrait-elle obligatoirement porter une orthèse plantaire? Départagez ici les mythes et la réalité!"
-categories = ["biomecanique", "test"]
+categories = ["Douleur aux pieds", "Orthèses plantaires"]
 author= "gravel"
 blog_img = "img/posts/douleur-aux-talons"
 type="post"

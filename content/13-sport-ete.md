@@ -2,10 +2,11 @@
 
 slug = "pourquoi-porter-une-orthese-plantaire-pendant-un-sport-dete/"
 title = "Les avantages des orthèses plantaires lors d’un sport d’été. - Cryos Technologies"
+titre = "Les avantages des orthèses plantaires lors d’un sport d’été"
 description = "Découvrez les bienfaits des orthèses plantaires pour les enfants et les adultes à la pratique d'un sport d'été. Un podiatre partage son expertise."
-categories = ["biomecanique", "test"]
+categories = ["Blessures sportives", "Douleur aux pieds", "Orthèses plantaires", "Sport d'été"]
 author= "gabrielle"
-blog_img = "{{ $.Site.BaseURL }}/img/posts/orthese-sportive.jpg"
+blog_img = "img/posts/orthese-sportive-2.jpg"
 type="post"
 
 +++

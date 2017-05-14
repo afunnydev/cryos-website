@@ -283,6 +283,10 @@ textarea {
     ul a {
         color: white;
     }
+    ul li a i {
+        height: inherit;
+        line-height: inherit;
+    }
 }
 
 .nav-wrapper {
@@ -382,9 +386,10 @@ h1.white-bar:after {
         padding: 0;
         i {
             font-size: 2em;
-            margin-right: 15px;
+            margin: 0 10px;
             display: block;
             color: $rpurple;
+            width: inherit;
         }
         &.language-selector {
             position: absolute;
@@ -418,6 +423,9 @@ h1.white-bar:after {
     }
     p {
         font-size: 0.2rem;
+        a i {
+            display: none;
+        }
     }
     .adresse {
         text-align: right;
@@ -456,7 +464,6 @@ h1.white-bar:after {
             text-align: center;
             p {
                 padding-bottom: 10px;
-                font-size: 0.7rem;
             }
         }
         img {
@@ -470,6 +477,15 @@ h1.white-bar:after {
             font-size: 0.8rem;
             font-weight: 500;
         }
+    }
+}
+
+@media #{$small-and-down} {
+    #footer .info-footer p a i {
+        color: $rpurple;
+        display: inline-block;
+        margin: 0 20px;
+        font-size: 2rem;
     }
 }
 

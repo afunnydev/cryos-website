@@ -1,7 +1,9 @@
-baseURL = "http://treasurer-loran-26466.netlify.com/"
+baseURL = "https://treasurer-loran-26466.netlify.com/"
 languageCode = "en-us"
 title = "Cryos"
 metaDataFormat = "toml"
+preserveTaxonomyNames = true
+RemovePathAccents = true
 
 [taxonomies]
 	category = "categories"

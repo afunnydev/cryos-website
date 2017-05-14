@@ -2,8 +2,9 @@
 
 slug = "fasciite-plantaire-quels-sont-les-symptomes-et-les-traitements-disponibles/"
 title = "La fasciite plantaire: symptômes, douleurs et traitements - Cryos Technologies"
+titre = "La fasciite plantaire: symptômes, douleurs et traitements"
 description = "Quels sont les symptômes d’une fasciite plantaire? Comment soulager les douleurs? Quels traitements suivre? Voici les réponses d’une podiatre!"
-categories = ["biomecanique", "test"]
+categories = ["Douleur aux pieds", "Epine de Lenoir", "Fasciite plantaire"]
 author= "marilyne"
 blog_img = "img/posts/fasciite-plantaire.jpg"
 type="post"

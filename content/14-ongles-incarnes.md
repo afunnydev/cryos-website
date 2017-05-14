@@ -2,10 +2,11 @@
 
 slug = "ongles-incarnes-causes-et-traitements-selon-un-podiatre/"
 title = "Ongles Incarnés, Causes et Traitements: Conseils de Podiatre - Cryos Technologies"
+titre = "Ongles Incarnés, Causes et Traitements: Conseils de Podiatre"
 description = "Informez-vous sur les causes et les traitements possibles d’un ongle incarné. Découvrez les conseils d’un podiatre."
-categories = ["biomecanique", "test"]
+categories = ["Ongles incarnés"]
 author= "bonneau"
-blog_img = "{{ $.Site.BaseURL }}/img/posts/ongle-incarne.jpg"
+blog_img = "img/posts/ongle-incarne.jpg"
 type="post"
 
 +++

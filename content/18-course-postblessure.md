@@ -1,11 +1,12 @@
 +++
 
 slug = "reprendre-la-course-a-pied-apres-une-blessure/"
-title = "La course à pied après une blessure - Cryos Technologies - Cryos Technologies"
+title = "La course à pied après une blessure - Cryos Technologies"
+titre = "La course à pied après une blessure"
 description = "Découvrez les conseils d’un podiatre sur le retour à la course à pied sans risque de blessures chroniques ou de séquelles."
-categories = ["biomecanique", "test"]
+categories = ["Blessures sportives", "Douleur aux pieds", "Sport d'été"]
 author= "annie-jean"
-blog_img = "{{ $.Site.BaseURL }}/img/posts/blessure-au-pied-reprendre-la-course.jpg"
+blog_img = "img/posts/blessure-au-pied-reprendre-la-course.jpg"
 type="post"
 
 +++

@@ -2,8 +2,9 @@
 
 slug = "orthese-plantaire-decouvrez-les-differences-entre-les-modeles-sur-mesure-et-prefabriques/"
 title = "Orthèse sur mesure ou préfrabriquée? Optez pour le bon modèle! - Cryos Technologies"
+titre = "Orthèse sur mesure ou préfrabriquée? Optez pour le bon modèle!"
 description = "Besoin d’orthèses podiatriques? Découvrez les différences entre les modèles achetés en magasin et les orthèses sur mesure."
-categories = ["biomecanique", "test"]
+categories = ["Orthèses plantaires"]
 author= "morel"
 blog_img = "img/posts/orthese-sur-mesure.jpg"
 type="post"

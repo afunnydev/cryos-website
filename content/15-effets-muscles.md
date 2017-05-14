@@ -2,10 +2,11 @@
 
 slug = "le-port-d-ortheses-plantaires-et-ses-effets-sur-les-muscles/"
 title = "Le port d’orthèses plantaires et ses effets sur les muscles. - Cryos Technologies"
+titre = "Le port d’orthèses plantaires et ses effets sur les muscles"
 description = "Découvrez l'effet du port d'orthèse plantaire sur les muscles. Un podiatre répond à : Les muscles vont-ils s'affaiblir avec des orthèses?"
-categories = ["biomecanique", "test"]
+categories = ["Douleur aux pieds", "Orthèses plantaires"]
 author= "giroux"
-blog_img = "{{ $.Site.BaseURL }}/img/posts/orthese-plantaire-muscle.jpg"
+blog_img = "img/posts/orthese-plantaire-muscle.jpg"
 type="post"
 
 +++

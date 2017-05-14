@@ -1,11 +1,12 @@
 +++
 
 slug = "les-etapes-du-port-dortheses-plantaires/"
-title = "Les étapes du port d'orthèses plantaires | Cryos - Cryos Technologies"
+title = "Les étapes du port d'orthèses plantaires - Cryos Technologies"
+titre = "Les étapes du port d'orthèses plantaires"
 description = "Découvrez les étapes pour obtenir des orthèses plantaires auprès d'un podiatre, en cas de douleurs aux pieds et de problèmes de posture."
-categories = ["biomecanique", "test"]
+categories = ["Orthèses plantaires"]
 author = "boisclair"
-blog_img = "{{ $.Site.BaseURL }}/img/posts/ortheses-plantaires.jpg"
+blog_img = "img/posts/ortheses-plantaires.jpg"
 type="post"
 
 +++

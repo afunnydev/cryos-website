@@ -2,8 +2,9 @@
 
 slug = "les-traitements-possibles-pour-remedier-a-lhallux-valgus-oignon-aux-pieds/"
 title = "Traitements pour remédier aux hallux valgus (oignons au pied) - Cryos Technologies"
+titre = "Traitements pour remédier aux hallux valgus (oignons au pied)"
 description = "Découvrez les conseils et les traitements pour remédier aux oignons aux pieds, aussi appelés Hallux valgus. Un podiatre vous conseille."
-categories = ["biomecanique", "test"]
+categories = ["Chirurgie des pieds", "Douleur aux pieds", "Oignons"]
 author= "caroline"
 blog_img = "img/posts/oignon-au-pied1.jpg"
 type="post"

@@ -2,8 +2,9 @@
 
 slug = "un-sportif-devrait-il-porter-une-orthese-plantaire-sur-mesure-dans-ses-patins/"
 title = "Est-ce que une othèse plantaire peut être portée dans un patin? - Cryos Technologies"
+titre = "Est-ce que une othèse plantaire peut être portée dans un patin?"
 description = "La question est souvent posée par les sportifs sur patins; apprenez quels bénéfices procure le port d'orthèses plantaires dans vos patins."
-categories = ["biomecanique", "test"]
+categories = ["Blessures sportives", "Sport d'hiver", "Orthèses plantaires"]
 author= "melanie"
 blog_img = "img/posts/orthese-sportive.jpg"
 type="post"

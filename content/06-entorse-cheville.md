@@ -2,8 +2,9 @@
 
 slug = "quoi-faire-en-cas-dentorse-a-la-cheville/"
 title = "Soignez efficacement votre entorse à la cheville! - Cryos Technologies"
+titre = "Soignez efficacement votre entorse à la cheville!"
 description = "Découvrez les conseils d’un podiatre pour bien soigner une entorse à la cheville!"
-categories = ["biomecanique", "test"]
+categories = ["Douleur aux pieds"]
 author= "gabriel"
 blog_img = "img/posts/entorse-cheville"
 type="post"

@@ -1,11 +1,12 @@
 +++
 
 slug = "pourquoi-les-ortheses-plantaires-sont-elles-conseillees-avec-la-chirurgie-aux-avant-pieds/"
-title = "Orthèses plantaires et Chirurgie | Cryos Technologies - Cryos Technologies"
+title = "Orthèses plantaires et Chirurgie - Cryos Technologies"
+titre = "Orthèses plantaires et Chirurgie"
 description = "Découvrez les bienfaits des orthèses plantaires avant et après une chirurgie aux avant-pieds en cas d’ hallux valgus ou d’autres pathologies."
-categories = ["biomecanique", "test"]
+categories = ["Chirurgie des pieds", "Orthèses plantaires"]
 author= "lyndacormier"
-blog_img = "{{ $.Site.BaseURL }}/img/posts/ortheses-plantaire-chirurgie-hallux-valgus.jpg"
+blog_img = "img/posts/ortheses-plantaire-chirurgie-hallux-valgus.jpg"
 type="post"
 
 +++

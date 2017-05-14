@@ -1,11 +1,12 @@
 +++
 
 slug = "lanalyse-du-pied-2d-et-3d-les-differences-a-savoir/"
-title = "Analyse 2D-3D | Morphologie des pieds | Cryos Technologies - Cryos Technologies"
+title = "Analyse 2D-3D | Morphologie des pieds - Cryos Technologies"
+titre = "Analyse 2D-3D | Morphologie des pieds"
 description = "Découvrez les différentes façons d’analyser la morphologie de vos pieds afin de vous procurer des orthèses plantaires sur mesure."
-categories = ["biomecanique", "test"]
+categories = ["Orthèses plantaires", "Pieds plats"]
 author= "frederic"
-blog_img = "{{ $.Site.BaseURL }}/img/posts/analyse-3d-morphologie-des-pieds.jpg"
+blog_img = "img/posts/analyse-3d-morphologie-des-pieds.jpg"
 type="post"
 
 +++

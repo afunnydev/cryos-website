@@ -1,0 +1,14 @@
+<!-- This is the template to render the list of articles under one particular category (ex: categories/ortheses-plantaires) -->
+{{ partial "head.html" . }}
+
+  {{ partial "header.html" . }}
+ <div>
+   <h1 id="title">{{ .Title }}</h1>
+        <ul id="list">
+            {{ range .Data.Pages }}
+                {{ .Render "li"}}
+            {{ end }}
+        </ul>
+  </div>
+
+{{ partial "footer.html" . }}

@@ -1,11 +1,12 @@
 +++
 
 slug = "lefficacite-de-lanalyse-posturale-en-cas-de-douleurs-physiques/"
-title = "Évaluation posturale par Imagerie | Cryos Technologies - Cryos Technologies"
+title = "Évaluation posturale par Imagerie - Cryos Technologies"
+titre = "Évaluation posturale par Imagerie"
 description = "Toujours mal au dos? Peut-être avez vous un problème de posture? Voyez comment l'évaluation posturale par imagerie peut vous être bénéfique!"
-categories = ["biomecanique", "test"]
+categories = ["Biomécanique", "Blessures sportives", "Orthèses plantaires", "Posture"]
 author = "philippe_legare"
-blog_img = "{{ $.Site.BaseURL }}/img/posts/anayse-posturale.jpg"
+blog_img = "img/posts/anayse-posturale.jpg"
 type="post"
 
 +++

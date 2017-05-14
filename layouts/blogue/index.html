@@ -1,13 +1,26 @@
+<!-- Listing all articles -->
 {{ partial "head.html" . }}
 
   {{ partial "header.html" . }}
-
-	{{ range where $.Site.Pages "Type" "post" }}
-		{{$author := index .Site.Params.authors (.Params.author) }}
-		<div>
-			<a href="{{ .Permalink }}"><h3>{{ .Title }}</h3></a>
-			<p>{{ .Summary }}</p>
-			<h6>Écrit par {{ $author.display_name }}</h6>
+	<div class="row">
+		<div class="col m8">
+			{{ range where $.Site.Pages "Type" "post" }}
+				{{$author := index .Site.Params.authors (.Params.author) }}
+				<div>
+					<a href="{{ .Permalink }}"><h3>{{ .Params.titre }}</h3></a>
+					<p>{{ .Summary }}</p>
+					<h6>Écrit par {{ $author.display_name }}</h6>
+				</div>
+			{{ end }}
 		</div>
-	{{ end }}
+		<div class="col m4">
+			{{ $tags := $.Site.Taxonomies.categories.ByCount }}
+			<ul>
+			{{ range $tags }}
+			<li><a href="{{ $.Site.BaseURL }}categories/{{ .Term | urlize }}">{{ .Term }} ({{ .Count }})</a></li>
+			{{ end }}
+			</ul>
+		</div>
+	</div>
+	
 {{ partial "footer.html" . }}

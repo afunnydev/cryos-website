@@ -2,10 +2,11 @@
 
 slug = "les-douleurs-aux-pieds-chez-lenfant-hereditaires/"
 title = "Les douleurs aux pieds chez l’enfant sont-elles héréditaires? - Cryos Technologies"
+titre = "Les douleurs aux pieds chez l’enfant sont-elles héréditaires?"
 description = "Dre Marie-Michelle Fecteau, podiatre, vous parle de l'hérédité possible des douleurs aux pieds, un phénomène souvent méconnu."
-categories = ["biomecanique", "test"]
+categories = ["Santé du pied chez l'enfant", "Douleur aux pieds"]
 author= "marie-michelle"
-blog_img = "img/posts/maladie-du-pied-hereditaire"
+blog_img = "img/posts/maladie-du-pied-hereditaire.jpg"
 type="post"
 
 +++

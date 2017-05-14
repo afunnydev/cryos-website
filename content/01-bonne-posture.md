@@ -2,8 +2,9 @@
 
 slug = "bonne-posture-et-sante-des-pieds/"
 title = "Comment avoir une bonne posture? - Cryos Technologies"
+titre = "Comment avoir une bonne posture?"
 description = "Une bonne posture est difficile à avoir. Il existe plusieurs solutions afin de l'améliorer, mais on oublie souvent que l'orthèse plantaire en est une!"
-categories = ["biomecanique", "test"]
+categories = ["Orthèses plantaires"]
 author= "keven"
 blog_img = "img/posts/Bonne_posture.jpg"
 type="post"

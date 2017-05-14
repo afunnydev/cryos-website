@@ -2,8 +2,9 @@
 
 slug = "douleur-de-croissance/"
 title = "Les douleurs de croissance de votre enfant - Cryos Technologies"
+titre = "Les douleurs de croissance de votre enfant"
 description = "Les douleurs de croissance sont normales, mais elles apportent plusieurs questions. Voici les soulagements possibles quant au mal de jambes de votre enfant."
-categories = ["biomecanique", "test"]
+categories = ["Santé du pied chez l'enfant"]
 author= "william"
 blog_img = "img/posts/soulager_douleur.jpg"
 type="post"

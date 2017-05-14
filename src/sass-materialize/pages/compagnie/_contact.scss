@@ -62,13 +62,23 @@
         color: $dgrey;
         font-family: "Antenna-Bold";
         width: calc(100% - 10px);
+
+        &.poste_envoyer {
+            height: 30px;
+            margin-top: 10px;
+            margin-bottom: 40px;
+            padding-left: 0;
+            color: $lblue;
+            width: 80px;
+            background-color: white;
+        }
     }
     textarea {
         border: 1px solid $lblue !important;
         height: 300px;
         font-size: 12px;
         padding: 5px 0 5px 10px;
-        margin-bottom: 40px;
+        margin-bottom: 10px;
         width: calc(100% + 1px); // fix the width to the inputs
         color: $dgrey;
         font-family: "Antenna-Bold";
@@ -85,4 +95,5 @@
             padding-left: 0;
         }
     }
+
 }
