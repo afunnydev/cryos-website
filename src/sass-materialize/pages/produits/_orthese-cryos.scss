@@ -3,27 +3,7 @@
 /* ======= Style pour la page Orthèse Cryos ======= */
 
 #oc-carousel {
-    .owl-dots {
-        margin-top: -20px;
-        .owl-dot {
-            span {
-                border: 1px solid $dgrey;
-            }
-        }
-        text-align: left;
-        .owl-dot.active {
-            span {
-                background: $dorange !important;
-                border: 1px solid $dorange;
-            }
-        }
-        .owl-dot:hover {
-            span {
-                background: $dorange !important;
-                border: 1px solid $dorange;
-            }
-        }
-    }
+    
     .owl-carousel {
         margin-top: 80px;
     }

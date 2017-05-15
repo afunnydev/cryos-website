@@ -589,6 +589,29 @@ h1.white-bar:after {
     width: 50%;
     height: auto;
 }
-.owl-theme .owl-nav [class*='owl-']{
+
+.owl-theme .owl-nav [class*='owl-'] {
     background: none !important;
+}
+
+.owl-dots {
+    margin-top: -20px;
+    text-align: left !important;
+    .owl-dot {
+        span {
+            border: 1px solid $dgrey;
+        }
+    }
+    .owl-dot.active {
+        span {
+            background: $dorange !important;
+            border: 1px solid $dorange;
+        }
+    }
+    .owl-dot:hover {
+        span {
+            background: $dorange !important;
+            border: 1px solid $dorange;
+        }
+    }
 }
