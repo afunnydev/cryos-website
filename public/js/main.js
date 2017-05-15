@@ -62,7 +62,7 @@ jQuery(document).ready(function ($) {
         opacity: 1
       }, 400);
       $(this).children('p, h6').css('opacity', '1');
-    }, function(){
+    }, function () {
       $('.blue-hover').stop();
       $(this).children('.blue-hover').css('opacity', '0');
       $(this).children('p, h6').css('opacity', '0');
@@ -80,6 +80,16 @@ jQuery(document).ready(function ($) {
   });
   $("#equipe .owl-carousel").owlCarousel({
     items: 3,
+    nav: true,
+    navText: ['<img src="../../img/fleche-gauche.png" alt="" />', '<img src="../../img/fleche-droite.png" alt="" />']
+  });
+  $("#3-news-carousel").owlCarousel({
+    items: 3,
+    nav: true,
+    navText: ['<img src="../../img/fleche-gauche.png" alt="" />', '<img src="../../img/fleche-droite.png" alt="" />']
+  });
+  $("#1-news-carousel").owlCarousel({
+    items: 1,
     nav: true,
     navText: ['<img src="../../img/fleche-gauche.png" alt="" />', '<img src="../../img/fleche-droite.png" alt="" />']
   });

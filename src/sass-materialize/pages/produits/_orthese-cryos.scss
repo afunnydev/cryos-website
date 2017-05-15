@@ -3,6 +3,27 @@
 /* ======= Style pour la page Orthèse Cryos ======= */
 
 #oc-carousel {
+    .owl-dots {
+        margin-top: -20px;
+        .owl-dot {
+            span {
+                border: 1px solid $dgrey;
+            }
+        }
+        text-align: left;
+        .owl-dot.active {
+            span {
+                background: $dorange !important;
+                border: 1px solid $dorange;
+            }
+        }
+        .owl-dot:hover {
+            span {
+                background: $dorange !important;
+                border: 1px solid $dorange;
+            }
+        }
+    }
     .owl-carousel {
         margin-top: 80px;
     }
@@ -61,7 +82,6 @@
 }
 
 #orange {
-    
     padding-bottom: 40px;
     background-image: url('../img/orthese_pro/Pattern_orange.jpg');
     background-repeat: no-repeat;
@@ -148,8 +168,7 @@
 
 #clients_satisfaits {
     background-image: url('../img/orthese_pro/fondMauve_clientsSatisfaits.jpg');
-    background-repeat: no-repeat;
-    // background-size: 100% 100%;
+    background-repeat: no-repeat; // background-size: 100% 100%;
     background-position: center top;
     min-height: 500px;
     margin-bottom: -40px;
@@ -158,7 +177,6 @@
         color: white;
         margin-top: 80px;
         padding: 0 70px;
-
         &.nom {
             margin-top: 20px;
         }
@@ -168,9 +186,91 @@
         height: 150px;
         display: inline-block;
     }
-    .timg{
+    .timg {
         text-align: center;
         margin: 40px 0 80px;
+    }
+}
+
+#news {
+    .owl-carousel,
+    .owl-content {
+        min-height: 450px;
+    }
+    .owl-carousel .owl-nav {
+        margin: 10px 0 40px;
+    }
+    .owl-carousel .owl-prev,
+    .owl-carousel .owl-next {
+        img {
+            height: 30px;
+        }
+    }
+    .owl-carousel .owl-prev {
+        width: 35px;
+        position: absolute;
+        left: -30px;
+        top: 33%;
+    }
+    .owl-carousel .owl-next {
+        width: 35px;
+        position: absolute;
+        right: -50px;
+        top: 33%;
+    }
+    .card {
+        margin-left: 5px;
+        margin-right: 5px;
+        height: auto !important;
+        .card-img {
+            width: 96%;
+            margin-left: 2%;
+            margin-right: 2%;
+            padding-top: 2%;
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .card-title {
+            font-size: 0.60rem;
+            text-transform: uppercase;
+            font-family: "Antenna-Bold";
+            margin-top: 15px;
+            margin-left: 2%;
+        }
+        .card-title:after {
+            height: 2px;
+            margin-top: 7.5px;
+            margin-left: 0;
+            display: block;
+            width: 75px;
+            background: $dorange;
+            content: '';
+        }
+        .card-txt {
+            margin: 15px 2% 0;
+            font-size: 0.40rem;
+            font-family: "Antenna-Light";
+            color: $dgrey;
+            display: -webkit-box;
+            -webkit-line-clamp: 4;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            margin-bottom: 15px;
+        }
+        .card-link {
+            a {
+                color: $dorange;
+                font-family: "Antenna-Bold";
+                font-size: 12px;
+                text-transform: lowercase;
+                font-size: 0.35rem;
+            }
+            padding-bottom: 20px;
+            margin-left: 2%;
+            line-height: 0.35rem;
+        }
     }
 }
 
@@ -192,7 +292,7 @@
                 margin-top: 20px !important;
             }
         }
-    } 
+    }
     #oc-carousel {
         .oc-title h1 {
             margin-top: -40px;
@@ -202,7 +302,6 @@
             margin-top: 20px;
         }
     }
-
     #clients_satisfaits p {
         padding: 0;
     }
