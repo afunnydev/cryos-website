@@ -50,7 +50,7 @@
 			<div class="owl-carousel" id="nouvelles-carousel">
 				<!-- check if isfront is true in the .md -->
 			  {{ range where .Site.Pages ".Params.isfront" true }}
-			  	<div class="nouvelles-img">
+			  	<a href="{{ .Permalink }}"><div class="nouvelles-img">
 				  	<img src="{{.Site.BaseURL}}{{ .Params.blog_img}}" alt="{{ .Title }}">
 				  	<div class="blue-hover">
 				  		<!-- <i class="fa fa-facebook"></i>
@@ -61,7 +61,7 @@
 				  	<p class="summary">{{ .Summary }}</p>
 				  	<!-- The short one is showing only between 600px and 820px because summary too big -->
 				  	<p class="short">{{ .Params.short_desc }}</p>
-				  </div>
+				  </div></a>
 			  {{ end }}
 			</div>
 		</div>

@@ -3,8 +3,8 @@
         <div class="container row valign-wrapper">
             <div class="col l5 m12 s12 info-footer">
                 <img src="{{.Site.BaseURL}}img/Logo_CRYOS_FR.png" alt="logo-cryos">
-                <p><a href="https://www.linkedin.com/company-beta/2037879/"><i class="fa fa-linkedin"></i></a>
-                <a href="https://twitter.com/CryosTechno"><i class="fa fa-twitter"></i></a><!-- Le port d'orthèses plantaires est un traitement prescrit pour remédier aux problèmes de pieds et de posture. Avant d'obtenir un telle prescription, il faut toutefois consulter un professionnel de la santé afin qu'il procède à différentes analyses. Découvrez les principales étapes pour obtenir une prescription d'orthèses plantaires par un podiatre. --></p>
+                <p><a href="https://www.linkedin.com/company-beta/2037879/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                <a href="https://twitter.com/CryosTechno" target="_blank"><i class="fa fa-twitter"></i></a><!-- Le port d'orthèses plantaires est un traitement prescrit pour remédier aux problèmes de pieds et de posture. Avant d'obtenir un telle prescription, il faut toutefois consulter un professionnel de la santé afin qu'il procède à différentes analyses. Découvrez les principales étapes pour obtenir une prescription d'orthèses plantaires par un podiatre. --></p>
             </div>
             <div class="col l3 m12 s12">
                 <a class="plein trouver-btn btn" href="{{.Site.BaseURL}}trouver-une-clinique">Trouver une clinique</a>
@@ -12,16 +12,17 @@
             <div class="col l4 m12 s12 adresse valign">
                 <p>385 Rue de Salabarry, Joliette QC J6E 4G4</p>
                 <p>1-877-272-7967</p>
-                <p>contact@cryos.com</p>
+                <p>sac-cus@cryos.com</p>
             </div>
         </div>
         <div class="row center-align copyright">
-            <p><i class="fa fa-copyright"></i> copyright 2017 Cryos - Tous droits réservés</p>
+            <p><i class="fa fa-copyright"></i> Copyright 2017 Cryos - Tous droits réservés</p>
         </div>
     </div>
 <!-- End-Footer -->
     <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
     <script>window.jQuery || document.write('<script src="{{.Site.BaseURL}}js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+    
     <script src="{{.Site.BaseURL}}js/vendor/materialize.min.js"></script>
     <!-- Owl Carousel JS CDN -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
@@ -37,8 +38,12 @@
 			}
 		});
 	</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.8/handlebars.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDOntm3XuQ68Q_ONIKXx1MQkJNVnFhrHPs&libraries=places"></script>
+    <script src="{{ .Site.BaseURL }}js/vendor/jquery.storelocator.min.js"></script>
     <script src="{{.Site.BaseURL}}js/plugins.js"></script>
     <script src="{{.Site.BaseURL}}js/main.js"></script>
+    
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
