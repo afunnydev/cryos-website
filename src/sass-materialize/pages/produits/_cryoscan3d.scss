@@ -69,6 +69,15 @@
             font-family: "Antenna-Light";
             color: white;
         }
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+            color: white;
+            li {
+                list-style-type: disc;
+                color: white
+            }
+        }
     }
     .item-1 .oc-img {
         background-image: url('../img/scan3D_PRO/');

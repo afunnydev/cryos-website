@@ -26,16 +26,14 @@
         ul {
             margin: 0;
             margin-bottom: 120px;
+            list-style-type: disc;
+            margin-left: 20px;
         }
         li {
             font-size: 14px;
             font-family: "Antenna-Light";
             margin: 7.5px 0;
-        }
-        ul>li:before {
-            content: "-";
-            text-indent: -5px;
-            margin-right: 5px;
+            list-style-type: disc;
         }
     }
 }
