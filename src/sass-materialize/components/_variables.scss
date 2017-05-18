@@ -112,7 +112,7 @@ $card-link-color-light: lighten($card-link-color, 20%) !default;
 // ==========================================================================
 
 $collapsible-height: 3rem !default;
-$collapsible-line-height: $collapsible-height !default;
+$collapsible-line-height: 2rem !default;
 $collapsible-header-color: #fff !default;
 $collapsible-border-color: #ddd !default;
 
@@ -234,7 +234,7 @@ $navbar-height: 64px !default;
 $navbar-line-height: $navbar-height !default;
 $navbar-height-mobile: 54px !default;
 $navbar-line-height-mobile: $navbar-height-mobile !default;
-$navbar-font-size: 0.9rem !default;
+$navbar-font-size: 0.7rem !default;
 $navbar-font-color: #000 !default;
 $navbar-brand-font-size: 2.1rem !default;
 $navbar-brand-height: 54px !default;

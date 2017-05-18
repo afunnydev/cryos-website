@@ -22,6 +22,7 @@
 		margin-bottom: 50px;
 		margin-left: -10px;
     	padding: 20px;
+    	font-size: 1.3rem;
 	}
 	.row .col {
 		border-top: 10px solid $rpurple;
@@ -240,6 +241,9 @@
 
 	.owl-carousel .owl-next {
 	    right: -45px;
+	}
+	.sm-partenaires {
+		padding: 0 30px;
 	}
 }
 

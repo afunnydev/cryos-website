@@ -282,10 +282,12 @@ textarea {
     background-color: $rpurple;
     ul a {
         color: white;
+        font-size: 0.7rem;
     }
     ul li a i {
         height: inherit;
         line-height: inherit;
+        font-size: 0.8rem;
     }
 }
 
@@ -310,13 +312,25 @@ textarea {
 
 /* ======= 3. Headers (h1, h2, h3...) ======= */
 
-h1.blue-bar {
+h1.orange-bar,
+h1.blue-bar,
+h1.black-bar,
+h1.green-bar{
     font-size: 24px;
     text-transform: uppercase;
     font-family: "Antenna-Bold";
     margin-top: 0;
     padding-top: 80px;
     margin-bottom: 20px;
+}
+
+h1.orange-bar:after {
+    height: 2px;
+    margin-top: 7.5px;
+    display: block;
+    width: 110px;
+    background: $dorange;
+    content: '';
 }
 
 h1.blue-bar:after {
@@ -328,21 +342,21 @@ h1.blue-bar:after {
     content: '';
 }
 
-h1.black-bar {
-    font-size: 24px;
-    text-transform: uppercase;
-    font-family: "Antenna-Bold";
-    margin-top: 0;
-    padding-top: 80px;
-    margin-bottom: 20px;
-}
-
 h1.black-bar:after {
     height: 2px;
     margin-top: 7.5px;
     display: block;
     width: 110px;
     background: black;
+    content: '';
+}
+
+h1.green-bar:after {
+    height: 2px;
+    margin-top: 7.5px;
+    display: block;
+    width: 110px;
+    background: $lgreen;
     content: '';
 }
 
@@ -500,7 +514,7 @@ h1.white-bar:after {
             font-size: 0.9rem;
         }
         .adresse p {
-            font-size: 1.3rem;
+            font-size: 1.2rem;
         }
     }
 }
@@ -534,6 +548,7 @@ h1.white-bar:after {
             transition: 0.4s all;
             opacity: 0;
             font-size: 0.8rem;
+            transform: translate(40px);
             -webkit-transform: translateX(40px);
             -moz-transform: translateX(40px);
             -o-transform: translateX(40px);
@@ -547,6 +562,7 @@ h1.white-bar:after {
         padding-right: 10px;
         .fa-chevron-right {
             opacity: 1;
+            transform: translateX(0);
             -webkit-transform: translateX(0);
             -moz-transform: translateX(0);
             -o-transform: translateX(0);
@@ -570,16 +586,28 @@ h1.white-bar:after {
     height: auto;
 }
 
-.owl-theme .owl-controls .owl-page {
-    display: inline-block;
+.owl-theme .owl-nav [class*='owl-'] {
+    background: none;
 }
 
-.owl-theme .owl-controls .owl-page span {
-    background: none repeat scroll 0 0 #869791;
-    border-radius: 20px;
-    display: block;
-    height: 12px;
-    margin: 5px 7px;
-    opacity: 0.5;
-    width: 12px;
+.owl-theme .owl-dots {
+    margin-top: -20px;
+    text-align: left !important;
+    .owl-dot {
+        span {
+            border: 1px solid $dgrey;
+        }
+    }
+    .owl-dot.active {
+        span {
+            background: $rpurple;
+            border: 1px solid $rpurple;
+        }
+    }
+    .owl-dot:hover {
+        span {
+            background: $rpurple;
+            border: 1px solid $rpurple;
+        }
+    }
 }

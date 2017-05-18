@@ -3,13 +3,23 @@
 /* ======= Style pour la page Cryovizion ======= */
 
 #oc-carousel.cryovizion {
+    .owl-theme .owl-dots {
+        .owl-dot.active {
+            span {
+                background: $lgreen;
+                border: 1px solid $lgreen;
+            }
+        }
+        .owl-dot:hover {
+            span {
+                background: $lgreen;
+                border: 1px solid $lgreen;
+            }
+        }
+    }
     .oc-title {
         .token {
             background-color: $lgreen;
-            padding: 5px 10px;
-            color: white;
-            border-radius: 7.5px;
-            font-size: 12px;
         }
     }
     .owl-content {
@@ -93,6 +103,15 @@
     }
     .item-3 {
         margin-bottom: 40px;
+    }
+}
+
+#news.vert .card {
+    .card-title:after {
+        background: $lgreen;
+    }
+    .card-link a {
+        color: $lgreen;
     }
 }
 

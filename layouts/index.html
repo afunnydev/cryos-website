@@ -4,7 +4,7 @@
     <!-- Hero -->
 	<div id="hero">
 		<div class="container">
-			<script src="https://fast.wistia.com/embed/medias/6fsvqj1tr0.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_6fsvqj1tr0 videoFoam=true volume=0" style="height:100%;width:100%">&nbsp;</div></div></div>
+			<script src="https://fast.wistia.com/embed/medias/rwsactzul8.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_rwsactzul8 videoFoam=true volume=0" style="height:100%;width:100%">&nbsp;</div></div></div>
 		</div>
 	</div>
 	<!-- End-Hero -->
@@ -47,7 +47,7 @@
 	<div id="nouvelles">
 		<div class="container">
 			<h2>nouvelles</h2>
-			<div class="owl-carousel" id="nouvelles-carousel">
+			<div class="owl-carousel owl-theme" id="nouvelles-carousel">
 				<!-- check if isfront is true in the .md -->
 			  {{ range where .Site.Pages ".Params.isfront" true }}
 			  	<a href="{{ .Permalink }}"><div class="nouvelles-img">
@@ -77,7 +77,7 @@
 			</div>
 			<div class="hide-on-med-and-up row">
 				{{ range $.Site.Data.partenaires.files }}
-					<div class="col s6"><img src="{{$.Site.BaseURL}}img/logos/{{ . }}" alt="{{ . }}" class="responsive-img"></div>
+					<div class="col s6 sm-partenaires"><img src="{{$.Site.BaseURL}}img/logos/{{ . }}" alt="{{ . }}" class="responsive-img"></div>
 				{{ end }}
 			</div>
 		</div>

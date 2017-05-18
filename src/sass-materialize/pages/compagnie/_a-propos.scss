@@ -103,6 +103,7 @@
         }
         .owl-carousel .owl-nav {
             margin: 10px 0 40px;
+            text-align: left;
         }
         .owl-carousel .owl-prev,
         .owl-carousel .owl-next {
@@ -112,11 +113,11 @@
         }
         .owl-carousel .owl-prev {
             width: 25px;
-            float: left;
+            background-color: white;
         }
         .owl-carousel .owl-next {
             width: 25px;
-            float: left;
+            background-color: white;
         }
         .owl-content {
             .year {
@@ -157,9 +158,9 @@
         .histoire-img {
             min-height: 450px;
             margin-top: 40px;
-            background-image: url('../img/orthese_pro/Pattern_orange.jpg');
+            background-image: url('../img/equipe/equipe.jpg');
             background-repeat: no-repeat;
-            background-size: 100% 100%;
+            background-size: contain;
             background-position: center top;
         }
     }

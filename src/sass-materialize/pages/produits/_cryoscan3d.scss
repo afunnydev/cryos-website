@@ -3,13 +3,24 @@
 /* ======= Style pour la page Cryovizion ======= */
 
 #oc-carousel.cryoscan {
+    .owl-theme .owl-dots {
+        
+        .owl-dot.active {
+            span {
+                background: $rpurple;
+                border: 1px solid $rpurple;
+            }
+        }
+        .owl-dot:hover {
+            span {
+                background: $rpurple;
+                border: 1px solid $rpurple;
+            }
+        }
+    }
     .oc-title {
         .token {
             background-color: $rpurple;
-            padding: 5px 10px;
-            color: white;
-            border-radius: 7.5px;
-            font-size: 12px;
         }
         h1 span {
             font-size: 1rem;
