@@ -6,7 +6,7 @@ titre = "Soignez efficacement votre entorse à la cheville!"
 description = "Découvrez les conseils d’un podiatre pour bien soigner une entorse à la cheville!"
 categories = ["Douleur aux pieds"]
 author= "gabriel"
-blog_img = "img/posts/entorse-cheville"
+blog_img = "img/posts/entorse-cheville.jpg"
 type="post"
 
 +++

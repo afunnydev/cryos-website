@@ -22,6 +22,9 @@
             background-color: $lgreen;
         }
     }
+    .owl-carousel {
+        margin-top: 0px;
+    }
     .owl-content {
         h3 {
             font-size: 18px;
@@ -30,7 +33,7 @@
             color: black;
             margin-bottom: 5px;
         }
-        p.chiffre {
+        span.chiffre {
                 color: $lgreen;
                 font-size: 8rem;
                 line-height: 8rem;
@@ -42,6 +45,7 @@
             padding-right: 0;
             display:inline;
         }
+
     }
 }
 

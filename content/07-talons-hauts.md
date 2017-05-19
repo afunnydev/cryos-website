@@ -6,7 +6,7 @@ titre = "Orthèse plantaire et talon haut : tout ce qu’il y a à savoir!"
 description = "Une femme qui porte un talon haut devrait-elle obligatoirement porter une orthèse plantaire? Départagez ici les mythes et la réalité!"
 categories = ["Douleur aux pieds", "Orthèses plantaires"]
 author= "gravel"
-blog_img = "img/posts/douleur-aux-talons"
+blog_img = "img/posts/douleur-aux-talons.jpg"
 type="post"
 
 +++

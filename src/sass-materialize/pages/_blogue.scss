@@ -1,0 +1,137 @@
+#blogue {
+	width: 85%;
+	h2 {
+		color: black;
+		font-size: 2rem;
+		font-weight: 800;
+
+	}
+	.box {
+		border: 1px solid rgba(0,0,0,0.1);
+		box-shadow:0 11px 15px rgba(0,0,0,0.1);
+		padding: 20px;
+		margin: 15px 0;
+	}
+	.article {
+		div.resume {
+			padding: 15px 20px 5px;
+			a.titre {
+				color: black;
+				font-family: 'Antenna-Bold', sans-serif;
+				font-weight: 800;
+				margin: 10px 0;
+			}
+			p.meta {
+				margin: 10px 0 0;
+				font-size: 0.7rem;
+				font-family: 'Antenna-Bold', sans-serif;
+				.auteur {
+					text-transform: uppercase;
+					color: $dblue;
+				}
+			}
+			p.summary {
+				color: $dgrey;
+				font-family: 'Antenna-Light', sans-serif;
+			}
+			p.categories {
+				text-transform: uppercase;
+				font-family: 'Antenna-Bold', sans-serif;
+				font-size: 0.7rem;
+				a {
+					color: $dblue;
+				}
+			}
+		}
+		div.info {
+			margin: 0 20px;
+			border-top: 1px solid $dblue;
+			padding-top: 20px;
+			div {
+				text-transform: uppercase;
+				font-family: 'Antenna-Bold', sans-serif;
+				font-size: 0.7rem;
+				p,a {
+					display: inline-block;
+					margin: 0 10px;
+				}
+				a i {
+					font-size: 2rem;
+					color: black;
+				}
+			}
+			.comments {
+				float: left;
+			}
+			.socials {
+				float: right;
+			}
+		}
+	}
+	.cta {
+		-webkit-transition: 0.4s background-color;
+		-moz-transition: 0.4s background-color;
+		-ms-transition: 0.4s background-color;
+		-o-transition: 0.4s background-color;
+		transition: 0.4s background-color;
+		cursor: pointer;
+		h5 {
+			text-transform: uppercase;
+			font-size: 1rem;
+			margin: 0;
+			color: black;
+		}
+		&:hover {
+			background-color: $rpurple;
+			h5 {
+				color: white
+			}
+		}
+	}
+	.newsletter {
+		h5 {
+			text-transform: uppercase;
+			font-size: 1rem;
+			margin: 0;
+			color: black;
+		}
+		p {
+			font-size: 0.8rem;
+		}
+	}
+	.categories {
+		h5 {
+			text-transform: uppercase;
+			font-size: 1rem;
+			margin: 0;
+			color: black;
+		}
+		ul li {
+			text-transform: uppercase;
+			font-family: 'Antenna-Bold', sans-serif;
+			font-size: 0.9rem;
+			a {
+				color: $dblue;
+			}
+		}
+		&.mobile {
+			a {
+				text-transform: uppercase;
+				font-family: 'Antenna-Bold', sans-serif;
+				font-size: 0.9rem;
+				color: $dblue;
+				margin-right: 30px;
+				display: inline-block;
+			}
+			h5 {
+				margin-bottom: 10px;
+			}
+		}
+	}
+}
+
+@media only screen and (min-width : 1300px) {
+	#blogue {
+		width: 70%;
+	}
+}
