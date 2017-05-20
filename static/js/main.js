@@ -107,15 +107,19 @@ jQuery(document).ready(function ($) {
     responsive: {
       // breakpoint from 0 up
       0: {
-        items: 1
+        items: 1,
+        nav: false,
+        dots: true
       },
       // breakpoint from 600 up
       600: {
-        items: 2
+        items: 2,
+        dots: false
       },
       // breakpoint from 993 up
       993: {
-        items: 3
+        items: 3,
+        dots: false
       }
     },
     navText: ['<img src="../../img/fleche-gauche.png" alt="" />', '<img src="../../img/fleche-droite.png" alt="" />']

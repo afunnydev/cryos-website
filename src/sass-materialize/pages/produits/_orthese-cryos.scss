@@ -1,31 +1,44 @@
 //Master CSS for pages "produits" and "patients". Most of the CSS comes from here and then colors are applied on different pages
 
 /* ======= Style pour la page Orthèse Cryos ======= */
-
-#oc-carousel {
-    .owl-theme .owl-dots {
-        margin-top: -20px;
-        text-align: left !important;
-        .owl-dot {
-            span {
-                border: 1px solid $dgrey;
-            }
-        }
-        .owl-dot.active {
-            span {
-                background: $dorange;
-                border: 1px solid $dorange;
-            }
-        }
-        .owl-dot:hover {
-            span {
-                background: $dorange;
-                border: 1px solid $dorange;
-            }
+.owl-theme .owl-dots {
+    margin-top: -20px;
+    text-align: left !important;
+    .owl-dot {
+        span {
+            border: 1px solid $dgrey;
         }
     }
-    .owl-carousel {
+    .owl-dot.active {
+        span {
+            background: $dorange;
+            border: 1px solid $dorange;
+        }
+    }
+    .owl-dot:hover {
+        span {
+            background: $dorange;
+            border: 1px solid $dorange;
+        }
+    }
+}
+#oc-carousel {
+    .video-container {
+        position:relative;
+        padding-bottom:56.25%;
+        height:0;
+        overflow:hidden;
         margin-top: 80px;
+    }
+
+    .video-container iframe, .video-container object, .video-container embed {
+        position:absolute;
+        top:0;
+        left:0;
+        width:100%;
+        height:100%;
+    }
+    .owl-carousel {
         .owl-nav {
             margin: 0 0 80px;
         }
@@ -78,6 +91,9 @@
             font-family: "Antenna-Light";
             padding-right: 100px;
         }
+        img {
+            display: none;
+        }
     }
 }
 
@@ -88,7 +104,6 @@
     background-size: 100% 120%;
     background-position: center top;
     .oc-img {
-        min-height: 375px;
         border: 5px solid white;
     }
     .oc-txt {
@@ -107,28 +122,37 @@
         }
     }
     .item-1 .oc-img {
-        background-image: url('../img/orthese_patients/orthese1_notexte.jpg');
+        background-image: url('../img/orthese_pro/orthese1.jpg');
         background-repeat: no-repeat;
         background-size: 100% 100%;
         background-position: right top;
     }
     .item-2 .oc-img {
-        background-image: url('../img/orthese_patients/orthese2_notexte.jpg');
+        background-image: url('../img/orthese_pro/orthese2.jpg');
         background-repeat: no-repeat;
         background-size: 100% 100%;
         background-position: top;
     }
     .item-3 .oc-img {
-        background-image: url('../img/orthese_patients/orthese3_notexte.jpg');
+        background-image: url('../img/orthese_pro/orthese3.jpg');
         background-repeat: no-repeat;
         background-size: 100% 100%;
         background-position: top;
     }
-    .item-4 .oc-img {
-        background-image: url('../img/orthese_patients/orthese4_notexte.jpg');
+    .item-4.oc-img {
+        background-image: url('../img/orthese_pro/orthese4.jpg');
         background-repeat: no-repeat;
         background-size: 100% 100%;
         background-position: left ;
+    }
+    .item-1.patients .oc-img {
+        background-image: url('../img/orthese_patients/orthese1.jpg');
+    }
+    .item-2.patients .oc-img {
+        background-image: url('../img/orthese_patients/orthese2.jpg');
+    }
+    .item-3.patients .oc-img {
+        background-image: url('../img/orthese_patients/orthese3.jpg');
     }
     .item-1,
     .item-2,
@@ -197,7 +221,7 @@
 #news {
     .owl-carousel,
     .owl-content {
-        min-height: 450px;
+        // min-height: 450px;
     }
     .owl-carousel .owl-nav {
         margin: 10px 0 40px;
@@ -211,7 +235,7 @@
     .owl-carousel .owl-prev {
         width: 35px;
         position: absolute;
-        left: -30px;
+        left: -50px;
         top: 33%;
     }
     .owl-carousel .owl-next {
@@ -279,12 +303,10 @@
 @media #{$small-and-down} {
     #orange {
         .oc-img {
-            background-image: url('../img/orthese_pro/orthese1_EN.jpg');
             background-repeat: no-repeat;
             background-size: 200% 200%;
             background-position: right top;
             min-width: 100px !important;
-            min-height: 250px !important;
             border: 5px solid white;
         }
         .oc-text {
@@ -296,12 +318,20 @@
         }
     }
     #oc-carousel {
+        .video-container {
+            display: none;
+        }
         .oc-title h1 {
             margin-top: -40px;
             margin-bottom: 0;
         }
         .owl-carousel {
-            margin-top: 20px;
+            margin-top: 80px;
+            .owl-content {
+                img {
+                    display: block;
+                }
+            }
         }
     }
     #clients_satisfaits p {
@@ -309,6 +339,13 @@
     }
 }
 
+@media #{$medium-only} {
+    #oc-carousel {
+        .oc-title h1 {
+            margin-top: 0px;
+        }
+    }
+}
 @media #{$medium-and-down} {
     #orange,
     #vert,

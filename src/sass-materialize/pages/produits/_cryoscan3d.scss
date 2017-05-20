@@ -4,7 +4,6 @@
 
 #oc-carousel.cryoscan {
     .owl-theme .owl-dots {
-        
         .owl-dot.active {
             span {
                 background: $rpurple;
@@ -26,6 +25,9 @@
             font-size: 1rem;
         }
     }
+    .owl-carousel {
+        margin-top: 80px;
+    }
     .owl-content {
         h3 {
             font-size: 18px;
@@ -37,6 +39,9 @@
         p {
             padding-right: 0;
             display:inline;
+        }
+        img {
+            display: block;
         }
     }
 }
@@ -52,7 +57,6 @@
         display: none;
     }
     .oc-img {
-        min-height: 375px;
         border: 5px solid white;
     }
     .oc-txt {
@@ -117,12 +121,10 @@
 @media #{$small-and-down} {
     #mauve {
         .oc-img {
-            background-image: url('../img/orthese_pro/orthese1_EN.jpg');
             background-repeat: no-repeat;
             background-size: 200% 200%;
             background-position: right top;
             min-width: 100px !important;
-            min-height: 250px !important;
             border: 5px solid white;
         }
         .oc-text {
