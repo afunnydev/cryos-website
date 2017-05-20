@@ -2,13 +2,80 @@
 {{ partial "head.html" . }}
 
   {{ partial "header.html" . }}
- <div>
-   <h1 id="title">{{ .Title }}</h1>
-        <ul id="list">
-            {{ range .Data.Pages }}
-                {{ .Render "li"}}
-            {{ end }}
-        </ul>
-  </div>
+	<div class="row container" id="blogue">
+		<h2>{{ .Title }}</h2>
+		<div class="col m12 l9">
+			<div class="row">
+				<div class="hide-on-large-only">
+					<ul class="collapsible" data-collapsible="accordion">
+				    <li>
+				      <div class="collapsible-header"><h5>Categories <i class="fa fa-chevron-down"></i></h5></div>
+				      <div class="collapsible-body categories mobile box">
+				      	{{ $tags := $.Site.Taxonomies.categories.ByCount }}
+								<ul>
+								{{ range $tags }}
+								<a href="{{ $.Site.BaseURL }}categories/{{ .Term | urlize }}"><li>{{ .Term }} <!-- ({{ .Count }}) --></li></a>
+								{{ end }}
+								</ul>
+				      </div>
+				    </li>
+				  </ul>
+				</div>
+        {{ range .Data.Pages }}
+            {{ .Render "li"}}
+        {{ end }}
+        </div>
+		</div>
+		<div class="col m12 l3 hide-on-med-and-down">
+			<h5>Abonnez-vous</h5>
+			<div class="box newsletter">
+				<p>Restez informé sur la santé de vos pieds en vous abonnant à l’infolettre Cryos</p>
+				<div class="nl">
+        	<form method="post" action="https://app.icontact.com/icp/signup.php" name="icpsignup" id="icpsignup1006" accept-charset="UTF-8" onsubmit="return verifyRequired1006();" >
+					  <input type="hidden" name="redirect" value="<?php echo get_template_directory_uri(); ?>/thanks-cryos.html">
+					  <input type="hidden" name="errorredirect" value="http://www.icontact.com/www/signup/error.html">
 
+					  <div id="SignUp">
+					    <!--<input type="text" name="fields_fname" placeholder="*Nom:" required>
+					    <input type="text" name="fields_lname" placeholder="prénom:">-->
+					    <input id="news-email" type="email" name="fields_email" placeholder="Courriel" required>
+
+					    <input type="hidden" name="listid" value="17836">
+					    <input type="hidden" name="specialid:17836" value="RCDM">
+					    <input type="hidden" name="clientid" value="1523569">
+					    <input type="hidden" name="formid" value="1006">
+					    <input type="hidden" name="reallistid" value="1">
+					    <input type="hidden" name="doubleopt" value="0">
+
+					    <input type="submit" name="Submit" value="S'abonner" class="btn">
+					  </div>
+					</form>
+
+					<script type="text/javascript">
+						var icpForm1006 = document.getElementById('icpsignup1006');
+						if (document.location.protocol === "https:")
+							icpForm1006.action = "https://app.icontact.com/icp/signup.php";
+						  function verifyRequired1006() {
+						  if (icpForm1006["fields_email"].value == "") {
+						    icpForm1006["fields_email"].focus();
+						    alert("The Email field is required.");
+						    return false;
+						  }
+						  return true;
+						}
+					</script>
+        </div>
+			</div>
+			<h5>Catégories</h5>
+			<div class="categories box">
+				{{ $tags := $.Site.Taxonomies.categories.ByCount }}
+				<ul>
+				{{ range $tags }}
+				<a href="{{ $.Site.BaseURL }}categories/{{ .Term | urlize }}"><li>{{ .Term }} <!-- ({{ .Count }}) --></li></a>
+				{{ end }}
+				</ul>
+			</div>
+		</div>
+	</div>
+	
 {{ partial "footer.html" . }}

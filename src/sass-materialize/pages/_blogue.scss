@@ -4,7 +4,12 @@
 		color: black;
 		font-size: 2rem;
 		font-weight: 800;
-
+	}
+	h5 {
+		font-family: 'Antenna-Light', sans-serif;
+		font-size: 1.2rem;
+		color: $dgrey;
+		margin-left: 10px
 	}
 	.box {
 		border: 1px solid rgba(0,0,0,0.1);
@@ -27,7 +32,7 @@
 				font-family: 'Antenna-Bold', sans-serif;
 				.auteur {
 					text-transform: uppercase;
-					color: $dblue;
+					color: $rpurple;
 				}
 			}
 			p.summary {
@@ -39,13 +44,13 @@
 				font-family: 'Antenna-Bold', sans-serif;
 				font-size: 0.7rem;
 				a {
-					color: $dblue;
+					color: $rpurple;
 				}
 			}
 		}
 		div.info {
 			margin: 0 20px;
-			border-top: 1px solid $dblue;
+			border-top: 1px solid $rpurple;
 			padding-top: 20px;
 			div {
 				text-transform: uppercase;
@@ -68,50 +73,60 @@
 			}
 		}
 	}
-	.cta {
-		-webkit-transition: 0.4s background-color;
-		-moz-transition: 0.4s background-color;
-		-ms-transition: 0.4s background-color;
-		-o-transition: 0.4s background-color;
-		transition: 0.4s background-color;
-		cursor: pointer;
-		h5 {
-			text-transform: uppercase;
-			font-size: 1rem;
-			margin: 0;
-			color: black;
-		}
-		&:hover {
-			background-color: $rpurple;
-			h5 {
-				color: white
-			}
+	.collapsible {
+		border: none;
+		box-shadow: none;
+		.collapsible-header {
+			border-bottom: none;
+			min-height: inherit;
 		}
 	}
 	.newsletter {
-		h5 {
-			text-transform: uppercase;
-			font-size: 1rem;
-			margin: 0;
-			color: black;
-		}
 		p {
 			font-size: 0.8rem;
+			margin: 0 0 5px;
+			font-family: 'Antenna-Light', sans-serif;
+		}
+		input#news-email {
+			border: 1px solid $dgrey;
+			height: 2rem;
+			padding-left: 10px;
+			margin-bottom: 10px;
+			width: 90%
+		}
+		input.btn {
+			background-color: $dgrey;
+			padding-left: 10px;
+			padding-right: 10px;
+			text-transform: none;
+			font-size: 1rem;
+			font-family: 'Antenna-Light', sans-serif;
+			border-radius: 0;
 		}
 	}
 	.categories {
-		h5 {
-			text-transform: uppercase;
-			font-size: 1rem;
-			margin: 0;
-			color: black;
-		}
-		ul li {
-			text-transform: uppercase;
-			font-family: 'Antenna-Bold', sans-serif;
-			font-size: 0.9rem;
+		ul {
+			margin-top: 0;
 			a {
-				color: $dblue;
+				color: $rpurple;
+				li {
+					text-transform: none;
+					font-family: 'Antenna-Light', sans-serif;
+					font-size: 0.9rem;
+					border: 1px solid $dgrey;
+				    padding: 5px;
+				    margin: 5px 0;
+				    -webkit-transition: 0.4s all;
+				    -moz-transition: 0.4s all;
+				    -ms-transition: 0.4s all;
+				    -o-transition: 0.4s all;
+				    transition: 0.4s all;
+				    &:hover {
+				    	background-color: $rpurple;
+				    	color: white;
+				    	border-color: $rpurple;
+				    }
+				}
 			}
 		}
 		&.mobile {
@@ -119,7 +134,7 @@
 				text-transform: uppercase;
 				font-family: 'Antenna-Bold', sans-serif;
 				font-size: 0.9rem;
-				color: $dblue;
+				color: $rpurple;
 				margin-right: 30px;
 				display: inline-block;
 			}
@@ -133,5 +148,104 @@
 @media only screen and (min-width : 1300px) {
 	#blogue {
 		width: 70%;
+	}
+}
+
+#article {
+	h2 {
+		color: black;
+		font-size: 2rem;
+		font-weight: 800;
+	}
+	.row {
+		position: relative;
+	}
+	.share-btn {
+		position: absolute;
+		bottom: 0;
+		right:0;
+		ul {
+			margin: 0;
+			li {
+				width: 100%;
+				text-align: right;
+				margin-top: 15px;
+				padding: 5px 20px 5px 10px;
+				&.fb {
+					background-color: #39579A;
+				}
+				&.twitter {
+					background-color: #00AAEF;
+				}
+				&.courriel {
+					background-color: #2B8DF6;
+				}
+				&.comment {
+					background-color: #8D8D99;
+					text-align: center;
+				}
+
+				a {
+					color: white;
+					font-family: 'Antenna-Light', sans-serif;
+					font-size: 0.8em;
+					line-height: 1.2rem;
+					i {
+						float: left;
+						font-size: 1.2rem;
+						margin-top: 2px;
+					}
+				}
+			}
+		}
+	}
+	p.date {
+		font-size: 0.8rem;
+		color: $dgrey;
+		margin-top: 30px;
+	}
+	h3 {
+		font-size: 1rem;
+	}
+	.corps {
+		div.auteur {
+			border: 1px solid rgba(0,0,0,0.1);
+			box-shadow:0 11px 15px rgba(0,0,0,0.1);
+			padding: 20px;
+			margin: 0;
+			p {
+				font-size: 0.8rem;
+			}
+			ul li {
+				margin: 5px 0;
+				a {
+					color: $rpurple;
+				}
+			}
+		}
+		div.contenu {
+			padding: 0;
+			div:nth-child(1) {
+				margin: 0 30px 0 10px;
+				border-top: 1px solid $dgrey;
+			}
+			p.categories {
+				text-transform: uppercase;
+				font-family: 'Antenna-Bold', sans-serif;
+				font-size: 0.7rem;
+				margin: 30px 0;
+				a {
+					color: $rpurple;
+				}
+			}
+		}
+	}
+}
+@media #{$medium-and-down} {
+	#article .corps {
+		div.auteur {
+			margin-top: 40px;
+			text-align: center;
+		}
 	}
 }

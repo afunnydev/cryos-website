@@ -3,41 +3,67 @@
 {{ partial "head.html" . }}
 
     {{ partial "header.html" . }}
-    
-				<img src="{{ $.Site.BaseURL }}{{ .Params.blog_img }}" alt="{{ .Title }}">
-    		<h2>{{ .Title }}</h2>
-        {{ .Content }}
-        
- 				<!-- Not working yet -->
-     			
-     			<h4>Écrit par {{ $author.display_name }}</h4>
-     			<p> {{ $author.user_email }}</p>
-     			<p> {{ $author.user_url }}</p>
-     			<p> {{ $author.address }}</p>
-     			<p> {{ $author.city }}</p>
-     			<p> {{ $author.phone }}</p>
-     			<p> {{ $author.description }}</p>
-        <div id="disqus_thread"></div>
-<script>
+        <div class="container row" id="article">
+            <h2>{{ .Params.titre }}</h2>
+            <div class="row">
+                <div class="col m12 l9">
+                    <img src="{{ .Site.BaseURL }}{{ .Params.blog_img }}" alt="{{ .Params.titre }}" class="responsive-img">
+                </div>
+                <div class="col m12 l3 share-btn hide-on-med-and-down">
+                    <ul>
+                        <li class="fb"><a href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}"><i class="fa fa-facebook"></i>Partager sur Facebook</a></li>
+                        <li class="twitter"><a href="https://twitter.com/home?status={{ .Permalink }}"><i class="fa fa-twitter"></i>Partager sur Twitter</a></li>
+                        <li class="courriel"><a href="mailto:?subject=Article intéressant sur le site de Cryos Technologies&body=Une belle lecture pour toi: {{ .Permalink }}"><i class="fa fa-envelope"></i>Partager par courriel</a></li>
+                        <li class="comment"><a href="#disqus_thread">Commenter</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12">
+                    <p class="date">publié le {{ .Date }}</p>
+                </div>
+            </div>
+            <div class="row corps">
+                <div class="col m12 l9 contenu">
+                    <div>
+                        {{ .Content }}
+                        <p class="categories">Mots-clés: {{ range .Params.categories }} <a href="{{ $.Site.BaseURL }}categories/{{ . | urlize }}">{{.}}</a>/ {{end}}</p>
+                        <div id="disqus_thread"></div>
+                    </div>
+                </div>
+                <div class="col m12 l3 auteur">
+                    <img src="{{ .Site.BaseURL }}img/avatar/{{ $author.user_nicename }}/profile_podiatre.jpg" alt="{{ $author.user_nicename }}" class="responsive-img">
+                    <h5>{{ $author.display_name }}</h5>
+                    <p> {{ $author.description }}</p>
+                    <ul>
+                        <li> {{ $author.address }}</li>
+                        <li> {{ $author.city }}</li>
+                        <li> {{ $author.phone }}</li>
+                        <li><a href="{{ $author.user_url }}">Site web</a></li> 
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <script>
 
-/**
-*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+        /**
+        *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+        *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
 
-var disqus_config = function () {
-this.page.url = {{.Permalink}};  // Replace PAGE_URL with your page's canonical URL variable
-this.page.identifier = {{ .Params.slug}}; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-this.language = "fr";
-};
+        var disqus_config = function () {
+        this.page.url = {{.Permalink}};  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = {{ .Params.slug}}; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        this.language = "fr";
+        };
 
-(function() { // DON'T EDIT BELOW THIS LINE
-var d = document, s = d.createElement('script');
-s.src = 'https://cryos.disqus.com/embed.js';
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        (function() { // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+        s.src = 'https://cryos.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+        })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
  				
  				
         {{ partial "footer.html" . }}

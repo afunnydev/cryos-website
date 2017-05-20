@@ -375,3 +375,10 @@
 		}
 	}
 }
+@media only screen and (max-width : 400px) {
+	#produits .row .col .hovered {
+		a.vide.trouver-btn.btn {
+			font-size: 0.8rem;
+		}
+	}
+}

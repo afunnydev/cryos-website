@@ -1,4 +1,22 @@
-<article>
-	<h5>{{ .Params.titre }}</h5>
-	<p>{{ .Summary }}</p>
-</article>
+{{$author := index .Site.Params.authors (.Params.author) }}
+<div class="col s12 article box">
+	<a href="{{ .Permalink }}"><img src="{{ .Site.BaseURL }}{{ .Params.blog_img }}" alt="{{ .Params.titre }}" class="responsive-img"></a>
+	<div class="resume">
+		<a href="{{ .Permalink }}" class="titre">{{ .Params.titre }}</a>
+		<p class="meta">par <span class="auteur">{{ $author.display_name }}</span>| {{ .Date }}</p>
+		<p class="summary">{{ .Summary }}</br>...</p>
+		<p class="categories">Mots-clés:{{ range .Params.categories }} <a href="{{ $.Site.BaseURL }}categories/{{ . | urlize }}">{{.}}</a>/ {{end}}</p>
+	</div>
+	<div class="info">
+		<div class="comments valign-wrapper">
+			<a href="{{ .Permalink }}" class="valign"><i class="fa fa-comments"></i></a>
+			<p class="">4 Commentaires</p>
+		</div>
+		<div class="socials valign-wrapper">
+			<p class="valign">Partager l'article:</p> 
+			<a class="valign" href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}"><i class="fa fa-facebook"></i></a>
+			<a class="valign" href="https://twitter.com/home?status={{ .Permalink }}"><i class="fa fa-twitter"></i></a>
+			<a class="valign" href="https://www.linkedin.com/shareArticle?mini=true&url={{ .Permalink }}&title={{ .Params.titre }}&summary={{ .Summary }}&source=Cryos"><i class="fa fa-linkedin"></i></a>
+		</div>
+	</div>
+</div>
