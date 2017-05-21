@@ -1,4 +1,4 @@
-baseURL = "https://www.cryos.com/"
+baseURL = "http://www.cryos.com/"
 languageCode = "en-us"
 title = "Cryos"
 metaDataFormat = "toml"

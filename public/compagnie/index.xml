@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Compagnies on Cryos</title>
-    <link>https://www.cryos.com/compagnie/</link>
+    <link>http://www.cryos.com/compagnie/</link>
     <description>Recent content in Compagnies on Cryos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://www.cryos.com/compagnie/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.cryos.com/compagnie/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Cryos Technologies | Nous contacter</title>
-      <link>https://www.cryos.com/compagnie/contact/</link>
+      <link>http://www.cryos.com/compagnie/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.cryos.com/compagnie/contact/</guid>
+      <guid>http://www.cryos.com/compagnie/contact/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cryos Technologies | Une vision au service d&#39;une podiatrie moderne.</title>
-      <link>https://www.cryos.com/compagnie/a-propos/</link>
+      <link>http://www.cryos.com/compagnie/a-propos/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.cryos.com/compagnie/a-propos/</guid>
+      <guid>http://www.cryos.com/compagnie/a-propos/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cryos Technologies | Venez travailler dans notre laboratoire</title>
-      <link>https://www.cryos.com/compagnie/emploi/</link>
+      <link>http://www.cryos.com/compagnie/emploi/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.cryos.com/compagnie/emploi/</guid>
+      <guid>http://www.cryos.com/compagnie/emploi/</guid>
       <description></description>
     </item>
     
