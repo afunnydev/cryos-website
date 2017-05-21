@@ -10,6 +10,7 @@ blog_img = "img/posts/Bonne_posture.jpg"
 type="post"
 isfront = true
 short_desc =  "Pour profiter d’une belle qualité de vie, avoir une bonne posture et une santé des pieds sont des éléments incontournables. Toutefois, plusieurs ignorent combien les orthèses plantaires peuvent contribuer à l’atteinte de cette bonne condition."
+date = "2017-04-06"
 
 +++
 

@@ -8,6 +8,7 @@ categories = ["Santé du pied chez l'enfant", "Douleur aux pieds"]
 author= "marie-michelle"
 blog_img = "img/posts/maladie-du-pied-hereditaire.jpg"
 type="post"
+date = "2017-04-06"
 
 +++
 

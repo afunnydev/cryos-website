@@ -3,14 +3,14 @@
 	<a href="{{ .Permalink }}"><img src="{{ .Site.BaseURL }}{{ .Params.blog_img }}" alt="{{ .Params.titre }}" class="responsive-img"></a>
 	<div class="resume">
 		<a href="{{ .Permalink }}" class="titre">{{ .Params.titre }}</a>
-		<p class="meta">par <span class="auteur">{{ $author.display_name }}</span>| {{ .Date }}</p>
+		<p class="meta">par <span class="auteur">{{ $author.display_name }}</span>| {{ .Date.Format "02/01/2006"  }}</p>
 		<p class="summary">{{ .Summary }}</br>...</p>
 		<p class="categories">Mots-clés:{{ range .Params.categories }} <a href="{{ $.Site.BaseURL }}categories/{{ . | urlize }}">{{.}}</a>/ {{end}}</p>
 	</div>
 	<div class="info">
 		<div class="comments valign-wrapper">
 			<a href="{{ .Permalink }}" class="valign"><i class="fa fa-comments"></i></a>
-			<p class="">4 Commentaires</p>
+			<p class="">0 Commentaire</p>
 		</div>
 		<div class="socials valign-wrapper">
 			<p class="valign">Partager l'article:</p> 
