@@ -9,6 +9,7 @@ author= "audree"
 orthese_patients = true
 blog_img = "img/posts/changer-orthese-plantaire.jpg"
 type="post"
+date = "2017-03-30"
 
 +++
 

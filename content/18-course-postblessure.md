@@ -8,6 +8,7 @@ categories = ["Blessures sportives", "Douleur aux pieds", "Sport d'été"]
 author= "annie-jean"
 blog_img = "img/posts/blessure-au-pied-reprendre-la-course.jpg"
 type="post"
+date = "2017-04-10"
 
 +++
 

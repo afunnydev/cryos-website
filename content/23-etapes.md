@@ -8,6 +8,7 @@ categories = ["Orthèses plantaires"]
 author = "boisclair"
 blog_img = "img/posts/ortheses-plantaires.jpg"
 type="post"
+date = "2017-05-10"
 
 +++
 

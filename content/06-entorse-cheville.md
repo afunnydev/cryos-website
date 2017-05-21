@@ -8,7 +8,7 @@ categories = ["Douleur aux pieds"]
 author= "gabriel"
 blog_img = "img/posts/entorse-cheville.jpg"
 type="post"
-date = "2017-04-06"
+date = "2017-01-26"
 
 +++
 

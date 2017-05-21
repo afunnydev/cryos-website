@@ -8,7 +8,7 @@ categories = ["Blessures sportives"]
 author= "philippe_legare"
 blog_img = "img/posts/apprendreacourrir.jpg"
 type="post"
-date = "2017-04-06"
+date = "2017-01-12"
 
 +++
 

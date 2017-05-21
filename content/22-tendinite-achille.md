@@ -8,6 +8,7 @@ categories = ["Blessures sportives", "Douleur aux pieds"]
 author= "arnaud"
 blog_img = "img/posts/comment-soigner-une-tendinite-au-tendon-dachille.jpg"
 type="post"
+date = "2017-05-02"
 
 +++
 

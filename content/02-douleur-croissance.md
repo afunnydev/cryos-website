@@ -8,7 +8,7 @@ categories = ["Santé du pied chez l'enfant"]
 author= "william"
 blog_img = "img/posts/soulager_douleur.jpg"
 type="post"
-date = "2017-04-06"
+date = "2017-01-06"
 
 +++
 

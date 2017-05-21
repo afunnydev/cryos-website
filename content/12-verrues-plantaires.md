@@ -8,6 +8,7 @@ categories = ["Verrues plantaires"]
 author= "elizabeth"
 blog_img = "img/posts/verrues-plantaires.jpg"
 type="post"
+date = "2017-02-28"
 
 +++
 

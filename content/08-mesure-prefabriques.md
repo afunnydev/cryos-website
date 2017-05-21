@@ -9,7 +9,7 @@ author= "morel"
 orthese_patients = true
 blog_img = "img/posts/orthese-sur-mesure.jpg"
 type="post"
-date = "2017-04-06"
+date = "2017-02-03"
 
 +++
 

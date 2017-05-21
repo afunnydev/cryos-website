@@ -12,6 +12,7 @@ isfront = true
 cryovizion_pro = true
 cryovizion_patients = true
 short_desc = "Les orthèses sur mesure sont fabriquées à partir d’une empreinte des pieds. Cette dernière doit être précise pour atteindre les résultats visés par le traitement. Bien qu’il existe diverses techniques de prise d’empreintes, certaines s’avèrent plus efficaces et augmentent la qualité des orthèses."
+date = "2017-04-23"
 
 +++
 

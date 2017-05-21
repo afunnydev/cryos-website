@@ -132,16 +132,16 @@ jQuery(document).ready(function ($) {
     dots: true,
     navText: ['<img src="../../img/fleche-gauche.png" alt="" />', '<img src="../../img/fleche-droite.png" alt="" />']
   });
-  // $('.oc-img').each(function () {
-  //   var w = $(this).width();
-  //   $(this).css('min-height', w * 0.60);
-  // });
-  // $(window).resize(function () {
-  //   $('.oc-img').each(function () {
-  //     var w = $(this).width();
-  //     $(this).css('min-height', w * 0.60);
-  //   });
-  // });
+  $('.oc-img').each(function () {
+    var w = $(this).width();
+    $(this).css('min-height', w * 0.60);
+  });
+  $(window).resize(function () {
+    $('.oc-img').each(function () {
+      var w = $(this).width();
+      $(this).css('min-height', w * 0.60);
+    });
+  });
   // Select all links with hashes for smooth scroll
   $('a[href*="#"]')
   // Remove links that don't actually link to anything

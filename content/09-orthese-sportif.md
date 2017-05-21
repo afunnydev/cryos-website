@@ -8,7 +8,7 @@ categories = ["Blessures sportives", "Sport d'hiver", "Orthèses plantaires"]
 author= "melanie"
 blog_img = "img/posts/orthese-sportive.jpg"
 type="post"
-date = "2017-04-06"
+date = "2017-02-10"
 
 +++
 

@@ -9,6 +9,7 @@ author= "philippe_legare"
 orthese_pro = true
 blog_img = "img/posts/course-minimaliste.jpg"
 type="post"
+date = "2017-04-05"
 
 +++
 

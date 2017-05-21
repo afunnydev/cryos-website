@@ -279,12 +279,14 @@
             margin: 15px 2% 0;
             font-size: 0.40rem;
             font-family: "Antenna-Light";
-            color: $dgrey;
             display: -webkit-box;
             -webkit-line-clamp: 4;
             -webkit-box-orient: vertical;
             overflow: hidden;
             margin-bottom: 15px;
+            a {
+                color: $dgrey;
+            }
         }
         .card-link {
             a {

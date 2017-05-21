@@ -46,7 +46,6 @@
       	{{ range $.Site.Data.locations }}
       		locations.push({name:{{ .nomClinique }}, lat:{{ .latitude }}, lng:{{ .longitude }}, address:{{ .address }}, city:{{ .ville }}, state:{{ .pays }}, web:{{ .site }}, slug: {{ .slug }} });
       	{{ end }}
-      console.log(locations);
       var data = JSON.stringify(locations);
     </script>
     

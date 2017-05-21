@@ -8,6 +8,7 @@ categories = ["Chirurgie des pieds", "Douleur aux pieds", "Oignons"]
 author= "caroline"
 blog_img = "img/posts/oignon-au-pied1.jpg"
 type="post"
+date = "2017-02-19"
 
 +++
 

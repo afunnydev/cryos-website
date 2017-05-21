@@ -9,6 +9,7 @@ author= "lyndacormier"
 orthese_pro = true
 blog_img = "img/posts/ortheses-plantaire-chirurgie-hallux-valgus.jpg"
 type="post"
+date = "2017-04-17"
 
 +++
 

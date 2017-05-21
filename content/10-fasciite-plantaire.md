@@ -8,6 +8,7 @@ categories = ["Douleur aux pieds", "Epine de Lenoir", "Fasciite plantaire"]
 author= "marilyne"
 blog_img = "img/posts/fasciite-plantaire.jpg"
 type="post"
+date = "2017-02-14"
 
 +++
 

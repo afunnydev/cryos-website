@@ -8,6 +8,7 @@ categories = ["Blessures sportives", "Douleur aux pieds", "Orthèses plantaires"
 author= "gabrielle"
 blog_img = "img/posts/orthese-sportive-2.jpg"
 type="post"
+date = "2017-03-10"
 
 +++
 

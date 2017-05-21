@@ -12,6 +12,7 @@ isfront = true
 cryovizion_pro = true
 cryovizion_patients = true
 short_desc = "Les professionnels de la santé utilisent les systèmes d’imagerie pour diverses raisons médicales. Selon l’approche préconisée, certains podiatres ont recours à l’imagerie, afin de mieux évaluer et de mesurer les problèmes posturaux et biomécaniques."
+date = "2017-04-29"
 
 +++
 

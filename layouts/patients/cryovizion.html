@@ -98,10 +98,10 @@
                 <div class="owl-carousel owl-theme" id="news-carousel">
                     <!-- check if cryovizion_patients is true in the .md -->
                     {{ range where .Site.Pages ".Params.cryovizion_patients" true }}
-                    <div class="card small">
-                        <div class="card-img"><img src="{{.Site.BaseURL}}{{ .Params.blog_img}}" alt="{{ .Params.titre }}"></div>
+                    <div class="card small item">
+                        <div class="card-img"><a href="{{ .Permalink }}"><img src="{{.Site.BaseURL}}{{ .Params.blog_img}}" alt="{{ .Params.titre }}"></a></div>
                         <a href="{{ .Permalink }}"><div class="card-title">{{ .Params.titre }}</div></a>
-                        <div class="card-txt">{{ .Summary }}</div>
+                        <div class="card-txt"><a href="{{ .Permalink }}">{{ .Summary }}</a></div>
                         <div class="card-link"><a href="{{ .Permalink }}">voir l'article complet ></a></div>
                     </div>
                     {{ end }}

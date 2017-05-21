@@ -91,10 +91,10 @@
                 <div class="owl-carousel owl-theme" id="news-carousel">
                     <!-- check if cryovizion_pro is true in the .md -->
                     {{ range where .Site.Pages ".Params.cryovizion_pro" true }}
-                    <div class="card small">
-                        <div class="card-img"><img src="{{.Site.BaseURL}}{{ .Params.blog_img}}" alt="{{ .Params.titre }}"></div>
+                    <div class="card small item">
+                        <div class="card-img"><a href="{{ .Permalink }}"><img src="{{.Site.BaseURL}}{{ .Params.blog_img}}" alt="{{ .Params.titre }}"></a></div>
                         <a href="{{ .Permalink }}"><div class="card-title">{{ .Params.titre }}</div></a>
-                        <div class="card-txt">{{ .Summary }}</div>
+                        <div class="card-txt"><a href="{{ .Permalink }}">{{ .Summary }}</a></div>
                         <div class="card-link"><a href="{{ .Permalink }}">voir l'article complet ></a></div>
                     </div>
                     {{ end }}
@@ -108,7 +108,7 @@
     <div class="container">
         <div class="row">
             <div class="col s12">
-                <h1 class="white-bar">Témoignages</h1>
+                <h1 class="white-bar">Témoignage</h1>
                 <p>Le système CryoVizion me permet de prouver objectivement et d'illustrer mes mesures à mes patients afin qu'ils comprennent mieux l'importance des orthèses, ce qui finalement augmente la complaisance.Le système CryoVizion me permet de prouver objectivement et d'illustrer mes mesures à mes patients afin qu'ils comprennent mieux l'importance des orthèses, ce qui finalement augmente la complaisance.</p>
                 <p class="nom">-Mélanie Laplante, DPM, podiatre</p>
                 <div class="timg"><img src="{{.Site.BaseURL}}img/equipe/membre_equipe16.png" alt="Podiatre"></div>

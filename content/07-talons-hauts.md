@@ -8,7 +8,7 @@ categories = ["Douleur aux pieds", "Orthèses plantaires"]
 author= "gravel"
 blog_img = "img/posts/douleur-aux-talons.jpg"
 type="post"
-date = "2017-04-06"
+date = "2017-01-30"
 
 +++
 
