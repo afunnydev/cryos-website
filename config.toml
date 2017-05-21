@@ -1,4 +1,4 @@
-baseURL = "http://localhost:8000/"
+baseURL = "https://treasurer-loran-26466.netlify.com/"
 languageCode = "en-us"
 title = "Cryos"
 metaDataFormat = "toml"

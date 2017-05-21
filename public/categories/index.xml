@@ -2,146 +2,146 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Cryos</title>
-    <link>http://localhost:8000/categories/</link>
+    <link>https://treasurer-loran-26466.netlify.com/categories/</link>
     <description>Recent content in Categories on Cryos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://localhost:8000/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://treasurer-loran-26466.netlify.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Biomécanique</title>
-      <link>http://localhost:8000/categories/biomecanique/</link>
+      <link>https://treasurer-loran-26466.netlify.com/categories/biomecanique/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:8000/categories/biomecanique/</guid>
+      <guid>https://treasurer-loran-26466.netlify.com/categories/biomecanique/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Blessures sportives</title>
-      <link>http://localhost:8000/categories/blessures-sportives/</link>
+      <link>https://treasurer-loran-26466.netlify.com/categories/blessures-sportives/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:8000/categories/blessures-sportives/</guid>
+      <guid>https://treasurer-loran-26466.netlify.com/categories/blessures-sportives/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Chirurgie des pieds</title>
-      <link>http://localhost:8000/categories/chirurgie-des-pieds/</link>
+      <link>https://treasurer-loran-26466.netlify.com/categories/chirurgie-des-pieds/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:8000/categories/chirurgie-des-pieds/</guid>
+      <guid>https://treasurer-loran-26466.netlify.com/categories/chirurgie-des-pieds/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Douleur aux pieds</title>
-      <link>http://localhost:8000/categories/douleur-aux-pieds/</link>
+      <link>https://treasurer-loran-26466.netlify.com/categories/douleur-aux-pieds/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:8000/categories/douleur-aux-pieds/</guid>
+      <guid>https://treasurer-loran-26466.netlify.com/categories/douleur-aux-pieds/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Epine de Lenoir</title>
-      <link>http://localhost:8000/categories/epine-de-lenoir/</link>
+      <link>https://treasurer-loran-26466.netlify.com/categories/epine-de-lenoir/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:8000/categories/epine-de-lenoir/</guid>
+      <guid>https://treasurer-loran-26466.netlify.com/categories/epine-de-lenoir/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Fasciite plantaire</title>
-      <link>http://localhost:8000/categories/fasciite-plantaire/</link>
+      <link>https://treasurer-loran-26466.netlify.com/categories/fasciite-plantaire/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:8000/categories/fasciite-plantaire/</guid>
+      <guid>https://treasurer-loran-26466.netlify.com/categories/fasciite-plantaire/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Oignons</title>
-      <link>http://localhost:8000/categories/oignons/</link>
+      <link>https://treasurer-loran-26466.netlify.com/categories/oignons/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:8000/categories/oignons/</guid>
+      <guid>https://treasurer-loran-26466.netlify.com/categories/oignons/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ongles incarnés</title>
-      <link>http://localhost:8000/categories/ongles-incarnes/</link>
+      <link>https://treasurer-loran-26466.netlify.com/categories/ongles-incarnes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:8000/categories/ongles-incarnes/</guid>
+      <guid>https://treasurer-loran-26466.netlify.com/categories/ongles-incarnes/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Orthèses plantaires</title>
-      <link>http://localhost:8000/categories/ortheses-plantaires/</link>
+      <link>https://treasurer-loran-26466.netlify.com/categories/ortheses-plantaires/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:8000/categories/ortheses-plantaires/</guid>
+      <guid>https://treasurer-loran-26466.netlify.com/categories/ortheses-plantaires/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Pieds plats</title>
-      <link>http://localhost:8000/categories/pieds-plats/</link>
+      <link>https://treasurer-loran-26466.netlify.com/categories/pieds-plats/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:8000/categories/pieds-plats/</guid>
+      <guid>https://treasurer-loran-26466.netlify.com/categories/pieds-plats/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Posture</title>
-      <link>http://localhost:8000/categories/posture/</link>
+      <link>https://treasurer-loran-26466.netlify.com/categories/posture/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:8000/categories/posture/</guid>
+      <guid>https://treasurer-loran-26466.netlify.com/categories/posture/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Santé du pied chez l&#39;enfant</title>
-      <link>http://localhost:8000/categories/sante-du-pied-chez-lenfant/</link>
+      <link>https://treasurer-loran-26466.netlify.com/categories/sante-du-pied-chez-lenfant/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:8000/categories/sante-du-pied-chez-lenfant/</guid>
+      <guid>https://treasurer-loran-26466.netlify.com/categories/sante-du-pied-chez-lenfant/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Sport d&#39;hiver</title>
-      <link>http://localhost:8000/categories/sport-dhiver/</link>
+      <link>https://treasurer-loran-26466.netlify.com/categories/sport-dhiver/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:8000/categories/sport-dhiver/</guid>
+      <guid>https://treasurer-loran-26466.netlify.com/categories/sport-dhiver/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Sport d&#39;été</title>
-      <link>http://localhost:8000/categories/sport-dete/</link>
+      <link>https://treasurer-loran-26466.netlify.com/categories/sport-dete/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:8000/categories/sport-dete/</guid>
+      <guid>https://treasurer-loran-26466.netlify.com/categories/sport-dete/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Verrues plantaires</title>
-      <link>http://localhost:8000/categories/verrues-plantaires/</link>
+      <link>https://treasurer-loran-26466.netlify.com/categories/verrues-plantaires/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:8000/categories/verrues-plantaires/</guid>
+      <guid>https://treasurer-loran-26466.netlify.com/categories/verrues-plantaires/</guid>
       <description></description>
     </item>
     

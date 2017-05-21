@@ -5,6 +5,7 @@ var exec = require('child_process').exec;
 
 var browser = require('browser-sync').create();
 var gulp = require('gulp');
+var cleanCSS = require('gulp-clean-css');
 
 gulp.task('clean', function(done) {
     //Delete our old css files
@@ -19,6 +20,7 @@ gulp.task('styles', function() {
         .pipe($.sass())
         .on('error', $.sass.logError)
         .pipe($.sourcemaps.write())
+        .pipe(cleanCSS({compatibility: 'ie9'}))
         .pipe(gulp.dest('static/css'))
         .pipe(browser.stream());
 });
