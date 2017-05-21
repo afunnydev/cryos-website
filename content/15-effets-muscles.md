@@ -9,6 +9,9 @@ author= "giroux"
 blog_img = "img/posts/orthese-plantaire-muscle.jpg"
 type="post"
 isfront = true
+cryovizion_pro = true
+cryovizion_patients = true
+orthese_pro = true
 short_desc = "Le port d’orthèses plantaires permet de remédier à certaines douleurs ou problèmes biomécaniques et posturaux. Selon la prescription établie par le podiatre, le port d’orthèse aura des effets à court et à long terme sur les muscles."
 
 +++

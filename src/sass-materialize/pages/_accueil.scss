@@ -15,15 +15,22 @@
 /* Produits */
 
 #produits {
-	padding-top: 30px;
 	padding-bottom: $navbar-height;
 	text-align: center;
-	p:nth-child(1) {
-		margin-bottom: 50px;
-		margin-left: -10px;
-    	padding: 20px;
-    	font-size: 1.3rem;
-    	font-family: 'Antenna-Light', sans-serif;
+	div.top-text {
+		position: relative;
+		p.mention {
+			position: absolute;
+			top: 10px;
+			left: 10px;
+			font-size: 0.5rem;
+		}
+		p:nth-child(2) {
+			margin: 0 0 50px -15px;
+	    	padding: 50px 20px 20px;
+	    	font-size: 1.3rem;
+	    	font-family: 'Antenna-Light', sans-serif;
+		}
 	}
 	.row .col {
 		border-left: 1px solid white;
@@ -301,6 +308,12 @@
 				position: absolute;
 				bottom: 10px;
 				left: 40px;
+			}
+		}
+		.mobile-text {
+			h6,
+			p {
+				color: black;
 			}
 		}
 	}

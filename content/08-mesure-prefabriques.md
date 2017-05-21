@@ -6,6 +6,7 @@ titre = "Orthèse sur mesure ou préfrabriquée? Optez pour le bon modèle!"
 description = "Besoin d’orthèses podiatriques? Découvrez les différences entre les modèles achetés en magasin et les orthèses sur mesure."
 categories = ["Orthèses plantaires"]
 author= "morel"
+orthese_patients = true
 blog_img = "img/posts/orthese-sur-mesure.jpg"
 type="post"
 

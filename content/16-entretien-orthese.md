@@ -6,6 +6,7 @@ titre = "Les étapes de suivis et d’entretien de vos orthèses plantaires"
 description = "Découvrez les méthodes d'entretien d’orthèse plantaire, les suivis, les modifications et la fréquence des changements pour un traitement optimal."
 categories = ["Orthèses plantaires"]
 author= "audree"
+orthese_patients = true
 blog_img = "img/posts/changer-orthese-plantaire.jpg"
 type="post"
 

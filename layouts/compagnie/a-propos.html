@@ -184,7 +184,7 @@
             <div class="col s12">
                 <h1 class="blue-bar">L'équipe</h1>
                 <div class="owl-carousel">
-                    {{ range sort $.Site.Data.equipe }}
+                    {{ range sort $.Site.Data.equipe "weight" "asce" }}
                         <div class="member center-align">
                             <img src="{{$.Site.BaseURL}}img/equipe/{{ .photo }}" alt="{{ .fonction }}">
                             <h1>{{ .nom }}</h1>
@@ -223,7 +223,7 @@
     <div class="container">
         <div class="row">
             <div class="col s12 center-align">
-                <a href="#!">Trouver une clinique</a>
+                <a href="{{ .Site.BaseURL }}trouver-une-clinique">Trouver une clinique</a>
             </div>
         </div>
     </div>

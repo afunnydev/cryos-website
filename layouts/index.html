@@ -10,7 +10,10 @@
 	<!-- End-Hero -->
 	<!-- Produits -->
 		<div id="produits" class="container">
-			<p>Porté par l’innovation depuis 1994, c'est à travers une approche humaine, stimulante et définitivement orientée vers le bien-être postural que nous aidons les professionnels de la santé et leurs patients à aller de l'avant. Découvrez notre histoire et nos technologies. </p>
+			<div class="top-text">
+				<p class="mention">*Vidéo en anglais seulement</p>
+				<p>Porté par l’innovation depuis 1994, c'est à travers une approche humaine, stimulante et définitivement orientée vers le bien-être postural que nous aidons les professionnels de la santé et leurs patients à aller de l'avant. Découvrez notre histoire et nos technologies. </p>
+			</div>
 			<div class="row center-align">
 				<!-- <a href="{{.Site.BaseURL}}produits/orthese-cryos" class="col m3 s12"> -->
 				<div class="col l3 m12 ortheses">
@@ -62,18 +65,24 @@
 			<div class="owl-carousel owl-theme" id="nouvelles-carousel">
 				<!-- check if isfront is true in the .md -->
 			  {{ range where .Site.Pages ".Params.isfront" true }}
-			  	<a href="{{ .Permalink }}"><div class="nouvelles-img">
-				  	<img src="{{.Site.BaseURL}}{{ .Params.blog_img}}" alt="{{ .Title }}">
-				  	<div class="blue-hover">
-				  		<!-- <i class="fa fa-facebook"></i>
-				  		<i class="fa fa-thumbs-o-up"></i>
-				  		<i class="fa fa-comments"></i> -->
+			  	<a href="{{ .Permalink }}">
+			  		<div class="nouvelles-img">
+					  	<img src="{{.Site.BaseURL}}{{ .Params.blog_img}}" alt="{{ .Title }}">
+					  	<div class="blue-hover hide-on-small-only">
+					  		<!-- <i class="fa fa-facebook"></i>
+					  		<i class="fa fa-thumbs-o-up"></i>
+					  		<i class="fa fa-comments"></i> -->
+					  	</div>
+					  	<h6 class="hide-on-small-only">{{ .Params.titre }}</h6>
+					  	<p class="summary hide-on-small-only">{{ .Summary }}</p>
+					  	<!-- The short one is showing only between 600px and 820px because summary too big -->
+					  	<p class="short">{{ .Params.short_desc }}</p>
 				  	</div>
-				  	<h6>{{ .Params.titre }}</h6>
-				  	<p class="summary">{{ .Summary }}</p>
-				  	<!-- The short one is showing only between 600px and 820px because summary too big -->
-				  	<p class="short">{{ .Params.short_desc }}</p>
-				  </div></a>
+				  	<div class="hide-on-med-and-up mobile-text">
+				  		<h6>{{ .Params.titre }}</h6>
+					  	<p class="summary">{{ .Summary }}</p>
+				  	</div>
+					</a>
 			  {{ end }}
 			</div>
 		</div>

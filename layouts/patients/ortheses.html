@@ -92,42 +92,15 @@
             <div class="col s12">
                 <h1 class="orange-bar">Articles</h1>
                 <div class="owl-carousel owl-theme" id="news-carousel">
+                    <!-- check if orthese_patients is true in the .md -->
+                    {{ range where .Site.Pages ".Params.orthese_patients" true }}
                     <div class="card small">
-                        <div class="card-img"><img src="{{.Site.BaseURL}}img/cryovizion_pro/Cryovizion_1.jpg" alt=""></div>
-                        <div class="card-title">Révolutionner votre approche</div>
-                        <div class="card-txt">Vestibulum id ligula porta felis euismod semper. Morbi leo risus, porta ac consectetur ac, vestibulum
-                            at eros. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Sed posuere consectetur
-                            est at lobortis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
-                            mus.</div>
-                        <div class="card-link"><a>voir l'article complet ></a></div>
+                        <div class="card-img"><img src="{{.Site.BaseURL}}{{ .Params.blog_img}}" alt="{{ .Params.titre }}"></div>
+                        <a href="{{ .Permalink }}"><div class="card-title">{{ .Params.titre }}</div></a>
+                        <div class="card-txt">{{ .Summary }}</div>
+                        <div class="card-link"><a href="{{ .Permalink }}">voir l'article complet ></a></div>
                     </div>
-                    <div class="card small">
-                        <div class="card-img"><img src="{{.Site.BaseURL}}img/cryovizion_pro/Cryovizion_1.jpg" alt=""></div>
-                        <div class="card-title">Révolutionner votre approche</div>
-                        <div class="card-txt">Vestibulum id ligula porta felis euismod semper. Morbi leo risus, porta ac consectetur ac, vestibulum
-                            at eros. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Sed posuere consectetur
-                            est at lobortis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
-                            mus.</div>
-                        <div class="card-link"><a>voir l'article complet ></a></div>
-                    </div>
-                    <div class="card small">
-                        <div class="card-img"><img src="{{.Site.BaseURL}}img/cryovizion_pro/Cryovizion_1.jpg" alt=""></div>
-                        <div class="card-title">Révolutionner votre approche</div>
-                        <div class="card-txt">Vestibulum id ligula porta felis euismod semper. Morbi leo risus, porta ac consectetur ac, vestibulum
-                            at eros. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Sed posuere consectetur
-                            est at lobortis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
-                            mus.</div>
-                        <div class="card-link"><a>voir l'article complet ></a></div>
-                    </div>
-                    <div class="card small">
-                        <div class="card-img"><img src="{{.Site.BaseURL}}img/cryovizion_pro/Cryovizion_1.jpg" alt=""></div>
-                        <div class="card-title">Révolutionner votre approche</div>
-                        <div class="card-txt">Vestibulum id ligula porta felis euismod semper. Morbi leo risus, porta ac consectetur ac, vestibulum
-                            at eros. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Sed posuere consectetur
-                            est at lobortis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
-                            mus.</div>
-                        <div class="card-link"><a>voir l'article complet ></a></div>
-                    </div>
+                    {{ end }}
                 </div>
             </div>
         </div>

@@ -6,6 +6,7 @@ titre = "Conseils de podiatres | Course minimaliste et Pieds nus"
 description = "Des podiatres Cryos posent un regard sur la pratique de la course minimaliste et pieds nus. Découvrez leurs recommandations."
 categories = ["Blessures sportives", "Douleur aux pieds", "Sport d'été"]
 author= "philippe_legare"
+orthese_pro = true
 blog_img = "img/posts/course-minimaliste.jpg"
 type="post"
 

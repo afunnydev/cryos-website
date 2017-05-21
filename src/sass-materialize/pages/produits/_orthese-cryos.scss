@@ -139,7 +139,7 @@
         background-size: 100% 100%;
         background-position: top;
     }
-    .item-4.oc-img {
+    .item-4 .oc-img {
         background-image: url('../img/orthese_pro/orthese4.jpg');
         background-repeat: no-repeat;
         background-size: 100% 100%;
@@ -192,10 +192,10 @@
 
 #clients_satisfaits {
     background-image: url('../img/orthese_pro/fondMauve_clientsSatisfaits.jpg');
-    background-repeat: no-repeat; // background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-position: center top;
-    min-height: 500px;
-    margin-bottom: -40px;
+    padding-bottom: 40px;
     p {
         text-align: center;
         color: white;
@@ -214,7 +214,7 @@
     }
     .timg {
         text-align: center;
-        margin: 40px 0 80px;
+        margin: 40px 0 0;
     }
 }
 
@@ -264,6 +264,7 @@
             font-family: "Antenna-Bold";
             margin-top: 15px;
             margin-left: 2%;
+            color: black;
         }
         .card-title:after {
             height: 2px;
@@ -316,6 +317,9 @@
                 margin-top: 20px !important;
             }
         }
+        h1 {
+            padding-top: 30px;
+        }
     }
     #oc-carousel {
         .video-container {
@@ -334,8 +338,17 @@
             }
         }
     }
-    #clients_satisfaits p {
-        padding: 0;
+    #clients_satisfaits {
+        p {
+            padding: 0;
+            margin-top: 20px;
+        }
+        h1 {
+            padding-top: 30px;
+        }
+    }
+    #contact a {
+        padding: 0 5px 0 20px;
     }
 }
 
@@ -356,6 +369,11 @@
         }
         .valign-wrapper {
             display: block;
+        }
+    }
+    #oc-carousel .owl-content {
+        p {
+            padding-right: 0;
         }
     }
 }

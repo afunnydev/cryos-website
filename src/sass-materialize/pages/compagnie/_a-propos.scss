@@ -228,3 +228,9 @@
         background-color: white;
     }
 }
+
+@media #{$medium-and-down} {
+    #histoire .container .owl-content .year {
+        width: inherit;
+    }
+}

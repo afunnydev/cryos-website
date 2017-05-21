@@ -6,6 +6,7 @@ titre = "Le pied plat chez l'enfant - Ce qu'il faut connaître"
 description = "Apprenez sur les causes, symptômes et traitements des pieds plats. Chez l'enfant, il est important de demander l'avis d'un professionnel rapidement."
 categories = ["Pieds plats", "Santé du pied chez l'enfant"]
 author= "frederic"
+orthese_patients = true
 blog_img = "img/posts/enfant-pied-plat1.jpg"
 type="post"
 

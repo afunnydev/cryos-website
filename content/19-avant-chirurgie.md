@@ -6,6 +6,7 @@ titre = "Orthèses plantaires et Chirurgie"
 description = "Découvrez les bienfaits des orthèses plantaires avant et après une chirurgie aux avant-pieds en cas d’ hallux valgus ou d’autres pathologies."
 categories = ["Chirurgie des pieds", "Orthèses plantaires"]
 author= "lyndacormier"
+orthese_pro = true
 blog_img = "img/posts/ortheses-plantaire-chirurgie-hallux-valgus.jpg"
 type="post"
 

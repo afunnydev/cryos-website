@@ -17,6 +17,20 @@
         width:100%;
         height:100%;
     }
+    .owl-theme .owl-dots {
+        .owl-dot.active {
+            span {
+                background: $lgreen;
+                border: 1px solid $lgreen;
+            }
+        }
+        .owl-dot:hover {
+            span {
+                background: $lgreen;
+                border: 1px solid $lgreen;
+            }
+        }
+    }
     .oc-title {
         .token {
             background-color: $lgreen;
@@ -52,8 +66,7 @@
     }
 }
 
-#vert {
-    
+#vert {    
     padding-bottom: 40px;
     background-image: url('../img/cryovizion_Pro/Pattern_vert.jpg');
     background-repeat: no-repeat;
@@ -121,13 +134,7 @@
     }
 }
 
-#news.vert .card {
-    .card-title:after {
-        background: $lgreen;
-    }
-    .card-link a {
-        color: $lgreen;
-    }
+#news.vert {
     .owl-theme .owl-dots {
         .owl-dot.active {
             span {
@@ -140,6 +147,14 @@
                 background: $lgreen;
                 border: 1px solid $lgreen;
             }
+        }
+    }
+    .card {
+        .card-title:after {
+            background: $lgreen;
+        }
+        .card-link a {
+            color: $lgreen;
         }
     }
 }
