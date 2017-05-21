@@ -76,11 +76,13 @@ jQuery(document).ready(function ($) {
     dots: true,
     navText: ['<img src="../../img/fleche-gauche.png" alt="" />', '<img src="../../img/fleche-droite.png" alt="" />']
   });
-  $('.year').each(function () {
-    var h = $(this).parent().find(".list").height();
-    $(this).css('height', h);
-    $(this).find('span').css('margin-top', h / 2 - $(this).find('span').height());
-  });
+  if (Modernizr.mq('only all and (max-width: 600px)')) {} else {
+    $('.year').each(function () {
+      var h = $(this).parent().find(".list").height();
+      $(this).css('height', h);
+      $(this).find('span').css('margin-top', h / 2 - $(this).find('span').height());
+    });
+  }
   $("#equipe .owl-carousel").owlCarousel({
     nav: true,
     responsive: {
@@ -130,16 +132,16 @@ jQuery(document).ready(function ($) {
     dots: true,
     navText: ['<img src="../../img/fleche-gauche.png" alt="" />', '<img src="../../img/fleche-droite.png" alt="" />']
   });
-  $('.oc-img').each(function () {
-    var w = $(this).width();
-    $(this).css('min-height', w * 0.60);
-  });
-  $(window).resize(function () {
-    $('.oc-img').each(function () {
-      var w = $(this).width();
-      $(this).css('min-height', w * 0.60);
-    });
-  });
+  // $('.oc-img').each(function () {
+  //   var w = $(this).width();
+  //   $(this).css('min-height', w * 0.60);
+  // });
+  // $(window).resize(function () {
+  //   $('.oc-img').each(function () {
+  //     var w = $(this).width();
+  //     $(this).css('min-height', w * 0.60);
+  //   });
+  // });
   // Select all links with hashes for smooth scroll
   $('a[href*="#"]')
   // Remove links that don't actually link to anything
@@ -174,6 +176,30 @@ jQuery(document).ready(function ($) {
           };
         });
       }
+    }
+  });
+  $('#contact-page input, #contact-page textarea ').on('change invalid', function() {
+    var textfield = $(this).get(0);
+    
+    // 'setCustomValidity not only sets the message, but also marks
+    // the field as invalid. In order to see whether the field really is
+    // invalid, we have to remove the message first
+    textfield.setCustomValidity('');
+    
+    if (!textfield.validity.valid) {
+      textfield.setCustomValidity("S'il-vous-plaît remplir ce champ correctement.");  
+    }
+  });
+  $('#emploi input, #emploi textarea ').on('change invalid', function() {
+    var textfield = $(this).get(0);
+    
+    // 'setCustomValidity not only sets the message, but also marks
+    // the field as invalid. In order to see whether the field really is
+    // invalid, we have to remove the message first
+    textfield.setCustomValidity('');
+    
+    if (!textfield.validity.valid) {
+      textfield.setCustomValidity("S'il-vous-plaît remplir ce champ correctement.");  
     }
   });
   if (document.getElementById('bh-sl-map-container')) {

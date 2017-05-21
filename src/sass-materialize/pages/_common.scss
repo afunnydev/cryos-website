@@ -578,7 +578,9 @@ h1.white-bar:after {
         color: white;
         padding: inherit;
     }
-} // required for owl dots
+} 
+
+/* ======= 5.Owl-dots ======= */
 #owl-demo .item {
     margin: 3px;
 }
@@ -613,4 +615,17 @@ h1.white-bar:after {
             border: 1px solid $rpurple;
         }
     }
+}
+
+/* ======= 6.Page merci ======= */
+
+#merci {
+    min-height: 90vh;
+    background-image: url(../img/a_propos/BG_gris_texture.jpg);
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: center top;
+    .row {
+        margin-bottom: 0;
+    } 
 }

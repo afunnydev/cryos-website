@@ -230,7 +230,41 @@
 }
 
 @media #{$medium-and-down} {
-    #histoire .container .owl-content .year {
-        width: inherit;
+    #histoire .container {
+        .owl-theme .owl-dots {
+            .owl-dot.active {
+                span {
+                    background: $dblue;
+                    border: 1px solid $dblue;
+                }
+            }
+            .owl-dot:hover {
+                span {
+                    background: $dblue;
+                    border: 1px solid $dblue;
+                }
+            }
+        }
+        .owl-content {
+            .year {
+                width: inherit;
+                span {
+                    margin-bottom: 20px; 
+                }
+            }
+        }
+    } 
+    #approche .container ul {
+        margin-bottom: 30px;
+    }
+
+    #mission .container h1 {
+        margin-top: 30px;
+    }
+}
+
+@media #{$small-and-down} {
+    #histoire .container .owl-content ul {
+        width: 100%
     }
 }

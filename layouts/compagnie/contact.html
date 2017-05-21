@@ -36,19 +36,19 @@
             <h1 class="blue-bar">Vous avez des questions?</h1>
             <h2>Consultez notre section FAQ <a href="{{.Site.BaseURL}}patients/faq">ici</a></h2>
             <p>Pour de plus amples renseignements, remplissez le formulaire ci-dessous et nous communiquerons avec vous sous peu.</p>
-            <form action="" name="contact-page" style="padding: 0.75rem;" netlify netlify-honeypot="bot-field">
+            <form action="{{ .Site.BaseURL }}merci" name="contact-page" id="contact-page" style="padding: 0.75rem;" netlify netlify-honeypot="bot-field">
                 <div class="col s12 m4 l4">
-                    <input type="text" placeholder="NOM ET PRÉNOM" name="nom_et_prenom">
+                    <input type="text" placeholder="NOM ET PRÉNOM" name="nom_et_prenom" required>
                 </div>
                 <div class="col s12 m4 l4">
-                    <input type="email" placeholder="ADRESSE COURRIEL" name="email">
+                    <input type="email" placeholder="ADRESSE COURRIEL" name="email" required>
                 </div>
                 <div class="col s12 m4 l4">
-                    <input type="text" placeholder="TÉLÉPHONE" name="phone">
+                    <input type="text" placeholder="TÉLÉPHONE" name="phone" required>
                     <p class="hidden"><label>Bot field: <input name="bot-field"></label></p>
                 </div>
                 <div class="col s12">
-                    <textarea placeholder="QUELS RENSEIGNEMENTS DÉSIREZ-VOUS?" name="renseignements"></textarea>
+                    <textarea placeholder="QUELS RENSEIGNEMENTS DÉSIREZ-VOUS?" name="renseignements" required></textarea>
                 </div>
                 <div class="col s6 m3 l3 pad_to_right">
                     <input type="submit" value="ENVOYER" class="poste_envoyer">

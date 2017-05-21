@@ -424,12 +424,25 @@ h2.titre-trouver {
   }
 }
 
-@media only screen and (max-width : 600px) {
+@media only screen and (max-width : 700px) {
   #searchbar {
     .row {
       .col {
         label {
           display: block;
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width : 500px) {
+  #searchbar {
+    .row {
+      .col {
+        input {
+          width: 80%;
           margin-bottom: 20px;
         }
       }

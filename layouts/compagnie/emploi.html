@@ -25,31 +25,31 @@
         <div class="row">
             <div class="col s12 m8 l6">
                 <h1>Postuler en ligne</h1>
-                <form action="" name="emploi" netlify netlify-honeypot="bot-field">
+                <form action="{{ .Site.BaseURL}}merci" name="emploi" id="emploi" netlify netlify-honeypot="bot-field">
                     <div class="col s12 m6 l6 pad_to_right">
                         <label for="nom">NOM</label>
-                        <input type="text" name="nom">
+                        <input type="text" name="nom" required>
                     </div>
                     <div class="col s12 m6 l6 pad_to_right">
                         <label for="prenom">PRÉNOM</label>
-                        <input type="text" name="prenom">
+                        <input type="text" name="prenom" required>
                         <p class="hidden"><label>Bot field: <input name="bot-field"></label></p>
                     </div>
                     <div class="col s12 m6 l6 pad_to_right">
                         <label for="email">COURRIEL</label>
-                        <input type="email" name="email">
+                        <input type="email" name="email" required>
                     </div>
                     <div class="col s12 m6 l6 pad_to_right">
                         <label for="poste_souhaite">POSTE SOUHAITÉ</label>
-                        <input type="text" name="poste_souhaite">
+                        <input type="text" name="poste_souhaite" required>
                     </div>
                     <div class="col s12 pad_to_right">
                         <label for="file">JOINDRE VOTRE CV (WORD OU PDF)</label>
-                        <input type="file" name="file" placeholder="SÉLECTIONNER LE FICHIER" class="attach_file">
+                        <input type="file" name="file" placeholder="SÉLECTIONNER LE FICHIER" required class="attach_file">
                     </div>
                     <div class="col s12 pad_to_right">
                         <label for="message">MESSAGE</label>
-                        <textarea name="message"></textarea>
+                        <textarea name="message" required></textarea>
                     </div>
                     <div class="col s6 m3 l3 pad_to_right">
                         <input type="submit" value="ENVOYER" class="poste_envoyer">

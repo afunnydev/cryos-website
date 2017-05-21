@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Oignons on Cryos</title>
-    <link>https://treasurer-loran-26466.netlify.com/categories/oignons/</link>
+    <link>http://localhost:8000/categories/oignons/</link>
     <description>Recent content in Oignons on Cryos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://treasurer-loran-26466.netlify.com/categories/oignons/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost:8000/categories/oignons/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Traitements pour remédier aux hallux valgus (oignons au pied) - Cryos Technologies</title>
-      <link>https://treasurer-loran-26466.netlify.com/les-traitements-possibles-pour-remedier-a-lhallux-valgus-oignon-aux-pieds/</link>
+      <link>http://localhost:8000/les-traitements-possibles-pour-remedier-a-lhallux-valgus-oignon-aux-pieds/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://treasurer-loran-26466.netlify.com/les-traitements-possibles-pour-remedier-a-lhallux-valgus-oignon-aux-pieds/</guid>
+      <guid>http://localhost:8000/les-traitements-possibles-pour-remedier-a-lhallux-valgus-oignon-aux-pieds/</guid>
       <description>L’oignon au pied, connu sous le terme médical hallux valgus, provient d’une déviation osseuse du premier métatarse étant reliée à une faiblesse biomécanique. L’oignon entraîne une déviation du gros orteil vers les autres occasionnant ainsi un élancement intra-articulaire et une douleur à long terme. Les personnes souffrant d’un hallux valgus peuvent avoir recours à différents traitements podiatriques afin d’améliorer leur condition.
-&amp;nbsp; Quels sont les inconvénients d’un oignon au pied? Cette malformation osseuse crée une bosse externe sur le pied et mène à des douleurs ponctuelles ou permanentes selon le cas du patient.</description>
+Quels sont les inconvénients d’un oignon au pied? Cette malformation osseuse crée une bosse externe sur le pied et mène à des douleurs ponctuelles ou permanentes selon le cas du patient.</description>
     </item>
     
   </channel>
