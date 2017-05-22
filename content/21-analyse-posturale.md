@@ -43,7 +43,7 @@ Développé par Cryos Technologies, le système d’imagerie CryoVizion est un o
 <h3 style="color: #800080;">Le système d’imagerie CryoVizion, est-il efficace?</h3>
 Le système d’imagerie CryoVizion cumule des données cliniques depuis près de 20 ans. D’ailleurs, l’efficacité du CryoVizion est validée scientifiquement par l’Université de Montréal, en raison de la qualité des informations fournies, lors de l’analyse de la posture.
 
-<a href="http://www.cryos.com/wp-content/uploads/2015/12/color-coded-video-based-system.pdf" target="_blank">Voyez de plus amples informations en cliquant ici.</a>
+<a href="http://www.cryos.com/img/autres/color-coded-video-based-system.pdf" target="_blank">Voyez de plus amples informations en cliquant ici.</a>
 <h3 style="color: #800080;"></h3>
 <h3 style="color: #800080;">Comment fonctionne le CryoVizion?</h3>
 La première étape consiste à entrer dans une cabine d'observation, où des caméras captent le reflet de la lumière projetée sur l'ensemble du corps. Le système d’imagerie illustre alors les résultats à l’aide d’images détaillées. Le podiatre procède ensuite à l’analyse des images en compagnie du patient ce qui aidera ce dernier à mieux comprendre sa condition.
