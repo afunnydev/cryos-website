@@ -19,7 +19,7 @@ jQuery(document).ready(function ($) {
   $("#nouvelles-carousel").owlCarousel({
     nav: true,
     dots: false,
-    navText: ['<img src="../img/fleche-gauche.png" alt="" />', '<img src="../img/fleche-droite.png" alt="" />'],
+    navText: ['<img src="/img/fleche-gauche.png" alt="" />', '<img src="/img/fleche-droite.png" alt="" />'],
     responsive: {
       // breakpoint from 0 up
       0: {
@@ -41,7 +41,7 @@ jQuery(document).ready(function ($) {
     nav: true,
     margin: 90,
     dots: false,
-    navText: ['<img src="../img/fleche-gauche.png" alt="" />', '<img src="../img/fleche-droite.png" alt="" />'],
+    navText: ['<img src="/img/fleche-gauche.png" alt="" />', '<img src="/img/fleche-droite.png" alt="" />'],
     responsive: {
       // breakpoint from 0 up
       0: {
@@ -74,7 +74,7 @@ jQuery(document).ready(function ($) {
     items: 1,
     nav: true,
     dots: true,
-    navText: ['<img src="../../img/fleche-gauche.png" alt="" />', '<img src="../../img/fleche-droite.png" alt="" />']
+    navText: ['<img src="/img/fleche-gauche.png" alt="" />', '<img src="/img/fleche-droite.png" alt="" />']
   });
   if (Modernizr.mq('only all and (max-width: 600px)')) {} else {
     $('.year').each(function () {
@@ -102,7 +102,7 @@ jQuery(document).ready(function ($) {
         slideBy: 4
       }
     },
-    navText: ['<img src="../../img/fleche-gauche.png" alt="" />', '<img src="../../img/fleche-droite.png" alt="" />']
+    navText: ['<img src="/img/fleche-gauche.png" alt="" />', '<img src="/img/fleche-droite.png" alt="" />']
   });
   $("#news-carousel").owlCarousel({
     nav: true,
@@ -124,13 +124,13 @@ jQuery(document).ready(function ($) {
         dots: false
       }
     },
-    navText: ['<img src="../../img/fleche-gauche.png" alt="" />', '<img src="../../img/fleche-droite.png" alt="" />']
+    navText: ['<img src="/img/fleche-gauche.png" alt="" />', '<img src="/img/fleche-droite.png" alt="" />']
   });
   $("#oc-carousel .owl-carousel").owlCarousel({
     items: 1,
     nav: true,
     dots: true,
-    navText: ['<img src="../../img/fleche-gauche.png" alt="" />', '<img src="../../img/fleche-droite.png" alt="" />']
+    navText: ['<img src="/img/fleche-gauche.png" alt="" />', '<img src="/img/fleche-droite.png" alt="" />']
   });
   $('.oc-img').each(function () {
     var w = $(this).width();
