@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Companies on Cryos</title>
+    <link>http://treasurer-loran-26466.netlify.com/en/company/</link>
+    <description>Recent content in Companies on Cryos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://treasurer-loran-26466.netlify.com/en/company/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cryos Technologies | A modern vision on postural well-being.</title>
+      <link>http://treasurer-loran-26466.netlify.com/en/company/about-us/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://treasurer-loran-26466.netlify.com/en/company/about-us/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cryos Technologies | Come work in our laboratory</title>
+      <link>http://treasurer-loran-26466.netlify.com/en/company/job/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://treasurer-loran-26466.netlify.com/en/company/job/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cryos Technologies | Contact Us</title>
+      <link>http://treasurer-loran-26466.netlify.com/en/company/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://treasurer-loran-26466.netlify.com/en/company/contact/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

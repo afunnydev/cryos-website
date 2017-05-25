@@ -3,13 +3,13 @@
 
   {{ partial "header.html" . }}
 	<div class="row container" id="blogue">
-		<h2>Blogue</h2>
+		<h2>{{ if eq .Lang "fr" }}Blogue{{ else if eq .Lang "en" }}Blog{{ end }}</h2>
 		<div class="col m12 l9">
 			<div class="row">
 				<div class="hide-on-large-only">
 					<ul class="collapsible" data-collapsible="accordion">
 				    <li>
-				      <div class="collapsible-header"><h5>Categories <i class="fa fa-chevron-down"></i></h5></div>
+				      <div class="collapsible-header"><h5>{{ if eq .Lang "fr" }}Catégories {{ else if eq .Lang "en" }}Categories {{ end }}<i class="fa fa-chevron-down"></i></h5></div>
 				      <div class="collapsible-body categories mobile box">
 				      	{{ $tags := $.Site.Taxonomies.categories.ByCount }}
 								<ul>
@@ -27,9 +27,9 @@
 					<a href="{{ .Permalink }}"><img src="{{ .Site.BaseURL }}{{ .Params.blog_img }}" alt="{{ .Params.titre }}" class="responsive-img"></a>
 					<div class="resume">
 						<a href="{{ .Permalink }}" class="titre">{{ .Params.titre }}</a>
-						<p class="meta">par <span class="auteur">{{ $author.display_name }}</span>| {{ .Date.Format "02/01/2006"  }}</p>
+						<p class="meta">{{ if eq .Lang "fr" }}par {{ else if eq .Lang "en" }}by {{ end }}<span class="auteur">{{ $author.display_name }}</span>| {{ .Date.Format "02/01/2006"  }}</p>
 						<p class="summary">{{ .Summary }}</br>...</p>
-						<p class="categories">Mots-clés:{{ range .Params.categories }} <a href="{{ $.Site.BaseURL }}categories/{{ . | urlize }}">{{.}}</a>/ {{end}}</p>
+						<p class="categories">{{ if eq .Lang "fr" }}Mots-clés:{{ else if eq .Lang "en" }}Keywords:{{ end }}{{ range .Params.categories }} <a href="{{ $.Site.BaseURL }}categories/{{ . | urlize }}">{{.}}</a>/ {{end}}</p>
 					</div>
 					<div class="info">
 						<div class="comments valign-wrapper">
@@ -37,7 +37,7 @@
 							<p class="">0 Commentaire</p>
 						</div>
 						<div class="socials valign-wrapper">
-							<p class="valign">Partager l'article:</p> 
+							<p class="valign">{{ if eq .Lang "fr" }}Partager l'article:{{ else if eq .Lang "en" }}Share this article:{{ end }}</p> 
 							<a class="valign" href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}"><i class="fa fa-facebook"></i></a>
 							<a class="valign" href="https://twitter.com/home?status={{ .Permalink }}"><i class="fa fa-twitter"></i></a>
 							<a class="valign" href="https://www.linkedin.com/shareArticle?mini=true&url={{ .Permalink }}&title={{ .Params.titre }}&summary={{ .Summary }}&source=Cryos"><i class="fa fa-linkedin"></i></a>
@@ -48,9 +48,9 @@
 			</div>
 		</div>
 		<div class="col m12 l3 hide-on-med-and-down">
-			<h5>Abonnez-vous</h5>
+			<h5>{{ if eq .Lang "fr" }}Abonnez-vous{{ else if eq .Lang "en" }}Subscribe{{ end }}</h5>
 			<div class="box newsletter">
-				<p>Restez informé sur la santé de vos pieds en vous abonnant à l’infolettre Cryos</p>
+				<p>{{ if eq .Lang "fr" }}Restez informé sur la santé de vos pieds en vous abonnant à l’infolettre Cryos{{ else if eq .Lang "en" }}Stay up-to-date about your feet health by subscribing to this newsletter{{ end }}</p>
 				<div class="nl">
         	<form method="post" action="https://app.icontact.com/icp/signup.php" name="icpsignup" id="icpsignup1006" accept-charset="UTF-8" onsubmit="return verifyRequired1006();" >
 					  <input type="hidden" name="redirect" value="<?php echo get_template_directory_uri(); ?>/thanks-cryos.html">
@@ -87,7 +87,7 @@
 					</script>
         </div>
 			</div>
-			<h5>Catégories</h5>
+			<h5>{{ if eq .Lang "fr" }}Catégories {{ else if eq .Lang "en" }}Categories {{ end }}</h5>
 			<div class="categories box">
 				{{ $tags := $.Site.Taxonomies.categories.ByCount }}
 				<ul>

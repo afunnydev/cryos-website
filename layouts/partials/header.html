@@ -6,25 +6,41 @@
         <li><a href="https://twitter.com/CryosTechno" target="_blank"><i class="fa fa-twitter"></i></a></li>
       </ul>
       <ul class="right">
+      {{ if eq .Lang "fr" }}
         <li class="tab"><a href="{{.Site.BaseURL}}trouver-une-clinique">Trouver une clinique</a></li>
-        <li class="tab"><a href="{{.Site.BaseURL}}/compagnie/contact">Contact</a></li>
+        <li class="tab"><a href="{{.Site.BaseURL}}compagnie/contact">Contact</a></li>
+      {{ else if eq .Lang "en" }}
+        <li class="tab"><a href="{{.Site.BaseURL}}en/find-a-clinic">Find a clinic</a></li>
+        <li class="tab"><a href="{{.Site.BaseURL}}en/company/contact">Contact</a></li>
+      {{end}}
         <li class="tab disabled"></li>
-        <!-- <li class="tab"><a href="#">EN</a></li> -->
+        <!-- {{ range .Translations }}
+           <li class="tab"><a href="{{ .Permalink }}">{{.Lang}}</a></li>
+        {{ end }} -->
       </ul>
     </div>
   </nav>
   <nav class="nav-extended">
     <div class="nav-wrapper">
-      <a href="{{.Site.BaseURL}}" class="brand-logo"><img src="{{.Site.BaseURL}}img/Logo_CRYOS_SloganFR.png" class="responsive-img" alt="cryos-logo"></a>
+      <a href='{{ if eq .Lang "fr" }}{{.Site.BaseURL}}{{ else if eq .Lang "en" }}{{.Site.BaseURL}}en{{ end }}' class="brand-logo"><img src="{{.Site.BaseURL}}img/Logo_CRYOS_SloganFR.png" class="responsive-img" alt="cryos-logo"></a>
       <a href="#" data-activates="mobile-nav" class="button-collapse"><i class="fa fa-bars"></i></a>
       <ul id="nav-desktop" class="right hide-on-med-and-down">
-        <li><a href="{{.Site.BaseURL}}">Accueil</a></li>
+      {{ if eq .Lang "fr" }}
+        <li><a href='{{.Site.BaseURL}}'>Accueil</a></li>
         <li><a class='dropdown-button' href='#' data-activates='dropdown1'>Professionnels <i class="fa fa-caret-down"></i></a></li>
         <li><a class='dropdown-button' href='#' data-activates='dropdown2'>Patients <i class="fa fa-caret-down"></i></a></li>
         <li><a class='dropdown-button' href='#' data-activates='dropdown3'>Compagnie <i class="fa fa-caret-down"></i></a></li>
-        <li><a href="{{.Site.BaseURL}}blogue">Blogue</a></li>
+        <li><a href='{{ "blogue/" | absLangURL }}'>Blogue</a></li>
+      {{ else if eq .Lang "en" }}
+        <li><a href='{{.Site.BaseURL}}en'>Home</a></li>
+        <li><a class='dropdown-button' href='#' data-activates='dropdown1'>Professionals <i class="fa fa-caret-down"></i></a></li>
+        <li><a class='dropdown-button' href='#' data-activates='dropdown2'>Patients <i class="fa fa-caret-down"></i></a></li>
+        <li><a class='dropdown-button' href='#' data-activates='dropdown3'>Company <i class="fa fa-caret-down"></i></a></li>
+        <!-- <li><a href='{{ "blogue/" | absLangURL }}'>Blogue</a></li> -->
+      {{end}}
       </ul>
       <!-- Dropdown Structure -->
+      {{ if eq .Lang "fr" }}
       <ul id='dropdown1' class='dropdown-content'>
         <li><a href="{{.Site.BaseURL}}produits/orthese-cryos">Orthèses</a></li>
         <li><a href="{{.Site.BaseURL}}produits/cryovizion">Cryovizion</a></li>
@@ -33,19 +49,41 @@
       <ul id='dropdown2' class='dropdown-content'>
         <li><a href="{{.Site.BaseURL}}patients/ortheses">Orthèses</a></li>
         <li><a href="{{.Site.BaseURL}}patients/cryovizion">Cryovizion</a></li>
-        <li><a href="{{.Site.BaseURL}}patients/faq">Faq</a></li>
+        <li><a href="{{.Site.BaseURL}}patients/faq">FAQ</a></li>
       </ul>
       <ul id='dropdown3' class='dropdown-content'>
         <li><a href="{{.Site.BaseURL}}compagnie/a-propos">À propos</a></li>
         <li><a href="{{.Site.BaseURL}}compagnie/contact">Nous joindre</a></li>
         <li><a href="{{.Site.BaseURL}}compagnie/emploi">Emploi</a></li>
       </ul>
+      {{ else if eq .Lang "en" }}
+      <ul id='dropdown1' class='dropdown-content'>
+        <li><a href="{{.Site.BaseURL}}en/professionals/cryos-orthotics">Orthotics</a></li>
+        <li><a href="{{.Site.BaseURL}}en/professionals/cryovizion">Cryovizion</a></li>
+        <!-- <li><a href="{{.Site.BaseURL}}produits/cryoscan-3d">Cryoscan</a></li> -->
+      </ul>
+      <ul id='dropdown2' class='dropdown-content'>
+        <li><a href="{{.Site.BaseURL}}en/patients/cryos-orthotics">Orthotics</a></li>
+        <li><a href="{{.Site.BaseURL}}en/patients/cryovizion">Cryovizion</a></li>
+        <li><a href="{{.Site.BaseURL}}en/patients/faq">FAQ</a></li>
+      </ul>
+      <ul id='dropdown3' class='dropdown-content'>
+        <li><a href="{{.Site.BaseURL}}en/company/about-us">About us</a></li>
+        <li><a href="{{.Site.BaseURL}}en/company/contact">Contact us</a></li>
+        <li><a href="{{.Site.BaseURL}}en/company/job">Job</a></li>
+      </ul>
+      {{end}}
       <ul class="side-nav" id="mobile-nav">
         <li class="side-top">
+        {{ if eq .Lang "fr" }}
           <a href="{{.Site.BaseURL}}trouver-une-clinique"><i class="fa fa-map-marker"></i></a>
+        {{ else if eq .Lang "en" }}
+          <a href="{{.Site.BaseURL}}en/find-a-clinic"><i class="fa fa-map-marker"></i></a>
+        {{ end }}
           <!-- <a href="#!"><i class="fa fa-search"></i></a>
           <a href="#!" class="language-selector">EN</a> -->
         </li>
+        {{ if eq .Lang "fr" }}
         <li><a class="subheader">Professionnels</a></li>
         <li><a class="waves-effect sub" href="{{.Site.BaseURL}}produits/orthese-cryos">Orthèses</a></li>
         <li><a class="waves-effect sub" href="{{.Site.BaseURL}}produits/cryovizion">Cryovizion</a></li>
@@ -64,6 +102,26 @@
         <li><a class="waves-effect subheader single" href="{{.Site.BaseURL}}trouver-une-clinique">Trouver une clinique</a></li>
         <li><div class="divider single"></div></li>
         <li><a class="waves-effect subheader single" href="{{.Site.BaseURL}}blogue">Blogue</a></li>
+        {{ else if eq .Lang "en" }}
+        <li><a class="subheader">Professionals</a></li>
+        <li><a class="waves-effect sub" href="{{.Site.BaseURL}}en/professionals/cryos-orthotics">Orthotics</a></li>
+        <li><a class="waves-effect sub" href="{{.Site.BaseURL}}en/professionals/cryovizion">Cryovizion</a></li>
+        <!-- <li><a class="waves-effect sub" href="{{.Site.BaseURL}}produits/cryoscan-3d">Scan 3D</a></li> -->
+        <li><div class="divider"></div></li>
+        <li><a class="subheader">Patients</a></li>
+        <li><a class="waves-effect sub" href="{{.Site.BaseURL}}en/patients/cryos-orthotics">Orthotics</a></li>
+        <li><a class="waves-effect sub" href="{{.Site.BaseURL}}en/patients/cryovizion">Cryovizion</a></li>
+        <li><a class="waves-effect sub" href="{{.Site.BaseURL}}en/patients/faq">FAQ</a></li>
+        <li><div class="divider"></div></li>
+        <li><a class="subheader">Company</a></li>
+        <li><a class="waves-effect sub" href="{{.Site.BaseURL}}en/company/about-us">About us</a></li>
+        <li><a class="waves-effect sub" href="{{.Site.BaseURL}}en/company/contact">Contact us</a></li>
+        <li><a class="waves-effect sub" href="{{.Site.BaseURL}}en/company/job">Job</a></li>
+        <li><div class="divider"></div></li>
+        <li><a class="waves-effect subheader single" href="{{.Site.BaseURL}}en/find-a-clinic">Find a clinic</a></li>
+        <!-- <li><div class="divider single"></div></li>
+        <li><a class="waves-effect subheader single" href="{{.Site.BaseURL}}en/blog">Blog</a></li> -->
+        {{end}}
       </ul>
     </div>
   </nav>

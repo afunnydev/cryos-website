@@ -106,3 +106,22 @@ Feel free to tweak the gulpfile to your liking.
 ## Deployment
 
 I'm using Netlify to deploy. When there's a push to the master, website is automatically rebuilt. Haven't tried with the branches yet, I'm curious to know what will happen when we push to branch OR when we merge branch to master.
+
+---
+## What you need to know about this repo
+
+-All authors are in the config.toml and can be used in templates by using the variable $author only if you set it in the template `{{$author := index .Site.Params.authors (.Params.author) }}`
+-All locations are in `data/locations`, one file per location
+-All articles are in `content`, directly in the root since we want them routed to the root
+-I'm using jquery.storelocator for the page "Trouver une clinique". You can see the settings in the Github repo. The template files used to build the plugin are in `static/templates/`
+-I'm minifying the css before putting it in `static/css` with the gulp-clean-css module
+
+---
+## How can I modify a page?
+
+
+---
+## PLEASE CHECK
+
+The multilingual blog is not set up completely. You need to check all href to make sure it links to the proper language.
+

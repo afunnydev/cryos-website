@@ -202,9 +202,42 @@ jQuery(document).ready(function ($) {
       textfield.setCustomValidity("S'il-vous-plaît remplir ce champ correctement.");  
     }
   });
-  if (document.getElementById('bh-sl-map-container')) {
-  $(function() {
-      $('#bh-sl-map-container').storeLocator({
+  if (document.getElementById('bh-sl-map-container-fr')) {
+    $(function() {
+        $('#bh-sl-map-container-fr').storeLocator({
+          'autoGeocode': true,
+          'fullMapStart': true,
+          'featuredLocations': true,
+          'locationsPerPage': -1,
+          'mapSettings': {zoom: 8},
+          'autoComplete': true,
+          'autoCompleteDisableListener': true,
+          // 'visibleMarkersList': true,
+          'infowindowTemplatePath': '/templates/infowindow-description.html',
+          'listTemplatePath': '/templates/location-list-description.html',
+          'dataType': 'json',
+          'lengthUnit': 'km',
+          'distanceAlert': 20,
+          'sessionStorage': true,
+          'nameSearch': true,
+          'kilometerLang': 'kilomètre',
+          'kilometersLang': 'kilomètres',
+          'noResultsTitle': 'Aucun résultat',
+          'noResultsDesc': "Nous n'avons trouvé aucune clinique correspondant à vos critères. S'il-vous-plaît les modifier pour que nous puissions vous aider." ,
+          'distanceErrorAlert': "Malheureusement, notre clinique la plus proche est à plus de ",
+          'autoGeocodeErrorAlert': "Nous n'avons pas réussi à détecter votre position, s'il-vous-plaît remplir les champs de recherche.",
+          'addressErrorAlert': "Nous n'avons pas réussi à trouver cette adresse",
+          'nextPage': 'Suivant »',
+          'prevPage': '« Précédent',
+          'maxDistance': true,
+          // 'defaultLoc': true,
+          // 'defaultLat': 45.5016889,
+          // 'defaultLng': 73.56725599999999,
+          'dataRaw': data});
+      });
+  } else if (document.getElementById('bh-sl-map-container-en')) {
+    $(function() {
+      $('#bh-sl-map-container-en').storeLocator({
         'autoGeocode': true,
         'fullMapStart': true,
         'featuredLocations': true,
@@ -220,15 +253,6 @@ jQuery(document).ready(function ($) {
         'distanceAlert': 20,
         'sessionStorage': true,
         'nameSearch': true,
-        'kilometerLang': 'kilomètre',
-        'kilometersLang': 'kilomètres',
-        'noResultsTitle': 'Aucun résultat',
-        'noResultsDesc': "Nous n'avons trouvé aucune clinique correspondant à vos critères. S'il-vous-plaît les modifier pour que nous puissions vous aider." ,
-        'distanceErrorAlert': "Malheureusement, notre clinique la plus proche est à plus de ",
-        'autoGeocodeErrorAlert': "Nous n'avons pas réussi à détecter votre position, s'il-vous-plaît remplir les champs de recherche.",
-        'addressErrorAlert': "Nous n'avons pas réussi à trouver cette adresse",
-        'nextPage': 'Suivant »',
-        'prevPage': '« Précédent',
         'maxDistance': true,
         // 'defaultLoc': true,
         // 'defaultLat': 45.5016889,

@@ -4,9 +4,15 @@
     <div class="row">
         <div class="col s12">
             <div class="col s12 m5 l4 oc-title">
+            {{ if eq .Lang "fr" }}
                 <h1>Nos orthèses dynamiques</h1>
                 <p>Correction de la dysfonction biomécanique par le mouvement naturel</p>
                 <div><a href="#news"><span class="token">Articles récents</span></a></div>
+            {{ else if eq .Lang "en" }}
+                <h1>Cryos dynamic orthotics</h1>
+                <p>Biomechanical correction through healthy movement</p>
+                <!-- <div><a href="#news"><span class="token">Articles récents</span></a></div> -->
+            {{ end }}
             </div>
             <div class="col s12 m7 l8" style="padding:0;">
                 <div class="video-container">
@@ -15,33 +21,63 @@
                 <div class="owl-carousel owl-theme">
                     <div class="owl-content">
                         <img src="{{.Site.BaseURL}}img/orthese_patients/efficace.jpg" alt="">
+                    {{ if eq .Lang "fr" }}
                         <h3>Efficace</h3>
                         <p>Les orthèses Cryos guident le pied dans le mouvement approprié, sans le bloquer.</p>
+                    {{ else if eq .Lang "en" }}
+                        <h3>Efficient</h3>
+                        <p>Cryos orthotics guide your foot to its proper movement, without immobilizing it.</p>
+                    {{ end }}
                     </div>
                     <div class="owl-content">
                         <img src="{{.Site.BaseURL}}img/orthese_patients/petite.jpg" alt="ortheses petites">
+                    {{ if eq .Lang "fr" }}
                         <h3>Petite</h3>
                         <p>Elles sont faciles à porter dans tous les types de chaussures, ce qui vous permet de les porter plus souvent, et d’obtenir ainsi de meilleurs résultats.</p>
+                    {{ else if eq .Lang "en" }}
+                        <h3>Small</h3>
+                        <p>They fit easily into all types of shoes, which enable you to wear them more often providing better results.</p>
+                    {{ end }}
                     </div>
                     <div class="owl-content">
                         <img src="{{.Site.BaseURL}}img/orthese_patients/confortable.jpg" alt="orthese confortable">
+                    {{ if eq .Lang "fr" }}
                         <h3>Confortable</h3>
                         <p>Chaque orthèse Cryos est unique et adaptée aux besoins spécifiques du patient. </p>
+                    {{ else if eq .Lang "en" }}
+                        <h3>Comfortable</h3>
+                        <p>Every Cryos orthotic is unique and adapted to your specific needs.</p>
+                    {{ end }}
                     </div>
                     <div class="owl-content">
                         <img src="{{.Site.BaseURL}}img/orthese_patients/performante.jpg" alt="orthese performante">
+                    {{ if eq .Lang "fr" }}
                         <h3>Performante</h3>
                         <p>La conception unique des orthèses offre des propriétés correctives exceptionnelles</p>
+                    {{ else if eq .Lang "en" }}
+                        <h3>High-performance</h3>
+                        <p>The orthotics’ unique design provides outstanding corrective properties.</p>
+                    {{ end }}
                     </div>
                     <div class="owl-content">
                         <img src="{{.Site.BaseURL}}img/orthese_patients/discrete.jpg" alt="orthese discrete">
+                    {{ if eq .Lang "fr" }}
                         <h3>Discrète</h3>
                         <p>Elles sont très discrètes. Le patient peut donc les porter en toute confiance. </p>
+                    {{ else if eq .Lang "en" }}
+                        <h3>Discreet</h3>
+                        <p>The Cryos orthotics are highly discreet, so you can wear them with confidence.</p>
+                    {{ end }}
                     </div>
                     <div class="owl-content">
                         <img src="{{.Site.BaseURL}}img/orthese_patients/resistante.jpg" alt="orthese resistante">
+                    {{ if eq .Lang "fr" }}
                         <h3>Résistance</h3>
                         <p>Le plastique utilisé pour les orthèses est particulièrement durable.</p>
+                    {{ else if eq .Lang "en" }}
+                        <h3>Durable</h3>
+                        <p>The plastic used for the orthotics is particularly long-lasting.</p>
+                    {{ end }}
                     </div>
                 </div>
             </div>
@@ -52,13 +88,18 @@
 <div class="had-container" id="orange">
     <div class="container">
         <div class="row">
-            <h1 class="black-bar">Les orthèses dynamiques Cryos</h1>
+            <h1 class="black-bar">{{ if eq .Lang "fr" }}Les orthèses dynamiques Cryos{{ else if eq .Lang "en" }}Cryos dynamic orthotics{{ end }}</h1>
             <div class="item-1 patients col s12">
                 <div class="row valign-wrapper">
                     <div class="col s12 m12 l7 oc-img valign"></div>
                     <div class="col s12 m12 l5 oc-txt valign">
+                    {{ if eq .Lang "fr" }}
                         <h3>Fabriquées selon vos besoins </h3>
                         <p>Les orthèses Cryos sont fabriquées à partir d’un polymère hypoallergénique spécialement conçu afin d’augmenter ses propriétés de force, de flexibilité et de mémoire flexion-extension. C’est un matériau particulièrement durable et résistant allongeant ainsi la durée de vie des orthèses. Grâce à son arche flexible, ajustée aux besoins spécifiques de chaque patient, le pied n’est pas immobilisé, mais plutôt guidé dans son mouvement naturel. </p>
+                    {{ else if eq .Lang "en" }}
+                        <h3>Custom made to meet your specific needs</h3>
+                        <p>Cryos orthotics are manufactured using a hypoallergenic polymer specially designed for increased strength, flexibility and contraction-extension memory. This material is particularly long-lasting and robust, thereby prolonging the lifespan of the orthotics.Thanks to the flexible arch that is adjusted to the specific needs of each patient, the foot is not immobilized, but rather guided in its natural motion.</p>
+                    {{ end }}
                     </div>
                 </div>
             </div>
@@ -66,8 +107,13 @@
                 <div class="row valign-wrapper">
                     <div class="col s12 m12 l7 oc-img push-l5 valign"></div>
                     <div class="col s12 m12 l5 oc-txt pull-l7 valign">
+                    {{ if eq .Lang "fr" }}
                         <h3>Elles guident le pied dans son mouvement naturel</h3>
                         <p>Les dents de scie de l’avant pied assurent le positionnement adéquat de l’avant-pied et stabilisent ou auto-corrigent la position de l’orthèse en mouvement. Tandis que l’encoche et les bras (soit médial ou latéral) permettent un positionnement correctif de l’arrière pied, normalement sans l’ajout de matériau extrinsèque. Ils guident le pied au moment du contact du talon. </p>
+                    {{ else if eq .Lang "en" }}
+                        <h3>They guide the foot through it’s natural movement</h3>
+                        <p>The sawtooth forefoot ensures the proper positioning of the forefoot and stabilizes or self-corrects the position of the orthotic while in motion. The notch and arms allow for corrective positioning of the rearfoot. They help to guide the foot to the desired motion from the point of contact or heel strike.</p>
+                    {{ end }}
                     </div>
                 </div>
             </div>
@@ -75,8 +121,13 @@
                 <div class="row valign-wrapper">
                     <div class="col s12 m12 l7 oc-img valign"></div>
                     <div class="col s12 m12 l5 oc-txt valign">
+                    {{ if eq .Lang "fr" }}
                         <h3>Elles se portent en toute confiance</h3>
                         <p>Les orthèses dynamiques sur mesure sont recommandées pour la plupart des problématiques liées à la biomécanique du corps et pathologies podiatriques. Elles sont prescrites autant pour les enfants que les adultes. </p>
+                    {{ else if eq .Lang "en" }}
+                        <h3>You can wear them with confidence</h3>
+                        <p>Our dynamic orthotics are recommended for most problems related to the biomechanics of the body and podiatric pathologies. They are prescribed for both children and adults. </p>
+                    {{ end }}
                     </div>
                 </div>
             </div>
@@ -86,6 +137,8 @@
 
 {{ partial "contact-btn-section.html" . }}
 
+<!-- Display only in French -->
+{{ if eq .Lang "fr" }}
 <div class="had-container" id="news">
     <div class="container">
         <div class="row">
@@ -106,14 +159,21 @@
         </div>
     </div>
 </div>
+{{ end }}
 
 <div class="had-container" id="clients_satisfaits">
     <div class="container">
         <div class="row">
             <div class="col s12">
+            {{ if eq .Lang "fr" }}
                 <h1 class="white-bar">Témoignage</h1>
                 <p>Je porte des orthèses depuis mon plus jeune âge et le souvenir que je garde des ajustements et des douleurs aux jambes est pénible. Depuis 2005, j'ai changé pour des orthèses Cryos et je m'y suis habituée rapidement. Elles sont légères, faciles d'entretien et mes orthèses me suivent dans tous les souliers de mes activités, des talons hauts aux sports nautiques!</p>
                 <p class="nom">-Dominique Leblanc, médiatrice </p>
+            {{ else if eq .Lang "en" }}
+                <h1 class="white-bar">Témoignage</h1>
+                <p>I've been wearing orthotics since I was very young and still have horrible memories of the adjustments and pain in my legs. In 2005 I changed to Cryos orthotics and quickly got used to them. They are light, easy to clean and my orthotics go wherever I go, in the shoes I wear for all kinds of activities, from high heels to water sports!</p>
+                <p class="nom">-Dominique Leblanc, mediator </p>
+            {{ end }}
                 <div class="timg"><img src="{{.Site.BaseURL}}img/temoignage/dominique_leblanc.png" alt="Cliente satisfaite"></div>
             </div>
         </div>

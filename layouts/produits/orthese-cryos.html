@@ -4,9 +4,15 @@
     <div class="row">
         <div class="col s12">
             <div class="col s12 m5 l4 oc-title">
+            {{ if eq .Lang "fr" }}
                 <h1>Nos orthèses dynamiques</h1>
                 <p>Correction de la dysfonction biomécanique par le mouvement naturel</p>
                 <div><a href=" {{ .Site.BaseURL }}compagnie/contact/"><span class="token">Contactez-nous</span></a></div>
+            {{ else if eq .Lang "en" }}
+                <h1>Cryos dynamic orthotics</h1>
+                <p>Biomechanical correction through healthy movement</p>
+                <div><a href=" {{ .Site.BaseURL }}en/company/contact/"><span class="token">Contact us</span></a></div>
+            {{ end }}
             </div>
             <div class="col s12 m7 l8" style="padding:0;">
                 <div class="video-container">
@@ -15,34 +21,53 @@
                 <div class="owl-carousel owl-theme">
                     <div class="owl-content">
                         <img src="{{.Site.BaseURL}}img/orthese_pro/1_efficacite.jpg" alt="orthese efficace">
-                        <h3>Efficacité du mouvement</h3>
-                        <p>Sans immobiliser le pied, les orthèses dynamiques Cryos le guident dans le mouvement approprié, ce
-                            qui préserve et stimule sa force, sa souplesse et sa mobilité durant la correction.</p>
+                    {{ if eq .Lang "fr" }}
+                        <h3>Efficaces</h3>
+                        <p>Sans immobiliser le pied, les orthèses dynamiques Cryos le guident dans le mouvement approprié, ce qui préserve et stimule sa force, sa souplesse et sa mobilité durant la correction.</p>
+                    {{ else if eq .Lang "en" }}
+                        <h3>Efficient</h3>
+                        <p>They guide the foot in it’s proper movement without immobilizing it, preserving and stimulating foot strength, flexibility and mobility while being corrected.</p>
+                    {{ end }}
                     </div>
                     <div class="owl-content">
                         <img src="{{.Site.BaseURL}}img/orthese_pro/2_petite.jpg" alt="petite orthese">
+                    {{ if eq .Lang "fr" }}
                         <h3>Petites</h3>
-                        <p>Elles s’insèrent facilement dans tous les types de chaussures, ce qui permet de les porter plus souvent
-                            et d’obtenir de meilleurs résultats, plus rapidement. Il n’est donc plus nécessaire d’acheter
-                            des chaussures spécialement conçues pour les orthèses puisque les patients conservent les leurs
-                            et bénéficient ainsi d’économies substantielles. </p>
+                        <p>Elles s’insèrent facilement dans tous les types de chaussures, ce qui permet de les porter plus souvent et d’obtenir de meilleurs résultats, plus rapidement. Il n’est donc plus nécessaire d’acheter des chaussures spécialement conçues pour les orthèses puisque les patients conservent les leurs et bénéficient ainsi d’économies substantielles. </p>
+                    {{ else if eq .Lang "en" }}
+                        <h3>Small</h3>
+                        <p>They fit easily into all types of shoes which allows patients to wear them more often providing faster and better results. Furthermore, no need to buy shoes specifically made to accommodate the orthotics; patients can keep their own regular shoes, representing significant savings. </p>
+                    {{ end }}
                     </div>
                     <div class="owl-content">
                         <img src="{{.Site.BaseURL}}img/orthese_pro/3_confortables.png" alt="orthese confortables">
+                    {{ if eq .Lang "fr" }}
                         <h3>Confortables</h3>
-                        <p>Les orthèses sont uniques et adaptées aux besoins particuliers du patient, ce qui lui permet d’oublier
-                            qu’il en porte.</p>
+                        <p>Les orthèses sont uniques et adaptées aux besoins particuliers du patient, ce qui lui permet d’oublier qu’il en porte.</p>
+                    {{ else if eq .Lang "en" }}
+                        <h3>Comfortable</h3>
+                        <p>Cryos dynamic orthotics are specifically made according to each patient’s unique needs. In fact, patient quickly forget they are wearing orthotics. </p>
+                    {{ end }}
                     </div>
                     <div class="owl-content">
                         <img src="{{.Site.BaseURL}}img/orthese_pro/4_resistante.jpg" alt="orthese resistante">
+                    {{ if eq .Lang "fr" }}
                         <h3>Résistantes</h3>
-                        <p>Elles sont fabriquées à partir d’un polymère hypoallergène, un matériau particulièrement durable
-                            et résistant qui prolonge leur durée de vie. </p>
+                        <p>Elles sont fabriquées à partir d’un polymère hypoallergène, un matériau particulièrement durable et résistant qui prolonge leur durée de vie. </p>
+                    {{ else if eq .Lang "en" }}
+                        <h3>Durable</h3>
+                        <p>Made from a very sturdy and long-lasting hypoallergenic polymer extending the product life.</p>
+                    {{ end }}
                     </div>
                     <div class="owl-content">
                         <img src="{{.Site.BaseURL}}img/orthese_pro/5_discrete.jpg" alt="orthese discrete">
+                    {{ if eq .Lang "fr" }}
                         <h3>Discrètes</h3>
                         <p>Elles sont très discrètes. Le patient peut donc les porter en toute confiance. </p>
+                    {{ else if eq .Lang "en" }}
+                        <h3>Discreet</h3>
+                        <p>Cryos dynamic orthotics are highly discreet, so the patient can wear them with confidence.</p>
+                    {{ end }}
                     </div>
                 </div>
             </div>
@@ -53,21 +78,18 @@
 <div class="had-container" id="orange">
     <div class="container">
         <div class="row">
-            <h1 class="black-bar">Les parties de l'orthèse</h1>
+            <h1 class="black-bar">{{ if eq .Lang "fr" }}Les parties de l'orthèse{{ else if eq .Lang "en" }}Orthotics' parts{{ end }}</h1>
             <div class="item-1 col s12">
                 <div class="row valign-wrapper">
                     <div class="col s12 m12 l7 oc-img valign"></div>
                     <div class="col s12 m12 l5 oc-txt valign">
+                    {{ if eq .Lang "fr" }}
                         <h3>L’arrière pied dynamique </h3>
-                        <p>L'encoche et les bras (soit médial ou latéral) permettent un positionnement correctif de l'arrière pied,
-                            normalement sans l'ajout de matériau extrinsèque. Ils guident l'articulation sous-astragalienne au
-                            moment du contact du talon vers la pronation ou supination, selon le cas, permettant à l'articulation
-                            médio-tarse de s'engager totalement, menant à la résupination et à une propulsion saine. Aussi, l'encoche
-                            libère l'orthèse pour générer plus de torsion ; ceci augmente la flexion-extension et maximise le
-                            transfert des forces de façon à optimiser l'efficacité musculaire lors du cycle de marche. L'orthèse
-                            possède la capacité intrinsèque de diriger correctement ces forces ; ce facteur clé permet à l'orthèse
-                            de requérir très peu et souvent aucun matériau extrinsèque pour guider et contrôler le positionnement
-                            du pied.</p>
+                        <p>L'encoche et les bras (soit médial ou latéral) permettent un positionnement correctif de l'arrière pied, normalement sans l'ajout de matériau extrinsèque. Ils guident l'articulation sous-astragalienne au moment du contact du talon vers la pronation ou supination, selon le cas, permettant à l'articulation médio-tarse de s'engager totalement, menant à la résupination et à une propulsion saine. Aussi, l'encoche libère l'orthèse pour générer plus de torsion ; ceci augmente la flexion-extension et maximise le transfert des forces de façon à optimiser l'efficacité musculaire lors du cycle de marche. L'orthèse possède la capacité intrinsèque de diriger correctement ces forces ; ce facteur clé permet à l'orthèse de requérir très peu et souvent aucun matériau extrinsèque pour guider et contrôler le positionnement du pied.</p>
+                    {{ else if eq .Lang "en" }}
+                        <h3>Dynamic rearfoot </h3>
+                        <p>The notch and arms (either medial or lateral) allow corrective positioning of the rearfoot without the necessity of adding other extrinsic materials. They guide the subtalar joint at heel strike towards pronation or supination as the case may dictate, allowing the midtarsal joint to fully lock through midstance allowing for re-supination and proper propulsion. The notch also frees the orthotic to generate greater torsion, thus greater flexion-extension, to maximize the transfer of forces in the manner desired leading to optimal muscle efficiency throughout the gait cycle. The proper channelling of these forces, intrinsic to the design of the orthotic, are a key factor in requiring little or no extrinsic material to guide or control foot positioning.</p>
+                    {{ end }}
                     </div>
                 </div>
             </div>
@@ -75,9 +97,13 @@
                 <div class="row valign-wrapper">
                     <div class="col s12 m12 l7 oc-img push-l5 valign"></div>
                     <div class="col s12 m12 l5 oc-txt pull-l7 valign">
+                    {{ if eq .Lang "fr" }}
                         <h3>Le contrôle de l’arche flexible</h3>
-                        <p>Grâce à l'arche flexible, ajustée aux besoins spécifiques de chaque patient, le pied n'est pas immobilisé,
-                            mais plutôt guidé dans son mouvement naturel.</p>
+                        <p>Grâce à l'arche flexible, ajustée aux besoins spécifiques de chaque patient, le pied n'est pas immobilisé, mais plutôt guidé dans son mouvement naturel.</p>
+                    {{ else if eq .Lang "en" }}
+                        <h3>Flexible arch control</h3>
+                        <p>Ensures that the midtarsal joint axis’ stay locked in their proper position for maximum muscular efficiency of the foot for re-supination before heading into the propulsion phase.</p>
+                    {{ end }}
                     </div>
                 </div>
             </div>
@@ -85,10 +111,13 @@
                 <div class="row valign-wrapper">
                     <div class="col s12 m12 l7 oc-img valign"></div>
                     <div class="col s12 m12 l5 oc-txt valign">
+                    {{ if eq .Lang "fr" }}
                         <h3>Polymère hypoallergène : un plastique spécialement adapté</h3>
-                        <p>Les orthèses Cryos sont fabriquées à partir d'un polymère hypoallergénique spécialement conçu afin d'augmenter
-                            ses propriétés de force, de flexibilité et de mémoire flexion-extension. C'est un matériau particulièrement
-                            durable et résistant allongeant ainsi la durée de vie des orthèses.</p>
+                        <p>Les orthèses Cryos sont fabriquées à partir d'un polymère hypoallergénique spécialement conçu afin d'augmenter ses propriétés de force, de flexibilité et de mémoire flexion-extension. C'est un matériau particulièrement durable et résistant allongeant ainsi la durée de vie des orthèses.</p>
+                    {{ else if eq .Lang "en" }}
+                        <h3>A specially adapted plastic</h3>
+                        <p>Cryos orthotics are made of a hypoallergenic polymer that is modified to enhance its strength, flexibility and flexion-extension memory. These properties further increase the intrinsic torsion that can be generated through the transfer of forces during gait. Also, this material makes for a particularly resilient orthotic.</p>
+                    {{ end }}
                     </div>
                 </div>
             </div>
@@ -96,9 +125,13 @@
                 <div class="row valign-wrapper">
                     <div class="col s12 m12 l7 oc-img push-l5 valign"></div>
                     <div class="col s12 m12 l5 oc-txt pull-l7 valign">
+                    {{ if eq .Lang "fr" }}
                         <h3>Les dents de scie de l’avant du pied </h3>
-                        <p>Assurent le positionnement adéquat de l'avant-pied et stabilisent ou auto-corrigent la position de l'orthèse
-                            en mouvement.</p>
+                        <p>Assurent le positionnement adéquat de l'avant-pied et stabilisent ou auto-corrigent la position de l'orthèse en mouvement.</p>
+                    {{ else if eq .Lang "en" }}
+                        <h3>Sawtooth forefoot</h3>
+                        <p>Provide corrective positioning of the metatarsophalangeal joints and the remaining forefoot. Together with the arms, they also allow for stabilization and positional self-adjustment of the orthotic in the event of positional shifts while in motion.</p>
+                    {{ end }}
                     </div>
                 </div>
             </div>
@@ -108,6 +141,8 @@
 
 {{ partial "contact-btn-section.html" . }}
 
+<!-- Display in French only -->
+{{ if eq .Lang "fr" }}
 <div class="had-container" id="news">
     <div class="container">
         <div class="row">
@@ -128,16 +163,21 @@
         </div>
     </div>
 </div>
+{{ end }}
 
 <div class="had-container" id="clients_satisfaits">
     <div class="container">
         <div class="row">
             <div class="col s12">
+            {{ if eq .Lang "fr" }}
                 <h1 class="white-bar">Témoignage</h1>
-                <p>Les orthèses Cryos se démarquent de celles sur le marché par leur petite taille et par le fait qu'elles s'insèrent
-                    dans la plupart des chaussures. Le plastique est durable et très hygiénique. Des avantages indéniables
-                    pour ma clientèle. </p>
+                <p>Les orthèses Cryos se démarquent de celles sur le marché par leur petite taille et par le fait qu'elles s'insèrent dans la plupart des chaussures. Le plastique est durable et très hygiénique. Des avantages indéniables pour ma clientèle. </p>
                 <p class="nom">-François Giroux, DPM, podiatre</p>
+            {{ else if eq .Lang "en" }}
+                <h1 class="white-bar">Testimonial</h1>
+                <p>Cryos orthotics stand out from others on the market because they are small and fit inside the majority of shoes. The plastic is durable and ultra hygienic. These are undeniable advantages for my patients.</p>
+                <p class="nom">-François Giroux, DPM, podiatrist</p>
+            {{ end }}
                 <div class="timg"><img src="{{.Site.BaseURL}}img/equipe/membre_equipe3.png" alt="Podiatre"></div>
             </div>
         </div>

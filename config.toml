@@ -1,4 +1,5 @@
-baseURL = "http://www.cryos.com/"
+baseURL = "http://treasurer-loran-26466.netlify.com/"
+DefaultContentLanguage = "fr"
 languageCode = "en-us"
 title = "Cryos"
 metaDataFormat = "toml"
@@ -10,6 +11,10 @@ RemovePathAccents = true
   	tag = "tags"
     author = "authors"
 
+[Languages]
+[Languages.en]
+
+[Languages.fr]
 [params.authors]
 	[params.authors.audree]
 	   user_nicename = "audree"

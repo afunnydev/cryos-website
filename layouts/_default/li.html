@@ -3,9 +3,9 @@
 	<a href="{{ .Permalink }}"><img src="{{ .Site.BaseURL }}{{ .Params.blog_img }}" alt="{{ .Params.titre }}" class="responsive-img"></a>
 	<div class="resume">
 		<a href="{{ .Permalink }}" class="titre">{{ .Params.titre }}</a>
-		<p class="meta">par <span class="auteur">{{ $author.display_name }}</span>| {{ .Date.Format "02/01/2006"  }}</p>
+		<p class="meta">{{ if eq .Lang "fr" }}par {{ else if eq .Lang "en" }}by {{ end }}<span class="auteur">{{ $author.display_name }}</span>| {{ .Date.Format "02/01/2006"  }}</p>
 		<p class="summary">{{ .Summary }}</br>...</p>
-		<p class="categories">Mots-clés:{{ range .Params.categories }} <a href="{{ $.Site.BaseURL }}categories/{{ . | urlize }}">{{.}}</a>/ {{end}}</p>
+		<p class="categories">{{ if eq .Lang "fr" }}Mots-clés:{{ else if eq .Lang "en" }}Keywords:{{ end }}{{ range .Params.categories }} <a href="{{ $.Site.BaseURL }}categories/{{ . | urlize }}">{{.}}</a>/ {{end}}</p>
 	</div>
 	<div class="info">
 		<div class="comments valign-wrapper">
@@ -13,7 +13,7 @@
 			<p class="">0 Commentaire</p>
 		</div>
 		<div class="socials valign-wrapper">
-			<p class="valign">Partager l'article:</p> 
+			<p class="valign">{{ if eq .Lang "fr" }}Partager l'article:{{ else if eq .Lang "en" }}Share this article:{{ end }}</p> 
 			<a class="valign" href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}"><i class="fa fa-facebook"></i></a>
 			<a class="valign" href="https://twitter.com/home?status={{ .Permalink }}"><i class="fa fa-twitter"></i></a>
 			<a class="valign" href="https://www.linkedin.com/shareArticle?mini=true&url={{ .Permalink }}&title={{ .Params.titre }}&summary={{ .Summary }}&source=Cryos"><i class="fa fa-linkedin"></i></a>

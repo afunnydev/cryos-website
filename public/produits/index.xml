@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Produits on Cryos</title>
-    <link>http://www.cryos.com/produits/</link>
+    <link>http://treasurer-loran-26466.netlify.com/produits/</link>
     <description>Recent content in Produits on Cryos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 09 May 2017 12:50:31 -0400</lastBuildDate>
     
-	<atom:link href="http://www.cryos.com/produits/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://treasurer-loran-26466.netlify.com/produits/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Cryos Technologies | CryoVizion pour les podiatres</title>
-      <link>http://www.cryos.com/produits/cryovizion/</link>
+      <link>http://treasurer-loran-26466.netlify.com/produits/cryovizion/</link>
       <pubDate>Tue, 09 May 2017 12:50:31 -0400</pubDate>
       
-      <guid>http://www.cryos.com/produits/cryovizion/</guid>
+      <guid>http://treasurer-loran-26466.netlify.com/produits/cryovizion/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cryos Technologies | Orthèses Cryos dynamiques</title>
-      <link>http://www.cryos.com/produits/orthese-cryos/</link>
+      <link>http://treasurer-loran-26466.netlify.com/produits/orthese-cryos/</link>
       <pubDate>Tue, 09 May 2017 12:49:55 -0400</pubDate>
       
-      <guid>http://www.cryos.com/produits/orthese-cryos/</guid>
+      <guid>http://treasurer-loran-26466.netlify.com/produits/orthese-cryos/</guid>
       <description></description>
     </item>
     
