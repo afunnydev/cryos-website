@@ -9,4 +9,5 @@ pays = "Canada"
 phone = "(819) 568-0456"
 site = "http://www.cpoutaouais.com"
 type = "location"
+author= "keven"
 +++
