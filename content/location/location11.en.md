@@ -1,5 +1,5 @@
 +++
-link = "clinique-podiatrique-st-hubert/"
+slug = "clinique-podiatrique-st-hubert/"
 nomclinique = "Clinique Podiatrique St-Hubert"
 address = "3956 Montée Saint-Hubert"
 latitude = 45.49034

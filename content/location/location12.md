@@ -1,5 +1,5 @@
 +++
-link = "clinique-podiatrique-kirkland/"
+slug = "clinique-podiatrique-kirkland/"
 nomclinique = "Clinique Podiatrique Kirkland"
 address = "2816 Boulevard Saint-Charles"
 latitude = 45.446172

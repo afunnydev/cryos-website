@@ -1,5 +1,5 @@
 +++
-link = "clinique-podiatrique-familiale-boucherville/"
+slug = "clinique-podiatrique-familiale-boucherville/"
 nomclinique = "Clinique Podiatrique Familiale de Boucherville"
 address = "650 Boulevard du Fort Saint Louis"
 latitude = 45.613285

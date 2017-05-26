@@ -1,5 +1,5 @@
 +++
-link = "clinique-podiatrique-loutaouais-bureau-hull/"
+slug = "clinique-podiatrique-loutaouais-bureau-hull/"
 nomclinique = "Clinique Podiatrique de l’Outaouais (bureau Hull)"
 address = "86 Prom Du Portage"
 latitude = 45.425103
