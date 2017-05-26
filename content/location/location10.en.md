@@ -1,6 +1,6 @@
 +++
 slug = "clinique-podiatrique-familiale-boucherville/"
-nomClinique = "Clinique Podiatrique Familiale de Boucherville"
+nomclinique = "Clinique Podiatrique Familiale de Boucherville"
 address = "650 Boulevard du Fort Saint Louis"
 latitude = 45.613285
 longitude = -73.450333
@@ -9,5 +9,5 @@ pays = "Canada"
 phone = "(450) 906-3939"
 site = "http://www.podiatredeboucherville.com"
 type = "location"
-author= "keven"
+
 +++

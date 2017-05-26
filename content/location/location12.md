@@ -1,6 +1,6 @@
 +++
 slug = "clinique-podiatrique-kirkland/"
-nomClinique = "Clinique Podiatrique Kirkland"
+nomclinique = "Clinique Podiatrique Kirkland"
 address = "2816 Boulevard Saint-Charles"
 latitude = 45.446172
 longitude = -73.853698
@@ -9,5 +9,5 @@ pays = "Canada"
 phone = "(514) 505-3977"
 site = "http://www.podiatrekirkland.com"
 type = "location"
-author= "keven"
+
 +++

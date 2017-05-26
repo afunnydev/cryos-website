@@ -1,6 +1,6 @@
 +++
 slug = "clinique-podiatrique-elizabeth-pellerin/"
-nomClinique = "Clinique Podiatrique Elizabeth Pellerin"
+nomclinique = "Clinique Podiatrique Elizabeth Pellerin"
 address = "400 rue Cormier, bureau 3-B"
 latitude = 45.891556
 longitude = -72.520638
@@ -9,5 +9,5 @@ pays = "Canada"
 phone = "(819) 850-4539"
 site = "http://www.monpodiatre.ca"
 type = "location"
-author= "keven"
+
 +++

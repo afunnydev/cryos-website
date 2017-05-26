@@ -1,6 +1,6 @@
 +++
 slug = "clinique-podiatrique-francois-giroux-bureau-charlesbourg/"
-nomClinique = "Clinique Podiatrique François Giroux (bureau Charlesbourg)"
+nomclinique = "Clinique Podiatrique François Giroux (bureau Charlesbourg)"
 address = "6475 Boulevard Henri-Bourassa"
 latitude = 46.854172
 longitude = -71.258193
