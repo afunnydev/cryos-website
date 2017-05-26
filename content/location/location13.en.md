@@ -1,5 +1,5 @@
 +++
-slug = "clinique-podiatrique-loutaouais-bureau-gatineau/"
+link = "clinique-podiatrique-loutaouais-bureau-gatineau/"
 nomclinique = "Clinique Podiatrique de l’Outaouais (bureau Gatineau)"
 address = "456 Bd de l'Hôpital"
 latitude = 45.491181

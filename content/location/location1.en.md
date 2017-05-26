@@ -1,5 +1,5 @@
 +++
-slug = "clinique-podiatrique-elizabeth-pellerin/"
+link = "clinique-podiatrique-elizabeth-pellerin/"
 nomclinique = "Clinique Podiatrique Elizabeth Pellerin"
 address = "400 rue Cormier, bureau 3-B"
 latitude = 45.891556
