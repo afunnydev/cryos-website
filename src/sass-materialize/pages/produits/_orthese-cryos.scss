@@ -389,3 +389,63 @@
         }
     }
 }
+
+@media #{$medium-and-up} {
+    // For animation to work
+    .had-container {
+        .oc-img,
+        .oc-txt {
+            -webkit-transition: 0.6s;
+            -moz-transition: 0.6s;
+            -ms-transition: 0.6s;
+            -o-transition: 0.6s;
+            transition: 0.6s;
+        }
+        .item-1,
+        .item-3 {
+            .oc-img {
+                transform: translateX(-200%);
+                -webkit-transform: translateX(-200%);
+                -ms-transform: translateX(-200%);
+                &.moved {
+                    transform: translateX(0%);
+                    -webkit-transform: translateX(0%);
+                    -ms-transform: translateX(0%);
+                }
+            }
+            .oc-txt {
+                transform: translateX(200%);
+                -webkit-transform: translateX(200%);
+                -ms-transform: translateX(200%);
+                &.moved {
+                    transform: translateX(0%);
+                    -webkit-transform: translateX(0%);
+                    -ms-transform: translateX(0%);
+                }
+            }
+        }
+        .item-2,
+        .item-4 {
+            .oc-img {
+                transform: translateX(200%);
+                -webkit-transform: translateX(200%);
+                -ms-transform: translateX(200%);
+                &.moved {
+                    transform: translateX(0%);
+                    -webkit-transform: translateX(0%);
+                    -ms-transform: translateX(0%);
+                }
+            }
+            .oc-txt {
+                transform: translateX(-200%);
+                -webkit-transform: translateX(-200%);
+                -ms-transform: translateX(-200%);
+                &.moved {
+                    transform: translateX(0%);
+                    -webkit-transform: translateX(0%);
+                    -ms-transform: translateX(0%);
+                }
+            }
+        }
+    }
+}

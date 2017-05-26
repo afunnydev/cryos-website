@@ -4,5 +4,6 @@ title = "Cryos Technologies | Cryos Dynamic Orthotics"
 description = "The product prescribed by experts for correcting biomechanical dysfunction using natural movement. Contact us for more information."
 layout = "orthese-cryos"
 type = "produits"
+translatedslug = "produits/orthese-cryos"
 +++
 

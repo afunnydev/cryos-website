@@ -18,7 +18,11 @@
             </div>
             <div class="col s12 m7 l8" style="padding:0;">
                 <div class="video-container">
+                {{ if eq .Lang "fr" }}
                     <iframe width="100%" src="https://www.youtube.com/embed/ixRK98ebEAU?rel=0&amp;showinfo=0&autoplay=1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                {{ else if eq .Lang "en" }}
+                    <iframe width="100%" src="https://www.youtube.com/embed/TFT5L36lZEc?rel=0&amp;showinfo=0&autoplay=1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                {{ end }}
                 </div>
                 <div class="owl-carousel owl-theme">
                     <div class="owl-content">
@@ -95,7 +99,7 @@
                     </div>
                 </div>
             </div>
-            <div class="item-2 col s12">
+            <div class='item-2 col s12 {{ if eq .Lang "en" }}anglais{{end}}'>
                 <div class="row valign-wrapper">
                     <div class="col s12 m12 l7 oc-img push-l5 valign"></div>
                     <div class="col s12 m12 l5 oc-txt pull-l7 valign">
@@ -109,7 +113,7 @@
                     </div>
                 </div>
             </div>
-            <div class="item-3 col s12">
+            <div class='item-3 col s12 {{ if eq .Lang "en" }}anglais{{end}}'>
                 <div class="row valign-wrapper">
                     <div class="col s12 m12 l7 oc-img valign"></div>
                     <div class="col s12 m12 l5 oc-txt valign">

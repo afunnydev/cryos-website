@@ -76,12 +76,27 @@ jQuery(document).ready(function ($) {
     dots: true,
     navText: ['<img src="/img/fleche-gauche.png" alt="" />', '<img src="/img/fleche-droite.png" alt="" />']
   });
-  if (Modernizr.mq('only all and (max-width: 600px)')) {} else {
+  if (Modernizr.mq('only all and (max-width: 600px)')) {}
+  else if (Modernizr.mq('only all and (min-width: 601px) and (max-width: 992px)')) {
     $('.year').each(function () {
       var h = $(this).parent().find(".list").height();
       $(this).css('height', h);
       $(this).find('span').css('margin-top', h / 2 - $(this).find('span').height());
     });
+  }
+  else {
+    $('.year').each(function () {
+      var h = $(this).parent().find(".list").height();
+      $(this).css('height', h);
+      $(this).find('span').css('margin-top', h / 2 - $(this).find('span').height());
+    });
+    var options = [ 
+      {selector: '.item-1 .oc-img', offset: 100, callback: function(el) { $('.item-1 .oc-img, .item-1 .oc-txt').toggleClass('moved'); } }, 
+      {selector: '.item-2 .oc-img', offset: 60, callback: function(el) { $('.item-2 .oc-img, .item-2 .oc-txt').toggleClass('moved'); } },
+      {selector: '.item-3 .oc-img', offset: 60, callback: function(el) { $('.item-3 .oc-img, .item-3 .oc-txt').toggleClass('moved'); } },
+      {selector: '.item-4 .oc-img', offset: 60, callback: function(el) { $('.item-4 .oc-img, .item-4 .oc-txt').toggleClass('moved'); } },
+    ]; 
+    Materialize.scrollFire(options);
   }
   $("#equipe .owl-carousel").owlCarousel({
     nav: true,
@@ -247,7 +262,7 @@ jQuery(document).ready(function ($) {
         'autoCompleteDisableListener': true,
         // 'visibleMarkersList': true,
         'infowindowTemplatePath': '/templates/infowindow-description.html',
-        'listTemplatePath': '/templates/location-list-description.html',
+        'listTemplatePath': '/templates/location-list-description-en.html',
         'dataType': 'json',
         'lengthUnit': 'km',
         'distanceAlert': 20,

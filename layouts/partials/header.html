@@ -14,15 +14,30 @@
         <li class="tab"><a href="{{.Site.BaseURL}}en/company/contact">Contact</a></li>
       {{end}}
         <li class="tab disabled"></li>
-        <!-- {{ range .Translations }}
+        {{ if .Params.translatedslug }}
+          {{ if eq .Lang "fr" }}
+            <li class="tab"><a href="{{ .Site.BaseURL }}{{ .Params.translatedslug }}">EN</a></li>
+          {{ else if eq .Lang "en" }}
+            <li class="tab"><a href="{{ .Site.BaseURL }}{{ .Params.translatedslug }}">FR</a></li>
+          {{ end }}
+        {{ else }}
+          {{ range .Translations }}
            <li class="tab"><a href="{{ .Permalink }}">{{.Lang}}</a></li>
-        {{ end }} -->
+          {{ end }}
+        {{ end }}
       </ul>
     </div>
   </nav>
   <nav class="nav-extended">
     <div class="nav-wrapper">
-      <a href='{{ if eq .Lang "fr" }}{{.Site.BaseURL}}{{ else if eq .Lang "en" }}{{.Site.BaseURL}}en{{ end }}' class="brand-logo"><img src="{{.Site.BaseURL}}img/Logo_CRYOS_SloganFR.png" class="responsive-img" alt="cryos-logo"></a>
+      <a href='{{ if eq .Lang "fr" }}{{.Site.BaseURL}}{{ else if eq .Lang "en" }}{{.Site.BaseURL}}en{{ end }}' class="brand-logo">
+      {{ if eq .Lang "fr" }}
+      <img src="{{.Site.BaseURL}}img/Logo_CRYOS_SloganFR.png" class="responsive-img full" alt="cryos-logo">
+      {{ else if eq .Lang "en" }}
+      <img src="{{.Site.BaseURL}}img/Logo_CRYOS_SloganEN.png" class="responsive-img full" alt="cryos-logo">
+      {{ end }}
+      <img src="{{.Site.BaseURL}}img/Logo_CRYOS_FR.png" class="responsive-img tablet" alt="cryos-logo">
+      </a>
       <a href="#" data-activates="mobile-nav" class="button-collapse"><i class="fa fa-bars"></i></a>
       <ul id="nav-desktop" class="right hide-on-med-and-down">
       {{ if eq .Lang "fr" }}

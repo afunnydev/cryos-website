@@ -116,7 +116,7 @@
                                     <li>Prix du design CryoScan 3D avec Brio Innovation</li>
                                     <li>Près de 50 employés et plus de trente cliniques partenaires</li>
                                     {{ else if eq .Lang "en" }}
-                                    <li>2 design awards for the CryoScan 3D in partnership with Brio Innovation. /li>
+                                    <li>2 design awards for the CryoScan 3D in partnership with Brio Innovation. </li>
                                     <li>Close to 50 employees and more than 30 partners clinics.</li>
                                     {{ end }}
                                 </ul>
@@ -259,6 +259,7 @@
             <div class="col s12">
                 <h1 class="blue-bar">{{ if eq .Lang "fr" }}L'équipe{{ else if eq .Lang "en" }}Team{{ end }}</h1>
                 <div class="owl-carousel">
+                {{ if eq .Lang "fr" }}
                     {{ range sort $.Site.Data.equipe "weight" "asce" }}
                         <div class="member center-align">
                             <img src="{{$.Site.BaseURL}}img/equipe/{{ .photo }}" alt="{{ .fonction }}">
@@ -266,6 +267,15 @@
                             <h2>{{ .fonction }}</h2>
                         </div>
                     {{ end }}
+                {{ else if eq .Lang "en" }}
+                    {{ range sort $.Site.Data.equipe "weight" "asce" }}
+                        <div class="member center-align">
+                            <img src="{{$.Site.BaseURL}}img/equipe/{{ .photo }}" alt="{{ .fonction }}">
+                            <h1>{{ .nom }}</h1>
+                            <h2>{{ .position }}</h2>
+                        </div>
+                    {{ end }}
+                {{ end }}
                 </div>
             </div>
         </div>

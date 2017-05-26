@@ -5,5 +5,6 @@ title = "Cryos Technologies | CryoVizion for podiatrists"
 description = "The CryoVizion imaging system allows postural health professionals to have a clear and exhaustive vision of their patients’ posture."
 layout = "cryovizion"
 type = "produits"
+translatedslug = "produits/cryovizion"
 +++
 
