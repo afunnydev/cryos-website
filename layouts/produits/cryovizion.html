@@ -6,39 +6,74 @@
     <div class="row">
         <div class="col s12">
             <div class="col s12 m5 l4 oc-title">
+            {{ if eq .Lang "fr" }}
                 <h1>Système d'imagerie Cryovizion</h1>
                 <p>En une seule image, une vision claire et exhaustive de l’état postural du patient. </p>
                 <div><a href=" {{ .Site.BaseURL }}compagnie/contact/"><span class="token">Contactez-nous</span></a></div>
+            {{ else if eq .Lang "en" }}
+                <h1>CryoVizion imaging system</h1>
+                <p>In a single image, a clear and complete view of your patient’s postural condition.</p>
+                <div><a href=" {{ .Site.BaseURL }}en/company/contact/"><span class="token">Contact us</span></a></div>
+            {{ end }}
             </div>
             <div class="col s12 m7 l8" style="padding:0;">
                 <div class="video-container">
+                {{ if eq .Lang "fr" }}
                     <iframe width="100%" src="https://www.youtube.com/embed/ixRK98ebEAU?rel=0&amp;showinfo=0&autoplay=1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                {{ else if eq .Lang "en" }}
+                    <iframe width="100%" src="https://www.youtube.com/embed/TFT5L36lZEc?rel=0&amp;showinfo=0&autoplay=1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                {{ end }}
                 </div>
                 <div class="owl-carousel owl-theme">
                     <div class="owl-content">
                         <img src="{{.Site.BaseURL}}img/cryovizion_pro/video_cryovizion.jpg" alt="">
+                    {{ if eq .Lang "fr" }}
                         <h3>Les étapes du CryoVizion</h3>
                         <span class="chiffre">1</span>
                         <p>Le patient entre dans une cabine d'observation où deux unités d'éclairage fluorescent (DEL) projettent une lumière vive sur l'ensemble de son corps. À la commande du professionnel, les deux caméras captent les images des membres inférieurs et du corps complet du patient dans différentes positions, alors qu'une numérisation de la plante du pied est réalisée. Le système d'imagerie posturale scientifiquement validé<sup>1</sup> CryoVizion saisit et filtre les changements des reflets lumineux sur la surface de la peau.</p>
                         <span style="font-size: 0.5rem; display: block">1.The Journal of Foot & Ankle Surgery 47(5) :409–418, 2008	</span>
+                    {{ else if eq .Lang "en" }}
+                        <h3>Cryovizion's steps</h3>
+                        <span class="chiffre">1</span>
+                        <p>The patient enters an observation booth where two fluorescent LED lighting units project a bright light over their entire body. Operated by the podiatrist, two cameras then capture images of the patient’s lower limbs and entire body in various positions while digitizing their footprint. The scientifically validated<sup>1</sup> CryoVizion postural imaging system captures and filters changes in the light reflections on the surface of the skin.</p>
+                        <span style="font-size: 0.5rem; display: block">1.The Journal of Foot & Ankle Surgery 47(5) :409–418, 2008  </span>
+                    {{ end }}
                     </div>
                     <div class="owl-content">
                         <img src="{{.Site.BaseURL}}img/cryovizion_pro/video_cryovizion_2.jpg" alt="">
+                    {{ if eq .Lang "fr" }}
                         <h3>Les étapes du CryoVizion</h3>
                         <span class="chiffre">2</span>
                         <p>À partir des images captées, le logiciel CryoVizion produit des topographies graphiques en couleurs de la surface de la peau. Celles-ci mettent clairement en évidence les variations de surface occasionnées par des pathologies posturales, structurales et musculo-squelettiques ainsi que d'autres anomalies. Différentes mesures peuvent alors être effectuées à même les images pour une évaluation approfondie et objective. </p>
+                    {{ else if eq .Lang "en" }}
+                        <h3>Cryovizion's steps</h3>
+                        <span class="chiffre">2</span>
+                        <p>From the images obtained, the CryoVizion software produces coloured topographies of the surface of the skin. They clearly display surface variations caused by postural, structural and musculoskeletal pathologies, as well as other anomalies. Different measurements can be carried out from the same images for an in-depth and objective evaluation.</p>
+                    {{ end }}
                     </div>
                     <div class="owl-content">
                         <img src="{{.Site.BaseURL}}img/cryovizion_pro/video_cryovizion_3.jpg" alt="">
+                    {{ if eq .Lang "fr" }}
                         <h3>Les étapes du CryoVizion</h3>
                         <span class="chiffre">3</span>
                         <p>Le professionnel communique au patient les résultats de l'évaluation à l'aide des images filtrées, afin qu'il voit concrètement son état, comprenne le diagnostic et adhère au traitement en toute confiance.</p>
+                    {{ else if eq .Lang "en" }}
+                        <h3>Cryovizion's steps</h3>
+                        <span class="chiffre">3</span>
+                        <p>Using the filtered images, the podiatrist communicates the results of the evaluation to the patient to help them gain a concrete appreciation of their condition, understand the diagnosis and commit to the treatment in complete confidence.</p>
+                    {{ end }}
                     </div>
                     <div class="owl-content">
                         <img src="{{.Site.BaseURL}}img/cryovizion_pro/video_cryovizion_4.jpg" alt="">
+                    {{ if eq .Lang "fr" }}
                         <h3>Les étapes du CryoVizion</h3>
                         <span class="chiffre">4</span>
                         <p>À la suite du traitement recommandé, le podiatre effectuera un suivi durant lequel il procédera à une nouvelle prise d'images pour constater et mesurer objectivement l'évolution des résultats du traitement et ajuster ce dernier au besoin. Les suivis imagés sont automatiquement consignés au dossier du patient et constitue un historique documenté.</p>
+                    {{ else if eq .Lang "en" }}
+                        <h3>Cryovizion's steps</h3>
+                        <span class="chiffre">4</span>
+                        <p>Once the recommended treatment has been carried out, the podiatrist conducts a follow-up during which he or she takes more images to assess and objectively measure the progress achieved as a result of the treatment and make adjustments if needed. The follow-up images are automatically saved in the patient file and constitute a documented history.</p>
+                    {{ end }}
                     </div>
                 </div>
             </div>
@@ -49,31 +84,46 @@
 <div class="had-container" id="vert">
     <div class="container">
         <div class="row">
-            <h1 class="black-bar">Plus d'informations</h1>
+            <h1 class="black-bar">{{ if eq .Lang "fr" }}Plus d'informations{{ else if eq .Lang "en" }}More information{{ end }}</h1>
             <div class="item-1 col s12">
                 <div class="row valign-wrapper">
                     <div class="col s12 m12 l7 oc-img valign"></div>
                     <div class="col s12 m12 l5 oc-txt valign">
+                    {{ if eq .Lang "fr" }}
                         <h3>Évaluation simplifiée pour le patient</h3>
                         <p>Les images claires et faciles à comprendre de CryoVizion vous aident à mieux expliquer au patient les problèmes posturaux qui l’affectent. </p>
+                    {{ else if eq .Lang "en" }}
+                        <h3>Clarify your patients’ evaluation</h3>
+                        <p>Use CryoVizion’s clear and simple images to better explain postural problems to your patients.</p>
+                    {{ end }}
                     </div>
                 </div>
             </div>
-            <div class="item-2 col s12">
+            <div class='item-2 col s12 {{ if eq .Lang "en" }}anglais{{end}}'>
                 <div class="row valign-wrapper">
                     <div class="col s12 m12 l7 oc-img push-l5 valign"></div>
                     <div class="col s12 m12 l5 oc-txt pull-l7 valign">
+                    {{ if eq .Lang "fr" }}
                         <h3>Constatation concrète des progrès du patient</h3>
                         <p>Le système d’imagerie vous permet de suivre les progrès du patient de manière objective en comparant son état initial à son état après le traitement, tout en documentant l’efficacité du traitement.</p>
+                    {{ else if eq .Lang "en" }}
+                        <h3>Visualize patients’ progress</h3>
+                        <p>Follow your patients’ progress objectively by comparing the initial assessment to the post-treatment one, providing you with documented results of your treatment’s effectiveness.</p>
+                    {{ end }}
                     </div>
                 </div>
             </div>
-            <div class="item-3 col s12">
+            <div class='item-3 col s12 {{ if eq .Lang "en" }}anglais{{end}}'>
                 <div class="row valign-wrapper">
                     <div class="col s12 m12 l7 oc-img valign"></div>
                     <div class="col s12 m12 l5 oc-txt valign">
+                    {{ if eq .Lang "fr" }}
                         <h3>Établissement d’un rapport de confiance et de loyauté avec le patient</h3>
                         <p>À l’aide d’une technologie scientifiquement éprouvée et utilisée en milieu clinique depuis plus de 20 ans, vous offrez une vision claire de l’amélioration de la posture du patient et bâtissez ainsi une saine relation avec lui, basée sur la confiance. </p>
+                    {{ else if eq .Lang "en" }}
+                        <h3>Develop trusting and loyal relationships with your patients</h3>
+                        <p>Providing a clear vision of your patients’ postural improvement and the use of scientifically proven technology with more than 20 years of clinical use are two strong foundations to build a healthy relationship based on trust with your clients. </p>
+                    {{ end }}
                     </div>
                 </div>
             </div>
@@ -83,6 +133,8 @@
 
 {{ partial "contact-btn-section.html" . }}
 
+<!-- Display in French only -->
+{{ if eq .Lang "fr" }}
 <div class="had-container vert" id="news">
     <div class="container">
         <div class="row">
@@ -103,14 +155,21 @@
         </div>
     </div>
 </div>
+{{ end }}
 
 <div class="had-container" id="clients_satisfaits">
     <div class="container">
         <div class="row">
             <div class="col s12">
+            {{ if eq .Lang "fr" }}
                 <h1 class="white-bar">Témoignage</h1>
-                <p>Le système CryoVizion me permet de prouver objectivement et d'illustrer mes mesures à mes patients afin qu'ils comprennent mieux l'importance des orthèses, ce qui finalement augmente la complaisance.Le système CryoVizion me permet de prouver objectivement et d'illustrer mes mesures à mes patients afin qu'ils comprennent mieux l'importance des orthèses, ce qui finalement augmente la complaisance.</p>
+                <p>Le système CryoVizion me permet de prouver objectivement et d'illustrer mes mesures à mes patients afin qu'ils comprennent mieux l'importance des orthèses, ce qui finalement augmente la complaisance.</p>
                 <p class="nom">-Mélanie Laplante, DPM, podiatre</p>
+            {{ else if eq .Lang "en" }}
+                <h1 class="white-bar">Testimonial</h1>
+                <p>The CryoVizion system enables me to objectively prove and illustrate to my patients the steps I have taken so that they understand more fully the importance of orthotics, which ultimately increases compliance.</p>
+                <p class="nom">-Mélanie Laplante, DPM, podiatrist</p>
+            {{ end }}
                 <div class="timg"><img src="{{.Site.BaseURL}}img/equipe/membre_equipe16.png" alt="Podiatre"></div>
             </div>
         </div>

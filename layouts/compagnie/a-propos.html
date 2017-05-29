@@ -4,9 +4,9 @@
     <div class="container">
         <div class="row">
             <div class="col s12 m9 l9" style="padding:0;">
-                <h1 class="blue-bar">L'approche cryos</h1>
-                <p>Pendant plus d’un siècle, l’idéologie conventionnelle reposait sur l’immobilisation des pieds afin de traiter
-                    correctement les problématiques du pied et l’inconfort postural.</p>
+                {{ if eq .Lang "fr" }}
+                <h1 class="blue-bar">Approche Cryos</h1>
+                <p>Pendant plus d’un siècle, l’idéologie conventionnelle reposait sur l’immobilisation des pieds afin de traiter correctement les problématiques du pied et l’inconfort postural.</p>
                 <h2>Chez Cryos, nous pensons différemment…</h2>
                 <p>Nous croyons que:</p>
                 <ul>
@@ -15,6 +15,18 @@
                     <li>Une mesure disciplinée et objective est fondamentale afin d’assurer l’efficacité du traitement </li>
                     <li>Les technologies représentent un élément clé dans l’avancement de la santé posturale</li>
                 </ul>
+                {{ else if eq .Lang "en" }}
+                <h1 class="blue-bar">The Cryos approach</h1>
+                <p>For more than a century, the conventional thinking was that immobilizing the foot was the best way to effectively correct feet and postural dysfunction.</p>
+                <h2>At Cryos, we think differently</h2>
+                <p>We believe that:</p>
+                <ul>
+                    <li>movement is essential to a healthy lifestyle</li>
+                    <li>the feet are the foundation of a healthy posture</li>
+                    <li>disciplined measurement is fundamental to effective treatment</li>
+                    <li>technology is the key element to moving forward</li>
+                </ul>
+                {{ end }}
             </div>
         </div>
     </div>
@@ -24,11 +36,13 @@
     <div class="container">
         <div class="row">
             <div class="col s12 m11 l11" style="padding:0;">
+                {{ if eq .Lang "fr" }}
                 <h1>Mission</h1>
-                <p>Chaque jour, nous sommes alimentés par la volonté d’aider les professionnels de la santé posturale et leurs
-                    patients à relever les défis auxquels ils font face. C’est en développant des solutions intégrées, innovantes
-                    et performantes que nous contribuons à ultimement à redonner à tous le pouvoir le plaisir d’une vie active
-                    grâce au bien-être postural.</p>
+                <p>Chaque jour, nous sommes alimentés par la volonté d’aider les professionnels de la santé posturale et leurs patients à relever les défis auxquels ils font face. C’est en développant des solutions intégrées, innovantes et performantes que nous contribuons à ultimement à redonner à tous le pouvoir le plaisir d’une vie active grâce au bien-être postural.</p>
+                {{ else if eq .Lang "en" }}
+                <h1>Mission</h1>
+                <p>Every day is fuelled by our willingness to help postural health professionals and their patients overcome the challenges they face. By developing integrated, innovative, high-performance solutions we contribute ultimately to help everyone rediscover the pleasure of an active lifestyle through postural well-being.</p>
+                {{ end }}
             </div>
         </div>
     </div>
@@ -38,28 +52,51 @@
     <div class="container">
         <div class="row">
             <div class="col s12">
+                {{ if eq .Lang "fr" }}
                 <h1 class="blue-bar">Valeurs</h1>
                 <div class="col s12 l3 valeur">
                     <img src="{{.Site.BaseURL}}img/a_propos/innovantion.png" alt="" height="90px" width="60px">
                     <h3>Innovation</h1>
-                        <p>De nature technologique ou organisationnelle, elle est pensée collectivement en fonction du mieux-être.
-                        </p>
+                    <p>De nature technologique ou organisationnelle, elle est pensée collectivement en fonction du mieux-être.</p>
                 </div>
                 <div class="col s12 l3 valeur">
                     <img src="{{.Site.BaseURL}}img/a_propos/transparence.png" alt="" height="90px" width="80px">
                     <h3>Transparence</h1>
-                        <p>Nous estimons que la transparence est la pierre angulaire d’une relation durable. </p>
+                    <p>Nous estimons que la transparence est la pierre angulaire d’une relation durable. </p>
                 </div>
                 <div class="col s12 l3 valeur">
                     <img src="{{.Site.BaseURL}}img/a_propos/complicity.png" alt="" height="90px" width="76px">
                     <h3>Complicité</h1>
-                        <p>Nous favorisons la proximité afin de bien comprendre les besoins des podiatres et des patients.</p>
+                    <p>Nous favorisons la proximité afin de bien comprendre les besoins des podiatres et des patients.</p>
                 </div>
                 <div class="col s12 l3 valeur">
                     <img src="{{.Site.BaseURL}}img/a_propos/devouement.png" alt="" height="90px" width="60px">
                     <h3>Dévouement</h1>
-                        <p>Notre dévouement est le reflet de notre engagement et de notre loyauté. </p>
+                    <p>Notre dévouement est le reflet de notre engagement et de notre loyauté. </p>
                 </div>
+                {{ else if eq .Lang "en" }}
+                <h1 class="blue-bar">Values</h1>
+                <div class="col s12 l3 valeur">
+                    <img src="{{.Site.BaseURL}}img/a_propos/innovantion.png" alt="" height="90px" width="60px">
+                    <h3>Innovation</h1>
+                    <p>Innovative thinking permeates the development of our technology & organization towards well-being.</p>
+                </div>
+                <div class="col s12 l3 valeur">
+                    <img src="{{.Site.BaseURL}}img/a_propos/transparence.png" alt="" height="90px" width="80px">
+                    <h3>Transparency</h1>
+                    <p>We believe that transparency is the cornerstone of any long-lasting relationship.</p>
+                </div>
+                <div class="col s12 l3 valeur">
+                    <img src="{{.Site.BaseURL}}img/a_propos/complicity.png" alt="" height="90px" width="76px">
+                    <h3>Partnership</h1>
+                    <p>We join you in your efforts so that we can better understand the needs of postural health professionals and patients.</p>
+                </div>
+                <div class="col s12 l3 valeur">
+                    <img src="{{.Site.BaseURL}}img/a_propos/devouement.png" alt="" height="90px" width="60px">
+                    <h3>Devotion</h1>
+                    <p>Our devotion is a reflection of our commitment and our loyalty.</p>
+                </div>
+                {{ end }}
             </div>
         </div>
     </div>
@@ -68,32 +105,50 @@
     <div class="container">
         <div class="row">
             <div class="col s12">
-                <h1 class="blue-bar">Notre histoire</h1>
-                <div class="col s12 m6 l6 " style="padding:0; margin: 40px 0 40px;">
+                <h1 class="blue-bar">{{ if eq .Lang "fr" }}Notre histoire{{ else if eq .Lang "en" }}How we got here{{ end }}</h1>
+                <div class="col s12 m12 l6 " style="padding:0; margin: 40px 0 40px;">
                     <div class="owl-carousel owl-theme">
                         <div class="owl-content">
                             <div class="block">
                                 <div class="year"><span>2017</span></div>
                                 <ul class="list">
+                                    {{ if eq .Lang "fr" }}
                                     <li>Prix du design CryoScan 3D avec Brio Innovation</li>
                                     <li>Près de 50 employés et plus de trente cliniques partenaires</li>
+                                    {{ else if eq .Lang "en" }}
+                                    <li>2 design awards for the CryoScan 3D in partnership with Brio Innovation. </li>
+                                    <li>Close to 50 employees and more than 30 partners clinics.</li>
+                                    {{ end }}
                                 </ul>
                             </div>
                             <div class="block">
                                 <div class="year"><span>2016</span></div>
                                 <ul class="list">
+                                    {{ if eq .Lang "fr" }}
                                     <li>Participation au congrès mondial de la podiatrie (FIP)</li>
                                     <li>Arrivée du nouveau partenaire financier CCPME-Desjardins capital de risque</li>
                                     <li>2 demandes de nouveaux brevets (CryoScan 3D)</li>
                                     <li>Certifié Ici on recycle</li>
+                                    {{ else if eq .Lang "en" }}
+                                    <li>Exhibitor at the world congress of podiatry</li>
+                                    <li>New financial partner (CCPME- Desjardins capital de risque)</li>
+                                    <li>2 new patents pending</li>
+                                    <li>Ici on recycle certification</li>
+                                    {{ end }}
                                 </ul>
                             </div>
                             <div class="block">
                                 <div class="year"><span>2015</span></div>
                                 <ul class="list">
+                                    {{ if eq .Lang "fr" }}
                                     <li>Embauche 2e ingénieur R&amp;D</li>
                                     <li>Ouverture de la première clinique en Ontario</li>
                                     <li>Finaliste Fast Runner Canadian trade commission Boston</li>
+                                    {{ else if eq .Lang "en" }}
+                                    <li>Hiring of a second engineer.</li>
+                                    <li>Opening of the 1st clinic in Ontario.</li>
+                                    <li>Finalist in the Fast Runner program of the Canadian trade commission in Boston.</li>
+                                    {{ end }}
                                 </ul>
                             </div>
                         </div>
@@ -101,21 +156,33 @@
                             <div class="block">
                                 <div class="year"><span>2013</span></div>
                                 <ul class="list">
-                                    <li>Ouverture du nouveau laboratoire afin d’agrandir l’espace de travail de près 14 000 pieds
-                                        carrés
+                                    {{ if eq .Lang "fr" }}
+                                    <li>Ouverture du nouveau laboratoire afin d’agrandir l’espace de travail de près 14 000 pieds carrés
                                     </li>
+                                    {{ else if eq .Lang "en" }}
+                                    <li>Opening of the new laboratory to expand our work environment of 14 000 square foot.
+                                    </li>
+                                    {{ end }}
                                 </ul>
                             </div>
                             <div class="block">
                                 <div class="year"><span>2012</span></div>
                                 <ul class="list">
+                                    {{ if eq .Lang "fr" }}
                                     <li>L’embauche premier ingénieur de recherche à temps plein pour le département R&amp;D</li>
+                                    {{ else if eq .Lang "en" }}
+                                    <li>Hiring of the first full time research engineer in the R&D department</li>
+                                    {{ end }}
                                 </ul>
                             </div>
                             <div class="block">
                                 <div class="year"><span>2011</span></div>
                                 <ul class="list">
+                                    {{ if eq .Lang "fr" }}
                                     <li>Début de l’automatisation des procédés de fabrication.</li>
+                                    {{ else if eq .Lang "en" }}
+                                    <li>Beginning of automation of the production processes </li>
+                                    {{ end }}
                                 </ul>
                             </div>
                         </div>
@@ -123,28 +190,33 @@
                             <div class="block">
                                 <div class="year"><span>2010</span></div>
                                 <ul class="list">
-                                    <li>En 2010, l'entreprise ajoute à son modèle d'affaires le service conseil pour mettre l'expertise
-                                        de ses professionnels en gestion et démarrage de cliniques modernes, au service des
-                                        podiatres.
+                                    {{ if eq .Lang "fr" }}
+                                    <li>En 2010, l'entreprise ajoute à son modèle d'affaires le service conseil pour mettre l'expertise de ses professionnels en gestion et démarrage de cliniques modernes, au service des podiatres.
                                     </li>
+                                    {{ else if eq .Lang "en" }}
+                                    <li>The company adds consulting services to help podiatrists benefit from its expertise in setting up and managing modern clinics.
+                                    </li>
+                                    {{ end }}
                                 </ul>
                             </div>
                             <div class="block">
                                 <div class="year"><span>2006</span></div>
                                 <ul class="list">
-                                    <li>En 2006, l'entreprise obtient la certification ISO 13485 pour la fabrication et la vente
-                                        du système CryoVizion et entreprend la première phase de commercialisation auprès
-                                        des professionnels de la podiatrie.</li>
+                                    {{ if eq .Lang "fr" }}
+                                    <li>En 2006, l'entreprise obtient la certification ISO 13485 pour la fabrication et la vente du système CryoVizion et entreprend la première phase de commercialisation auprès des professionnels de la podiatrie.</li>
+                                    {{ else if eq .Lang "en" }}
+                                    <li>The company obtains ISO 13485 certification for the manufacture and sale of the CryoVizion system and begins marketing to podiatric professionals.</li>
+                                    {{ end }}
                                 </ul>
                             </div>
                             <div class="block">
                                 <div class="year"><span>2004</span></div>
                                 <ul class="list">
-                                    <li>Formation d'une équipe de gestion expérimentée pour épauler les podiatres Gremillet ets
-                                        Legaré. Les effets de cette nouvelle alliance se font ressentir rapidement et les
-                                        investissements en recherche et en développement mènent à l'obtention d'un deuxième
-                                        brevet pour les orthèses de contact dynamique et un premier brevet pour le système
-                                        d'imagerie posturale CryoVizion.</li>
+                                    {{ if eq .Lang "fr" }}
+                                    <li>Formation d'une équipe de gestion expérimentée pour épauler les podiatres Gremillet et Legaré. Les effets de cette nouvelle alliance se font ressentir rapidement et les investissements en recherche et en développement mènent à l'obtention d'un deuxième brevet pour les orthèses de contact dynamique et un premier brevet pour le système d'imagerie posturale CryoVizion.</li>
+                                    {{ else if eq .Lang "en" }}
+                                    <li>An experienced management team is put in place to support podiatrists Gremillet and Legaré. The effects of this new alliance are felt very quickly and R&D investments accelerate the development of the dynamic contact orthotics and the CryoVizion postural imaging system.</li>
+                                    {{ end }}
                                 </ul>
                             </div>
                         </div>
@@ -152,26 +224,29 @@
                             <div class="block">
                                 <div class="year"><span>2003</span></div>
                                 <ul class="list">
-                                    <li>Après le décès subit de M. Perrault en 2003, Frédéric Gremillet, DPM, et Philippe Legaré,
-                                        DPM, perpétuent la vision du fondateur. Tous deux diplômés du collège de médecine
-                                        podiatrique de Pennsylvanie et protégés de M. Perrault, ils reprennent les rênes
-                                        de l'entreprise en 2004.
+                                    {{ if eq .Lang "fr" }}
+                                    <li>Après le décès subit de M. Perrault en 2003, Frédéric Gremillet, DPM, et Philippe Legaré, DPM, perpétuent la vision du fondateur. Tous deux diplômés du collège de médecine podiatrique de Pennsylvanie et protégés de M. Perrault, ils reprennent les rênes de l'entreprise en 2004.
                                     </li>
+                                    {{ else if eq .Lang "en" }}
+                                    <li>Following the sudden passing of Mr. Perreault in 2003, Frédéric Gremillet, DPM and Philippe Legaré, DPM carry on the founder’s vision. Both graduates of the Pennsylvania College of Podiatric Medicine and protégés of Mr. Perreault, they took over the reins of the company in 2004.
+                                    </li>
+                                    {{ end }}
                                 </ul>
                             </div>
                             <div class="block">
                                 <div class="year"><span>1994</span></div>
                                 <ul class="list">
-                                    <li>En 1994, Cryos Technologies Inc. est fondée par le podiatre visionnaire Ronald Perrault
-                                        qui développe l'orthèse de contact dynamique en collaboration avec l'Université de
-                                        Montréal.
-                                    </li>
+                                    {{ if eq .Lang "fr" }}
+                                    <li>En 1994, Cryos Technologies Inc. est fondée par le podiatre visionnaire Ronald Perrault qui développe l'orthèse de contact dynamique en collaboration avec l'Université de Montréal.</li>
+                                    {{ else if eq .Lang "en" }}
+                                    <li>Cryos Technologies Inc. is founded by visionary podiatrist Ronald Perrault, who develops a dynamic contact orthotic in collaboration with the Université de Montréal.</li>
+                                    {{ end }}
                                 </ul>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col s12 m6 l6 histoire-img hide-on-small-only">
+                <div class="col s12 m12 l6 histoire-img hide-on-small-only">
                 </div>
             </div>
         </div>
@@ -182,8 +257,9 @@
     <div class="container">
         <div class="row">
             <div class="col s12">
-                <h1 class="blue-bar">L'équipe</h1>
+                <h1 class="blue-bar">{{ if eq .Lang "fr" }}L'équipe{{ else if eq .Lang "en" }}Team{{ end }}</h1>
                 <div class="owl-carousel">
+                {{ if eq .Lang "fr" }}
                     {{ range sort $.Site.Data.equipe "weight" "asce" }}
                         <div class="member center-align">
                             <img src="{{$.Site.BaseURL}}img/equipe/{{ .photo }}" alt="{{ .fonction }}">
@@ -191,29 +267,16 @@
                             <h2>{{ .fonction }}</h2>
                         </div>
                     {{ end }}
+                {{ else if eq .Lang "en" }}
+                    {{ range sort $.Site.Data.equipe "weight" "asce" }}
+                        <div class="member center-align">
+                            <img src="{{$.Site.BaseURL}}img/equipe/{{ .photo }}" alt="{{ .fonction }}">
+                            <h1>{{ .nom }}</h1>
+                            <h2>{{ .position }}</h2>
+                        </div>
+                    {{ end }}
+                {{ end }}
                 </div>
-                <!-- <div class="hide-on-med-and-up">
-                    <div class="member center-align">
-                        <img src="{{.Site.BaseURL}}img/a_propos/Nicholas.png" alt="">
-                        <h1>Nicholas Watts</h1>
-                        <h2>Ingénieur en recherche</h2>
-                    </div>
-                    <div class="member center-align">
-                        <img src="{{.Site.BaseURL}}img/a_propos/Philippe.png" alt="">
-                        <h1>Philippe Légaré</h1>
-                        <h2>DMP</h2>
-                    </div>
-                    <div class="member center-align">
-                        <img src="{{.Site.BaseURL}}img/a_propos/Frederic.png" alt="">
-                        <h1>Frederic Gremillet</h1>
-                        <h2>DMP</h2>
-                    </div>
-                    <div class="member center-align">
-                        <img src="{{.Site.BaseURL}}img/a_propos/Frederic.png" alt="">
-                        <h1>Frederic Gremillet</h1>
-                        <h2>DMP</h2>
-                    </div>
-                </div> -->
             </div>
         </div>
     </div>
@@ -223,7 +286,7 @@
     <div class="container">
         <div class="row">
             <div class="col s12 center-align">
-                <a href="{{ .Site.BaseURL }}trouver-une-clinique">Trouver une clinique</a>
+                {{ if eq .Lang "fr" }}<a href="{{ .Site.BaseURL }}trouver-une-clinique">Trouver une clinique{{ else if eq .Lang "en" }}<a href="{{ .Site.BaseURL }}en/find-a-clinic">Find a clinic{{ end }}</a>
             </div>
         </div>
     </div>

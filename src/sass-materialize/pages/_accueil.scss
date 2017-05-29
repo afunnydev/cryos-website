@@ -6,6 +6,7 @@
 
 #hero {
 	background-color: #e9e9e9;
+	overflow-x: hidden;
 }
 
 #hero img {
@@ -15,6 +16,7 @@
 /* Produits */
 
 #produits {
+	overflow-x: hidden;
 	padding-bottom: $navbar-height;
 	text-align: center;
 	div.top-text {
@@ -125,10 +127,10 @@
 	#produits {
 		padding-top: 10px;
 		padding-bottom: 0px;
-		margin-left: 10px;
 		width: 100%;
 		.row {
 			margin-bottom: 0;
+			margin-left: auto;
 			.col {
 				&:before {
 					content:'';

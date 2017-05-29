@@ -6,8 +6,13 @@
     	<div class="container row">
     		<div class="col l8 offset-l2 m10 offset-m1 s12">
     			<div class="valign">
+                {{ if eq .Lang "fr" }}
     				<p>Nous avons bien reçu votre formulaire et nous vous contacterons dans les plus brefs délais. Merci de votre intérêt pour Cryos Technologies.</p>
 	    			<a href="{{ .Site.BaseURL }}" class="trouver-btn btn vide">Retour à l'accueil <i class="fa fa-chevron-right"></i></a>
+                {{ else if eq .Lang "en" }}
+                    <p>We received your inquiry and will be in touch with you shortly. Thanks for your time and interest in Cryos Technologies.</p>
+                    <a href="{{ .Site.BaseURL }}en" class="trouver-btn btn vide">Back to home page <i class="fa fa-chevron-right"></i></a>
+                {{ end }}
     			</div>
 	    	</div>
     	</div>

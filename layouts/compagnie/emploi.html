@@ -2,6 +2,7 @@
 
 <div class="container" id="emploi-intro">
     <div class="row">
+    {{ if eq .Lang "fr" }}
         <div class="col s12 m6 l6">
             <h1 class="blue-bar">Travailler chez Cryos</h1>
             <h2>Nous sommes sans cesse à la recherche de nouveaux talents pour se joindre à notre équipe passionnée. </h2>
@@ -17,6 +18,23 @@
             <p>Malheureusement, il n’y a aucun poste de disponible pour l’instant.</p>
             <p><a href="#postes_details">Détails plus bas</a></p>
         </div>
+    {{ else if eq .Lang "en" }}
+        <div class="col s12 m6 l6">
+            <h1 class="blue-bar">Working at Cryos</h1>
+            <h2>We are constantly looking for new talents to join our passionate team.</h2>
+            <p>Consult our job openings or send us an application.</p>
+        </div>
+        <div class="col s12 m5 l5 offset-m1 offset-l1 postes">
+            <h2>Job openings</h2>
+            <!-- <ul>
+                <li>Réceptionniste</li>
+                <li>Programmeur back-end</li>
+                <li>Machiniste</li>
+            </ul> -->
+            <p>Unfortunately, there’s no job opening at the moment. </p>
+            <p><a href="#postes_details">Details below</a></p>
+        </div>
+    {{ end }}
     </div>
 </div>
 
@@ -24,6 +42,7 @@
     <div class="container">
         <div class="row">
             <div class="col s12 m8 l6">
+            {{ if eq .Lang "fr" }}
                 <h1>Postuler en ligne</h1>
                 <form action="{{ .Site.BaseURL}}merci" name="emploi" id="emploi" netlify netlify-honeypot="bot-field">
                     <div class="col s12 m6 l6 pad_to_right">
@@ -55,6 +74,39 @@
                         <input type="submit" value="ENVOYER" class="poste_envoyer">
                     </div>
                 </form>
+            {{ else if eq .Lang "en" }}
+                <h1>Apply online</h1>
+                <form action="{{ .Site.BaseURL}}thank-you" name="emploi" id="emploi" netlify netlify-honeypot="bot-field">
+                    <div class="col s12 m6 l6 pad_to_right">
+                        <label for="nom">LAST NAME</label>
+                        <input type="text" name="nom" required>
+                    </div>
+                    <div class="col s12 m6 l6 pad_to_right">
+                        <label for="prenom">FIRST NAME</label>
+                        <input type="text" name="prenom" required>
+                        <p class="hidden"><label>Bot field: <input name="bot-field"></label></p>
+                    </div>
+                    <div class="col s12 m6 l6 pad_to_right">
+                        <label for="email">EMAIL</label>
+                        <input type="email" name="email" required>
+                    </div>
+                    <div class="col s12 m6 l6 pad_to_right">
+                        <label for="poste_souhaite">WANTED POSITION</label>
+                        <input type="text" name="poste_souhaite" required>
+                    </div>
+                    <div class="col s12 pad_to_right">
+                        <label for="file">ATTACH YOUR RESUME (WORD OR PDF)</label>
+                        <input type="file" name="file" placeholder="CHOOSE FILE" required class="attach_file">
+                    </div>
+                    <div class="col s12 pad_to_right">
+                        <label for="message">TEXT</label>
+                        <textarea name="message" required></textarea>
+                    </div>
+                    <div class="col s6 m3 l3 pad_to_right">
+                        <input type="submit" value="SEND" class="poste_envoyer">
+                    </div>
+                </form>
+            {{ end }}
             </div>
         </div>
     </div>
@@ -63,6 +115,7 @@
 <div class="container" id="postes_details">
     <div class="row">
         <div class="col s12">
+        {{ if eq .Lang "fr" }}
             <h1 class="blue-bar">Détails sur les postes à combler</h1>
             <!-- <ul class="collapsible" data-collapsible="accordion">
                 <li>
@@ -181,6 +234,10 @@
                 </li>
             </ul> -->
             <p>Malheureusement, il n’y a aucun poste de disponible pour l’instant.</p>
+        {{ else if eq .Lang "en" }}
+            <h1 class="blue-bar">Details on our job openings</h1>
+            <p>Unfortunately, there’s no job opening at the moment. </p>
+        {{ end }}
         </div>
     </div>
 </div>

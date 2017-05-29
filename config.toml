@@ -1,4 +1,5 @@
-baseURL = "http://www.cryos.com/"
+baseURL = "http://www.cryos.com"
+DefaultContentLanguage = "fr"
 languageCode = "en-us"
 title = "Cryos"
 metaDataFormat = "toml"
@@ -10,6 +11,10 @@ RemovePathAccents = true
   	tag = "tags"
     author = "authors"
 
+[Languages]
+[Languages.en]
+
+[Languages.fr]
 [params.authors]
 	[params.authors.audree]
 	   user_nicename = "audree"
@@ -68,7 +73,7 @@ RemovePathAccents = true
 	   display_name = "Caroline Guimont, DPM"
 	   address = "452, Avenue Québec"
 	   F = "http://www.cryos.com/wp-content/uploads/2015/04/caroline-guimont.jpg"
-	   description = "Dre Caroline Guimont, podiatre, est diplômée du doctorat en médecine podiatrique à l'Université du Québec à Trois-Rivières depuis 2009. Elle a travaillé 3 ans à la Clinique podiatrique FranÃ§ois Giroux à Québec. Originaire de Rouyn-Noranda, en Abitibi-Témiscamingue, elle a ensuite ouvert sa propre clinique podiatrique en 2013 à Rouyn et y est la seule podiatre installée en région. Elle est lauréate des prix régionaux Services aux Individus et Coup de cÅur entrepreneure féminin Femmessor dans le cadre du Concours Québécois en Entreprenariat 2014. Elle a remporté le prix pour Entreprise en émergence lors du Gala des Extra de la chambre des Commerces de Rouyn-Noranda en 2014."
+	   description = "Dre Caroline Guimont, podiatre, est diplômée du doctorat en médecine podiatrique à l'Université du Québec à Trois-Rivières depuis 2009. Elle a travaillé 3 ans à la Clinique podiatrique François Giroux à Québec. Originaire de Rouyn-Noranda, en Abitibi-Témiscamingue, elle a ensuite ouvert sa propre clinique podiatrique en 2013 à Rouyn et y est la seule podiatre installée en région. Elle est lauréate des prix régionaux Services aux Individus et Coup de cÅur entrepreneure féminin Femmessor dans le cadre du Concours Québécois en Entreprenariat 2014. Elle a remporté le prix pour Entreprise en émergence lors du Gala des Extra de la chambre des Commerces de Rouyn-Noranda en 2014."
 	   phone = "819-762-2202"
 	   city = "Rouyn-Noranda, Québec, J9X 0B1"
 	[params.authors.elizabeth]
@@ -88,7 +93,7 @@ RemovePathAccents = true
 	   display_name = "Frédéric Gremillet, DPM"
 	   address = "9 Boulevard Montcalm Nord"
 	   F = "http://www.cryos.com/wp-content/uploads/2015/02/frederic-gremillet.jpg"
-	   description = "Diplômé du College of Podiatric Medecine de Philadelphie en 1996, Dr Frédéric Gremillet, podiatre, est un passionné de podiatrie. Depuis 2003, il effectue des travaux de recherche et développement sur l'étude de la posture et les innovations technologiques visant l'amélioration des orthèses plantaires, au niveau des matériaux, du design et de la fabrication d'avant-garde. Soucieux du développement et de l'avenir de sa profession, Dr Gremillet, podiatre, reÃ§oit et forme des étudiants en Médecine Podiatrique à l'Université du Québec à Trois-Rivières dans le cadre de leurs stages de fin d'études et agit à titre de collaborateur à la formation en biomécanique, dans le programme de Chiropody au Michener Institute de Toronto. Étant un grand athlète, il porte un intérÃªt particulier à la bonne posture des athlètes et à leur performance. Il a d'ailleurs suivi plusieurs formations sur l'analyse de la course. Il s'implique aussi auprès des jeunes de sa communauté en tant qu'assistant-entraineur de soccer et en tant qu'entraineur de hockey à Candiac."
+	   description = "Diplômé du College of Podiatric Medecine de Philadelphie en 1996, Dr Frédéric Gremillet, podiatre, est un passionné de podiatrie. Depuis 2003, il effectue des travaux de recherche et développement sur l'étude de la posture et les innovations technologiques visant l'amélioration des orthèses plantaires, au niveau des matériaux, du design et de la fabrication d'avant-garde. Soucieux du développement et de l'avenir de sa profession, Dr Gremillet, podiatre, reçoit et forme des étudiants en Médecine Podiatrique à l'Université du Québec à Trois-Rivières dans le cadre de leurs stages de fin d'études et agit à titre de collaborateur à la formation en biomécanique, dans le programme de Chiropody au Michener Institute de Toronto. Étant un grand athlète, il porte un intérÃªt particulier à la bonne posture des athlètes et à leur performance. Il a d'ailleurs suivi plusieurs formations sur l'analyse de la course. Il s'implique aussi auprès des jeunes de sa communauté en tant qu'assistant-entraineur de soccer et en tant qu'entraineur de hockey à Candiac."
 	   phone = "450-659-9011"
 	   city = "Candiac, Québec, J5R 3L5"
 	[params.authors.gabriel]
@@ -108,17 +113,17 @@ RemovePathAccents = true
 	   display_name = "Gabrielle Castonguay, DPM"
 	   address = "456 Boulevard de l'Hôpital"
 	   F = "http://www.cryos.com/wp-content/uploads/2015/04/gabrielle-castonguay.jpg"
-	   description = "Dre Gabrielle Castonguay, podiatre, s'est jointe à l'équipe de la Clinique podiatrique de l'Outaouais au printemps 2011. Originaire de l'Outaouais, elle a complété ses études à l'Université du Québec à Trois-Rivières obtenant ainsi son doctorat en médecine podiatrique. Elle participe couramment à des journées de bénévolat pour des organisations sans but lucratif cherchant à promouvoir la santé des pieds. De plus, faisant partie d'équipes de soccer compétitives depuis plusieurs années elle perÃ§oit la relation entre les pieds et le sport d'un autre Åil!"
+	   description = "Dre Gabrielle Castonguay, podiatre, s'est jointe à l'équipe de la Clinique podiatrique de l'Outaouais au printemps 2011. Originaire de l'Outaouais, elle a complété ses études à l'Université du Québec à Trois-Rivières obtenant ainsi son doctorat en médecine podiatrique. Elle participe couramment à des journées de bénévolat pour des organisations sans but lucratif cherchant à promouvoir la santé des pieds. De plus, faisant partie d'équipes de soccer compétitives depuis plusieurs années elle perçoit la relation entre les pieds et le sport d'un autre Åil!"
 	   phone = "(819) 568-0456"
 	   city = "Gatineau, Québec, J8T 8M5"
 	[params.authors.giroux]
 	   user_nicename = "giroux"
 	   user_email =  "charlesbourg@podiatregiroux.com"
 	   user_url = "http://www.podiatregiroux.com/"
-	   display_name = "FranÃ§ois Giroux, DPM"
+	   display_name = "François Giroux, DPM"
 	   address = "6475 Boulevard Henri-Bourassa"
 	   F = "http://www.cryos.com/wp-content/uploads/2015/05/francois-giroux.jpg"
-	   description = "Membre de l'Ordre des podiatres du Québec depuis 1998, le Dr FranÃ§ois Giroux, podiatre, est titulaire d'un doctorat en médecine podiatrique décerné par le Pennsylvania College of Podiatric Medecine de Philadelphie. Il a été le délégué québécois à l'Association médicale podiatrique canadienne (Canadian Podiatric Medical Association â CPMA) de 2005 à 2008. Il a également agit en tant qu'administrateur au bureau de l'Ordre des podiatres du Québec de 2006 à 2009. Le Dr FranÃ§ois Giroux a été chargé de cours (podiatrie sportive et podopathologie) pour les étudiants du doctorat en médecine podiatrique de l'Université du Québec à Trois-Rivières de 2006 à 2008. Depuis l'ouverture du programme, il accueille également des étudiants en stage d'observation à sa pratique privée. Le Dr FranÃ§ois Giroux, podiatre, s'implique aussi dans le chapitre québécois du programme Fit Feet, une initiative développée par les Olympiques Spéciaux en collaboration avec le American Academy of Podiatric Sports Medicine (AAPSM) et la Fédération internationale des podiatres (FIP). Il a été à de nombreuses reprises invité en tant que conférencier auprès d'omnipraticiens, d'endocrinologues, d'orthésistes et de marchands de chaussures. à ce jour, il agit à titre de podiatre consultant du département de souliers de course de la boutique La Vie Sportive à Québec ainsi que pour le développement des semelles internes de souliers de vélo chez Louis Garneau."
+	   description = "Membre de l'Ordre des podiatres du Québec depuis 1998, le Dr François Giroux, podiatre, est titulaire d'un doctorat en médecine podiatrique décerné par le Pennsylvania College of Podiatric Medecine de Philadelphie. Il a été le délégué québécois à l'Association médicale podiatrique canadienne (Canadian Podiatric Medical Association â CPMA) de 2005 à 2008. Il a également agit en tant qu'administrateur au bureau de l'Ordre des podiatres du Québec de 2006 à 2009. Le Dr François Giroux a été chargé de cours (podiatrie sportive et podopathologie) pour les étudiants du doctorat en médecine podiatrique de l'Université du Québec à Trois-Rivières de 2006 à 2008. Depuis l'ouverture du programme, il accueille également des étudiants en stage d'observation à sa pratique privée. Le Dr François Giroux, podiatre, s'implique aussi dans le chapitre québécois du programme Fit Feet, une initiative développée par les Olympiques Spéciaux en collaboration avec le American Academy of Podiatric Sports Medicine (AAPSM) et la Fédération internationale des podiatres (FIP). Il a été à de nombreuses reprises invité en tant que conférencier auprès d'omnipraticiens, d'endocrinologues, d'orthésistes et de marchands de chaussures. à ce jour, il agit à titre de podiatre consultant du département de souliers de course de la boutique La Vie Sportive à Québec ainsi que pour le développement des semelles internes de souliers de vélo chez Louis Garneau."
 	   phone = "(418) 622-0732"
 	   city = "Québec, Québec, G1H 3B9"
 	[params.authors.gravel]
@@ -128,7 +133,7 @@ RemovePathAccents = true
 	   display_name = "Marie-Michelle Gravel, DPM"
 	   address = "1078 Boulevard Vachon Nord"
 	   F = "http://www.cryos.com/wp-content/uploads/2015/02/marie-michelle-gravel.jpg"
-	   description = "Dre Marie-Michelle Gravel, podiatre, possède un doctorat de premier cycle en médecine podiatrique de l'Université du Québec à Trois-Rivières. Lors de son parcours universitaire, elle a réalisé un stage de quatre mois à Manhattan au sein du New York College of Podiatric Medicine. ExerÃ§ant depuis 2013, Dre Gravel, podiatre, garde toujours à l'esprit de mettre des mots sur les maux : vous aider à comprendre vos signes et symptômes ainsi qu'à vulgariser des réalités de médecine complexes en éléments tangibles qui vous aideront ainsi à mieux comprendre votre problématique. Elle a ouvert les portes de sa clinique podiatrique en juillet 2013 pour Ãªtre au service de Sainte-Marie de Beauce et de Vallée Jonction."
+	   description = "Dre Marie-Michelle Gravel, podiatre, possède un doctorat de premier cycle en médecine podiatrique de l'Université du Québec à Trois-Rivières. Lors de son parcours universitaire, elle a réalisé un stage de quatre mois à Manhattan au sein du New York College of Podiatric Medicine. Exerçant depuis 2013, Dre Gravel, podiatre, garde toujours à l'esprit de mettre des mots sur les maux : vous aider à comprendre vos signes et symptômes ainsi qu'à vulgariser des réalités de médecine complexes en éléments tangibles qui vous aideront ainsi à mieux comprendre votre problématique. Elle a ouvert les portes de sa clinique podiatrique en juillet 2013 pour Ãªtre au service de Sainte-Marie de Beauce et de Vallée Jonction."
 	   phone = "418-387-3350"
 	   city = "Sainte-Marie Québec G6E 1M7"
 	[params.authors.keven]
@@ -148,7 +153,7 @@ RemovePathAccents = true
 	   display_name = "Lynda Cormier, DPM"
 	   address = "86 Prom. du Portage"
 	   F = "http://www.cryos.com/wp-content/uploads/2015/11/Lynda-Cormier-dpm-gatineau.jpg"
-	   description = "Inspirée de la carrière de son père, Dre Lynda Cormier, podiatre, débute son parcours professionnel en 1984 comme assistante en podiatrie à Montréal. En 1986, elle obtient le diplôme de Chiropodiste du Â« SMAE INSTITUTEÂ» en Angleterre et en 1992, elle sera diplômée du Â« New York College of Podiatric Medecine Â» aux États-Unis et fera désormais partie des membres de l'Ordre des podiatres du Québec (OPQ). Tout en pratiquant, elle complète des formations de biomécanique et de chirurgie ambulatoire pour les pieds. Suite aux compétences acquises, en 2003, elle reÃ§oit le Â«Fellowship de l'Academy of Ambulatory Foot and Ankle SurgeryÂ». La mÃªme année, elle s'implique dans les jeux paralympiques spéciaux en s'occupant de la clinique de pied des athlètes. Depuis 2006, dans le cadre de cette organisation, elle est la Directrice de Â« Fit feet Quebec Â». Ces jeux ont lieu partout dans la province à tous les ans. Fière du développement de la profession de podiatre au Québec, elle accueille des stagiaires en podiatrie qui complètent leur formation."
+	   description = "Inspirée de la carrière de son père, Dre Lynda Cormier, podiatre, débute son parcours professionnel en 1984 comme assistante en podiatrie à Montréal. En 1986, elle obtient le diplôme de Chiropodiste du Â« SMAE INSTITUTEÂ» en Angleterre et en 1992, elle sera diplômée du Â« New York College of Podiatric Medecine Â» aux États-Unis et fera désormais partie des membres de l'Ordre des podiatres du Québec (OPQ). Tout en pratiquant, elle complète des formations de biomécanique et de chirurgie ambulatoire pour les pieds. Suite aux compétences acquises, en 2003, elle reçoit le Â«Fellowship de l'Academy of Ambulatory Foot and Ankle SurgeryÂ». La mÃªme année, elle s'implique dans les jeux paralympiques spéciaux en s'occupant de la clinique de pied des athlètes. Depuis 2006, dans le cadre de cette organisation, elle est la Directrice de Â« Fit feet Quebec Â». Ces jeux ont lieu partout dans la province à tous les ans. Fière du développement de la profession de podiatre au Québec, elle accueille des stagiaires en podiatrie qui complètent leur formation."
 	   phone = "819-205-7433"
 	   city = "Gatineau, QC J8X 2K1"
 	[params.authors.marie-michelle]
@@ -178,7 +183,7 @@ RemovePathAccents = true
 	   display_name = "Mélanie Laplante, DPM"
 	   address = "19, rue Gauthier N"
 	   F = "http://www.cryos.com/wp-content/uploads/2015/03/melanie-laplante.jpg"
-	   description = "Dre Mélanie LaPlante, podiatre, possède un doctorat de premier cycle en médecine podiatrique de l'Université du Québec à Trois-Rivières (UQTR) et un baccalauréat en physiothérapie de l'Université Laval. Lors de son parcours universitaire, elle a réalisé un stage de 4 mois à Manhattan au sein du New York College of Podiatric Medecine. Depuis l'ouverture de sa clinique en 2009, elle suit diverses formations dans les thérapies manuelles, le taping et l'analyse de la course. Elle reÃ§oit aussi des étudiants en médecine podiatrique de l'UQTR dans le cadre de leur stage de fin d'études. Elle s'implique auprès de diverses organismes sportifs dans le région de Launaudière."
+	   description = "Dre Mélanie LaPlante, podiatre, possède un doctorat de premier cycle en médecine podiatrique de l'Université du Québec à Trois-Rivières (UQTR) et un baccalauréat en physiothérapie de l'Université Laval. Lors de son parcours universitaire, elle a réalisé un stage de 4 mois à Manhattan au sein du New York College of Podiatric Medecine. Depuis l'ouverture de sa clinique en 2009, elle suit diverses formations dans les thérapies manuelles, le taping et l'analyse de la course. Elle reçoit aussi des étudiants en médecine podiatrique de l'UQTR dans le cadre de leur stage de fin d'études. Elle s'implique auprès de diverses organismes sportifs dans le région de Launaudière."
 	   phone = "450-753-4554"
 	   city = "Notre-Dame-des-Prairies Québec J6E 1T7"
 	[params.authors.morel]

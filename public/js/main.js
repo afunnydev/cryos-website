@@ -19,7 +19,7 @@ jQuery(document).ready(function ($) {
   $("#nouvelles-carousel").owlCarousel({
     nav: true,
     dots: false,
-    navText: ['<img src="../img/fleche-gauche.png" alt="" />', '<img src="../img/fleche-droite.png" alt="" />'],
+    navText: ['<img src="/img/fleche-gauche.png" alt="" />', '<img src="/img/fleche-droite.png" alt="" />'],
     responsive: {
       // breakpoint from 0 up
       0: {
@@ -41,7 +41,7 @@ jQuery(document).ready(function ($) {
     nav: true,
     margin: 90,
     dots: false,
-    navText: ['<img src="../img/fleche-gauche.png" alt="" />', '<img src="../img/fleche-droite.png" alt="" />'],
+    navText: ['<img src="/img/fleche-gauche.png" alt="" />', '<img src="/img/fleche-droite.png" alt="" />'],
     responsive: {
       // breakpoint from 0 up
       0: {
@@ -74,14 +74,29 @@ jQuery(document).ready(function ($) {
     items: 1,
     nav: true,
     dots: true,
-    navText: ['<img src="../../img/fleche-gauche.png" alt="" />', '<img src="../../img/fleche-droite.png" alt="" />']
+    navText: ['<img src="/img/fleche-gauche.png" alt="" />', '<img src="/img/fleche-droite.png" alt="" />']
   });
-  if (Modernizr.mq('only all and (max-width: 600px)')) {} else {
+  if (Modernizr.mq('only all and (max-width: 600px)')) {}
+  else if (Modernizr.mq('only all and (min-width: 601px) and (max-width: 992px)')) {
     $('.year').each(function () {
       var h = $(this).parent().find(".list").height();
       $(this).css('height', h);
       $(this).find('span').css('margin-top', h / 2 - $(this).find('span').height());
     });
+  }
+  else {
+    $('.year').each(function () {
+      var h = $(this).parent().find(".list").height();
+      $(this).css('height', h);
+      $(this).find('span').css('margin-top', h / 2 - $(this).find('span').height());
+    });
+    var options = [ 
+      {selector: '.item-1 .oc-img', offset: 100, callback: function(el) { $('.item-1 .oc-img, .item-1 .oc-txt').toggleClass('moved'); } }, 
+      {selector: '.item-2 .oc-img', offset: 60, callback: function(el) { $('.item-2 .oc-img, .item-2 .oc-txt').toggleClass('moved'); } },
+      {selector: '.item-3 .oc-img', offset: 60, callback: function(el) { $('.item-3 .oc-img, .item-3 .oc-txt').toggleClass('moved'); } },
+      {selector: '.item-4 .oc-img', offset: 60, callback: function(el) { $('.item-4 .oc-img, .item-4 .oc-txt').toggleClass('moved'); } },
+    ]; 
+    Materialize.scrollFire(options);
   }
   $("#equipe .owl-carousel").owlCarousel({
     nav: true,
@@ -102,7 +117,7 @@ jQuery(document).ready(function ($) {
         slideBy: 4
       }
     },
-    navText: ['<img src="../../img/fleche-gauche.png" alt="" />', '<img src="../../img/fleche-droite.png" alt="" />']
+    navText: ['<img src="/img/fleche-gauche.png" alt="" />', '<img src="/img/fleche-droite.png" alt="" />']
   });
   $("#news-carousel").owlCarousel({
     nav: true,
@@ -124,13 +139,13 @@ jQuery(document).ready(function ($) {
         dots: false
       }
     },
-    navText: ['<img src="../../img/fleche-gauche.png" alt="" />', '<img src="../../img/fleche-droite.png" alt="" />']
+    navText: ['<img src="/img/fleche-gauche.png" alt="" />', '<img src="/img/fleche-droite.png" alt="" />']
   });
   $("#oc-carousel .owl-carousel").owlCarousel({
     items: 1,
     nav: true,
     dots: true,
-    navText: ['<img src="../../img/fleche-gauche.png" alt="" />', '<img src="../../img/fleche-droite.png" alt="" />']
+    navText: ['<img src="/img/fleche-gauche.png" alt="" />', '<img src="/img/fleche-droite.png" alt="" />']
   });
   $('.oc-img').each(function () {
     var w = $(this).width();
@@ -202,9 +217,42 @@ jQuery(document).ready(function ($) {
       textfield.setCustomValidity("S'il-vous-plaît remplir ce champ correctement.");  
     }
   });
-  if (document.getElementById('bh-sl-map-container')) {
-  $(function() {
-      $('#bh-sl-map-container').storeLocator({
+  if (document.getElementById('bh-sl-map-container-fr')) {
+    $(function() {
+        $('#bh-sl-map-container-fr').storeLocator({
+          'autoGeocode': true,
+          'fullMapStart': true,
+          'featuredLocations': true,
+          'locationsPerPage': -1,
+          'mapSettings': {zoom: 8},
+          'autoComplete': true,
+          'autoCompleteDisableListener': true,
+          // 'visibleMarkersList': true,
+          'infowindowTemplatePath': '/templates/infowindow-description.html',
+          'listTemplatePath': '/templates/location-list-description.html',
+          'dataType': 'json',
+          'lengthUnit': 'km',
+          'distanceAlert': 20,
+          'sessionStorage': true,
+          'nameSearch': true,
+          'kilometerLang': 'kilomètre',
+          'kilometersLang': 'kilomètres',
+          'noResultsTitle': 'Aucun résultat',
+          'noResultsDesc': "Nous n'avons trouvé aucune clinique correspondant à vos critères. S'il-vous-plaît les modifier pour que nous puissions vous aider." ,
+          'distanceErrorAlert': "Malheureusement, notre clinique la plus proche est à plus de ",
+          'autoGeocodeErrorAlert': "Nous n'avons pas réussi à détecter votre position, s'il-vous-plaît remplir les champs de recherche.",
+          'addressErrorAlert': "Nous n'avons pas réussi à trouver cette adresse",
+          'nextPage': 'Suivant »',
+          'prevPage': '« Précédent',
+          'maxDistance': true,
+          // 'defaultLoc': true,
+          // 'defaultLat': 45.5016889,
+          // 'defaultLng': 73.56725599999999,
+          'dataRaw': data});
+      });
+  } else if (document.getElementById('bh-sl-map-container-en')) {
+    $(function() {
+      $('#bh-sl-map-container-en').storeLocator({
         'autoGeocode': true,
         'fullMapStart': true,
         'featuredLocations': true,
@@ -214,21 +262,12 @@ jQuery(document).ready(function ($) {
         'autoCompleteDisableListener': true,
         // 'visibleMarkersList': true,
         'infowindowTemplatePath': '/templates/infowindow-description.html',
-        'listTemplatePath': '/templates/location-list-description.html',
+        'listTemplatePath': '/templates/location-list-description-en.html',
         'dataType': 'json',
         'lengthUnit': 'km',
         'distanceAlert': 20,
         'sessionStorage': true,
         'nameSearch': true,
-        'kilometerLang': 'kilomètre',
-        'kilometersLang': 'kilomètres',
-        'noResultsTitle': 'Aucun résultat',
-        'noResultsDesc': "Nous n'avons trouvé aucune clinique correspondant à vos critères. S'il-vous-plaît les modifier pour que nous puissions vous aider." ,
-        'distanceErrorAlert': "Malheureusement, notre clinique la plus proche est à plus de ",
-        'autoGeocodeErrorAlert': "Nous n'avons pas réussi à détecter votre position, s'il-vous-plaît remplir les champs de recherche.",
-        'addressErrorAlert': "Nous n'avons pas réussi à trouver cette adresse",
-        'nextPage': 'Suivant »',
-        'prevPage': '« Précédent',
         'maxDistance': true,
         // 'defaultLoc': true,
         // 'defaultLat': 45.5016889,

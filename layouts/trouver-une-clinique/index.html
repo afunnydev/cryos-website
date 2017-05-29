@@ -2,14 +2,14 @@
 
     {{ partial "header.html" . }}
     <div class="container">
-    	<h2 class="titre-trouver">Trouver la clinique</br> la plus près de chez vous</h2>
+    	<h2 class="titre-trouver">{{ if eq .Lang "fr" }}Trouver la clinique</br> la plus près de chez vous{{ else if eq .Lang "en" }}Find a clinic</br> near you{{ end }}</h2>
     </div>
     <div id="searchbar">
     	<div class="container row bh-sl-form-container">
     		<form id="bh-sl-user-location" action="#">
     			<div class="col m9 s12">
 						<div class="form-input">
-							<label for="bh-sl-address">code postal, adresse ou ville</label>
+							<label for="bh-sl-address">{{ if eq .Lang "fr" }}code postal, adresse ou ville{{ else if eq .Lang "en" }}area code, address or city{{ end }}</label>
 							<input type="text" id="bh-sl-address" name="bh-sl-address" placeholder="" />
 							<select id="bh-sl-maxdistance" name="bh-sl-maxdistance">
 	              <option value="10">10 km</option>
@@ -34,7 +34,7 @@
     	</div>
     </div>
     <div class="container" id="mapcontainer">
-			<div id="bh-sl-map-container" class="bh-sl-map-container">
+			<div id='bh-sl-map-container-{{ if eq .Lang "fr" }}fr{{ else if eq .Lang "en" }}en{{ end }}' class="bh-sl-map-container">
 				<div id="bh-sl-map" class="bh-sl-map"></div>
 				<div class="bh-sl-loc-list">
 					<ul class="list"></ul>
@@ -43,10 +43,18 @@
 		</div>
 <script>
 	var locations = [];
-      	{{ range $.Site.Data.locations }}
-      		locations.push({name:{{ .nomClinique }}, lat:{{ .latitude }}, lng:{{ .longitude }}, address:{{ .address }}, city:{{ .ville }}, state:{{ .pays }}, web:{{ .site }}, slug: {{ .slug }} });
-      	{{ end }}
-      var data = JSON.stringify(locations);
-    </script>
+	{{ range where $.Site.Pages "Type" "location"}}
+		locations.push({name:{{ .Params.nomclinique }}, lat:{{ .Params.latitude }}, lng:{{ .Params.longitude }}, address:{{ .Params.address }}, city:{{ .Params.ville }}, state:{{ .Params.pays }}, web:{{ .Params.site }}, slug: {{ .Slug }} });
+	{{ end }}
+  var data = JSON.stringify(locations);
+</script>
+
+<!-- <script>
+	var locations = [];
+	{{ range where $.Site.Pages "Type" "location" }}
+		locations.push({name:{{ .Params.nomClinique }}, lat:{{ .Params.latitude }}, lng:{{ .Params.longitude }}, address:{{ .Params.address }}, city:{{ .Params.ville }}, state:{{ .Params.pays }}, web:{{ .Params.site }}, slug: {{ .Params.slug }} });
+	{{ end }}
+  var data = JSON.stringify(locations);
+</script> -->
     
 {{ partial "footer.html" . }}

@@ -11,23 +11,30 @@
                 </div>
                 <div class="col m12 l3 share-btn hide-on-med-and-down">
                     <ul>
+                        {{ if eq .Lang "fr" }}
                         <li class="fb"><a href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}"><i class="fa fa-facebook"></i>Partager sur Facebook</a></li>
                         <li class="twitter"><a href="https://twitter.com/home?status={{ .Permalink }}"><i class="fa fa-twitter"></i>Partager sur Twitter</a></li>
                         <li class="courriel"><a href="mailto:?subject=Article intéressant sur le site de Cryos Technologies&body=Une belle lecture pour toi: {{ .Permalink }}"><i class="fa fa-envelope"></i>Partager par courriel</a></li>
                         <li class="comment"><a href="#disqus_thread">Commenter</a></li>
+                        {{ else if eq .Lang "en" }}
+                        <li class="fb"><a href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}"><i class="fa fa-facebook"></i>Share on Facebook</a></li>
+                        <li class="twitter"><a href="https://twitter.com/home?status={{ .Permalink }}"><i class="fa fa-twitter"></i>Share on Twitter</a></li>
+                        <li class="courriel"><a href="mailto:?subject=Article intéressant sur le site de Cryos Technologies&body=Une belle lecture pour toi: {{ .Permalink }}"><i class="fa fa-envelope"></i>Share by email</a></li>
+                        <li class="comment"><a href="#disqus_thread">Comment</a></li>
+                        {{ end }}
                     </ul>
                 </div>
             </div>
             <div class="row">
                 <div class="col s12">
-                    <p class="date">publié le {{ .Date.Format "02/01/2006"  }}</p>
+                    <p class="date">{{ if eq .Lang "fr" }}publié le{{ else if eq .Lang "en" }}published on{{ end }} {{ .Date.Format "02/01/2006"  }}</p>
                 </div>
             </div>
             <div class="row corps">
                 <div class="col m12 l9 contenu">
                     <div>
                         {{ .Content }}
-                        <p class="categories">Mots-clés: {{ range .Params.categories }} <a href="{{ $.Site.BaseURL }}categories/{{ . | urlize }}">{{.}}</a>/ {{end}}</p>
+                        <p class="categories">{{ if eq .Lang "fr" }}Mots-clés:{{ else if eq .Lang "en" }}Keywords:{{ end }} {{ range .Params.categories }} <a href="{{ $.Site.BaseURL }}categories/{{ . | urlize }}">{{.}}</a>/ {{end}}</p>
                         <div id="disqus_thread"></div>
                     </div>
                 </div>
@@ -39,7 +46,7 @@
                         <li> {{ $author.address }}</li>
                         <li> {{ $author.city }}</li>
                         <li> {{ $author.phone }}</li>
-                        <li><a href="{{ $author.user_url }}">Site web</a></li> 
+                        <li><a href="{{ $author.user_url }}">{{ if eq .Lang "fr" }}Site web{{ else if eq .Lang "en" }}Website{{ end }}Website</a></li> 
                     </ul>
                 </div>
             </div>

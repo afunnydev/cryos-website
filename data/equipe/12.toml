@@ -1,4 +1,5 @@
 nom = "John Stimpson"
 fonction = "Président"
+position = "President"
 photo = "membre_equipe13.png"
 weight = 3

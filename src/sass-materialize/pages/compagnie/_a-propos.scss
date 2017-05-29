@@ -118,6 +118,9 @@
             background-color: white;
         }
         .owl-content {
+            .block {
+                width: 100%;
+            }
             .year {
                 width: 15%;
                 margin-right: 2%;
@@ -247,7 +250,6 @@
         }
         .owl-content {
             .year {
-                width: inherit;
                 span {
                     margin-bottom: 20px; 
                 }
