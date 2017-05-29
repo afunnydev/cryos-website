@@ -16,7 +16,6 @@
 /* Produits */
 
 #produits {
-	overflow-x: hidden;
 	padding-bottom: $navbar-height;
 	text-align: center;
 	div.top-text {
@@ -128,6 +127,7 @@
 		padding-top: 10px;
 		padding-bottom: 0px;
 		width: 100%;
+		overflow-x: hidden;
 		.row {
 			margin-bottom: 0;
 			margin-left: auto;
@@ -218,7 +218,7 @@
 #trouverp {
 	padding: 20px 10%;
 	background-color: #3c0d5d;
-	background-image: url('../img//accueil/barreMauve_trouverclinique.jpg');
+	background-image: url('../img/accueil/barreMauve_trouverclinique.jpg');
 	color: white;
 	background-size: contain;
 	background-repeat: no-repeat;

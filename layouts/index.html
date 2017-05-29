@@ -72,7 +72,7 @@
 					</div>
 				{{ end }}
 				</div>
-				<a href="{{.Site.BaseURL}}compagnie/contact" class="col l3 m12 cryoscan">
+				<a href='{{ if eq .Lang "fr" }}{{.Site.BaseURL}}compagnie/contact{{ else if eq .Lang "en" }}{{.Site.BaseURL}}en/company/contact{{ end }}' class="col l3 m12 cryoscan">
 					<div>
 						<img src="{{.Site.BaseURL}}img/accueil/picto_scan3D.jpg" class="responsive-img" alt="scan3D cryos">
 						<h4>Cryoscan</br>3D</h4>
