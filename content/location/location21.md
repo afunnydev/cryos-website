@@ -1,6 +1,6 @@
 +++
 slug = "clinique-podiatrique-dalma/"
-nomClinique = "Clinique Podiatrique d’Alma"
+nomclinique = "Clinique Podiatrique d’Alma"
 address = "1022 Ave Du Pont Sud"
 latitude = 48.535604
 longitude = -71.647937

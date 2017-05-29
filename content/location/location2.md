@@ -1,6 +1,6 @@
 +++
 slug = "clinique-podiatrique-francois-giroux-bureau-rimouski/"
-nomClinique = "Clinique Podiatrique François Giroux (bureau Rimouski)"
+nomclinique = "Clinique Podiatrique François Giroux (bureau Rimouski)"
 address = "462 Boulevard Saint Germain"
 latitude = 48.439812
 longitude = -68.553966

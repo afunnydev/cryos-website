@@ -1,6 +1,6 @@
 +++
 slug = "clinique-podiatrique-caroline-guimont/"
-nomClinique = "Clinique Podiatrique Caroline Guimont"
+nomclinique = "Clinique Podiatrique Caroline Guimont"
 address = "452, Avenue Québec"
 latitude = 48.229516
 longitude = -79.030521

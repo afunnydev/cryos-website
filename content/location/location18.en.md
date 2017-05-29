@@ -1,6 +1,6 @@
 +++
 slug = "clinique-podiatrique-olivier-parent/"
-nomClinique = "Clinique Podiatrique Olivier Parent"
+nomclinique = "Clinique Podiatrique Olivier Parent"
 address = "1352 Boulevard des Chutes"
 latitude = 46.874785
 longitude = -71.16657

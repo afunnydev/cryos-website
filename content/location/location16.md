@@ -1,6 +1,6 @@
 +++
 slug = "clinique-podiatrique-francois-giroux-bureau-val-belair/"
-nomClinique = "Clinique Podiatrique François Giroux (bureau Val-Bélair)"
+nomclinique = "Clinique Podiatrique François Giroux (bureau Val-Bélair)"
 address = "1451 Rue de l'Etna #203"
 latitude = 46.854471
 longitude = -71.416304

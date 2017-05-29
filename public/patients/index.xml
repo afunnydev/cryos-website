@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Patients on Cryos</title>
-    <link>http://treasurer-loran-26466.netlify.com/patients/</link>
+    <link>http://www.cryos.com/patients/</link>
     <description>Recent content in Patients on Cryos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://treasurer-loran-26466.netlify.com/patients/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.cryos.com/patients/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Cryos Technologies | Les réponses à vos questions</title>
-      <link>http://treasurer-loran-26466.netlify.com/patients/faq/</link>
+      <link>http://www.cryos.com/patients/faq/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://treasurer-loran-26466.netlify.com/patients/faq/</guid>
+      <guid>http://www.cryos.com/patients/faq/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cryos Technologies | L’orthèse hautement adaptée à vos besoins</title>
-      <link>http://treasurer-loran-26466.netlify.com/patients/ortheses/</link>
+      <link>http://www.cryos.com/patients/ortheses/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://treasurer-loran-26466.netlify.com/patients/ortheses/</guid>
+      <guid>http://www.cryos.com/patients/ortheses/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cryos Technologies | Orthèses Cryos dynamiques</title>
-      <link>http://treasurer-loran-26466.netlify.com/patients/cryovizion/</link>
+      <link>http://www.cryos.com/patients/cryovizion/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://treasurer-loran-26466.netlify.com/patients/cryovizion/</guid>
+      <guid>http://www.cryos.com/patients/cryovizion/</guid>
       <description></description>
     </item>
     

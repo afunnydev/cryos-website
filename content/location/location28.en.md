@@ -1,6 +1,6 @@
 +++
 slug = "clinique-podiatrique-elizabeth-piche/"
-nomClinique = "Clinique Podiatrique Élizabeth Piché"
+nomclinique = "Clinique Podiatrique Élizabeth Piché"
 address = "64 Rue Saint Cyr"
 latitude = 46.063571
 longitude = -71.983907

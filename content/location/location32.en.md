@@ -1,6 +1,6 @@
 +++
 slug = "clinique-podiatrique-stephanie-bonneau/"
-nomClinique = "Clinique Podiatrique Stéphanie Bonneau"
+nomclinique = "Clinique Podiatrique Stéphanie Bonneau"
 address = "2066 Chemin de Chambly #201"
 latitude = 45.527839
 longitude = -73.478622

@@ -1,6 +1,6 @@
 +++
 slug = "centre-podiatrique-saint-jerome/"
-nomClinique = "Centre Podiatrique Saint-Jérome"
+nomclinique = "Centre Podiatrique Saint-Jérome"
 address = "292 rue Labelle"
 latitude = 45.77602
 longitude = -74.004673

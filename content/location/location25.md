@@ -1,6 +1,6 @@
 +++
 slug = "centre-podiatrique-lambert-2/"
-nomClinique = "Centre Podiatrique Lambert"
+nomclinique = "Centre Podiatrique Lambert"
 address = "2100 Rue King Ouest"
 latitude = 45.397892
 longitude = -71.924528

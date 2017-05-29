@@ -1,6 +1,6 @@
 +++
 slug = "clinique-podiatrique-maguire/"
-nomClinique = "Clinique Podiatrique Maguire"
+nomclinique = "Clinique Podiatrique Maguire"
 address = "1444 Avenue Maguire"
 latitude = 46.78001
 longitude = -71.250191

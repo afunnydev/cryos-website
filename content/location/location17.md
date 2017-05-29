@@ -1,6 +1,6 @@
 +++
 slug = "clinique-podiatrique-marie-christine-bourque/"
-nomClinique = "Clinique Podiatrique Marie-Christine Bourque – Lévis"
+nomclinique = "Clinique Podiatrique Marie-Christine Bourque – Lévis"
 address = "1655 Boulevard Alphonse-Desjardins"
 latitude = 46.791729
 longitude = -71.159966

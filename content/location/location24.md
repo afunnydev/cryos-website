@@ -1,6 +1,6 @@
 +++
 slug = "clinique-podiatrique-blainville/"
-nomClinique = "Clinique Podiatrique de Blainville"
+nomclinique = "Clinique Podiatrique de Blainville"
 address = "305 Boulevard de la Seigneurie Ouest #202"
 latitude = 45.66283
 longitude = -73.87842

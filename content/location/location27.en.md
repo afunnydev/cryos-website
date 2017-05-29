@@ -1,6 +1,6 @@
 +++
 slug = "clinique-podiatrique-victoria/"
-nomClinique = "Clinique Podiatrique Victoria"
+nomclinique = "Clinique Podiatrique Victoria"
 address = "245 Avenue Victoria #525"
 latitude = 45.477389
 longitude = -73.599362

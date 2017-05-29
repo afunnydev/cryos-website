@@ -1,6 +1,6 @@
 +++
 slug = "clinique-podiatrique-chutes/"
-nomClinique = "Clinique Podiatrique des Chutes"
+nomclinique = "Clinique Podiatrique des Chutes"
 address = "1352 Boulevard des Chutes"
 latitude = 46.874785
 longitude = -71.16657

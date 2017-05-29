@@ -1,6 +1,6 @@
 +++
 slug = "clinique-podiatrique-pointe-lile/"
-nomClinique = "Clinique Podiatrique de la Pointe-de-l’île"
+nomclinique = "Clinique Podiatrique de la Pointe-de-l’île"
 address = "1300 Boul St-Jean-Baptiste, local N"
 latitude = 45.64095
 longitude = -73.501875

@@ -1,6 +1,6 @@
 +++
 slug = "vita-integrative-health-clinic/"
-nomClinique = "Vita Integrative Health Clinic"
+nomclinique = "Vita Integrative Health Clinic"
 address = "1560 Yonge Street"
 latitude = 43.689544
 longitude = -79.395055

@@ -1,6 +1,6 @@
 +++
 slug = "orleans-dynamic-foot-clinic/"
-nomClinique = "Orleans Dynamic Foot Clinic"
+nomclinique = "Orleans Dynamic Foot Clinic"
 address = "3012 St Joseph Blvd. #201"
 latitude = 45.476311
 longitude = -75.514244

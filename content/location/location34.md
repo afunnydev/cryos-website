@@ -1,6 +1,6 @@
 +++
 slug = "clinique-podiatrique-mmgr/"
-nomClinique = "Clinique Podiatrique MMGR"
+nomclinique = "Clinique Podiatrique MMGR"
 address = "6424 rue Jean-Talon E. #229"
 latitude = 45.591407
 longitude = -73.574832

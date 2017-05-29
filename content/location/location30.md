@@ -1,6 +1,6 @@
 +++
 slug = "clinique-podiatrique-ndg-dr-dejan-radic/"
-nomClinique = "Clinique Podiatrique NDG"
+nomclinique = "Clinique Podiatrique NDG"
 address = "6584 Rue Sherbrooke Ouest"
 latitude = 45.463247
 longitude = -73.62948

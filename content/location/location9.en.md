@@ -1,6 +1,6 @@
 +++
 slug = "clinique-podiatrique-vaudreuil/"
-nomClinique = "Clinique Podiatrique Vaudreuil"
+nomclinique = "Clinique Podiatrique Vaudreuil"
 address = "120 Rue Joseph Carrier"
 latitude = 45.411509
 longitude = -74.040683

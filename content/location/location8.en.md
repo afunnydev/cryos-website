@@ -1,6 +1,6 @@
 +++
 slug = "clinique-podiatrique-frederic-gremillet-dpm/"
-nomClinique = "Clinique Podiatrique Frédéric Gremillet DPM"
+nomclinique = "Clinique Podiatrique Frédéric Gremillet DPM"
 address = "9 Boulevard Montcalm Nord"
 latitude = 45.39292
 longitude = -73.515951

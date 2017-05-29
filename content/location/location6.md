@@ -1,6 +1,6 @@
 +++
 slug = "clinique-podiatrique-legare-barbeau/"
-nomClinique = "Clinique Podiatrique Legaré & Barbeau"
+nomclinique = "Clinique Podiatrique Legaré & Barbeau"
 address = "3675 Boulevard du Chanoine Moreau"
 latitude = 46.355059
 longitude = -72.577487

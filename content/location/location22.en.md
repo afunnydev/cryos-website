@@ -1,6 +1,6 @@
 +++
 slug = "clinique-podiatrique-marie-christine-bourque-2/"
-nomClinique = "Clinique Podiatrique Marie-Christine Bourque – Montmagny"
+nomclinique = "Clinique Podiatrique Marie-Christine Bourque – Montmagny"
 address = "105 Rue Saint Louis"
 latitude = 45.498155
 longitude = -73.497018

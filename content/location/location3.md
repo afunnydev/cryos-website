@@ -1,6 +1,6 @@
 +++
 slug = "clinique-podiatrique-melanie-laplante/"
-nomClinique = "Clinique Podiatrique Mélanie Laplante"
+nomclinique = "Clinique Podiatrique Mélanie Laplante"
 address = "19, rue Gauthier N"
 latitude = 46.035235
 longitude = -73.435413

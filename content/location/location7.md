@@ -1,6 +1,6 @@
 +++
 slug = "centre-podiatrique-lambert/"
-nomClinique = "Centre Podiatrique Lambert"
+nomclinique = "Centre Podiatrique Lambert"
 address = "400 Rue Principale #201"
 latitude = 45.402976
 longitude = -72.733996

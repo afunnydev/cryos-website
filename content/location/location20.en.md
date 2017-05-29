@@ -1,6 +1,6 @@
 +++
 slug = "clinique-podiatrique-de-jonquiere/"
-nomClinique = "Clinique Podiatrique de Jonquière"
+nomclinique = "Clinique Podiatrique de Jonquière"
 address = "3872 rue Saint-Jean"
 latitude = 48.410742
 longitude = -71.251492
