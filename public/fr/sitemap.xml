@@ -2,430 +2,436 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://systems-analyst-elephant-50207.netlify.com/les-etapes-du-port-dortheses-plantaires/</loc>
+    <loc>http://localhost:8000/articles/les-etapes-du-port-dortheses-plantaires/</loc>
     <lastmod>2017-05-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://systems-analyst-elephant-50207.netlify.com/produits/cryovizion/</loc>
+    <loc>http://localhost:8000/produits/cryovizion/</loc>
     <lastmod>2017-05-09T12:50:31-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://systems-analyst-elephant-50207.netlify.com/produits/orthese-cryos/</loc>
+    <loc>http://localhost:8000/produits/orthese-cryos/</loc>
     <lastmod>2017-05-09T12:49:55-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://systems-analyst-elephant-50207.netlify.com/comment-soigner-une-tendinite-au-tendon-dachille/</loc>
+    <loc>http://localhost:8000/articles/comment-soigner-une-tendinite-au-tendon-dachille/</loc>
     <lastmod>2017-05-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://systems-analyst-elephant-50207.netlify.com/lefficacite-de-lanalyse-posturale-en-cas-de-douleurs-physiques/</loc>
+    <loc>http://localhost:8000/articles/lefficacite-de-lanalyse-posturale-en-cas-de-douleurs-physiques/</loc>
     <lastmod>2017-04-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://systems-analyst-elephant-50207.netlify.com/lanalyse-du-pied-2d-et-3d-les-differences-a-savoir/</loc>
+    <loc>http://localhost:8000/articles/lanalyse-du-pied-2d-et-3d-les-differences-a-savoir/</loc>
     <lastmod>2017-04-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://systems-analyst-elephant-50207.netlify.com/pourquoi-les-ortheses-plantaires-sont-elles-conseillees-avec-la-chirurgie-aux-avant-pieds/</loc>
+    <loc>http://localhost:8000/articles/pourquoi-les-ortheses-plantaires-sont-elles-conseillees-avec-la-chirurgie-aux-avant-pieds/</loc>
     <lastmod>2017-04-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://systems-analyst-elephant-50207.netlify.com/reprendre-la-course-a-pied-apres-une-blessure/</loc>
+    <loc>http://localhost:8000/articles/reprendre-la-course-a-pied-apres-une-blessure/</loc>
     <lastmod>2017-04-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://systems-analyst-elephant-50207.netlify.com/bonne-posture-et-sante-des-pieds/</loc>
+    <loc>http://localhost:8000/articles/bonne-posture-et-sante-des-pieds/</loc>
     <lastmod>2017-04-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://systems-analyst-elephant-50207.netlify.com/un-regard-podiatrique-sur-lexercice-de-la-course-minimaliste-et-pieds-nus/</loc>
+    <loc>http://localhost:8000/articles/un-regard-podiatrique-sur-lexercice-de-la-course-minimaliste-et-pieds-nus/</loc>
     <lastmod>2017-04-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://systems-analyst-elephant-50207.netlify.com/les-etapes-dentretien-de-suivis-et-de-changement-dortheses-plantaires/</loc>
+    <loc>http://localhost:8000/articles/les-etapes-dentretien-de-suivis-et-de-changement-dortheses-plantaires/</loc>
     <lastmod>2017-03-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://systems-analyst-elephant-50207.netlify.com/le-port-d-ortheses-plantaires-et-ses-effets-sur-les-muscles/</loc>
+    <loc>http://localhost:8000/articles/le-port-d-ortheses-plantaires-et-ses-effets-sur-les-muscles/</loc>
     <lastmod>2017-03-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://systems-analyst-elephant-50207.netlify.com/ongles-incarnes-causes-et-traitements-selon-un-podiatre/</loc>
+    <loc>http://localhost:8000/articles/ongles-incarnes-causes-et-traitements-selon-un-podiatre/</loc>
     <lastmod>2017-03-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://systems-analyst-elephant-50207.netlify.com/pourquoi-porter-une-orthese-plantaire-pendant-un-sport-dete/</loc>
+    <loc>http://localhost:8000/articles/pourquoi-porter-une-orthese-plantaire-pendant-un-sport-dete/</loc>
     <lastmod>2017-03-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://systems-analyst-elephant-50207.netlify.com/conseils-dun-podiatre-traitements-pour-vos-verrues-plantaires/</loc>
+    <loc>http://localhost:8000/articles/conseils-dun-podiatre-traitements-pour-vos-verrues-plantaires/</loc>
     <lastmod>2017-02-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://systems-analyst-elephant-50207.netlify.com/les-traitements-possibles-pour-remedier-a-lhallux-valgus-oignon-aux-pieds/</loc>
+    <loc>http://localhost:8000/articles/les-traitements-possibles-pour-remedier-a-lhallux-valgus-oignon-aux-pieds/</loc>
     <lastmod>2017-02-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://systems-analyst-elephant-50207.netlify.com/fasciite-plantaire-quels-sont-les-symptomes-et-les-traitements-disponibles/</loc>
+    <loc>http://localhost:8000/articles/fasciite-plantaire-quels-sont-les-symptomes-et-les-traitements-disponibles/</loc>
     <lastmod>2017-02-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://systems-analyst-elephant-50207.netlify.com/un-sportif-devrait-il-porter-une-orthese-plantaire-sur-mesure-dans-ses-patins/</loc>
+    <loc>http://localhost:8000/articles/un-sportif-devrait-il-porter-une-orthese-plantaire-sur-mesure-dans-ses-patins/</loc>
     <lastmod>2017-02-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://systems-analyst-elephant-50207.netlify.com/orthese-plantaire-decouvrez-les-differences-entre-les-modeles-sur-mesure-et-prefabriques/</loc>
+    <loc>http://localhost:8000/articles/orthese-plantaire-decouvrez-les-differences-entre-les-modeles-sur-mesure-et-prefabriques/</loc>
     <lastmod>2017-02-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://systems-analyst-elephant-50207.netlify.com/talons-hauts-ortheses-plantaires-avoir-du-style-douleurs-aux-pieds/</loc>
+    <loc>http://localhost:8000/articles/talons-hauts-ortheses-plantaires-avoir-du-style-douleurs-aux-pieds/</loc>
     <lastmod>2017-01-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://systems-analyst-elephant-50207.netlify.com/quoi-faire-en-cas-dentorse-a-la-cheville/</loc>
+    <loc>http://localhost:8000/articles/quoi-faire-en-cas-dentorse-a-la-cheville/</loc>
     <lastmod>2017-01-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://systems-analyst-elephant-50207.netlify.com/pied-plat-chez-lenfant-causes-symptomes-traitements-connaitre/</loc>
+    <loc>http://localhost:8000/articles/pied-plat-chez-lenfant-causes-symptomes-traitements-connaitre/</loc>
     <lastmod>2017-01-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://systems-analyst-elephant-50207.netlify.com/les-douleurs-aux-pieds-chez-lenfant-hereditaires/</loc>
+    <loc>http://localhost:8000/articles/les-douleurs-aux-pieds-chez-lenfant-hereditaires/</loc>
     <lastmod>2017-01-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://systems-analyst-elephant-50207.netlify.com/apprendre-a-courir-sans-se-blesser/</loc>
+    <loc>http://localhost:8000/apprendre-a-courir-sans-se-blesser/</loc>
     <lastmod>2017-01-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://systems-analyst-elephant-50207.netlify.com/douleur-de-croissance/</loc>
+    <loc>http://localhost:8000/articles/douleur-de-croissance/</loc>
     <lastmod>2017-01-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://systems-analyst-elephant-50207.netlify.com/location/clinique-podiatrique-elizabeth-pellerin/</loc>
+    <loc>http://localhost:8000/location/clinique-podiatrique-elizabeth-pellerin/</loc>
   </url>
   
   <url>
-    <loc>http://systems-analyst-elephant-50207.netlify.com/location/clinique-podiatrique-familiale-boucherville/</loc>
+    <loc>http://localhost:8000/location/clinique-podiatrique-familiale-boucherville/</loc>
   </url>
   
   <url>
-    <loc>http://systems-analyst-elephant-50207.netlify.com/location/clinique-podiatrique-st-hubert/</loc>
+    <loc>http://localhost:8000/location/clinique-podiatrique-st-hubert/</loc>
   </url>
   
   <url>
-    <loc>http://systems-analyst-elephant-50207.netlify.com/location/clinique-podiatrique-kirkland/</loc>
+    <loc>http://localhost:8000/location/clinique-podiatrique-kirkland/</loc>
   </url>
   
   <url>
-    <loc>http://systems-analyst-elephant-50207.netlify.com/location/clinique-podiatrique-loutaouais-bureau-gatineau/</loc>
+    <loc>http://localhost:8000/location/clinique-podiatrique-loutaouais-bureau-gatineau/</loc>
   </url>
   
   <url>
-    <loc>http://systems-analyst-elephant-50207.netlify.com/location/clinique-podiatrique-loutaouais-bureau-hull/</loc>
+    <loc>http://localhost:8000/location/clinique-podiatrique-loutaouais-bureau-hull/</loc>
   </url>
   
   <url>
-    <loc>http://systems-analyst-elephant-50207.netlify.com/location/clinique-podiatrique-francois-giroux-bureau-charlesbourg/</loc>
+    <loc>http://localhost:8000/location/clinique-podiatrique-francois-giroux-bureau-charlesbourg/</loc>
   </url>
   
   <url>
-    <loc>http://systems-analyst-elephant-50207.netlify.com/location/clinique-podiatrique-francois-giroux-bureau-val-belair/</loc>
+    <loc>http://localhost:8000/location/clinique-podiatrique-francois-giroux-bureau-val-belair/</loc>
   </url>
   
   <url>
-    <loc>http://systems-analyst-elephant-50207.netlify.com/location/clinique-podiatrique-marie-christine-bourque/</loc>
+    <loc>http://localhost:8000/location/clinique-podiatrique-marie-christine-bourque/</loc>
   </url>
   
   <url>
-    <loc>http://systems-analyst-elephant-50207.netlify.com/location/clinique-podiatrique-olivier-parent/</loc>
+    <loc>http://localhost:8000/location/clinique-podiatrique-olivier-parent/</loc>
   </url>
   
   <url>
-    <loc>http://systems-analyst-elephant-50207.netlify.com/location/clinique-podiatrique-maguire/</loc>
+    <loc>http://localhost:8000/location/clinique-podiatrique-maguire/</loc>
   </url>
   
   <url>
-    <loc>http://systems-analyst-elephant-50207.netlify.com/location/clinique-podiatrique-francois-giroux-bureau-rimouski/</loc>
+    <loc>http://localhost:8000/location/clinique-podiatrique-francois-giroux-bureau-rimouski/</loc>
   </url>
   
   <url>
-    <loc>http://systems-analyst-elephant-50207.netlify.com/location/clinique-podiatrique-de-jonquiere/</loc>
+    <loc>http://localhost:8000/location/clinique-podiatrique-de-jonquiere/</loc>
   </url>
   
   <url>
-    <loc>http://systems-analyst-elephant-50207.netlify.com/location/clinique-podiatrique-dalma/</loc>
+    <loc>http://localhost:8000/location/clinique-podiatrique-dalma/</loc>
   </url>
   
   <url>
-    <loc>http://systems-analyst-elephant-50207.netlify.com/location/clinique-podiatrique-marie-christine-bourque-2/</loc>
+    <loc>http://localhost:8000/location/clinique-podiatrique-marie-christine-bourque-2/</loc>
   </url>
   
   <url>
-    <loc>http://systems-analyst-elephant-50207.netlify.com/location/clinique-podiatrique-caroline-guimont/</loc>
+    <loc>http://localhost:8000/location/clinique-podiatrique-caroline-guimont/</loc>
   </url>
   
   <url>
-    <loc>http://systems-analyst-elephant-50207.netlify.com/location/clinique-podiatrique-blainville/</loc>
+    <loc>http://localhost:8000/location/clinique-podiatrique-blainville/</loc>
   </url>
   
   <url>
-    <loc>http://systems-analyst-elephant-50207.netlify.com/location/centre-podiatrique-lambert-2/</loc>
+    <loc>http://localhost:8000/location/centre-podiatrique-lambert-2/</loc>
   </url>
   
   <url>
-    <loc>http://systems-analyst-elephant-50207.netlify.com/location/vita-integrative-health-clinic/</loc>
+    <loc>http://localhost:8000/location/vita-integrative-health-clinic/</loc>
   </url>
   
   <url>
-    <loc>http://systems-analyst-elephant-50207.netlify.com/location/clinique-podiatrique-victoria/</loc>
+    <loc>http://localhost:8000/location/clinique-podiatrique-victoria/</loc>
   </url>
   
   <url>
-    <loc>http://systems-analyst-elephant-50207.netlify.com/location/clinique-podiatrique-elizabeth-piche/</loc>
+    <loc>http://localhost:8000/location/clinique-podiatrique-elizabeth-piche/</loc>
   </url>
   
   <url>
-    <loc>http://systems-analyst-elephant-50207.netlify.com/location/clinique-podiatrique-chutes/</loc>
+    <loc>http://localhost:8000/location/clinique-podiatrique-chutes/</loc>
   </url>
   
   <url>
-    <loc>http://systems-analyst-elephant-50207.netlify.com/location/clinique-podiatrique-melanie-laplante/</loc>
+    <loc>http://localhost:8000/location/clinique-podiatrique-melanie-laplante/</loc>
   </url>
   
   <url>
-    <loc>http://systems-analyst-elephant-50207.netlify.com/location/clinique-podiatrique-ndg-dr-dejan-radic/</loc>
+    <loc>http://localhost:8000/location/clinique-podiatrique-ndg-dr-dejan-radic/</loc>
   </url>
   
   <url>
-    <loc>http://systems-analyst-elephant-50207.netlify.com/location/clinique-podiatrique-pointe-lile/</loc>
+    <loc>http://localhost:8000/location/clinique-podiatrique-pointe-lile/</loc>
   </url>
   
   <url>
-    <loc>http://systems-analyst-elephant-50207.netlify.com/location/clinique-podiatrique-stephanie-bonneau/</loc>
+    <loc>http://localhost:8000/location/clinique-podiatrique-stephanie-bonneau/</loc>
   </url>
   
   <url>
-    <loc>http://systems-analyst-elephant-50207.netlify.com/location/orleans-dynamic-foot-clinic/</loc>
+    <loc>http://localhost:8000/location/orleans-dynamic-foot-clinic/</loc>
   </url>
   
   <url>
-    <loc>http://systems-analyst-elephant-50207.netlify.com/location/clinique-podiatrique-mmgr/</loc>
+    <loc>http://localhost:8000/location/clinique-podiatrique-mmgr/</loc>
   </url>
   
   <url>
-    <loc>http://systems-analyst-elephant-50207.netlify.com/location/clinique-podiatrique-mascouche/</loc>
+    <loc>http://localhost:8000/location/clinique-podiatrique-mascouche/</loc>
   </url>
   
   <url>
-    <loc>http://systems-analyst-elephant-50207.netlify.com/location/centre-podiatrique-saint-jerome/</loc>
+    <loc>http://localhost:8000/location/centre-podiatrique-saint-jerome/</loc>
   </url>
   
   <url>
-    <loc>http://systems-analyst-elephant-50207.netlify.com/location/clinique-podiatrique-legare-barbeau/</loc>
+    <loc>http://localhost:8000/location/clinique-podiatrique-legare-barbeau/</loc>
   </url>
   
   <url>
-    <loc>http://systems-analyst-elephant-50207.netlify.com/location/centre-podiatrique-lambert/</loc>
+    <loc>http://localhost:8000/location/centre-podiatrique-lambert/</loc>
   </url>
   
   <url>
-    <loc>http://systems-analyst-elephant-50207.netlify.com/location/clinique-podiatrique-frederic-gremillet-dpm/</loc>
+    <loc>http://localhost:8000/location/clinique-podiatrique-frederic-gremillet-dpm/</loc>
   </url>
   
   <url>
-    <loc>http://systems-analyst-elephant-50207.netlify.com/location/clinique-podiatrique-vaudreuil/</loc>
+    <loc>http://localhost:8000/location/clinique-podiatrique-vaudreuil/</loc>
   </url>
   
   <url>
-    <loc>http://systems-analyst-elephant-50207.netlify.com/authors/</loc>
+    <loc>http://localhost:8000/articles/</loc>
+    <lastmod>2017-05-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://systems-analyst-elephant-50207.netlify.com/categories/biomecanique/</loc>
+    <loc>http://localhost:8000/authors/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:8000/categories/biomecanique/</loc>
     <lastmod>2017-04-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://systems-analyst-elephant-50207.netlify.com/categories/blessures-sportives/</loc>
+    <loc>http://localhost:8000/categories/blessures-sportives/</loc>
     <lastmod>2017-05-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://systems-analyst-elephant-50207.netlify.com/categories/</loc>
+    <loc>http://localhost:8000/categories/</loc>
     <lastmod>2017-04-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://systems-analyst-elephant-50207.netlify.com/categories/chirurgie-des-pieds/</loc>
+    <loc>http://localhost:8000/categories/chirurgie-des-pieds/</loc>
     <lastmod>2017-04-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://systems-analyst-elephant-50207.netlify.com/compagnie/</loc>
+    <loc>http://localhost:8000/compagnie/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://systems-analyst-elephant-50207.netlify.com/blogue/</loc>
+    <loc>http://localhost:8000/blogue/</loc>
   </url>
   
   <url>
-    <loc>http://systems-analyst-elephant-50207.netlify.com/trouver-une-clinique/</loc>
+    <loc>http://localhost:8000/trouver-une-clinique/</loc>
   </url>
   
   <url>
-    <loc>http://systems-analyst-elephant-50207.netlify.com/patients/faq/</loc>
+    <loc>http://localhost:8000/patients/faq/</loc>
   </url>
   
   <url>
-    <loc>http://systems-analyst-elephant-50207.netlify.com/patients/ortheses/</loc>
+    <loc>http://localhost:8000/patients/ortheses/</loc>
   </url>
   
   <url>
-    <loc>http://systems-analyst-elephant-50207.netlify.com/merci/</loc>
+    <loc>http://localhost:8000/merci/</loc>
   </url>
   
   <url>
-    <loc>http://systems-analyst-elephant-50207.netlify.com/compagnie/contact/</loc>
+    <loc>http://localhost:8000/compagnie/contact/</loc>
   </url>
   
   <url>
-    <loc>http://systems-analyst-elephant-50207.netlify.com/patients/cryovizion/</loc>
+    <loc>http://localhost:8000/patients/cryovizion/</loc>
   </url>
   
   <url>
-    <loc>http://systems-analyst-elephant-50207.netlify.com/</loc>
+    <loc>http://localhost:8000/</loc>
     <lastmod>2017-05-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://systems-analyst-elephant-50207.netlify.com/compagnie/a-propos/</loc>
+    <loc>http://localhost:8000/compagnie/a-propos/</loc>
   </url>
   
   <url>
-    <loc>http://systems-analyst-elephant-50207.netlify.com/compagnie/emploi/</loc>
+    <loc>http://localhost:8000/compagnie/emploi/</loc>
   </url>
   
   <url>
-    <loc>http://systems-analyst-elephant-50207.netlify.com/categories/douleur-aux-pieds/</loc>
+    <loc>http://localhost:8000/categories/douleur-aux-pieds/</loc>
     <lastmod>2017-05-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://systems-analyst-elephant-50207.netlify.com/categories/epine-de-lenoir/</loc>
+    <loc>http://localhost:8000/categories/epine-de-lenoir/</loc>
     <lastmod>2017-02-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://systems-analyst-elephant-50207.netlify.com/categories/fasciite-plantaire/</loc>
+    <loc>http://localhost:8000/categories/fasciite-plantaire/</loc>
     <lastmod>2017-02-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://systems-analyst-elephant-50207.netlify.com/location/</loc>
+    <loc>http://localhost:8000/location/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://systems-analyst-elephant-50207.netlify.com/categories/oignons/</loc>
+    <loc>http://localhost:8000/categories/oignons/</loc>
     <lastmod>2017-02-19T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://systems-analyst-elephant-50207.netlify.com/categories/ongles-incarnes/</loc>
+    <loc>http://localhost:8000/categories/ongles-incarnes/</loc>
     <lastmod>2017-03-19T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://systems-analyst-elephant-50207.netlify.com/categories/ortheses-plantaires/</loc>
+    <loc>http://localhost:8000/categories/ortheses-plantaires/</loc>
     <lastmod>2017-05-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://systems-analyst-elephant-50207.netlify.com/patients/</loc>
+    <loc>http://localhost:8000/patients/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://systems-analyst-elephant-50207.netlify.com/categories/pieds-plats/</loc>
+    <loc>http://localhost:8000/categories/pieds-plats/</loc>
     <lastmod>2017-04-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://systems-analyst-elephant-50207.netlify.com/categories/posture/</loc>
+    <loc>http://localhost:8000/categories/posture/</loc>
     <lastmod>2017-04-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://systems-analyst-elephant-50207.netlify.com/produits/</loc>
+    <loc>http://localhost:8000/produits/</loc>
     <lastmod>2017-05-09T12:50:31-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://systems-analyst-elephant-50207.netlify.com/categories/sante-du-pied-chez-lenfant/</loc>
+    <loc>http://localhost:8000/categories/sante-du-pied-chez-lenfant/</loc>
     <lastmod>2017-01-24T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://systems-analyst-elephant-50207.netlify.com/categories/sport-dhiver/</loc>
+    <loc>http://localhost:8000/categories/sport-dhiver/</loc>
     <lastmod>2017-02-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://systems-analyst-elephant-50207.netlify.com/categories/sport-dete/</loc>
+    <loc>http://localhost:8000/categories/sport-dete/</loc>
     <lastmod>2017-04-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://systems-analyst-elephant-50207.netlify.com/tags/</loc>
+    <loc>http://localhost:8000/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://systems-analyst-elephant-50207.netlify.com/categories/verrues-plantaires/</loc>
+    <loc>http://localhost:8000/categories/verrues-plantaires/</loc>
     <lastmod>2017-02-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>

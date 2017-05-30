@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Professionals on Cryos</title>
-    <link>http://systems-analyst-elephant-50207.netlify.com/en/professionals/</link>
+    <link>http://localhost:8000/en/professionals/</link>
     <description>Recent content in Professionals on Cryos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 09 May 2017 12:50:31 -0400</lastBuildDate>
     
-	<atom:link href="http://systems-analyst-elephant-50207.netlify.com/en/professionals/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost:8000/en/professionals/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Cryos Technologies | CryoVizion for podiatrists</title>
-      <link>http://systems-analyst-elephant-50207.netlify.com/en/professionals/cryovizion/</link>
+      <link>http://localhost:8000/en/professionals/cryovizion/</link>
       <pubDate>Tue, 09 May 2017 12:50:31 -0400</pubDate>
       
-      <guid>http://systems-analyst-elephant-50207.netlify.com/en/professionals/cryovizion/</guid>
+      <guid>http://localhost:8000/en/professionals/cryovizion/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cryos Technologies | Cryos Dynamic Orthotics</title>
-      <link>http://systems-analyst-elephant-50207.netlify.com/en/professionals/cryos-orthotics/</link>
+      <link>http://localhost:8000/en/professionals/cryos-orthotics/</link>
       <pubDate>Tue, 09 May 2017 12:49:55 -0400</pubDate>
       
-      <guid>http://systems-analyst-elephant-50207.netlify.com/en/professionals/cryos-orthotics/</guid>
+      <guid>http://localhost:8000/en/professionals/cryos-orthotics/</guid>
       <description></description>
     </item>
     

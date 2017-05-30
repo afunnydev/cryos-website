@@ -1,7 +1,6 @@
-+++
+---
+layout: contact
+title: Cryos Technologies | Nous contacter
+translatedslug: en/company/contact
+---
 
-title = "Cryos Technologies | Nous contacter"
-layout = "contact"
-translatedslug = "en/company/contact"
-
-+++

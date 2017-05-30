@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Compagnies on Cryos</title>
-    <link>http://systems-analyst-elephant-50207.netlify.com/compagnie/</link>
+    <link>http://localhost:8000/compagnie/</link>
     <description>Recent content in Compagnies on Cryos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://systems-analyst-elephant-50207.netlify.com/compagnie/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost:8000/compagnie/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Cryos Technologies | Nous contacter</title>
-      <link>http://systems-analyst-elephant-50207.netlify.com/compagnie/contact/</link>
+      <link>http://localhost:8000/compagnie/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://systems-analyst-elephant-50207.netlify.com/compagnie/contact/</guid>
+      <guid>http://localhost:8000/compagnie/contact/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cryos Technologies | Une vision au service d&#39;une podiatrie moderne.</title>
-      <link>http://systems-analyst-elephant-50207.netlify.com/compagnie/a-propos/</link>
+      <link>http://localhost:8000/compagnie/a-propos/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://systems-analyst-elephant-50207.netlify.com/compagnie/a-propos/</guid>
+      <guid>http://localhost:8000/compagnie/a-propos/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cryos Technologies | Venez travailler dans notre laboratoire</title>
-      <link>http://systems-analyst-elephant-50207.netlify.com/compagnie/emploi/</link>
+      <link>http://localhost:8000/compagnie/emploi/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://systems-analyst-elephant-50207.netlify.com/compagnie/emploi/</guid>
+      <guid>http://localhost:8000/compagnie/emploi/</guid>
       <description></description>
     </item>
     

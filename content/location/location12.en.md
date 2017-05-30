@@ -1,13 +1,13 @@
-+++
-slug = "clinique-podiatrique-kirkland/"
-nomclinique = "Clinique Podiatrique Kirkland"
-address = "2816 Boulevard Saint-Charles"
-latitude = 45.446172
-longitude = -73.853698
-ville = "Kirkland, Quebec H9H 3B6"
-pays = "Canada"
-phone = "(514) 505-3977"
-site = "http://www.podiatrekirkland.com"
-type = "location"
+---
+address: 2816 Boulevard Saint-Charles
+latitude: 45.44617
+longitude: -73.8537
+nomclinique: Clinique Podiatrique Kirkland
+pays: Canada
+phone: (514) 505-3977
+site: http://www.podiatrekirkland.com
+slug: clinique-podiatrique-kirkland/
+type: location
+ville: Kirkland, Quebec H9H 3B6
+---
 
-+++

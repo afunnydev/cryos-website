@@ -1,8 +1,8 @@
-baseURL = "http://systems-analyst-elephant-50207.netlify.com/"
+baseURL = "http://localhost:8000/"
 DefaultContentLanguage = "fr"
 languageCode = "en-us"
 title = "Cryos"
-metaDataFormat = "toml"
+metaDataFormat = "yaml"
 preserveTaxonomyNames = true
 RemovePathAccents = true
 

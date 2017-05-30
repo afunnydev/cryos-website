@@ -129,13 +129,13 @@
 		<div id="partenaires" class="container">
 			<h2>{{ if eq .Lang "fr" }}nos partenaires{{ else if eq .Lang "en" }}our partners{{ end }}</h2>
 			<div class="owl-carousel hide-on-small-only" id="partenaires-carousel">
-			{{ range $.Site.Data.partenaires.files }}
-				<div><img src="{{$.Site.BaseURL}}img/logos/{{ . }}" alt="{{ . }}"></div>
+			{{ range $.Site.Data.partenaires }}
+				<div><img src="{{$.Site.BaseURL}}{{ .file }}" alt="{{ .title }}" class="responsive-img"></div>
 			{{ end }}
 			</div>
 			<div class="hide-on-med-and-up row">
 				{{ range $.Site.Data.partenaires.files }}
-					<div class="col s6 sm-partenaires"><img src="{{$.Site.BaseURL}}img/logos/{{ . }}" alt="{{ . }}" class="responsive-img"></div>
+					<div class="col s6 sm-partenaires"><img src="{{$.Site.BaseURL}}{{ .file }}" alt="{{ .title }}" class="responsive-img"></div>
 				{{ end }}
 			</div>
 		</div>
