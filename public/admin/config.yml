@@ -23,6 +23,7 @@ collections:
     label: "Partenaire" # Used in the UI
     folder: "data/partenaires" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
+    format: yaml
     slug: "{{slug}}" # Filename template i.e. YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Nom", name: "title", widget: "string"}
