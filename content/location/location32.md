@@ -9,5 +9,6 @@ site: http://www.podiatrebonneau.com
 slug: clinique-podiatrique-stephanie-bonneau/
 type: location
 ville: Longueuil, Québec J4J 3Y7
+i18nlanguage: fr
 ---
 

@@ -9,5 +9,6 @@ site: http://www.podiatrealma.com
 slug: clinique-podiatrique-dalma/
 type: location
 ville: Alma, Quebec G8B 2V8
+i18nlanguage: en
 ---
 

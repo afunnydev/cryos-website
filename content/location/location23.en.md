@@ -9,5 +9,6 @@ site: https://www.google.ca/maps/place/Rouyn-Noranda,+QC+J9X+0B1/@48.2283312,-79
 slug: clinique-podiatrique-caroline-guimont/
 type: location
 ville: Rouyn-Noranda, Quebec J9X 0B1
+i18nlanguage: en
 ---
 

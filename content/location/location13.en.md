@@ -9,5 +9,6 @@ site: http://www.cpoutaouais.com
 slug: clinique-podiatrique-loutaouais-bureau-gatineau/
 type: location
 ville: Gatineau, Quebec J8T 8M5
+i18nlanguage: en
 ---
 

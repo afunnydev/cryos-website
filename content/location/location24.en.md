@@ -9,5 +9,6 @@ site: http://www.podiatreblainville.com
 slug: clinique-podiatrique-blainville/
 type: location
 ville: Blainville, Quebec J7C 0E6
+i18nlanguage: en
 ---
 

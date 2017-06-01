@@ -9,5 +9,6 @@ site: https://www.google.ca/maps/place/1352+Boulevard+des+Chutes,+Qu%C3%A9bec,+Q
 slug: clinique-podiatrique-olivier-parent/
 type: location
 ville: Québec, Québec G1C 0M5
+i18nlanguage: fr
 ---
 

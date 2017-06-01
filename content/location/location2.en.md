@@ -9,5 +9,6 @@ site: http://www.podiatregiroux.com
 slug: clinique-podiatrique-francois-giroux-bureau-rimouski/
 type: location
 ville: Rimouski, Quebec G5L 3P1
+i18nlanguage: en
 ---
 

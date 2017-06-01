@@ -9,5 +9,6 @@ site: http://www.podiatremmgr.com
 slug: clinique-podiatrique-mmgr/
 type: location
 ville: Montréal, Québec  H1S 1M8
+i18nlanguage: en
 ---
 

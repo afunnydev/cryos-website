@@ -9,5 +9,6 @@ site: http://www.laplantedupied.com
 slug: clinique-podiatrique-melanie-laplante/
 type: location
 ville: Notre-Dame-des-Prairies, Quebec J6E 1T7
+i18nlanguage: fr
 ---
 

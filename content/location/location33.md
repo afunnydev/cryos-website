@@ -9,5 +9,6 @@ site: http://www.orleansfootclinic.com
 slug: orleans-dynamic-foot-clinic/
 type: location
 ville: Ottawa, Ontario K1E 1E2
+i18nlanguage: fr
 ---
 

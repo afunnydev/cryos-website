@@ -9,5 +9,6 @@ site: http://www.centre-podiatrique.ca
 slug: centre-podiatrique-saint-jerome/
 type: location
 ville: Saint-Jérôme, Quebec J7Z 5L1
+i18nlanguage: fr
 ---
 

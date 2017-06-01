@@ -9,5 +9,6 @@ site: http://www.vitahealthclinic.com
 slug: vita-integrative-health-clinic/
 type: location
 ville: Toronto, Ontario M4T 2S9
+i18nlanguage: fr
 ---
 

@@ -9,5 +9,6 @@ site: http://www.podiatresthubert.com
 slug: clinique-podiatrique-st-hubert/
 type: location
 ville: Saint-Hubert, Quebec J3Y 4K3
+i18nlanguage: en
 ---
 

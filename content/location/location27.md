@@ -9,5 +9,6 @@ site: http://www.podiatrievictoria.com
 slug: clinique-podiatrique-victoria/
 type: location
 ville: Westmount , Quebec H3Z 2M6
+i18nlanguage: fr
 ---
 

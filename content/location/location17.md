@@ -9,5 +9,6 @@ site: http://www.podiatrebourque.com
 slug: clinique-podiatrique-marie-christine-bourque/
 type: location
 ville: Lévis, Quebec G6V 0B7
+i18nlanguage: fr
 ---
 

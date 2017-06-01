@@ -9,5 +9,6 @@ site: http://www.gremilletpodiatres.com
 slug: clinique-podiatrique-frederic-gremillet-dpm/
 type: location
 ville: Candiac, Quebec J5R 3L5
+i18nlanguage: fr
 ---
 

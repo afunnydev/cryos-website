@@ -9,5 +9,6 @@ site: http://www.cpoutaouais.com
 slug: clinique-podiatrique-loutaouais-bureau-hull/
 type: location
 ville: Gatineau, Quebec J8X 2K1
+i18nlanguage: fr
 ---
 

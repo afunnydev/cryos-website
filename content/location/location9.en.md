@@ -9,5 +9,6 @@ site: http://www.clinique-podiatrique.com
 slug: clinique-podiatrique-vaudreuil/
 type: location
 ville: Vaudreuil-Dorion, Quebec J7V 5V5
+i18nlanguage: en
 ---
 

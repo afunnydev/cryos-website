@@ -9,5 +9,6 @@ site: http://www.podiatredelapointe.com
 slug: clinique-podiatrique-pointe-lile/
 type: location
 ville: Montréal, Québec H1B 4A4
+i18nlanguage: en
 ---
 

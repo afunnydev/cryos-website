@@ -9,5 +9,6 @@ site: http://www.podiatremaguire.com
 slug: clinique-podiatrique-maguire/
 type: location
 ville: Québec, Quebec G1T 1Z3
+i18nlanguage: en
 ---
 

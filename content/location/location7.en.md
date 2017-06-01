@@ -9,5 +9,6 @@ site: http://www.centrepodiatriquelambert.com
 slug: centre-podiatrique-lambert/
 type: location
 ville: Granby, Quebec J2G 2W6
+i18nlanguage: en
 ---
 

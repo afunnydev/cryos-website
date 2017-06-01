@@ -9,5 +9,6 @@ site: http://www.podiatregiroux.com
 slug: clinique-podiatrique-francois-giroux-bureau-charlesbourg/
 type: location
 ville: Québec, Quebec G1H 3B9
+i18nlanguage: en
 ---
 

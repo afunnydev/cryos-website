@@ -9,5 +9,6 @@ site: http://www.podiatrebourque.com
 slug: clinique-podiatrique-marie-christine-bourque-2/
 type: location
 ville: Montmagny, Quebec G5V 1N2
+i18nlanguage: fr
 ---
 

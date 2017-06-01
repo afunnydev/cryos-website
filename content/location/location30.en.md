@@ -9,5 +9,6 @@ site: http://www.podiatrendg.com
 slug: clinique-podiatrique-ndg-dr-dejan-radic/
 type: location
 ville: Montréal, Québec H4B 1N6
+i18nlanguage: en
 ---
 

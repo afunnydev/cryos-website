@@ -9,5 +9,6 @@ site: http://www.podiatrievictoria.com
 slug: clinique-podiatrique-chutes/
 type: location
 ville: Québec, Québec G1C 0M5
+i18nlanguage: en
 ---
 

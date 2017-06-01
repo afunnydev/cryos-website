@@ -9,5 +9,6 @@ site: http://www.monpodiatre.ca
 slug: clinique-podiatrique-elizabeth-pellerin/
 type: location
 ville: Drummondville, Quebec J2C 7L9
+i18nlanguage: en
 ---
 

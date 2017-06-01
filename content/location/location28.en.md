@@ -9,5 +9,6 @@ site: http://www.podiatrevictoriaville.com
 slug: clinique-podiatrique-elizabeth-piche/
 type: location
 ville: Victoriaville, Quebec G6T 2T2
+i18nlanguage: en
 ---
 
