@@ -19,12 +19,19 @@ collections:
       - {label: "Featured Image", name: "thumbnail", widget: "image"}
       - {label: "Rating (scale of 1-5)", name: "rating", widget: "number"}
       - {label: "Body", name: "body", widget: "markdown"}
-  - name: "partenaire"
-    label: "Partenaire" # Used in the UI
-    folder: "data/partenaires" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    format: yaml
-    slug: "{{slug}}" # Filename template i.e. YYYY-MM-DD-title.md
-    fields: # The fields for each document, usually in front matter
-      - {label: "Nom", name: "title", widget: "string"}
-      - {label: "Featured Image", name: "file", widget: "image"}
+  - name: "settings"
+    label: "Settings"
+    editor:
+      preview: false
+    files:
+      - name: "partenaires"
+        label: "Partenaires"
+        file: "data/partenaires.yml"
+        description: "Vos partenaires, ne pas mettre d'accent dans les noms ou nom de fichier svp!"
+        fields:
+          - name: partenaires
+            label: Partenaires
+            widget: list
+            fields:
+              - {label: "Nom", name: "name", widget: "string"}
+              - {label: "Image", name: "file", widget: "image"}
