@@ -260,17 +260,17 @@
                 <h1 class="blue-bar">{{ if eq .Lang "fr" }}L'équipe{{ else if eq .Lang "en" }}Team{{ end }}</h1>
                 <div class="owl-carousel">
                 {{ if eq .Lang "fr" }}
-                    {{ range sort $.Site.Data.equipe "weight" "asce" }}
+                    {{ range sort $.Site.Data.equipe.equipe "weight" "asce" }}
                         <div class="member center-align">
-                            <img src="{{$.Site.BaseURL}}img/equipe/{{ .photo }}" alt="{{ .fonction }}">
+                            <img src="{{$.Site.BaseURL}}{{ .photo }}" alt="{{ .fonction }}">
                             <h1>{{ .nom }}</h1>
                             <h2>{{ .fonction }}</h2>
                         </div>
                     {{ end }}
                 {{ else if eq .Lang "en" }}
-                    {{ range sort $.Site.Data.equipe "weight" "asce" }}
+                    {{ range sort $.Site.Data.equipe.equipe "weight" "asce" }}
                         <div class="member center-align">
-                            <img src="{{$.Site.BaseURL}}img/equipe/{{ .photo }}" alt="{{ .fonction }}">
+                            <img src="{{$.Site.BaseURL}}{{ .photo }}" alt="{{ .fonction }}">
                             <h1>{{ .nom }}</h1>
                             <h2>{{ .position }}</h2>
                         </div>
@@ -280,15 +280,6 @@
             </div>
         </div>
     </div>
-</div>
-<div>
-{{ range sort $.Site.Data.equipe "weight" "asce" }}
-<p>- name: {{ .nom }}</br>
-  fonction: {{ .fonction }}</br>
-  position: {{ .position }}</br>
-  weight: {{ .weight }}</br>
-  photo: img/uploads/{{ .photo }}</p>
-{{ end }}  
 </div>
 
 <div class="had-container" id="trouver_clinique">
