@@ -32,6 +32,7 @@ collections:
           - name: partenaires
             label: Partenaires
             widget: list
+            create: true 
             fields:
               - {label: "Nom", name: "name", widget: "string"}
               - {label: "Image", name: "file", widget: "image"}
