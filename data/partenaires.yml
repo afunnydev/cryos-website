@@ -1,7 +1,11 @@
 partenaires:
-  - file: img/uploads/testing.png
-    name: felix
+  - file: img/uploads/ici-on-recycle.png
+    name: Ici on recycle
   - file: /img/uploads/desjardins.png
     name: Desjardins
   - file: /img/uploads/brio.png
     name: Brio
+  - file: /img/uploads/maman-pourla-vie.png
+    name: Maman pour la vie
+  - file: /img/uploads/olympiques_speciaux.png
+    name: Olympiques speciaux

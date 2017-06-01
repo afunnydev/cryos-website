@@ -281,6 +281,15 @@
         </div>
     </div>
 </div>
+<div>
+{{ range sort $.Site.Data.equipe "weight" "asce" }}
+<p>- name: {{ .nom }}</br>
+  fonction: {{ .fonction }}</br>
+  position: {{ .position }}</br>
+  weight: {{ .weight }}</br>
+  photo: img/uploads/{{ .photo }}</p>
+{{ end }}  
+</div>
 
 <div class="had-container" id="trouver_clinique">
     <div class="container">

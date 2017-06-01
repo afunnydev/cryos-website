@@ -1,0 +1,96 @@
+equipe:
+  - name: Dr.Frédéric Gremillet
+    fonction: Podiatre et propriétaire
+    position: Podiatrist and owner
+    weight: 1
+    photo: img/uploads/membre_equipe4.png
+
+  - name: Dr.Philippe Legaré
+    fonction: Podiatre et propriétaire
+    position: Podiatrist and owner
+    weight: 2
+    photo: img/uploads/membre_equipe5.png
+
+  - name: John Stimpson
+    fonction: Président
+    position: President
+    weight: 3
+    photo: img/uploads/membre_equipe13.png
+
+  - name: André Lemire
+    fonction: Directeur Général
+    position: Direction manager
+    weight: 4
+    photo: img/uploads/membre_equipe1.png
+
+  - name: Ginette Beauséjour
+    fonction: Administration
+    position: Accounting
+    weight: 5
+    photo: img/uploads/membre_equipe10.png
+
+  - name: Julie Labrecque
+    fonction: Administration
+    position: Accounting
+    weight: 6
+    photo: img/uploads/membre_equipe14.png
+
+  - name: François Coulombe
+    fonction: Informatique
+    position: IT
+    weight: 7
+    photo: img/uploads/membre_equipe9.png
+
+  - name: Jean-François Lanthier
+    fonction: Informatique
+    position: IT
+    weight: 8
+    photo: img/uploads/membre_equipe11.png
+
+  - name: Johanne Gagnon
+    fonction: Informatique
+    position: IT
+    weight: 9
+    photo: img/uploads/membre_equipe12.png
+
+  - name: Eve-Lyne Ducharme
+    fonction: Marketing
+    position: Marketing
+    weight: 10
+    photo: img/uploads/membre_equipe8.png
+
+  - name: Caroline George
+    fonction: Production et R&D
+    position: Production and R&D
+    weight: 11
+    photo: img/uploads/membre_equipe2.png
+
+  - name: Louise Prescott
+    fonction: Production
+    position: Production
+    weight: 12
+    photo: img/uploads/membre_equipe15.png
+
+  - name: Mohammed Lachhab
+    fonction: Production et R&D
+    position: Production and R&D
+    weight: 13
+    photo: img/uploads/membre_equipe17.png
+
+  - name: Nicholas Watts
+    fonction: R&D
+    position: R&D
+    weight: 14
+    photo: img/uploads/membre_equipe18.png
+
+  - name: Yan Desgagné
+    fonction: R&D
+    position: R&D
+    weight: 15
+    photo: img/uploads/membre_equipe19.png
+
+  - name: Émilie Bélanger
+    fonction: Ressources humaines
+    position: Human ressources
+    weight: 16
+    photo: img/uploads/membre_equipe6.png
