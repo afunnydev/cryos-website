@@ -19,34 +19,35 @@ collections:
       - {label: "Featured Image", name: "thumbnail", widget: "image"}
       - {label: "Rating (scale of 1-5)", name: "rating", widget: "number"}
       - {label: "Body", name: "body", widget: "markdown"}
-  - name: "partenaires"
-    label: "Partenaires"
-    file: "data/partenaires.yml"
-    description: "Vos partenaires, ne pas mettre d'accent dans les noms ou nom de fichier svp!"
+  - name: "settings"
+    label: "Settings"
     editor:
       preview: false
-    fields:
-      - name: partenaires
-        label: Partenaires
-        widget: list
-        create: true 
+    files:
+      - name: "partenaires"
+        label: "Partenaires"
+        file: "data/partenaires.yml"
+        description: "Vos partenaires, ne pas mettre d'accent dans les noms ou nom de fichier svp!"
         fields:
-          - {label: "Nom", name: "name", widget: "string"}
-          - {label: "Image", name: "file", widget: "image"}
-  - name: "equipe"
-    label: "Membres de l'équipe"
-    file: "data/equipeya.yml"
-    description: "Votre équipe, ne pas mettre d'accent dans les noms de fichier svp!"
-    editor:
-      preview: false
-    fields:
-      - name: equipe
-        label: Membre
-        widget: list
-        create: true 
+          - name: partenaires
+            label: Partenaires
+            widget: list
+            create: true 
+            fields:
+              - {label: "Nom", name: "name", widget: "string"}
+              - {label: "Image", name: "file", widget: "image"}
+      - name: "equipe"
+        label: "Membres de l'équipe"
+        file: "data/equipeya.yml"
+        description: "Votre équipe, ne pas mettre d'accent dans les noms de fichier svp!"
         fields:
-          - {label: "Nom", name: "name", widget: "string"}
-          - {label: "Fonction en français", name: "fonction", widget: "string"}
-          - {label: "Fonction en anglais", name: "position", widget: "string"}
-          - {label: "Ordre", name: "weight", widget: "number"}
-          - {label: "Image", name: "photo", widget: "image"}
+          - name: equipe
+            label: Membre
+            widget: list
+            create: true 
+            fields:
+              - {label: "Nom", name: "name", widget: "string"}
+              - {label: "Fonction en français", name: "fonction", widget: "string"}
+              - {label: "Fonction en anglais", name: "position", widget: "string"}
+              - {label: "Ordre", name: "weight", widget: "number"}
+              - {label: "Image", name: "photo", widget: "image"}
