@@ -1,3 +1,7 @@
 partenaires:
- - name: felix
-   file: img/uploads/testing.png
+  - file: img/uploads/testing.png
+    name: felix
+  - file: /img/uploads/desjardins.png
+    name: Desjardins
+  - file: /img/uploads/brio.png
+    name: Brio
