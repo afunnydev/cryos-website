@@ -51,3 +51,29 @@ collections:
               - {label: "Fonction en anglais", name: "position", widget: "string"}
               - {label: "Ordre", name: "weight", widget: "number"}
               - {label: "Image", name: "photo", widget: "image"}
+  - name: "articles" # Used in routes, e.g. /admin/collections/blog
+    label: "Articles" # Used in the UI
+    folder: "content/articles" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields for each document, usually in front matter
+      - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Featured Image", name: "thumbnail", widget: "image"}
+      - {label: "Rating (scale of 1-5)", name: "rating", widget: "number"}
+      - {label: "Body", name: "body", widget: "markdown"} 
+  - name: "cliniques" # Used in routes, e.g. /admin/collections/blog
+    label: "Cliniques" # Used in the UI
+    folder: "content/location" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields for each document, usually in front matter
+      - {label: "Nom de la clinique", name: "nomclinique", widget: "string"}
+      - {label: "Adresse", name: "address", widget: "string", default: "Numéro et nom de rue"}
+      - {label: "Ville et province", name: "ville", widget: "string", default: "Montréal, Québec, H2R 2R5"}
+      - {label: "Pays", name: "pays", widget: "string", default: "Canada"}
+      - {label: "Latitude", name: "latitude", widget: "number"}
+      - {label: "Longitude", name: "longitude", widget: "number"}
+      - {label: "Numéro de téléphone", name: "phone", widget: "string"}
+      - {label: "Site internet", name: "site", widget: "string", pattern: ["^https?", "N'oubliez pas le http:// ou https://"]} 
+      - {label: "Lien", name: "slug", widget: "hidden", default: "{{slug}}"}
+      - {label: "Type", name: "type", widget: "hidden", default: "location"}
