@@ -6,7 +6,6 @@ nomclinique: Clinique Podiatrique François Giroux (bureau Rimouski)
 pays: Canada
 phone: +1 877-622-0732
 site: http://www.podiatregiroux.com
-slug: clinique-podiatrique-francois-giroux-bureau-rimouski/
 type: location
 ville: Rimouski, Quebec G5L 3P1
 i18nlanguage: en

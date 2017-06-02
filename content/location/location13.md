@@ -6,7 +6,6 @@ nomclinique: Clinique Podiatrique de l’Outaouais (bureau Gatineau)
 pays: Canada
 phone: (819) 568-0456
 site: http://www.cpoutaouais.com
-slug: clinique-podiatrique-loutaouais-bureau-gatineau/
 type: location
 ville: Gatineau, Quebec J8T 8M5
 i18nlanguage: fr

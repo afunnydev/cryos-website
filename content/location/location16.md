@@ -6,7 +6,6 @@ nomclinique: Clinique Podiatrique François Giroux (bureau Val-Bélair)
 pays: Canada
 phone: (418) 915-9399
 site: http://www.podiatregiroux.com
-slug: clinique-podiatrique-francois-giroux-bureau-val-belair/
 type: location
 ville: Québec, Quebec G3K 2S1
 i18nlanguage: fr

@@ -44,7 +44,7 @@
 <script>
 	var locations = [];
 	{{ range where $.Site.Pages "Type" "location"}}
-		locations.push({name:{{ .Params.nomclinique }}, lat:{{ .Params.latitude }}, lng:{{ .Params.longitude }}, address:{{ .Params.address }}, city:{{ .Params.ville }}, state:{{ .Params.pays }}, web:{{ .Params.site }}, slug: {{ .Slug }} });
+		locations.push({name:{{ .Params.nomclinique }}, lat:{{ .Params.latitude }}, lng:{{ .Params.longitude }}, address:{{ .Params.address }}, city:{{ .Params.ville }}, state:{{ .Params.pays }}, web:{{ .Params.site }}, slug: {{ .Permalink }} });
 	{{ end }}
   var data = JSON.stringify(locations);
 </script>

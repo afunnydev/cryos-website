@@ -6,7 +6,6 @@ nomclinique: Clinique Podiatrique MMGR
 pays: Canada
 phone: (514) 903-9333
 site: http://www.podiatremmgr.com
-slug: clinique-podiatrique-mmgr/
 type: location
 ville: Montréal, Québec  H1S 1M8
 i18nlanguage: en

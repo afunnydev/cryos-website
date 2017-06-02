@@ -6,7 +6,6 @@ nomclinique: Clinique Podiatrique d’Alma
 pays: Canada
 phone: (418) 758-1581
 site: http://www.podiatrealma.com
-slug: clinique-podiatrique-dalma/
 type: location
 ville: Alma, Quebec G8B 2V8
 i18nlanguage: fr

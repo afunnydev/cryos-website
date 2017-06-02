@@ -6,7 +6,6 @@ nomclinique: Clinique Podiatrique Élizabeth Piché
 pays: Canada
 phone: (819) 604-6400
 site: http://www.podiatrevictoriaville.com
-slug: clinique-podiatrique-elizabeth-piche/
 type: location
 ville: Victoriaville, Quebec G6T 2T2
 i18nlanguage: en

@@ -6,7 +6,6 @@ nomclinique: Clinique Podiatrique Vaudreuil
 pays: Canada
 phone: (450) 424-5500
 site: http://www.clinique-podiatrique.com
-slug: clinique-podiatrique-vaudreuil/
 type: location
 ville: Vaudreuil-Dorion, Quebec J7V 5V5
 i18nlanguage: en

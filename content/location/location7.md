@@ -6,7 +6,6 @@ nomclinique: Centre Podiatrique Lambert
 pays: Canada
 phone: (450) 372-4735
 site: http://www.centrepodiatriquelambert.com
-slug: centre-podiatrique-lambert/
 type: location
 ville: Granby, Quebec J2G 2W6
 i18nlanguage: fr

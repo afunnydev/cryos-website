@@ -6,7 +6,6 @@ nomclinique: Clinique Podiatrique François Giroux (bureau Charlesbourg)
 pays: Canada
 phone: (418) 622-0732
 site: http://www.podiatregiroux.com
-slug: clinique-podiatrique-francois-giroux-bureau-charlesbourg/
 type: location
 ville: Québec, Quebec G1H 3B9
 i18nlanguage: fr

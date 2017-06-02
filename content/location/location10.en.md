@@ -6,7 +6,6 @@ nomclinique: Clinique Podiatrique Familiale de Boucherville
 pays: Canada
 phone: (450) 906-3939
 site: http://www.podiatredeboucherville.com
-slug: clinique-podiatrique-familiale-boucherville/
 type: location
 ville: Boucherville, Quebec J4B 1S9
 i18nlanguage: en

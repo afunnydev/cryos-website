@@ -6,7 +6,6 @@ nomclinique: Clinique Podiatrique Kirkland
 pays: Canada
 phone: (514) 505-3977
 site: http://www.podiatrekirkland.com
-slug: clinique-podiatrique-kirkland/
 type: location
 ville: Kirkland, Quebec H9H 3B6
 i18nlanguage: en
