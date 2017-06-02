@@ -163,14 +163,17 @@
             <div class="col s12">
             {{ if eq .Lang "fr" }}
                 <h1 class="white-bar">Témoignage</h1>
-                <p>Le système CryoVizion me permet de prouver objectivement et d'illustrer mes mesures à mes patients afin qu'ils comprennent mieux l'importance des orthèses, ce qui finalement augmente la complaisance.</p>
-                <p class="nom">-Mélanie Laplante, DPM, podiatre</p>
             {{ else if eq .Lang "en" }}
                 <h1 class="white-bar">Testimonial</h1>
-                <p>The CryoVizion system enables me to objectively prove and illustrate to my patients the steps I have taken so that they understand more fully the importance of orthotics, which ultimately increases compliance.</p>
-                <p class="nom">-Mélanie Laplante, DPM, podiatrist</p>
             {{ end }}
-                <div class="timg"><img src="{{.Site.BaseURL}}img/equipe/membre_equipe16.png" alt="Podiatre"></div>
+            {{ if eq .Lang "fr" }}
+                <p>{{ .Site.Data.temoignages.cryovizionpro.temoignagefr }}</p>
+                <p class="nom">-{{ .Site.Data.temoignages.cryovizionpro.temoinfr}}</p>
+            {{ else if eq .Lang "en" }}
+                <p>{{ .Site.Data.temoignages.cryovizionpro.temoignageen }}</p>
+                <p class="nom">-{{ .Site.Data.temoignages.cryovizionpro.temoinen}}</p>
+            {{ end }}
+                <div class="timg"><img src="{{.Site.BaseURL}}{{ .Site.Data.temoignages.cryovizionpro.image}}" alt="Podiatre"></div>
             </div>
         </div>
     </div>

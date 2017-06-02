@@ -173,16 +173,17 @@
             <div class="col s12">
             {{ if eq .Lang "fr" }}
                 <h1 class="white-bar">Témoignage</h1>
-                <p>J'ai été incroyablement surpris par l'efficacité du système d'imagerie CryoVizion. Le fait de voir mes défauts de posture en images m'a aidé à comprendre ma situation et, de ce fait, de mieux pouvoir appliquer les conseils avisés de mon podiatre. De plus, grâce aux orthèses Cryos fabriquées selon les résultats obtenus, finis les maux de dos!</p>
-                <p class="nom">-Josselin Bey, designer graphique</p>
             {{ else if eq .Lang "en" }}
                 <h1 class="white-bar">Testimonial</h1>
-                <p>I was incredibly surprised by how effective the CryoVizion imaging system was. The fact that I could see pictures of my bad posture helped me understand my situation, making it easier to follow my podiatrist’s advice. On top of that, thanks to the Cryos orthotics that were manufactured according to the results obtained, my backaches have disappeared!</p>
-                <p class="nom">-Josselin Bey, graphic designer</p>
             {{ end }}
-                <div class="timg"><img src="{{.Site.BaseURL}}img/temoignage/josselin_bey.png" alt="Client satisfait"></div>
-            }
-            }
+            {{ if eq .Lang "fr" }}
+                <p>{{ .Site.Data.temoignages.cryovizionpatients.temoignagefr }}</p>
+                <p class="nom">-{{ .Site.Data.temoignages.cryovizionpatients.temoinfr}}</p>
+            {{ else if eq .Lang "en" }}
+                <p>{{ .Site.Data.temoignages.cryovizionpatients.temoignageen }}</p>
+                <p class="nom">-{{ .Site.Data.temoignages.cryovizionpatients.temoinen}}</p>
+            {{ end }}
+                <div class="timg"><img src="{{.Site.BaseURL}}{{ .Site.Data.temoignages.cryovizionpatients.image}}" alt="Podiatre"></div>
             </div>
         </div>
     </div>

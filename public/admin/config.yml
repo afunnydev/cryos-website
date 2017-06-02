@@ -4,7 +4,7 @@ backend:
   branch: master # Branch to update (master by default)
 
 media_folder: "static/img/uploads" # Folder where user uploaded files should go
-public_folder: "/img/uploads" # The src attribute for uploaded media will begin with /images/uploads
+public_folder: "img/uploads" # The src attribute for uploaded media will begin with img/uploads
 
 publish_mode: editorial_workflow
 
@@ -50,8 +50,8 @@ collections:
             widget: object
             create: true
             fields:
-              - {label: "Témoignages - FR", name: "temoignagnefr", widget: "text"}
-              - {label: "Témoignages - EN", name: "temoignagneen", widget: "text"}
+              - {label: "Témoignages - FR", name: "temoignagefr", widget: "text"}
+              - {label: "Témoignages - EN", name: "temoignageen", widget: "text"}
               - {label: "Témoin - FR", name: "temoinfr", widget: "string"}
               - {label: "Témoin - EN", name: "temoinen", widget: "string"}
               - {label: "Image", name: "image", widget: "image"}
@@ -60,8 +60,8 @@ collections:
             widget: object
             create: true
             fields:
-              - {label: "Témoignages - FR", name: "temoignagnefr", widget: "text"}
-              - {label: "Témoignages - EN", name: "temoignagneen", widget: "text"}
+              - {label: "Témoignages - FR", name: "temoignagefr", widget: "text"}
+              - {label: "Témoignages - EN", name: "temoignageen", widget: "text"}
               - {label: "Témoin - FR", name: "temoinfr", widget: "string"}
               - {label: "Témoin - EN", name: "temoinen", widget: "string"}
               - {label: "Image", name: "image", widget: "image"}
@@ -70,8 +70,8 @@ collections:
             widget: object
             create: true
             fields:
-              - {label: "Témoignages - FR", name: "temoignagnefr", widget: "text"}
-              - {label: "Témoignages - EN", name: "temoignagneen", widget: "text"}
+              - {label: "Témoignages - FR", name: "temoignagefr", widget: "text"}
+              - {label: "Témoignages - EN", name: "temoignageen", widget: "text"}
               - {label: "Témoin - FR", name: "temoinfr", widget: "string"}
               - {label: "Témoin - EN", name: "temoinen", widget: "string"}
               - {label: "Image", name: "image", widget: "image"}
@@ -80,8 +80,8 @@ collections:
             widget: object
             create: true
             fields:
-              - {label: "Témoignages - FR", name: "temoignagnefr", widget: "text"}
-              - {label: "Témoignages - EN", name: "temoignagneen", widget: "text"}
+              - {label: "Témoignages - FR", name: "temoignagefr", widget: "text"}
+              - {label: "Témoignages - EN", name: "temoignageen", widget: "text"}
               - {label: "Témoin - FR", name: "temoinfr", widget: "string"}
               - {label: "Témoin - EN", name: "temoinen", widget: "string"}
               - {label: "Image", name: "image", widget: "image"}

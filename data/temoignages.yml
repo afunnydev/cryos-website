@@ -1,19 +1,10 @@
 orthesepro:
-  image: /img/uploads/membre_equipe3.png
+  image: "/img/uploads/membre_equipe3.png"
   temoignageen: >-
     Cryos orthotics stand out from others on the market because they are small
     and fit inside the majority of shoes. The plastic is durable and ultra
     hygienic. These are undeniable advantages for my patients.
   temoignagefr: >-
-    Les orthèses Cryos se démarquent de celles sur le marché par leur petite
-    taille et par le fait qu'elles s'insèrent dans la plupart des chaussures. Le
-    plastique est durable et très hygiénique. Des avantages indéniables pour ma
-    clientèle.
-  temoignagneen: >-
-    Cryos orthotics stand out from others on the market because they are small
-    and fit inside the majority of shoes. The plastic is durable and ultra
-    hygienic. These are undeniable advantages for my patients.
-  temoignagnefr: >-
     Les orthèses Cryos se démarquent de celles sur le marché par leur petite
     taille et par le fait qu'elles s'insèrent dans la plupart des chaussures. Le
     plastique est durable et très hygiénique. Des avantages indéniables pour ma
@@ -38,11 +29,11 @@ orthesepatients:
   temoinfr: 'Dominique Leblanc, médiatrice'
 cryovizionpro:
   image: /img/uploads/membre_equipe16.png
-  temoignagneen: >-
+  temoignageen: >-
     The CryoVizion system enables me to objectively prove and illustrate to my
     patients the steps I have taken so that they understand more fully the
     importance of orthotics, which ultimately increases compliance.
-  temoignagnefr: >-
+  temoignagefr: >-
     Le système CryoVizion me permet de prouver objectivement et d'illustrer mes
     mesures à mes patients afin qu'ils comprennent mieux l'importance des
     orthèses, ce qui finalement augmente la complaisance.
@@ -50,13 +41,13 @@ cryovizionpro:
   temoinfr: 'Mélanie Laplante, DPM, podiatre'
 cryovizionpatients:
   image: /img/uploads/josselin_bey.png
-  temoignagneen: >-
+  temoignageen: >-
     I was incredibly surprised by how effective the CryoVizion imaging system
     was. The fact that I could see pictures of my bad posture helped me
     understand my situation, making it easier to follow my podiatrist’s advice.
     On top of that, thanks to the Cryos orthotics that were manufactured
     according to the results obtained, my backaches have disappeared!
-  temoignagnefr: >-
+  temoignagefr: >-
     J'ai été incroyablement surpris par l'efficacité du système d'imagerie
     CryoVizion. Le fait de voir mes défauts de posture en images m'a aidé à
     comprendre ma situation et, de ce fait, de mieux pouvoir appliquer les
