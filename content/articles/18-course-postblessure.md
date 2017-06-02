@@ -12,6 +12,12 @@ slug: reprendre-la-course-a-pied-apres-une-blessure/
 title: La course à pied après une blessure - Cryos Technologies
 titre: La course à pied après une blessure
 type: post
+identifiant: 18-course-postblessure
+isfront: false
+orthese_pro: false
+orthese_patients: false
+cryovizion_pro: false
+cryovizion_patients: false
 ---
 
 <p style="font-size: 18px;">Les coureurs ayant subi une blessure aux pieds sont parfois contraints d’arrêter leur sport pendant une période déterminée. Durant cette période, les coureurs peuvent être suivis par un podiatre afin d'entreprendre un plan de traitement pour atteindre une guérison optimale et permettre le retour aux activités.</p>

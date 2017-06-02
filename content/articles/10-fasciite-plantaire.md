@@ -12,6 +12,12 @@ slug: fasciite-plantaire-quels-sont-les-symptomes-et-les-traitements-disponibles
 title: 'La fasciite plantaire: symptômes, douleurs et traitements - Cryos Technologies'
 titre: 'La fasciite plantaire: symptômes, douleurs et traitements'
 type: post
+identifiant: 10-fasciite-plantaire
+isfront: false
+orthese_pro: false
+orthese_patients: false
+cryovizion_pro: false
+cryovizion_patients: false
 ---
 
 <p style="font-size: 18px;">La fasciite plantaire est l’une des conditions inflammatoires les plus répandues au Québec. Les vives douleurs qu’elles provoquent (surtout un mal au talon) conduisent bon nombre de patients chez le podiatre. Il est important de comprendre que la fasciite plantaire est une inflammation du ligament fibreux, nommé fascia plantaire, ayant comme fonction le soutien de la voûte du pied.</p>

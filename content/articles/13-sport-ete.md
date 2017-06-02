@@ -13,6 +13,12 @@ slug: pourquoi-porter-une-orthese-plantaire-pendant-un-sport-dete/
 title: Les avantages des orthèses plantaires lors d’un sport d’été. - Cryos Technologies
 titre: Les avantages des orthèses plantaires lors d’un sport d’été
 type: post
+identifiant: 13-sport-ete
+isfront: false
+orthese_pro: false
+orthese_patients: false
+cryovizion_pro: false
+cryovizion_patients: false
 ---
 
 <p style="font-size: 18px;">À la période estivale, les sportifs sont nombreux à exercer des activités physiques qui exigent un effort supplémentaire de la mécanique des pieds. Ainsi, le port d’orthèses sportives s’avère bénéfique pour les enfants et les adultes qui pratiquent un sport d’été tel que le tennis, la course, le soccer, le football, etc. Découvrez pourquoi les orthèses plantaires sont fortement recommandées pour les personnes ayant une faiblesse aux pieds.</p>

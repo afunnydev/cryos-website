@@ -11,6 +11,11 @@ title: Apprendre à courir sans se blesser - Cryos Technologies
 titre: Apprendre à courir sans se blesser
 type: post
 identifiant: 03-apprendre-courir
+isfront: false
+orthese_pro: false
+orthese_patients: false
+cryovizion_pro: false
+cryovizion_patients: false
 ---
 
 <p style="font-size: 18px;">Bien que la course soit un sport dont la popularité grimpe en flèche, apprendre à courir sans se blesser est primordial. Sans les conseils d’un podiatre, le coureur mal informé s’expose à de nombreuses blessures qui peuvent laisser des séquelles permanentes. C’est pourquoi l’intervention d’un podiatre est de plus en plus suggérée afin de complémenter les conseils d’un entraîneur.

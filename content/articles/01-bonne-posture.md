@@ -6,7 +6,6 @@ categories:
 date: 2017-04-06
 description: Une bonne posture est difficile à avoir. Il existe plusieurs solutions
   afin de l'améliorer, mais on oublie souvent que l'orthèse plantaire en est une!
-isfront: true
 short_desc: Pour profiter d’une belle qualité de vie, avoir une bonne posture et une
   santé des pieds sont des éléments incontournables. Toutefois, plusieurs ignorent
   combien les orthèses plantaires peuvent contribuer à l’atteinte de cette bonne condition.
@@ -15,6 +14,11 @@ title: Comment avoir une bonne posture? - Cryos Technologies
 titre: Comment avoir une bonne posture?
 type: post
 identifiant: 01-bonne-posture
+isfront: false
+orthese_pro: false
+orthese_patients: false
+cryovizion_pro: false
+cryovizion_patients: false
 ---
 
 <p style="font-size: 18px;">Pour profiter d’une belle qualité de vie, avoir une bonne posture et une santé des pieds sont des éléments incontournables. Toutefois, plusieurs ignorent combien les orthèses plantaires peuvent contribuer à l’atteinte de cette bonne condition.

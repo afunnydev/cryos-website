@@ -12,6 +12,12 @@ slug: les-traitements-possibles-pour-remedier-a-lhallux-valgus-oignon-aux-pieds/
 title: Traitements pour remédier aux hallux valgus (oignons au pied) - Cryos Technologies
 titre: Traitements pour remédier aux hallux valgus (oignons au pied)
 type: post
+identifiant: 11-oignon-pieds
+isfront: false
+orthese_pro: false
+orthese_patients: false
+cryovizion_pro: false
+cryovizion_patients: false
 ---
 
 <p style="font-size: 18px;">L’oignon au pied, connu sous le terme médical hallux valgus, provient d’une déviation osseuse du premier métatarse étant reliée à une faiblesse biomécanique. L’oignon entraîne une déviation du gros orteil vers les autres occasionnant ainsi un élancement intra-articulaire et une douleur à long terme. Les personnes souffrant d’un hallux valgus peuvent avoir recours à différents traitements podiatriques afin d’améliorer leur condition.</p>

@@ -10,6 +10,12 @@ slug: quoi-faire-en-cas-dentorse-a-la-cheville/
 title: Soignez efficacement votre entorse à la cheville! - Cryos Technologies
 titre: Soignez efficacement votre entorse à la cheville!
 type: post
+identifiant: 06-entorse-cheville
+isfront: false
+orthese_pro: false
+orthese_patients: false
+cryovizion_pro: false
+cryovizion_patients: false
 ---
 
 <p style="font-size: 18px;">L’entorse à la cheville est souvent traitée de façon maladroite alors qu’elle devrait être prise au sérieux tout autant qu’une fracture. Sachez que si celle-ci survient vous devez rester calme et consulter votre podiatre afin de la traiter adéquatement le plus rapidement possible. La foulure à la cheville est très fréquente et ses risques à long terme souvent minimisés dans la population. C’est pourquoi, afin de vous guider dans la guérison de l’entorse à la cheville, nous nous sommes entretenus avec Dr Gabriel Beaudoin-Côté, podiatre.</p>

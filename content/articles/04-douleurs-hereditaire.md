@@ -11,6 +11,12 @@ slug: les-douleurs-aux-pieds-chez-lenfant-hereditaires/
 title: Les douleurs aux pieds chez l’enfant sont-elles héréditaires? - Cryos Technologies
 titre: Les douleurs aux pieds chez l’enfant sont-elles héréditaires?
 type: post
+identifiant: 04-douleurs-hereditaire
+isfront: false
+orthese_pro: false
+orthese_patients: false
+cryovizion_pro: false
+cryovizion_patients: false
 ---
 
 <p style="font-size: 18px;">Comme parents, il est normal que les douleurs aux pieds de vos enfants vous inquiètent. C’est d’autant plus vrai si vous-mêmes, vous êtes aux prises avec ce même genre de problèmes.

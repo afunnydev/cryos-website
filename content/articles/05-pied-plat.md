@@ -7,11 +7,16 @@ categories:
 date: 2017-01-24
 description: Apprenez sur les causes, symptômes et traitements des pieds plats. Chez
   l'enfant, il est important de demander l'avis d'un professionnel rapidement.
-orthese_patients: true
 slug: pied-plat-chez-lenfant-causes-symptomes-traitements-connaitre/
 title: Le pied plat chez l'enfant - Ce qu'il faut connaître - Cryos Technologies
 titre: Le pied plat chez l'enfant - Ce qu'il faut connaître
 type: post
+identifiant: 05-pied-plat
+isfront: false
+orthese_pro: false
+orthese_patients: true
+cryovizion_pro: false
+cryovizion_patients: false
 ---
 
 <p style="font-size: 18px;">Chez l’enfant, le pied plat est une condition très répandue. Toutefois, en tant que parent, il est tout à fait normal de ne pas toujours bien connaître l’impact de cette condition sur la santé de son enfant.

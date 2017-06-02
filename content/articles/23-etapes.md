@@ -10,6 +10,12 @@ slug: les-etapes-du-port-dortheses-plantaires/
 title: Les étapes du port d'orthèses plantaires - Cryos Technologies
 titre: Les étapes du port d'orthèses plantaires
 type: post
+identifiant: 23-etapes
+isfront: false
+orthese_pro: false
+orthese_patients: false
+cryovizion_pro: false
+cryovizion_patients: false
 ---
 
 <p style="font-size: 18px;">Le port d’orthèses plantaires est un traitement prescrit pour remédier aux problèmes de pieds et de posture. Avant d’obtenir une telle prescription, il faut toutefois consulter un professionnel de la santé afin qu’il procède à différentes analyses. Découvrez les principales étapes pour obtenir une prescription d’orthèses plantaires par un podiatre, le spécialiste de la santé des pieds.</p>

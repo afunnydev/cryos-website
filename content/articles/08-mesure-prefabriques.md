@@ -6,11 +6,17 @@ categories:
 date: 2017-02-03
 description: Besoin d’orthèses podiatriques? Découvrez les différences entre les modèles
   achetés en magasin et les orthèses sur mesure.
-orthese_patients: true
 slug: orthese-plantaire-decouvrez-les-differences-entre-les-modeles-sur-mesure-et-prefabriques/
 title: Orthèse sur mesure ou préfrabriquée? Optez pour le bon modèle! - Cryos Technologies
 titre: Orthèse sur mesure ou préfrabriquée? Optez pour le bon modèle!
 type: post
+identifiant: 08-mesure-prefabriques
+isfront: false
+orthese_pro: false
+orthese_patients: true
+cryovizion_pro: false
+cryovizion_patients: false
+
 ---
 
 <p style="font-size: 18px;">Acheter une orthèse plantaire n’est pas une mince affaire. Doit-on acheter une orthèse en magasin? Est-il nécessaire de consulter un podiatre et d’opter pour un modèle sur mesure? Afin de nous éclairer sur la question, nous nous sommes entretenus avec le docteur Alexandre Morel, podiatre. Ses explications précises vous tracent le portrait des différences majeures qui existent entre les orthèses faites sur mesure et celles achetées en magasin.</p>

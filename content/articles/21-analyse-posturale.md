@@ -6,12 +6,9 @@ categories:
 - Blessures sportives
 - Orthèses plantaires
 - Posture
-cryovizion_patients: true
-cryovizion_pro: true
 date: 2017-04-29
 description: Toujours mal au dos? Peut-être avez vous un problème de posture? Voyez
   comment l'évaluation posturale par imagerie peut vous être bénéfique!
-isfront: true
 short_desc: Les professionnels de la santé utilisent les systèmes d’imagerie pour
   diverses raisons médicales. Selon l’approche préconisée, certains podiatres ont
   recours à l’imagerie, afin de mieux évaluer et de mesurer les problèmes posturaux
@@ -20,6 +17,12 @@ slug: lefficacite-de-lanalyse-posturale-en-cas-de-douleurs-physiques/
 title: Évaluation posturale par Imagerie - Cryos Technologies
 titre: Évaluation posturale par Imagerie
 type: post
+identifiant: 21-analyse-posturale
+isfront: true
+orthese_pro: false
+orthese_patients: false
+cryovizion_pro: true
+cryovizion_patients: true
 ---
 
 <p style="font-size: 18px;">Les professionnels de la santé utilisent les systèmes d’imagerie pour diverses raisons médicales. Selon l’approche préconisée, certains podiatres ont recours à l’imagerie, afin de mieux évaluer et de mesurer les problèmes posturaux et biomécaniques. Cette technologie permet aux patients de comprendre la mécanique de leurs maux et leurs impacts sur la posture.</p>

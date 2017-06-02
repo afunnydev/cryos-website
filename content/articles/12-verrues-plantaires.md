@@ -11,6 +11,13 @@ title: Les conseils d’un podiatre sur les traitements des verrues plantaires. 
   Technologies
 titre: Les conseils d’un podiatre sur les traitements des verrues plantaires
 type: post
+identifiant: 12-verrues-plantaires
+isfront: false
+orthese_pro: false
+orthese_patients: false
+cryovizion_pro: false
+cryovizion_patients: false
+
 ---
 
 <p style="font-size: 18px;">Les verrues plantaires peuvent être soignées efficacement par des traitements podiatriques. Découvrez les différentes approches ainsi que les conseils d’un podiatre pour les prévenir et les traiter.</p>

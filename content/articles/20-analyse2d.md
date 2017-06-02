@@ -4,12 +4,9 @@ blog_img: img/posts/analyse-3d-morphologie-des-pieds.jpg
 categories:
 - Orthèses plantaires
 - Pieds plats
-cryovizion_patients: true
-cryovizion_pro: true
 date: 2017-04-23
 description: Découvrez les différentes façons d’analyser la morphologie de vos pieds
   afin de vous procurer des orthèses plantaires sur mesure.
-isfront: true
 short_desc: Les orthèses sur mesure sont fabriquées à partir d’une empreinte des pieds.
   Cette dernière doit être précise pour atteindre les résultats visés par le traitement.
   Bien qu’il existe diverses techniques de prise d’empreintes, certaines s’avèrent
@@ -18,6 +15,12 @@ slug: lanalyse-du-pied-2d-et-3d-les-differences-a-savoir/
 title: Analyse 2D-3D | Morphologie des pieds - Cryos Technologies
 titre: Analyse 2D-3D | Morphologie des pieds
 type: post
+identifiant: 20-analyse2d
+isfront: true
+orthese_pro: false
+orthese_patients: false
+cryovizion_pro: true
+cryovizion_patients: true
 ---
 
 <p style="font-size: 18px;">Les orthèses sur mesure sont fabriquées à partir d’une empreinte des pieds. Cette dernière doit être précise pour atteindre les résultats visés par le traitement. Bien qu’il existe diverses techniques de prise d’empreintes, certaines s’avèrent plus efficaces et augmentent la qualité des orthèses. Découvrez l’avis d’un podiatre sur les empreintes 2D et celles 3D.</p>

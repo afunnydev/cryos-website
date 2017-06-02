@@ -7,11 +7,16 @@ categories:
 date: 2017-04-17
 description: Découvrez les bienfaits des orthèses plantaires avant et après une chirurgie
   aux avant-pieds en cas d’ hallux valgus ou d’autres pathologies.
-orthese_pro: true
 slug: pourquoi-les-ortheses-plantaires-sont-elles-conseillees-avec-la-chirurgie-aux-avant-pieds/
 title: Orthèses plantaires et Chirurgie - Cryos Technologies
 titre: Orthèses plantaires et Chirurgie
 type: post
+identifiant: 19-avant-chirurgie
+isfront: false
+orthese_pro: true
+orthese_patients: false
+cryovizion_pro: false
+cryovizion_patients: false
 ---
 
 <p style="font-size: 18px;">La chirurgie aux avant-pieds consiste en un traitement pour remédier à des pathologies telles que l’hallux valgus. Lorsque le patient subit des douleurs ou des limitations nuisibles à sa qualité de vie, la chirurgie aux avant-pieds devient alors une solution envisageable. De fait, ce traitement peut être accompagné d’orthèses plantaires, dont les effets bénéfiques se feront ressentir avant et après la chirurgie.</p>

@@ -70,8 +70,12 @@ collections:
       - {label: "Image", name: "blog_img", widget: "image"}
       - {label: "Texte", name: "body", widget: "markdown"}
       - {label: "Type", name: "type", widget: "hidden", default: "post"}
-      #- {label: "Catégories", name: "categories", widget: "list"}
-      - {label: "Voir sur la page d'accueil", name: "isfront", widget: "boolean", required: false}
+      - {label: "Catégories", name: "categories", widget: "list"}
+      # - {label: "Voir sur la page d'accueil", name: "isfront", widget: "boolean", required: false, default: false}
+      # - {label: "Voir sur la page Orthèses Professionels", name: "orthese_pro", widget: "boolean", required: false, default: false}
+      # - {label: "Voir sur la page Orthèses Patients", name: "orthese_patients", widget: "boolean", required: false, default: false}
+      # - {label: "Voir sur la page Cryovizion Professionels", name: "cryovizion_pro", widget: "boolean", required: false, default: false}
+      # - {label: "Voir sur la page Cryovizion Patients", name: "cryovizion_patients", widget: "boolean", required: false, default: false}
         
   - name: "cliniques-fr" # Used in routes, e.g. /admin/collections/blog
     label: "Cliniques FR" # Used in the UI
