@@ -1,16 +1,18 @@
 ---
+titre: Les douleurs de croissance de votre enfant
+title: 'Les douleurs de croissance de votre enfant - Cryos '
+slug: douleur-de-croissance/
+identifiant: 02-douleur-croissance
 author: william
+date: 2017-01-06T00:00:00.000Z
 blog_img: img/posts/soulager_douleur.jpg
 categories:
-- Santé du pied chez l'enfant
-date: 2017-01-06
-description: Les douleurs de croissance sont normales, mais elles apportent plusieurs
-  questions. Voici les soulagements possibles quant au mal de jambes de votre enfant.
-slug: douleur-de-croissance/
-title: Les douleurs de croissance de votre enfant - Cryos Technologies
-titre: Les douleurs de croissance de votre enfant
+  - Santé du pied chez l'enfant
+description: >-
+  Les douleurs de croissance sont normales, mais elles apportent plusieurs
+  questions. Voici les soulagements possibles quant au mal de jambes de votre
+  enfant.
 type: post
-identifiant: 02-douleur-croissance
 ---
 
 <p style="font-size: 18px;">Pour un parent, rien n’est plus difficile que de voir souffrir son enfant. Malheureusement, c’est un mal nécessaire lorsqu’il souffre de douleurs de croissance. Mais rassurez-vous, même si ces périodes ne sont que temporaires, vous pouvez l’aider à les traverser en lui apportant un grand soulagement.
