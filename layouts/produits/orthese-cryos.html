@@ -175,14 +175,15 @@
             <div class="col s12">
             {{ if eq .Lang "fr" }}
                 <h1 class="white-bar">Témoignage</h1>
-                <p>Les orthèses Cryos se démarquent de celles sur le marché par leur petite taille et par le fait qu'elles s'insèrent dans la plupart des chaussures. Le plastique est durable et très hygiénique. Des avantages indéniables pour ma clientèle. </p>
-                <p class="nom">-François Giroux, DPM, podiatre</p>
+                <p>{{ .Site.Data.temoignages.temoignage.orthesepro.temoignagefr}}</p>
+                <p class="nom">-{{ .Site.Data.temoignages.temoignage.orthesepro.temoinfr}}</p>
             {{ else if eq .Lang "en" }}
                 <h1 class="white-bar">Testimonial</h1>
-                <p>Cryos orthotics stand out from others on the market because they are small and fit inside the majority of shoes. The plastic is durable and ultra hygienic. These are undeniable advantages for my patients.</p>
-                <p class="nom">-François Giroux, DPM, podiatrist</p>
+                <p>{{ .Site.Data.temoignages.temoignage.orthesepro.temoignageen}}</p>
+                <p class="nom">-{{ .Site.Data.temoignages.temoignage.orthesepro.temoinen}}</p>
             {{ end }}
-                <div class="timg"><img src="{{.Site.BaseURL}}img/equipe/membre_equipe3.png" alt="Podiatre"></div>
+                <!-- <div class="timg"><img src="{{.Site.BaseURL}}img/equipe/membre_equipe3.png" alt="Podiatre"></div> -->
+                <div class="timg"><img src="{{.Site.BaseURL}}{{ .Site.Data.temoignages.temoignage.orthesepro.image}}" alt="Podiatre"></div>
             </div>
         </div>
     </div>

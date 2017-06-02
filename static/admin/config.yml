@@ -51,10 +51,20 @@ collections:
             create: true
             fields:
               - {label: "Témoignages - FR", name: "temoignagnefr", widget: "text"}
-              - {label: "Témoignages - EN", name: "temoignagnefr", widget: "text"}
+              - {label: "Témoignages - EN", name: "temoignagneen", widget: "text"}
               - {label: "Témoin - FR", name: "temoinfr", widget: "string"}
               - {label: "Témoin - EN", name: "temoinen", widget: "string"}
-              - {label: "Image", name: "photo", widget: "image"}
+              - {label: "Image", name: "image", widget: "image"}
+          - name: orthesepatients
+            label: "Orthèses - Patients"
+            widget: list
+            create: true
+            fields:
+              - {label: "Témoignages - FR", name: "temoignagnefr", widget: "text"}
+              - {label: "Témoignages - EN", name: "temoignagneen", widget: "text"}
+              - {label: "Témoin - FR", name: "temoinfr", widget: "string"}
+              - {label: "Témoin - EN", name: "temoinen", widget: "string"}
+              - {label: "Image", name: "image", widget: "image"}
   - name: "articles" # Used in routes, e.g. /admin/collections/blog
     label: "Articles" # Used in the UI
     folder: "content/articles" # The path to the folder where the documents are stored
