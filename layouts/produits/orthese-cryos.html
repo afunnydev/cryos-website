@@ -175,15 +175,17 @@
             <div class="col s12">
             {{ if eq .Lang "fr" }}
                 <h1 class="white-bar">Témoignage</h1>
-                <p>{{ .Site.Data.temoignages.temoignage.orthesepro.temoignagefr}}</p>
-                <p class="nom">-{{ .Site.Data.temoignages.temoignage.orthesepro.temoinfr}}</p>
             {{ else if eq .Lang "en" }}
                 <h1 class="white-bar">Testimonial</h1>
-                <p>{{ .Site.Data.temoignages.temoignage.orthesepro.temoignageen}}</p>
-                <p class="nom">-{{ .Site.Data.temoignages.temoignage.orthesepro.temoinen}}</p>
             {{ end }}
-                <!-- <div class="timg"><img src="{{.Site.BaseURL}}img/equipe/membre_equipe3.png" alt="Podiatre"></div> -->
-                <div class="timg"><img src="{{.Site.BaseURL}}{{ .Site.Data.temoignages.temoignage.orthesepro.image}}" alt="Podiatre"></div>
+            {{ if eq .Lang "fr" }}
+                <p>{{ .Site.Data.temoignages.orthesepro.temoignagefr }}</p>
+                <p class="nom">-{{ .Site.Data.temoignages.orthesepro.temoinfr}}</p>
+            {{ else if eq .Lang "en" }}
+                <p>{{ .Site.Data.temoignages.orthesepro.temoignageen }}</p>
+                <p class="nom">-{{ .Site.Data.temoignages.orthesepro.temoinen}}</p>
+            {{ end }}
+                <div class="timg"><img src="{{.Site.BaseURL}}{{ .Site.Data.temoignages.orthesepro.image}}" alt="Podiatre"></div>
             </div>
         </div>
     </div>

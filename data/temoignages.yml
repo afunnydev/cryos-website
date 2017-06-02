@@ -1,29 +1,13 @@
 orthesepro:
-  - image: /img/uploads/membre_equipe3.png
-    temoignagneen: >-
-      Cryos orthotics stand out from others on the market because they are small
-      and fit inside the majority of shoes. The plastic is durable and ultra
-      hygienic. These are undeniable advantages for my patients.
-    temoignagnefr: >-
-      Les orthèses Cryos se démarquent de celles sur le marché par leur petite
-      taille et par le fait qu'elles s'insèrent dans la plupart des chaussures.
-      Le plastique est durable et très hygiénique. Des avantages indéniables
-      pour ma clientèle.
-    temoinen: 'François Giroux, DPM, podiatrist'
-    temoinfr: 'François Giroux, DPM, podiatre'
+  image: "/img/uploads/membre_equipe3.png"
+  temoignageen: "Cryos orthotics stand out from others on the market because they are small and fit inside the majority of shoes. The plastic is durable and ultra hygienic. These are undeniable advantages for my patients."
+  temoignagefr: "Les orthèses Cryos se démarquent de celles sur le marché par leur petite taille et par le fait qu'elles s'insèrent dans la plupart des chaussures. Le plastique est durable et très hygiénique. Des avantages indéniables pour ma clientèle."
+  temoinen: 'François Giroux, DPM, podiatrist'
+  temoinfr: 'François Giroux, DPM, podiatre'
+
 orthesepatients:
-  - image: /img/uploads/dominique_leblanc.png
-    temoignagneen: >-
-      I've been wearing orthotics since I was very young and still have horrible
-      memories of the adjustments and pain in my legs. In 2005 I changed to
-      Cryos orthotics and quickly got used to them. They are light, easy to
-      clean and my orthotics go wherever I go, in the shoes I wear for all kinds
-      of activities, from high heels to water sports!
-    temoignagnefr: >-
-      Je porte des orthèses depuis mon plus jeune âge et le souvenir que je
-      garde des ajustements et des douleurs aux jambes est pénible. Depuis 2005,
-      j'ai changé pour des orthèses Cryos et je m'y suis habituée rapidement.
-      Elles sont légères, faciles d'entretien et mes orthèses me suivent dans
-      tous les souliers de mes activités, des talons hauts aux sports nautiques!
-    temoinen: 'Dominique Leblanc, mediator'
-    temoinfr: 'Dominique Leblanc, médiatrice'
+  image: "/img/uploads/dominique_leblanc.png"
+  temoignageen: "I've been wearing orthotics since I was very young and still have horrible memories of the adjustments and pain in my legs. In 2005 I changed to Cryos orthotics and quickly got used to them. They are light, easy to clean and my orthotics go wherever I go, in the shoes I wear for all kinds of activities, from high heels to water sports!"
+  temoignagefr: "Je porte des orthèses depuis mon plus jeune âge et le souvenir que je garde des ajustements et des douleurs aux jambes est pénible. Depuis 2005, j'ai changé pour des orthèses Cryos et je m'y suis habituée rapidement. Elles sont légères, faciles d'entretien et mes orthèses me suivent dans tous les souliers de mes activités, des talons hauts aux sports nautiques!"
+  temoinen: 'Dominique Leblanc, mediator'
+  temoinfr: 'Dominique Leblanc, médiatrice'
