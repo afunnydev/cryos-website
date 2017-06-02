@@ -14,6 +14,7 @@ slug: bonne-posture-et-sante-des-pieds/
 title: Comment avoir une bonne posture? - Cryos Technologies
 titre: Comment avoir une bonne posture?
 type: post
+identifiant: 01-bonne-posture
 ---
 
 <p style="font-size: 18px;">Pour profiter d’une belle qualité de vie, avoir une bonne posture et une santé des pieds sont des éléments incontournables. Toutefois, plusieurs ignorent combien les orthèses plantaires peuvent contribuer à l’atteinte de cette bonne condition.

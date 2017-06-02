@@ -10,6 +10,7 @@ slug: douleur-de-croissance/
 title: Les douleurs de croissance de votre enfant - Cryos Technologies
 titre: Les douleurs de croissance de votre enfant
 type: post
+identifiant: 02-douleur-croissance
 ---
 
 <p style="font-size: 18px;">Pour un parent, rien n’est plus difficile que de voir souffrir son enfant. Malheureusement, c’est un mal nécessaire lorsqu’il souffre de douleurs de croissance. Mais rassurez-vous, même si ces périodes ne sont que temporaires, vous pouvez l’aider à les traverser en lui apportant un grand soulagement.
