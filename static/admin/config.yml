@@ -95,9 +95,8 @@ collections:
             create: false
             fields:
               - label: "Auteur"
-                name: "temoignagefr"
+                name: "{{user_nicename}}"
                 widget: "object"
-                slug: "{{user_nicename}}"
                 create: true
                 fields:
                   - {label: "Identifiant UNIQUE", name: "user_nicename", widget: "text"}
