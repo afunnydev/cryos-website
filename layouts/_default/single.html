@@ -1,5 +1,6 @@
 <!-- Template for single article -->
-{{$author := index .Site.Params.authors (.Params.author) }}
+{{ $thisauthor := .Params.author }}
+{{ $author := index $.Site.Data.authors.authors $thisauthor }}
 {{ partial "head.html" . }}
 
     {{ partial "header.html" . }}

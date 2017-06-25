@@ -1,5 +1,6 @@
 {{ if .Params.author }}
-{{$author := index .Site.Params.authors (.Params.author) }}
+{{ $thisauthor := .Params.author }}
+{{ $author := index $.Site.Data.authors.authors $thisauthor }}
 <div class="col s12 article box">
 	<a href="{{ .Permalink }}"><img src="{{ .Site.BaseURL }}{{ .Params.blog_img }}" alt="{{ .Params.titre }}" class="responsive-img"></a>
 	<div class="resume">

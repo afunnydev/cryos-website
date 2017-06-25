@@ -1,5 +1,5 @@
 ---
-author: keven
+author: "keven"
 blog_img: img/posts/Bonne_posture.jpg
 categories:
 - Orthèses plantaires

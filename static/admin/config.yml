@@ -85,6 +85,22 @@ collections:
               - {label: "Témoin - FR", name: "temoinfr", widget: "string"}
               - {label: "Témoin - EN", name: "temoinen", widget: "string"}
               - {label: "Image", name: "image", widget: "image"}
+      - name: "auteur"
+        label: "Auteurs"
+        file: "data/authors.yml"
+        fields:
+          - name: authors
+            label: "Auteurs"
+            widget: object
+            create: false
+            fields:
+              - label: "Auteur"
+                name: "temoignagefr"
+                widget: "object"
+                slug: "{{user_nicename}}"
+                create: true
+                fields:
+                  - {label: "Identifiant UNIQUE", name: "user_nicename", widget: "text"}
 
   - name: "articles" # Used in routes, e.g. /admin/collections/blog
     label: "Articles" # Used in the UI

@@ -1,6 +1,6 @@
 ---
 author: frederic
-blog_img: img/posts/enfant-pied-plat1.jpg
+blog_img: img/posts/enfant-pied-plat.jpg
 categories:
 - Pieds plats
 - Santé du pied chez l'enfant
