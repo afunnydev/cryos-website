@@ -5,7 +5,7 @@ longitude: -71.251495
 nomclinique: Clinique Podiatrique de Jonquière
 pays: Canada
 phone: (418) 542-7672
-site: http://www.podiatrejonquiere.com
+site: https://piedreseau.com/cliniques/podiatre-orthese-plantaire-jonquiere/
 type: location
 ville: Jonquière, Quebec G7X 0N8
 i18nlanguage: en

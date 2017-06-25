@@ -5,7 +5,7 @@ longitude: -71.92453
 nomclinique: Centre Podiatrique Lambert
 pays: Canada
 phone: (819) 791-9005
-site: http://www.centrepodiatriquelambert.com
+site: https://piedreseau.com/cliniques/lambert-podiatre-orthese-plantaire-sherbrooke/
 type: location
 ville: Sherbrooke, Quebec J1J 2E8
 i18nlanguage: fr

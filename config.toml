@@ -73,7 +73,7 @@ RemovePathAccents = true
 	   display_name = "Caroline Guimont, DPM"
 	   address = "452, Avenue Québec"
 	   F = "http://www.cryos.com/wp-content/uploads/2015/04/caroline-guimont.jpg"
-	   description = "Dre Caroline Guimont, podiatre, est diplômée du doctorat en médecine podiatrique à l'Université du Québec à Trois-Rivières depuis 2009. Elle a travaillé 3 ans à la Clinique podiatrique François Giroux à Québec. Originaire de Rouyn-Noranda, en Abitibi-Témiscamingue, elle a ensuite ouvert sa propre clinique podiatrique en 2013 à Rouyn et y est la seule podiatre installée en région. Elle est lauréate des prix régionaux Services aux Individus et Coup de cÅur entrepreneure féminin Femmessor dans le cadre du Concours Québécois en Entreprenariat 2014. Elle a remporté le prix pour Entreprise en émergence lors du Gala des Extra de la chambre des Commerces de Rouyn-Noranda en 2014."
+	   description = "Dre Caroline Guimont, podiatre, est diplômée du doctorat en médecine podiatrique à l'Université du Québec à Trois-Rivières depuis 2009. Elle a travaillé 3 ans à la Clinique podiatrique François Giroux à Québec. Originaire de Rouyn-Noranda, en Abitibi-Témiscamingue, elle a ensuite ouvert sa propre clinique podiatrique en 2013 à Rouyn et y est la seule podiatre installée en région. Elle est lauréate des prix régionaux Services aux Individus et Coup de coeur entrepreneure féminin Femmessor dans le cadre du Concours Québécois en Entreprenariat 2014. Elle a remporté le prix pour Entreprise en émergence lors du Gala des Extra de la chambre des Commerces de Rouyn-Noranda en 2014."
 	   phone = "819-762-2202"
 	   city = "Rouyn-Noranda, Québec, J9X 0B1"
 	[params.authors.elizabeth]
@@ -83,7 +83,7 @@ RemovePathAccents = true
 	   display_name = "Élizabeth Piché, DPM"
 	   address = "64, Rue Saint Cyr"
 	   F = "http://www.cryos.com/wp-content/uploads/2015/04/elizabeth-piche.jpg"
-	   description = "Dre Élizabeth Piché, podiatre, a été diplômée de l'Université du Québec à Trois-Rivières en complétant au printemps 2012 son doctorat de premier cycle en médecine podiatrique. Elle a également complété sa formation au New York College of Podiatric Medecine (NYCPM) pour une durée de 4 mois oÃ¹ elle a pu y parfaire ses connaissances.Originaire du Centre-du-Québec, Dre Piché, podiatre, a également pratiqué dans la grande région métropolitaine pour finalement revenir dans sa région offrir ses services à la population de Victoriaville et des environs."
+	   description = "Dre Élizabeth Piché, podiatre, a été diplômée de l'Université du Québec à Trois-Rivières en complétant au printemps 2012 son doctorat de premier cycle en médecine podiatrique. Elle a également complété sa formation au New York College of Podiatric Medecine (NYCPM) pour une durée de 4 mois où elle a pu y parfaire ses connaissances. Originaire du Centre-du-Québec, Dre Piché, podiatre, a également pratiqué dans la grande région métropolitaine pour finalement revenir dans sa région offrir ses services à la population de Victoriaville et des environs."
 	   phone = "(819) 604-6400"
 	   city = "Victoriaville, Québec G6T 2T2"
 	[params.authors.frederic]
@@ -113,7 +113,7 @@ RemovePathAccents = true
 	   display_name = "Gabrielle Castonguay, DPM"
 	   address = "456 Boulevard de l'Hôpital"
 	   F = "http://www.cryos.com/wp-content/uploads/2015/04/gabrielle-castonguay.jpg"
-	   description = "Dre Gabrielle Castonguay, podiatre, s'est jointe à l'équipe de la Clinique podiatrique de l'Outaouais au printemps 2011. Originaire de l'Outaouais, elle a complété ses études à l'Université du Québec à Trois-Rivières obtenant ainsi son doctorat en médecine podiatrique. Elle participe couramment à des journées de bénévolat pour des organisations sans but lucratif cherchant à promouvoir la santé des pieds. De plus, faisant partie d'équipes de soccer compétitives depuis plusieurs années elle perçoit la relation entre les pieds et le sport d'un autre Åil!"
+	   description = "Dre Gabrielle Castonguay, podiatre, s'est jointe à l'équipe de la Clinique podiatrique de l'Outaouais au printemps 2011. Originaire de l'Outaouais, elle a complété ses études à l'Université du Québec à Trois-Rivières obtenant ainsi son doctorat en médecine podiatrique. Elle participe couramment à des journées de bénévolat pour des organisations sans but lucratif cherchant à promouvoir la santé des pieds. De plus, faisant partie d'équipes de soccer compétitives depuis plusieurs années elle perçoit la relation entre les pieds et le sport d'un autre oeil!"
 	   phone = "(819) 568-0456"
 	   city = "Gatineau, Québec, J8T 8M5"
 	[params.authors.giroux]
@@ -143,7 +143,7 @@ RemovePathAccents = true
 	   display_name = "Keven Lambert, DPM"
 	   address = "2100, rue King Ouest, bureau 10"
 	   F = "http://www.cryos.com/wp-content/uploads/profile_builder/avatars/userID_559_resziedAvatarSize_200_orignalName_keven_optimiser.jpg"
-	   description = "Diplômé de l'Université du Québec à Trois-Rivières au Doctorat en médecine podiatrique en 2013, le Dr Keven Lambert, podiatre, a établi sa pratique à Sherbrooke quelques mois après sa graduation. Il est passionné par les thérapies orthopédiques et manuelles et compte à son actif déjÃ  deux formations en thérapie physique de traitement du pied ainsi qu'en analyse de la course. Il tient à cÅur d'offrir à ses patients les traitements les plus avancés sur le marché et donnant les meilleurs résultats possibles. Dr Lambert, podiatre, a fait plus de 3 conférences au cours de la dernière année pour informer la population ainsi que pour sensibiliser des groupes de professionnels de la santé par rapport à la prévention et aux traitements des principaux problèmes du pied."
+	   description = "Diplômé de l'Université du Québec à Trois-Rivières au Doctorat en médecine podiatrique en 2013, le Dr Keven Lambert, podiatre, a établi sa pratique à Sherbrooke quelques mois après sa graduation. Il est passionné par les thérapies orthopédiques et manuelles et compte à son actif déjà deux formations en thérapie physique de traitement du pied ainsi qu'en analyse de la course. Il tient à coeur d'offrir à ses patients les traitements les plus avancés sur le marché et donnant les meilleurs résultats possibles. Dr Lambert, podiatre, a fait plus de 3 conférences au cours de la dernière année pour informer la population ainsi que pour sensibiliser des groupes de professionnels de la santé par rapport à la prévention et aux traitements des principaux problèmes du pied."
 	   phone = "819-791-9005"
 	   city = "Sherbrooke, Estrie, J1J 2E8"
 	[params.authors.lyndacormier]
@@ -153,7 +153,7 @@ RemovePathAccents = true
 	   display_name = "Lynda Cormier, DPM"
 	   address = "86 Prom. du Portage"
 	   F = "http://www.cryos.com/wp-content/uploads/2015/11/Lynda-Cormier-dpm-gatineau.jpg"
-	   description = "Inspirée de la carrière de son père, Dre Lynda Cormier, podiatre, débute son parcours professionnel en 1984 comme assistante en podiatrie à Montréal. En 1986, elle obtient le diplôme de Chiropodiste du Â« SMAE INSTITUTEÂ» en Angleterre et en 1992, elle sera diplômée du Â« New York College of Podiatric Medecine Â» aux États-Unis et fera désormais partie des membres de l'Ordre des podiatres du Québec (OPQ). Tout en pratiquant, elle complète des formations de biomécanique et de chirurgie ambulatoire pour les pieds. Suite aux compétences acquises, en 2003, elle reçoit le Â«Fellowship de l'Academy of Ambulatory Foot and Ankle SurgeryÂ». La mÃªme année, elle s'implique dans les jeux paralympiques spéciaux en s'occupant de la clinique de pied des athlètes. Depuis 2006, dans le cadre de cette organisation, elle est la Directrice de Â« Fit feet Quebec Â». Ces jeux ont lieu partout dans la province à tous les ans. Fière du développement de la profession de podiatre au Québec, elle accueille des stagiaires en podiatrie qui complètent leur formation."
+	   description = "Inspirée de la carrière de son père, Dre Lynda Cormier, podiatre, débute son parcours professionnel en 1984 comme assistante en podiatrie à Montréal. En 1986, elle obtient le diplôme de Chiropodiste du «SMAE INSTITUTE» en Angleterre et en 1992, elle sera diplômée du «New York College of Podiatric Medecine» aux États-Unis et fera désormais partie des membres de l'Ordre des podiatres du Québec (OPQ). Tout en pratiquant, elle complète des formations de biomécanique et de chirurgie ambulatoire pour les pieds. Suite aux compétences acquises, en 2003, elle reçoit le «Fellowship de l'Academy of Ambulatory Foot and Ankle Surgery». La même année, elle s'implique dans les jeux paralympiques spéciaux en s'occupant de la clinique de pied des athlètes. Depuis 2006, dans le cadre de cette organisation, elle est la Directrice de «Fit feet Quebec». Ces jeux ont lieu partout dans la province à tous les ans. Fière du développement de la profession de podiatre au Québec, elle accueille des stagiaires en podiatrie qui complètent leur formation."
 	   phone = "819-205-7433"
 	   city = "Gatineau, QC J8X 2K1"
 	[params.authors.marie-michelle]
@@ -216,5 +216,3 @@ RemovePathAccents = true
 	   description = "Diplômé de l'Université du Québec à Trois-Rivières au doctorat en médecine podiatrique, Dr William Constant, podiatre, s'implique dans le monde podiatrique dès sa sortie des bancs d'école. Impliqué dans divers projets communautaires, conférencier au Coins des coureurs, propriétaire de la Clinique Podiatrique Victoria et siégeant au sein de l'Ordre des podiatres du Québec, Dr Constant, DPM, multiplie les occasions de partager son expertise et de promouvoir les bienfaits de la podiatrie."
 	   phone = "514-439-5112"
 	   city = "Westmount, Montréal, QC, H3Z 2M6"
-
-

@@ -5,7 +5,7 @@ longitude: -72.73399
 nomclinique: Centre Podiatrique Lambert
 pays: Canada
 phone: (450) 372-4735
-site: http://www.centrepodiatriquelambert.com
+site: https://piedreseau.com/cliniques/lambert-podiatre-orthese-granby/
 type: location
 ville: Granby, Quebec J2G 2W6
 i18nlanguage: fr

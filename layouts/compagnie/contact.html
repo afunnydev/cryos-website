@@ -46,7 +46,7 @@
             <h1 class="blue-bar">Vous avez des questions?</h1>
             <h2>Consultez notre section FAQ <a href="{{.Site.BaseURL}}patients/faq">ici</a></h2>
             <p>Pour de plus amples renseignements, remplissez le formulaire ci-dessous et nous communiquerons avec vous sous peu.</p>
-            <form action="{{ .Site.BaseURL }}merci" name="contact-page" id="contact-page" style="padding: 0.75rem;" netlify netlify-honeypot="bot-field">
+            <form action="/merci" name="contact-page-fr" id="contact-page" style="padding: 0.75rem;" netlify netlify-honeypot="bot-field" method="post">
                 <div class="col s12 m4 l4">
                     <input type="text" placeholder="NOM ET PRÉNOM" name="nom_et_prenom" required>
                 </div>
@@ -65,10 +65,10 @@
                 </div>
             </form>
             {{ else if eq .Lang "en" }}
-            <h1 class="blue-bar">You have questions ?</h1>
+            <h1 class="blue-bar">You have questions?</h1>
             <h2>Visit our FAQ <a href="{{.Site.BaseURL}}en/patients/faq">here</a></h2>
             <p>For more information, please use the form below and we will be in touch with you shortly.</p>
-            <form action="{{ .Site.BaseURL }}en/thank-you" name="contact-page" id="contact-page" style="padding: 0.75rem;" netlify netlify-honeypot="bot-field">
+            <form action="/en/thank-you" name="contact-page-en" id="contact-page" style="padding: 0.75rem;" netlify netlify-honeypot="bot-field" method="post">
                 <div class="col s12 m4 l4">
                     <input type="text" placeholder="LAST NAME AND FIRST NAME" name="nom_et_prenom" required>
                 </div>
