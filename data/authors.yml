@@ -429,3 +429,5 @@ authors:
     user_email: info@podiatrievictoria.com
     user_nicename: william
     user_url: 'http://www.podiatrievictoria.com/'
+  '{{user_nicename}}':
+    user_nicename: Testing again
