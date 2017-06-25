@@ -8,6 +8,7 @@ phone: 514-508-1001
 site: http://www.podiatredelapointe.com
 type: location
 ville: Montréal, Québec H1B 4A4
+identifiant: clinique-podiatrique-pointe-lile
 i18nlanguage: en
 ---
 

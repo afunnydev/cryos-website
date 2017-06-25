@@ -7,7 +7,8 @@ pays: Canada
 phone: (514) 439-5112
 site: http://www.podiatrievictoria.com
 type: location
-ville: Westmount , Quebec H3Z 2M6
+ville: Westmount, Quebec H3Z 2M6
+identifiant: clinique-podiatrique-victoria
 i18nlanguage: en
 ---
 

@@ -8,6 +8,7 @@ phone: (450) 420-4420
 site: http://www.podiatreblainville.com
 type: location
 ville: Blainville, Quebec J7C 0E6
+identifiant: clinique-podiatrique-blainville
 i18nlanguage: en
 ---
 

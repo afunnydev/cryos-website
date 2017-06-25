@@ -16,6 +16,7 @@ orthese_pro: false
 orthese_patients: false
 cryovizion_pro: false
 cryovizion_patients: false
+i18nlanguage: fr
 ---
 
 <p style="font-size: 18px;">Ayant de nombreuses causes, un ongle incarné survient souvent lorsque l’extrémité ou une partie de l’ongle pénètre dans la peau qui l’entoure, ce qui peut entrainer une rougeur, une enflure ou une infection à la partie touchée de l’orteil. Dès les premiers signes, il est recommandé de traiter rapidement cette affection afin d’éviter toutes complications éventuelles. Si vous souffrez d’un ongle incarné, consulter un podiatre vous permettra de bénéficier du traitement adéquat et d’éviter toutes récurrences.</p>

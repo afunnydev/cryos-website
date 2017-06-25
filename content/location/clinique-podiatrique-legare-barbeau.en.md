@@ -8,6 +8,7 @@ phone: (819) 693-9393
 site: http://www.cliniquepodiatrique.com
 type: location
 ville: Trois-Rivières, Quebec G8Y 5M6
+identifiant: clinique-podiatrique-legare-barbeau
 i18nlanguage: en
 ---
 

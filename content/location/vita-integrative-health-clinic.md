@@ -8,6 +8,7 @@ phone: (416) 962-2000
 site: http://www.vitahealthclinic.com
 type: location
 ville: Toronto, Ontario M4T 2S9
+identifiant: vita-integrative-health-clinic
 i18nlanguage: fr
 ---
 

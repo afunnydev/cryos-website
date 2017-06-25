@@ -17,6 +17,7 @@ orthese_pro: true
 orthese_patients: false
 cryovizion_pro: false
 cryovizion_patients: false
+i18nlanguage: fr
 ---
 
 <p style="font-size: 18px;">La chirurgie aux avant-pieds consiste en un traitement pour remédier à des pathologies telles que l’hallux valgus. Lorsque le patient subit des douleurs ou des limitations nuisibles à sa qualité de vie, la chirurgie aux avant-pieds devient alors une solution envisageable. De fait, ce traitement peut être accompagné d’orthèses plantaires, dont les effets bénéfiques se feront ressentir avant et après la chirurgie.</p>

@@ -8,6 +8,7 @@ phone: (418) 903-4555
 site: http://www.podiatrebourque.com
 type: location
 ville: Lévis, Quebec G6V 0B7
+identifiant: clinique-podiatrique-marie-christine-bourque
 i18nlanguage: fr
 ---
 

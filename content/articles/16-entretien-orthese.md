@@ -16,6 +16,7 @@ orthese_pro: false
 orthese_patients: true
 cryovizion_pro: false
 cryovizion_patients: false
+i18nlanguage: fr
 ---
 
 <p style="font-size: 18px;">L’orthèse plantaire est un traitement podiatrique qui contribue à maintenir votre qualité de vie en corrigeant une faiblesse au niveau des pieds. Pour répondre à la problématique diagnostiquée et atteindre les résultats escomptés, l’orthèse plantaire doit être entretenue et évaluée par des suivis annuels. Ce guide d’entretien vous informe sur les incontournables suivant votre achat.</p>

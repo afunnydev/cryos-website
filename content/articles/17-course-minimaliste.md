@@ -18,6 +18,7 @@ orthese_pro: true
 orthese_patients: false
 cryovizion_pro: false
 cryovizion_patients: false
+i18nlanguage: fr
 ---
 
 <p style="font-size: 18px;">La course minimaliste ou pieds nus est une discipline qui ne convient pas à tous les coureurs. Elle exige un entrainement spécifique et des prédispositions physiologiques qui sont favorables à une telle pratique. Comme tous les sports, la course doit être pratiquée avec certaines mesures et précautions pour éviter de développer des blessures. Découvrez les recommandations de professionnels de la santé des pieds qui posent un regard sur la pratique de la course minimaliste et la course pieds nus.</p>

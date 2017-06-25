@@ -16,6 +16,7 @@ orthese_pro: false
 orthese_patients: false
 cryovizion_pro: false
 cryovizion_patients: false
+i18nlanguage: fr
 ---
 
 <p style="font-size: 18px;">Bien que la course soit un sport dont la popularité grimpe en flèche, apprendre à courir sans se blesser est primordial. Sans les conseils d’un podiatre, le coureur mal informé s’expose à de nombreuses blessures qui peuvent laisser des séquelles permanentes. C’est pourquoi l’intervention d’un podiatre est de plus en plus suggérée afin de complémenter les conseils d’un entraîneur.

@@ -16,6 +16,7 @@ orthese_pro: false
 orthese_patients: true
 cryovizion_pro: false
 cryovizion_patients: false
+i18nlanguage: fr
 
 ---
 

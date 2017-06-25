@@ -8,6 +8,7 @@ phone: (450) 753-4554
 site: http://www.laplantedupied.com
 type: location
 ville: Notre-Dame-des-Prairies, Quebec J6E 1T7
+identifiant: clinique-podiatrique-melanie-laplante
 i18nlanguage: en
 ---
 

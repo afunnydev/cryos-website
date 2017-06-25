@@ -8,6 +8,7 @@ phone: (819) 205-7433
 site: http://www.cpoutaouais.com
 type: location
 ville: Gatineau, Quebec J8X 2K1
+identifiant: clinique-podiatrique-loutaouais-bureau-hull
 i18nlanguage: en
 ---
 

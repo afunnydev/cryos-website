@@ -8,6 +8,7 @@ phone: (819) 850-4539
 site: http://www.monpodiatre.ca
 type: location
 ville: Drummondville, Quebec J2C 7L9
+identifiant: clinique-podiatrique-elizabeth-pellerin
 i18nlanguage: fr
 ---
 

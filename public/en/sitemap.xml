@@ -1,9 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
     <loc>http://systems-analyst-elephant-50207.netlify.com/en/professionals/cryovizion/</loc>
     <lastmod>2017-05-09T12:50:31-04:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://systems-analyst-elephant-50207.netlify.com/patients/cryovizion/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://systems-analyst-elephant-50207.netlify.com/en/professionals/cryovizion/"
+                />
   </url>
   
   <url>
@@ -13,148 +24,508 @@
   
   <url>
     <loc>http://systems-analyst-elephant-50207.netlify.com/en/location/centre-podiatrique-lambert-2/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://systems-analyst-elephant-50207.netlify.com/location/centre-podiatrique-lambert-2/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://systems-analyst-elephant-50207.netlify.com/en/location/centre-podiatrique-lambert-2/"
+                />
   </url>
   
   <url>
     <loc>http://systems-analyst-elephant-50207.netlify.com/en/location/centre-podiatrique-lambert/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://systems-analyst-elephant-50207.netlify.com/location/centre-podiatrique-lambert/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://systems-analyst-elephant-50207.netlify.com/en/location/centre-podiatrique-lambert/"
+                />
   </url>
   
   <url>
     <loc>http://systems-analyst-elephant-50207.netlify.com/en/location/centre-podiatrique-saint-jerome/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://systems-analyst-elephant-50207.netlify.com/location/centre-podiatrique-saint-jerome/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://systems-analyst-elephant-50207.netlify.com/en/location/centre-podiatrique-saint-jerome/"
+                />
   </url>
   
   <url>
     <loc>http://systems-analyst-elephant-50207.netlify.com/en/location/clinique-podiatrique-blainville/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://systems-analyst-elephant-50207.netlify.com/location/clinique-podiatrique-blainville/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://systems-analyst-elephant-50207.netlify.com/en/location/clinique-podiatrique-blainville/"
+                />
   </url>
   
   <url>
     <loc>http://systems-analyst-elephant-50207.netlify.com/en/location/clinique-podiatrique-caroline-guimont/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://systems-analyst-elephant-50207.netlify.com/location/clinique-podiatrique-caroline-guimont/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://systems-analyst-elephant-50207.netlify.com/en/location/clinique-podiatrique-caroline-guimont/"
+                />
   </url>
   
   <url>
     <loc>http://systems-analyst-elephant-50207.netlify.com/en/location/clinique-podiatrique-chutes/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://systems-analyst-elephant-50207.netlify.com/location/clinique-podiatrique-chutes/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://systems-analyst-elephant-50207.netlify.com/en/location/clinique-podiatrique-chutes/"
+                />
   </url>
   
   <url>
     <loc>http://systems-analyst-elephant-50207.netlify.com/en/location/clinique-podiatrique-dalma/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://systems-analyst-elephant-50207.netlify.com/location/clinique-podiatrique-dalma/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://systems-analyst-elephant-50207.netlify.com/en/location/clinique-podiatrique-dalma/"
+                />
   </url>
   
   <url>
     <loc>http://systems-analyst-elephant-50207.netlify.com/en/location/clinique-podiatrique-de-jonquiere/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://systems-analyst-elephant-50207.netlify.com/location/clinique-podiatrique-de-jonquiere/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://systems-analyst-elephant-50207.netlify.com/en/location/clinique-podiatrique-de-jonquiere/"
+                />
   </url>
   
   <url>
     <loc>http://systems-analyst-elephant-50207.netlify.com/en/location/clinique-podiatrique-elizabeth-pellerin/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://systems-analyst-elephant-50207.netlify.com/location/clinique-podiatrique-elizabeth-pellerin/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://systems-analyst-elephant-50207.netlify.com/en/location/clinique-podiatrique-elizabeth-pellerin/"
+                />
   </url>
   
   <url>
     <loc>http://systems-analyst-elephant-50207.netlify.com/en/location/clinique-podiatrique-elizabeth-piche/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://systems-analyst-elephant-50207.netlify.com/location/clinique-podiatrique-elizabeth-piche/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://systems-analyst-elephant-50207.netlify.com/en/location/clinique-podiatrique-elizabeth-piche/"
+                />
   </url>
   
   <url>
     <loc>http://systems-analyst-elephant-50207.netlify.com/en/location/clinique-podiatrique-familiale-boucherville/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://systems-analyst-elephant-50207.netlify.com/location/clinique-podiatrique-familiale-boucherville/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://systems-analyst-elephant-50207.netlify.com/en/location/clinique-podiatrique-familiale-boucherville/"
+                />
   </url>
   
   <url>
     <loc>http://systems-analyst-elephant-50207.netlify.com/en/location/clinique-podiatrique-francois-giroux-bureau-charlesbourg/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://systems-analyst-elephant-50207.netlify.com/location/clinique-podiatrique-francois-giroux-bureau-charlesbourg/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://systems-analyst-elephant-50207.netlify.com/en/location/clinique-podiatrique-francois-giroux-bureau-charlesbourg/"
+                />
   </url>
   
   <url>
     <loc>http://systems-analyst-elephant-50207.netlify.com/en/location/clinique-podiatrique-francois-giroux-bureau-rimouski/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://systems-analyst-elephant-50207.netlify.com/location/clinique-podiatrique-francois-giroux-bureau-rimouski/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://systems-analyst-elephant-50207.netlify.com/en/location/clinique-podiatrique-francois-giroux-bureau-rimouski/"
+                />
   </url>
   
   <url>
     <loc>http://systems-analyst-elephant-50207.netlify.com/en/location/clinique-podiatrique-francois-giroux-bureau-val-belair/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://systems-analyst-elephant-50207.netlify.com/location/clinique-podiatrique-francois-giroux-bureau-val-belair/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://systems-analyst-elephant-50207.netlify.com/en/location/clinique-podiatrique-francois-giroux-bureau-val-belair/"
+                />
   </url>
   
   <url>
     <loc>http://systems-analyst-elephant-50207.netlify.com/en/location/clinique-podiatrique-frederic-gremillet-dpm/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://systems-analyst-elephant-50207.netlify.com/location/clinique-podiatrique-frederic-gremillet-dpm/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://systems-analyst-elephant-50207.netlify.com/en/location/clinique-podiatrique-frederic-gremillet-dpm/"
+                />
   </url>
   
   <url>
     <loc>http://systems-analyst-elephant-50207.netlify.com/en/location/clinique-podiatrique-kirkland/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://systems-analyst-elephant-50207.netlify.com/location/clinique-podiatrique-kirkland/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://systems-analyst-elephant-50207.netlify.com/en/location/clinique-podiatrique-kirkland/"
+                />
   </url>
   
   <url>
     <loc>http://systems-analyst-elephant-50207.netlify.com/en/location/clinique-podiatrique-legare-barbeau/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://systems-analyst-elephant-50207.netlify.com/location/clinique-podiatrique-legare-barbeau/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://systems-analyst-elephant-50207.netlify.com/en/location/clinique-podiatrique-legare-barbeau/"
+                />
   </url>
   
   <url>
     <loc>http://systems-analyst-elephant-50207.netlify.com/en/location/clinique-podiatrique-loutaouais-bureau-gatineau/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://systems-analyst-elephant-50207.netlify.com/location/clinique-podiatrique-loutaouais-bureau-gatineau/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://systems-analyst-elephant-50207.netlify.com/en/location/clinique-podiatrique-loutaouais-bureau-gatineau/"
+                />
   </url>
   
   <url>
     <loc>http://systems-analyst-elephant-50207.netlify.com/en/location/clinique-podiatrique-loutaouais-bureau-hull/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://systems-analyst-elephant-50207.netlify.com/location/clinique-podiatrique-loutaouais-bureau-hull/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://systems-analyst-elephant-50207.netlify.com/en/location/clinique-podiatrique-loutaouais-bureau-hull/"
+                />
   </url>
   
   <url>
     <loc>http://systems-analyst-elephant-50207.netlify.com/en/location/clinique-podiatrique-maguire/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://systems-analyst-elephant-50207.netlify.com/location/clinique-podiatrique-maguire/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://systems-analyst-elephant-50207.netlify.com/en/location/clinique-podiatrique-maguire/"
+                />
   </url>
   
   <url>
     <loc>http://systems-analyst-elephant-50207.netlify.com/en/location/clinique-podiatrique-marie-christine-bourque-2/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://systems-analyst-elephant-50207.netlify.com/location/clinique-podiatrique-marie-christine-bourque-2/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://systems-analyst-elephant-50207.netlify.com/en/location/clinique-podiatrique-marie-christine-bourque-2/"
+                />
   </url>
   
   <url>
     <loc>http://systems-analyst-elephant-50207.netlify.com/en/location/clinique-podiatrique-marie-christine-bourque/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://systems-analyst-elephant-50207.netlify.com/location/clinique-podiatrique-marie-christine-bourque/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://systems-analyst-elephant-50207.netlify.com/en/location/clinique-podiatrique-marie-christine-bourque/"
+                />
   </url>
   
   <url>
     <loc>http://systems-analyst-elephant-50207.netlify.com/en/location/clinique-podiatrique-mascouche/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://systems-analyst-elephant-50207.netlify.com/location/clinique-podiatrique-mascouche/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://systems-analyst-elephant-50207.netlify.com/en/location/clinique-podiatrique-mascouche/"
+                />
   </url>
   
   <url>
     <loc>http://systems-analyst-elephant-50207.netlify.com/en/location/clinique-podiatrique-melanie-laplante/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://systems-analyst-elephant-50207.netlify.com/location/clinique-podiatrique-melanie-laplante/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://systems-analyst-elephant-50207.netlify.com/en/location/clinique-podiatrique-melanie-laplante/"
+                />
   </url>
   
   <url>
     <loc>http://systems-analyst-elephant-50207.netlify.com/en/location/clinique-podiatrique-mmgr/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://systems-analyst-elephant-50207.netlify.com/location/clinique-podiatrique-mmgr/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://systems-analyst-elephant-50207.netlify.com/en/location/clinique-podiatrique-mmgr/"
+                />
   </url>
   
   <url>
     <loc>http://systems-analyst-elephant-50207.netlify.com/en/location/clinique-podiatrique-ndg-dr-dejan-radic/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://systems-analyst-elephant-50207.netlify.com/location/clinique-podiatrique-ndg-dr-dejan-radic/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://systems-analyst-elephant-50207.netlify.com/en/location/clinique-podiatrique-ndg-dr-dejan-radic/"
+                />
   </url>
   
   <url>
     <loc>http://systems-analyst-elephant-50207.netlify.com/en/location/clinique-podiatrique-olivier-parent/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://systems-analyst-elephant-50207.netlify.com/location/clinique-podiatrique-olivier-parent/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://systems-analyst-elephant-50207.netlify.com/en/location/clinique-podiatrique-olivier-parent/"
+                />
   </url>
   
   <url>
     <loc>http://systems-analyst-elephant-50207.netlify.com/en/location/clinique-podiatrique-pointe-lile/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://systems-analyst-elephant-50207.netlify.com/location/clinique-podiatrique-pointe-lile/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://systems-analyst-elephant-50207.netlify.com/en/location/clinique-podiatrique-pointe-lile/"
+                />
   </url>
   
   <url>
     <loc>http://systems-analyst-elephant-50207.netlify.com/en/location/clinique-podiatrique-st-hubert/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://systems-analyst-elephant-50207.netlify.com/location/clinique-podiatrique-st-hubert/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://systems-analyst-elephant-50207.netlify.com/en/location/clinique-podiatrique-st-hubert/"
+                />
   </url>
   
   <url>
     <loc>http://systems-analyst-elephant-50207.netlify.com/en/location/clinique-podiatrique-stephanie-bonneau/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://systems-analyst-elephant-50207.netlify.com/location/clinique-podiatrique-stephanie-bonneau/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://systems-analyst-elephant-50207.netlify.com/en/location/clinique-podiatrique-stephanie-bonneau/"
+                />
   </url>
   
   <url>
     <loc>http://systems-analyst-elephant-50207.netlify.com/en/location/clinique-podiatrique-vaudreuil/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://systems-analyst-elephant-50207.netlify.com/location/clinique-podiatrique-vaudreuil/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://systems-analyst-elephant-50207.netlify.com/en/location/clinique-podiatrique-vaudreuil/"
+                />
   </url>
   
   <url>
     <loc>http://systems-analyst-elephant-50207.netlify.com/en/location/clinique-podiatrique-victoria/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://systems-analyst-elephant-50207.netlify.com/location/clinique-podiatrique-victoria/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://systems-analyst-elephant-50207.netlify.com/en/location/clinique-podiatrique-victoria/"
+                />
   </url>
   
   <url>
     <loc>http://systems-analyst-elephant-50207.netlify.com/en/location/orleans-dynamic-foot-clinic/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://systems-analyst-elephant-50207.netlify.com/location/orleans-dynamic-foot-clinic/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://systems-analyst-elephant-50207.netlify.com/en/location/orleans-dynamic-foot-clinic/"
+                />
   </url>
   
   <url>
     <loc>http://systems-analyst-elephant-50207.netlify.com/en/location/vita-integrative-health-clinic/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://systems-analyst-elephant-50207.netlify.com/location/vita-integrative-health-clinic/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://systems-analyst-elephant-50207.netlify.com/en/location/vita-integrative-health-clinic/"
+                />
   </url>
   
   <url>
     <loc>http://systems-analyst-elephant-50207.netlify.com/en/authors/</loc>
     <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://systems-analyst-elephant-50207.netlify.com/authors/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://systems-analyst-elephant-50207.netlify.com/en/authors/"
+                />
   </url>
   
   <url>
     <loc>http://systems-analyst-elephant-50207.netlify.com/en/categories/</loc>
     <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://systems-analyst-elephant-50207.netlify.com/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://systems-analyst-elephant-50207.netlify.com/en/categories/"
+                />
   </url>
   
   <url>
@@ -172,23 +543,73 @@
   
   <url>
     <loc>http://systems-analyst-elephant-50207.netlify.com/en/company/contact/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://systems-analyst-elephant-50207.netlify.com/compagnie/contact/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://systems-analyst-elephant-50207.netlify.com/en/company/contact/"
+                />
   </url>
   
   <url>
     <loc>http://systems-analyst-elephant-50207.netlify.com/en/patients/cryovizion/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://systems-analyst-elephant-50207.netlify.com/patients/cryovizion/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://systems-analyst-elephant-50207.netlify.com/en/patients/cryovizion/"
+                />
   </url>
   
   <url>
     <loc>http://systems-analyst-elephant-50207.netlify.com/en/blog/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://systems-analyst-elephant-50207.netlify.com/blogue/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://systems-analyst-elephant-50207.netlify.com/en/blog/"
+                />
   </url>
   
   <url>
     <loc>http://systems-analyst-elephant-50207.netlify.com/en/patients/cryos-orthotics/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://systems-analyst-elephant-50207.netlify.com/patients/ortheses/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://systems-analyst-elephant-50207.netlify.com/en/patients/cryos-orthotics/"
+                />
   </url>
   
   <url>
     <loc>http://systems-analyst-elephant-50207.netlify.com/en/</loc>
     <lastmod>2017-05-09T12:50:31-04:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://systems-analyst-elephant-50207.netlify.com/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://systems-analyst-elephant-50207.netlify.com/en/"
+                />
   </url>
   
   <url>
@@ -201,16 +622,46 @@
   
   <url>
     <loc>http://systems-analyst-elephant-50207.netlify.com/en/patients/faq/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://systems-analyst-elephant-50207.netlify.com/patients/faq/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://systems-analyst-elephant-50207.netlify.com/en/patients/faq/"
+                />
   </url>
   
   <url>
     <loc>http://systems-analyst-elephant-50207.netlify.com/en/location/</loc>
     <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://systems-analyst-elephant-50207.netlify.com/location/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://systems-analyst-elephant-50207.netlify.com/en/location/"
+                />
   </url>
   
   <url>
     <loc>http://systems-analyst-elephant-50207.netlify.com/en/patients/</loc>
     <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://systems-analyst-elephant-50207.netlify.com/patients/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://systems-analyst-elephant-50207.netlify.com/en/patients/"
+                />
   </url>
   
   <url>
@@ -222,6 +673,16 @@
   <url>
     <loc>http://systems-analyst-elephant-50207.netlify.com/en/tags/</loc>
     <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://systems-analyst-elephant-50207.netlify.com/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://systems-analyst-elephant-50207.netlify.com/en/tags/"
+                />
   </url>
   
 </urlset>

@@ -20,6 +20,7 @@ orthese_pro: true
 orthese_patients: false
 cryovizion_pro: true
 cryovizion_patients: true
+i18nlanguage: fr
 ---
 
 <p style="font-size: 18px;">Le port d’orthèses plantaires permet de remédier à certaines douleurs ou problèmes biomécaniques et posturaux. Selon la prescription établie par le podiatre, le port d’orthèse aura des effets à court et à long terme sur les muscles. Découvrez comment ce traitement podiatrique peut influencer positivement la qualité de vie des patients grâce à ses répercussions sur le corps et les muscles.</p>

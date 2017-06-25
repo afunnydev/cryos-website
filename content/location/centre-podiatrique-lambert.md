@@ -8,6 +8,7 @@ phone: (450) 372-4735
 site: https://piedreseau.com/cliniques/lambert-podiatre-orthese-granby/
 type: location
 ville: Granby, Quebec J2G 2W6
+identifiant: centre-podiatrique-lambert
 i18nlanguage: fr
 ---
 

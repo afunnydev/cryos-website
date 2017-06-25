@@ -8,6 +8,7 @@ phone: (450) 474-4486
 site: http://www.podiatremascouche.ca
 type: location
 ville: Mascouche, Quebec J7K 2L5
+identifiant: clinique-podiatrique-mascouche
 i18nlanguage: fr
 ---
 

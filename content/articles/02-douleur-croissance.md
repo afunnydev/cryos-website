@@ -16,6 +16,7 @@ orthese_pro: false
 orthese_patients: false
 cryovizion_pro: false
 cryovizion_patients: false
+i18nlanguage: fr
 ---
 
 <p style="font-size: 18px;">Pour un parent, rien n’est plus difficile que de voir souffrir son enfant. Malheureusement, c’est un mal nécessaire lorsqu’il souffre de douleurs de croissance. Mais rassurez-vous, même si ces périodes ne sont que temporaires, vous pouvez l’aider à les traverser en lui apportant un grand soulagement.

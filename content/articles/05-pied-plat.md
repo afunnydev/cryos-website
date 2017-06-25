@@ -17,6 +17,7 @@ orthese_pro: false
 orthese_patients: true
 cryovizion_pro: false
 cryovizion_patients: false
+i18nlanguage: fr
 ---
 
 <p style="font-size: 18px;">Chez l’enfant, le pied plat est une condition très répandue. Toutefois, en tant que parent, il est tout à fait normal de ne pas toujours bien connaître l’impact de cette condition sur la santé de son enfant.

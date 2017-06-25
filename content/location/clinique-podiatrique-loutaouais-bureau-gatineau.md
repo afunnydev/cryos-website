@@ -8,6 +8,7 @@ phone: (819) 568-0456
 site: http://www.cpoutaouais.com
 type: location
 ville: Gatineau, Quebec J8T 8M5
+identifiant: clinique-podiatrique-loutaouais-bureau-gatineau
 i18nlanguage: fr
 ---
 

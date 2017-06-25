@@ -23,6 +23,7 @@ orthese_pro: false
 orthese_patients: false
 cryovizion_pro: true
 cryovizion_patients: true
+i18nlanguage: fr
 ---
 
 <p style="font-size: 18px;">Les professionnels de la santé utilisent les systèmes d’imagerie pour diverses raisons médicales. Selon l’approche préconisée, certains podiatres ont recours à l’imagerie, afin de mieux évaluer et de mesurer les problèmes posturaux et biomécaniques. Cette technologie permet aux patients de comprendre la mécanique de leurs maux et leurs impacts sur la posture.</p>

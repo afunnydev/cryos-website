@@ -8,6 +8,7 @@ phone: (581) 300-7433
 site: https://piedreseau.com/cliniques/podiatre-orthese-plantaire-beauport-chutes/
 type: location
 ville: Québec, Québec G1C 0M5
+identifiant: clinique-podiatrique-chutes
 i18nlanguage: en
 ---
 

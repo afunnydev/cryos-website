@@ -8,6 +8,7 @@ phone: 1-418-877-9997
 site: http://www.podiatreolivierparent.com
 type: location
 ville: Québec, Québec G2G 2R5
+identifiant: clinique-podiatrique-olivier-parent
 i18nlanguage: en
 ---
 

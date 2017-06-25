@@ -8,6 +8,7 @@ phone: (450) 438-8863
 site: http://www.centre-podiatrique.ca
 type: location
 ville: Saint-Jérôme, Quebec J7Z 5L1
+identifiant: centre-podiatrique-saint-jerome
 i18nlanguage: en
 ---
 

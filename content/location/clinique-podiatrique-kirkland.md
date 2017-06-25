@@ -8,6 +8,7 @@ phone: (514) 505-3977
 site: http://www.podiatrekirkland.com
 type: location
 ville: Kirkland, Quebec H9H 3B6
+identifiant: clinique-podiatrique-kirkland
 i18nlanguage: fr
 ---
 

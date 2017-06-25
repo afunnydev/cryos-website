@@ -8,6 +8,7 @@ phone: (418) 758-1581
 site: http://www.podiatrealma.com
 type: location
 ville: Alma, Quebec G8B 2V8
+identifiant: clinique-podiatrique-dalma
 i18nlanguage: en
 ---
 

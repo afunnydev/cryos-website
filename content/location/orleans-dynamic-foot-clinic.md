@@ -8,6 +8,7 @@ phone: (613) 424-9339
 site: http://www.orleansfootclinic.com
 type: location
 ville: Ottawa, Ontario K1E 1E2
+identifiant: orleans-dynamic-foot-clinic
 i18nlanguage: fr
 ---
 

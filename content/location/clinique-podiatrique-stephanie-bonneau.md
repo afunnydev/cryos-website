@@ -8,6 +8,7 @@ phone: (450) 396-7433
 site: http://www.podiatrebonneau.com
 type: location
 ville: Longueuil, Québec J4J 3Y7
+identifiant: clinique-podiatrique-stephanie-bonneau
 i18nlanguage: fr
 ---
 

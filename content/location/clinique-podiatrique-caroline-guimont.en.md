@@ -8,6 +8,7 @@ phone: (819) 762-2202
 site: https://goo.gl/maps/XVRpcXiidEp
 type: location
 ville: Rouyn-Noranda, Quebec J9X 0B1
+identifiant: clinique-podiatrique-caroline-guimont
 i18nlanguage: en
 ---
 

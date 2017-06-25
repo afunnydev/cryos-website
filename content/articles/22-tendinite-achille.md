@@ -17,6 +17,7 @@ orthese_pro: false
 orthese_patients: false
 cryovizion_pro: false
 cryovizion_patients: false
+i18nlanguage: fr
 ---
 
 <p style="font-size: 18px;">Le tendon d’Achille figure parmi les muscles les plus forts du corps humain. Il est responsable de la flexibilité plantaire et de la propulsion du corps. Lorsque des douleurs apparaissent à la cheville, il vaut mieux consulter un podiatre qui saura soigner la tendinite au tendon d’Achille. Bien que cette pathologie, la tendinopathie du tendon d’Achille, soit difficile à traiter, le podiatre est outillé pour amener ses patients vers une guérison rapide. Voici les traitements possibles pour soigner une tendinite au talon d’Achille.</p>

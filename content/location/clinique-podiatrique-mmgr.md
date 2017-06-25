@@ -8,6 +8,7 @@ phone: (514) 903-9333
 site: http://www.podiatremmgr.com
 type: location
 ville: Montréal, Québec  H1S 1M8
+identifiant: clinique-podiatrique-mmgr
 i18nlanguage: fr
 ---
 

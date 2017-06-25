@@ -8,6 +8,7 @@ phone: (418) 915-9399
 site: http://www.podiatregiroux.com
 type: location
 ville: Québec, Quebec G3K 2S1
+identifiant: clinique-podiatrique-francois-giroux-bureau-val-belair
 i18nlanguage: en
 ---
 

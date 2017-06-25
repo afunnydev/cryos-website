@@ -18,6 +18,7 @@ orthese_pro: false
 orthese_patients: false
 cryovizion_pro: false
 cryovizion_patients: false
+i18nlanguage: fr
 ---
 
 <p style="font-size: 18px;">Les risques de blessures sont présents dans les sports de glace. Que ce soit au hockey ou en patinage artistique, le port d’orthèse plantaire sur mesure favorise une démarche sportive adéquate en plus de soulager les blessures existantes. Puisque le pied est à la base même de chaque mouvement de patins, l’intervention d’un podiatre s’avère bénéfique pour la performance et le confort du sportif. Pour quelles raisons un sportif doit-il consulter un podiatre? Certains consultent un podiatre à titre préventif. En tant que spécialiste de la santé des pieds, il valide en profondeur la démarche sportive. Si la biomécanique est inadéquate, le podiatre conseille des solutions pratiques afin d’éviter les blessures. Cependant, la majorité des consultations est pour soulager une blessure existante qui nuit au sport de patin. Le podiatre est donc appelé à trouver des solutions pour éliminer la douleur et cibler celle qui permettra de mieux pratiquer son sport de glace.</p>

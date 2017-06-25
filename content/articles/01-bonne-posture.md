@@ -19,6 +19,7 @@ orthese_pro: false
 orthese_patients: false
 cryovizion_pro: false
 cryovizion_patients: false
+i18nlanguage: fr
 ---
 
 <p style="font-size: 18px;">Pour profiter d’une belle qualité de vie, avoir une bonne posture et une santé des pieds sont des éléments incontournables. Toutefois, plusieurs ignorent combien les orthèses plantaires peuvent contribuer à l’atteinte de cette bonne condition.

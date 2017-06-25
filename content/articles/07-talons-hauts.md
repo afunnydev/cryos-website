@@ -17,6 +17,7 @@ orthese_pro: false
 orthese_patients: false
 cryovizion_pro: false
 cryovizion_patients: false
+i18nlanguage: fr
 ---
 
 <p style="font-size: 18px;">La douleur aux pieds causée par le port du soulier à talon haut est ressentie chez plusieurs femmes. Entre les oignons aux pieds, les problèmes posturaux et plusieurs autres conditions podiatriques, de nombreuses femmes cherchent à combiner style de vie et bonne santé de leurs pieds. La solution podiatrique : des orthèses plantaires. Afin de nous apporter quelques réponses sur le sujet, nous nous sommes adressés à Dre. Marie-Michelle Gravel, podiatre. Grâce à ses conseils, plusieurs femmes trouveront le juste équilibre entre le port du soulier à talon haut et celui des orthèses plantaires.</p>

@@ -19,6 +19,7 @@ orthese_pro: false
 orthese_patients: false
 cryovizion_pro: false
 cryovizion_patients: false
+i18nlanguage: fr
 ---
 
 <p style="font-size: 18px;">À la période estivale, les sportifs sont nombreux à exercer des activités physiques qui exigent un effort supplémentaire de la mécanique des pieds. Ainsi, le port d’orthèses sportives s’avère bénéfique pour les enfants et les adultes qui pratiquent un sport d’été tel que le tennis, la course, le soccer, le football, etc. Découvrez pourquoi les orthèses plantaires sont fortement recommandées pour les personnes ayant une faiblesse aux pieds.</p>

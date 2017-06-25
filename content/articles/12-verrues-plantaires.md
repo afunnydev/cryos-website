@@ -17,7 +17,7 @@ orthese_pro: false
 orthese_patients: false
 cryovizion_pro: false
 cryovizion_patients: false
-
+i18nlanguage: fr
 ---
 
 <p style="font-size: 18px;">Les verrues plantaires peuvent être soignées efficacement par des traitements podiatriques. Découvrez les différentes approches ainsi que les conseils d’un podiatre pour les prévenir et les traiter.</p>

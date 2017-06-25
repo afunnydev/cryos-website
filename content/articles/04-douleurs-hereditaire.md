@@ -17,6 +17,7 @@ orthese_pro: false
 orthese_patients: false
 cryovizion_pro: false
 cryovizion_patients: false
+i18nlanguage: fr
 ---
 
 <p style="font-size: 18px;">Comme parents, il est normal que les douleurs aux pieds de vos enfants vous inquiètent. C’est d’autant plus vrai si vous-mêmes, vous êtes aux prises avec ce même genre de problèmes.

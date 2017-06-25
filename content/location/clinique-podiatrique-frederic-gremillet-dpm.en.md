@@ -8,6 +8,7 @@ phone: (450) 659-9011
 site: http://www.gremilletpodiatres.com
 type: location
 ville: Candiac, Quebec J5R 3L5
+identifiant: clinique-podiatrique-frederic-gremillet-dpm
 i18nlanguage: en
 ---
 
