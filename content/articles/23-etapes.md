@@ -1,22 +1,23 @@
 ---
-author: boisclair
-blog_img: img/posts/ortheses-plantaires.jpg
-categories:
-- Orthèses plantaires
-date: 2017-05-10
-description: Découvrez les étapes pour obtenir des orthèses plantaires auprès d'un
+titre: Les étapes du port d'orthèses plantaires
+title: Les étapes du port d'orthèses plantaires - Cryos Technologies
+description: >-
+  Découvrez les étapes pour obtenir des orthèses plantaires auprès d'un
   podiatre, en cas de douleurs aux pieds et de problèmes de posture.
 slug: les-etapes-du-port-dortheses-plantaires/
-title: Les étapes du port d'orthèses plantaires - Cryos Technologies
-titre: Les étapes du port d'orthèses plantaires
-type: post
 identifiant: 23-etapes
-isfront: false
+author: boisclair
+date: 2017-05-10T00:00:00.000Z
+blog_img: img/posts/ortheses-plantaires.jpg
+type: post
+categories:
+  - Orthèses plantaires
+i18nlanguage: fr
+isfront: true
 orthese_pro: false
 orthese_patients: false
 cryovizion_pro: false
 cryovizion_patients: false
-i18nlanguage: fr
 ---
 
 <p style="font-size: 18px;">Le port d’orthèses plantaires est un traitement prescrit pour remédier aux problèmes de pieds et de posture. Avant d’obtenir une telle prescription, il faut toutefois consulter un professionnel de la santé afin qu’il procède à différentes analyses. Découvrez les principales étapes pour obtenir une prescription d’orthèses plantaires par un podiatre, le spécialiste de la santé des pieds.</p>
