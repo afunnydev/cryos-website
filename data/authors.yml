@@ -1,8 +1,5 @@
 authors:
-  annie-jean:
-    F: >-
-      http://www.cryos.com/wp-content/uploads/2015/10/annie-jean-podiatre-gatineau.jpg
-    address: 86 Prom Du Portage
+  - address: 86 Prom Du Portage
     city: 'Gatineau, Québec, J8X 2K1'
     description: >-
       Annie Jean, DPM, a complété ses études en Sciences biopharmaceutiques à
@@ -18,9 +15,8 @@ authors:
     user_email: anniejean81@hotmail.com
     user_nicename: annie-jean
     user_url: 'http://www.cpoutaouais.com/'
-  arnaud:
-    F: 'http://www.cryos.com/wp-content/uploads/2016/02/arnaud-ouligny1.jpg'
-    address: '650 Boulevard du Fort St Louis,'
+    arnaud:
+  - address: '650 Boulevard du Fort St Louis,'
     city: 'Boucherville, QC J4B 1S9'
     description: >-
       Originaire de la ville de Boucherville, le Dr Arnaud Vouligny, podiatre
@@ -44,10 +40,7 @@ authors:
     user_email: temp@cms54.ca
     user_nicename: arnaud
     user_url: 'http://www.podiatredeboucherville.com'
-  audree:
-    F: >-
-      http://www.cryos.com/wp-content/uploads/profile_builder/avatars/userID_574_resziedAvatarSize_200_orignalName_Audree-quinn-carignan.jpg
-    address: '120, rue Joseph Carrier Local 106'
+  - address: '120, rue Joseph Carrier Local 106'
     city: 'Vaudreuil-Dorion Québec, J7V 5V5'
     description: >-
       Étant native de la Montérégie, c'est avec fierté que Dre Audrée
@@ -64,9 +57,7 @@ authors:
     user_email: info@clinique-podiatrique.com
     user_nicename: audree
     user_url: 'http://clinique-podiatrique.com/'
-  boisclair:
-    F: 'http://www.cryos.com/wp-content/uploads/2016/03/charlene-boiclair-dpm.jpg'
-    address: 6475 Boulevard Henri-Bourassa
+  - address: 6475 Boulevard Henri-Bourassa
     city: 'Québec, Québec, G1H 3B9'
     description: >-
       Native de Trois-Rivières, le Dre Charlène Boisclair, DPM savait depuis
@@ -83,9 +74,7 @@ authors:
     user_email: charleneboisclair@gmail.com
     user_nicename: boisclair
     user_url: 'http://www.podiatregiroux.com/'
-  bonneau:
-    F: 'http://www.cryos.com/wp-content/uploads/2015/04/stephanie-bonneau.jpg'
-    address: '2066 Chemin de Chambly #201'
+  - address: '2066 Chemin de Chambly #201'
     city: 'Longueuil, Québec J4J 3Y7'
     description: >-
       Diplômée de l'Université du Québec à Trois-Rivières au Doctorat en
@@ -108,9 +97,7 @@ authors:
     user_email: stephaniebonneau09@gmail.com
     user_nicename: bonneau
     user_url: 'http://podiatrebonneau.com/'
-  caroline:
-    F: 'http://www.cryos.com/wp-content/uploads/2015/04/caroline-guimont.jpg'
-    address: '452, Avenue Québec'
+  - address: '452, Avenue Québec'
     city: 'Rouyn-Noranda, Québec, J9X 0B1'
     description: >-
       Dre Caroline Guimont, podiatre, est diplômée du doctorat en médecine
@@ -128,9 +115,7 @@ authors:
     user_email: carolineguimont@hotmail.com
     user_nicename: caroline
     user_url: ''
-  elizabeth:
-    F: 'http://www.cryos.com/wp-content/uploads/2015/04/elizabeth-piche.jpg'
-    address: '64, Rue Saint Cyr'
+  - address: '64, Rue Saint Cyr'
     city: 'Victoriaville, Québec G6T 2T2'
     description: >-
       Dre Élizabeth Piché, podiatre, a été diplômée de l'Université du Québec à
@@ -146,9 +131,7 @@ authors:
     user_email: info@podiatrevictoriaville.com
     user_nicename: elizabeth
     user_url: 'http://www.podiatrevictoriaville.com'
-  frederic:
-    F: 'http://www.cryos.com/wp-content/uploads/2015/02/frederic-gremillet.jpg'
-    address: 9 Boulevard Montcalm Nord
+  - address: 9 Boulevard Montcalm Nord
     city: 'Candiac, Québec, J5R 3L5'
     description: >-
       Diplômé du College of Podiatric Medecine de Philadelphie en 1996, Dr
@@ -172,9 +155,7 @@ authors:
     user_email: info@gremilletpodiatres.com
     user_nicename: frederic
     user_url: 'http://www.gremilletpodiatres.com'
-  gabriel:
-    F: 'http://www.cryos.com/wp-content/uploads/2015/02/gabriel-beaudoin.jpg'
-    address: '400 Rue Principale #201'
+  - address: '400 Rue Principale #201'
     city: 'Granby, Québec J2G 2W6'
     description: >-
       Diplômé de l'Université du Québec à Trois-Rivières au Doctorat en médecine
@@ -193,9 +174,7 @@ authors:
     user_email: info@centrepodiatriquelambert.com
     user_nicename: gabriel
     user_url: 'http://www.centrepodiatriquelambert.com'
-  gabrielle:
-    F: 'http://www.cryos.com/wp-content/uploads/2015/04/gabrielle-castonguay.jpg'
-    address: 456 Boulevard de l'Hôpital
+  - address: 456 Boulevard de l'Hôpital
     city: 'Gatineau, Québec, J8T 8M5'
     description: >-
       Dre Gabrielle Castonguay, podiatre, s'est jointe à l'équipe de la Clinique
@@ -211,9 +190,7 @@ authors:
     user_email: ldeschenes.cpo@videotron.ca
     user_nicename: gabrielle
     user_url: 'http://cpoutaouais.com'
-  giroux:
-    F: 'http://www.cryos.com/wp-content/uploads/2015/05/francois-giroux.jpg'
-    address: 6475 Boulevard Henri-Bourassa
+  - address: 6475 Boulevard Henri-Bourassa
     city: 'Québec, Québec, G1H 3B9'
     description: >-
       Membre de l'Ordre des podiatres du Québec depuis 1998, le Dr François
@@ -242,9 +219,7 @@ authors:
     user_email: charlesbourg@podiatregiroux.com
     user_nicename: giroux
     user_url: 'http://www.podiatregiroux.com/'
-  gravel:
-    F: 'http://www.cryos.com/wp-content/uploads/2015/02/marie-michelle-gravel.jpg'
-    address: 1078 Boulevard Vachon Nord
+  - address: 1078 Boulevard Vachon Nord
     city: Sainte-Marie Québec G6E 1M7
     description: >-
       Dre Marie-Michelle Gravel, podiatre, possède un doctorat de premier cycle
@@ -262,10 +237,7 @@ authors:
     user_email: mmgravel@cpsmb.ca
     user_nicename: gravel
     user_url: 'http://www.podiatre-beauce.com'
-  keven:
-    F: >-
-      http://www.cryos.com/wp-content/uploads/profile_builder/avatars/userID_559_resziedAvatarSize_200_orignalName_keven_optimiser.jpg
-    address: '2100, rue King Ouest, bureau 10'
+  - address: '2100, rue King Ouest, bureau 10'
     city: 'Sherbrooke, Estrie, J1J 2E8'
     description: >-
       Diplômé de l'Université du Québec à Trois-Rivières au Doctorat en médecine
@@ -284,10 +256,7 @@ authors:
     user_email: infosherbrooke@centrepodiatriquelambert.com
     user_nicename: keven
     user_url: 'http://www.centrepodiatriquelambert.com'
-  lyndacormier:
-    F: >-
-      http://www.cryos.com/wp-content/uploads/2015/11/Lynda-Cormier-dpm-gatineau.jpg
-    address: 86 Prom. du Portage
+  - address: 86 Prom. du Portage
     city: 'Gatineau, QC J8X 2K1'
     description: >-
       Inspirée de la carrière de son père, Dre Lynda Cormier, podiatre, débute
@@ -310,9 +279,7 @@ authors:
     user_email: lcormier.cpo@videotron.ca
     user_nicename: lyndacormier
     user_url: 'http://www.cpoutaouais.com/'
-  marie-michelle:
-    F: 'http://www.cryos.com/wp-content/uploads/2014/12/Marie-Michelle-Fecteau.jpg'
-    address: '1352, boulevard des Chutes Bureau 206'
+  - address: '1352, boulevard des Chutes Bureau 206'
     city: Québec G1C 7C9
     description: >-
       Marie-Michelle Fecteau, podiatre, a débuté son parcours dans le domaine de
@@ -329,9 +296,7 @@ authors:
     user_email: cliniquedeschutes@outlook.com
     user_nicename: marie-michelle
     user_url: 'http://www.cliniquepodiatriquedeschutes.com/'
-  marilyne:
-    F: 'http://www.cryos.com/wp-content/uploads/2015/03/marilyne-langlois.jpg'
-    address: '2816, boul. Saint-Charles'
+  - address: '2816, boul. Saint-Charles'
     city: Kirkland Quebec H9H 3B6
     description: >-
       Diplômé de l'Université du Québec à Trois-Rivières au Doctorat en médecine
@@ -345,9 +310,7 @@ authors:
     user_email: info@podiatrekirkland.com
     user_nicename: marilyne
     user_url: 'http://www.podiatrekirkland.com'
-  melanie:
-    F: 'http://www.cryos.com/wp-content/uploads/2015/03/melanie-laplante.jpg'
-    address: '19, rue Gauthier N'
+  - address: '19, rue Gauthier N'
     city: Notre-Dame-des-Prairies Québec J6E 1T7
     description: >-
       Dre Mélanie LaPlante, podiatre, possède un doctorat de premier cycle en
@@ -365,9 +328,7 @@ authors:
     user_email: infos@laplantedupied.com
     user_nicename: melanie
     user_url: 'http://www.laplantedupied.com'
-  morel:
-    F: 'http://www.cryos.com/wp-content/uploads/2015/03/alexandre-morel.jpg'
-    address: '305, boul. de la Seigneurie Ouest, Suite 202'
+  - address: '305, boul. de la Seigneurie Ouest, Suite 202'
     city: 'Blainville, Québec, J7C OE6'
     description: >-
       Le Dr Alexandre Morel, podiatre, a complété son doctorat de premier cycle
@@ -390,10 +351,7 @@ authors:
     user_email: info@podiatreblainville.com
     user_nicename: morel
     user_url: 'http://www.podiatreblainville.com'
-  philippe_legare:
-    F: >-
-      http://www.cryos.com/wp-content/uploads/2014/09/philipe-legare-podiatre.jpg
-    address: '3675 Boulevard du Chanoine Moreau #301'
+  - address: '3675 Boulevard du Chanoine Moreau #301'
     city: 'Trois-Rivières, QC G8Y 5M6'
     description: >-
       Diplômé du Pennsylvania College of Podiatric Medecine (Temple University)
@@ -411,10 +369,7 @@ authors:
     user_email: plegare@cryos.com
     user_nicename: philippe_legare
     user_url: 'http://www.cliniquepodiatrique.com'
-  william:
-    F: >-
-      http://www.cryos.com/wp-content/uploads/profile_builder/avatars/userID_558_resziedAvatarSize_200_orignalName_william_optimiser.jpg
-    address: '245 Avenue Victoria #525'
+  - address: '245 Avenue Victoria #525'
     city: 'Westmount, Montréal, QC, H3Z 2M6'
     description: >-
       Diplômé de l'Université du Québec à Trois-Rivières au doctorat en médecine

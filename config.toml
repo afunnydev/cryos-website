@@ -6,12 +6,16 @@ metaDataFormat = "yaml"
 preserveTaxonomyNames = true
 RemovePathAccents = true
 
+[permalinks]
+  	articles= "/:slug/"
+
 [taxonomies]
-	category = "categories"
   	tag = "tags"
-    author = "authors"
 
 [Languages]
 [Languages.en]
-
+[Languages.en.Taxonomies]
+category = "categories"
 [Languages.fr]
+[Languages.fr.Taxonomies]
+categorie = "categories"

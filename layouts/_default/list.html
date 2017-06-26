@@ -13,8 +13,14 @@
 				      <div class="collapsible-body categories mobile box">
 				      	{{ $tags := $.Site.Taxonomies.categories.ByCount }}
 								<ul>
+								{{ if eq .Lang "fr" }}
 								{{ range $tags }}
 								<a href="{{ $.Site.BaseURL }}categories/{{ .Term | urlize }}"><li>{{ .Term }} <!-- ({{ .Count }}) --></li></a>
+								{{ end }}
+								{{ else if eq .Lang "en" }}
+								{{ range $tags }}
+								<a href="{{ $.Site.BaseURL }}en/categories/{{ .Term | urlize }}"><li>{{ .Term }} <!-- ({{ .Count }}) --></li></a>
+								{{ end }}
 								{{ end }}
 								</ul>
 				      </div>
@@ -38,7 +44,11 @@
 					  <div id="SignUp">
 					    <!--<input type="text" name="fields_fname" placeholder="*Nom:" required>
 					    <input type="text" name="fields_lname" placeholder="prénom:">-->
+					    {{ if eq .Lang "fr" }}
 					    <input id="news-email" type="email" name="fields_email" placeholder="Courriel" required>
+							{{ else if eq .Lang "en" }}
+							<input id="news-email" type="email" name="fields_email" placeholder="Email" required>
+							{{ end }}
 
 					    <input type="hidden" name="listid" value="17836">
 					    <input type="hidden" name="specialid:17836" value="RCDM">
@@ -47,7 +57,11 @@
 					    <input type="hidden" name="reallistid" value="1">
 					    <input type="hidden" name="doubleopt" value="0">
 
+					    {{ if eq .Lang "fr" }}
 					    <input type="submit" name="Submit" value="S'abonner" class="btn">
+							{{ else if eq .Lang "en" }}
+							<input type="submit" name="Submit" value="Subscribe" class="btn">
+							{{ end }}
 					  </div>
 					</form>
 

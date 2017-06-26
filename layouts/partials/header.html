@@ -51,7 +51,7 @@
         <li><a class='dropdown-button' href='#' data-activates='dropdown1'>Professionals <i class="fa fa-caret-down"></i></a></li>
         <li><a class='dropdown-button' href='#' data-activates='dropdown2'>Patients <i class="fa fa-caret-down"></i></a></li>
         <li><a class='dropdown-button' href='#' data-activates='dropdown3'>Company <i class="fa fa-caret-down"></i></a></li>
-        <!-- <li><a href='{{ "blogue/" | absLangURL }}'>Blogue</a></li> -->
+        <li><a href='{{.Site.BaseURL}}en/blog'>Blog</a></li>
       {{end}}
       </ul>
       <!-- Dropdown Structure -->
@@ -95,8 +95,18 @@
         {{ else if eq .Lang "en" }}
           <a href="{{.Site.BaseURL}}en/find-a-clinic"><i class="fa fa-map-marker"></i></a>
         {{ end }}
-          <!-- <a href="#!"><i class="fa fa-search"></i></a>
-          <a href="#!" class="language-selector">EN</a> -->
+          <!-- <a href="#!"><i class="fa fa-search"></i></a> -->
+        {{ if .Params.translatedslug }}
+          {{ if eq .Lang "fr" }}
+            <a href="{{ .Site.BaseURL }}{{ .Params.translatedslug }}" class="language-selector">EN</a>
+          {{ else if eq .Lang "en" }}
+            <a href="{{ .Site.BaseURL }}{{ .Params.translatedslug }}" class="language-selector">FR</a>
+          {{ end }}
+        {{ else }}
+          {{ range .Translations }}
+           <a href="{{ .Permalink }}" class="language-selector">{{.Lang}}</a>
+          {{ end }}
+        {{ end }}
         </li>
         {{ if eq .Lang "fr" }}
         <li><a class="subheader">Professionnels</a></li>
@@ -134,8 +144,8 @@
         <li><a class="waves-effect sub" href="{{.Site.BaseURL}}en/company/job">Job</a></li>
         <li><div class="divider"></div></li>
         <li><a class="waves-effect subheader single" href="{{.Site.BaseURL}}en/find-a-clinic">Find a clinic</a></li>
-        <!-- <li><div class="divider single"></div></li>
-        <li><a class="waves-effect subheader single" href="{{.Site.BaseURL}}en/blog">Blog</a></li> -->
+        <li><div class="divider single"></div></li>
+        <li><a class="waves-effect subheader single" href="{{.Site.BaseURL}}en/blog">Blog</a></li>
         {{end}}
       </ul>
     </div>

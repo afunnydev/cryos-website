@@ -48,7 +48,6 @@ collections:
           - name: orthesepro
             label: "Orthèses - Professionels"
             widget: object
-            create: true
             fields:
               - {label: "Témoignages - FR", name: "temoignagefr", widget: "text"}
               - {label: "Témoignages - EN", name: "temoignageen", widget: "text"}
@@ -58,7 +57,6 @@ collections:
           - name: orthesepatients
             label: "Orthèses - Patients"
             widget: object
-            create: true
             fields:
               - {label: "Témoignages - FR", name: "temoignagefr", widget: "text"}
               - {label: "Témoignages - EN", name: "temoignageen", widget: "text"}
@@ -68,7 +66,6 @@ collections:
           - name: cryovizionpro
             label: "Cryovizion - Professionels"
             widget: object
-            create: true
             fields:
               - {label: "Témoignages - FR", name: "temoignagefr", widget: "text"}
               - {label: "Témoignages - EN", name: "temoignageen", widget: "text"}
@@ -78,7 +75,6 @@ collections:
           - name: cryovizionpatients
             label: "Cryovizion - Patients"
             widget: object
-            create: true
             fields:
               - {label: "Témoignages - FR", name: "temoignagefr", widget: "text"}
               - {label: "Témoignages - EN", name: "temoignageen", widget: "text"}
@@ -90,17 +86,19 @@ collections:
         file: "data/authors.yml"
         fields:
           - name: authors
-            label: "Auteurs"
-            widget: object
-            create: false
+            label: Auteurs
+            widget: list
             fields:
-              - label: "Auteur"
-                name: "temoignagefr"
-                widget: "object"
-                slug: "{{user_nicename}}"
-                create: true
-                fields:
-                  - {label: "Identifiant UNIQUE", name: "user_nicename", widget: "text"}
+              - {label: "Identifiant", name: "user_nicename", widget: "string"}
+              - {label: "Nom d'affichage", name: "display_name", widget: "string"}
+              - {label: "Adresse (rue)", name: "address", widget: "string", default: "999 rue de l'Example"}
+              - {label: "Ville, Province et code postal", name: "city", widget: "string", default: "Montréal, QC, X0X 0X0"}
+              - {label: "Description - FR", name: "description", widget: "text"}
+              - {label: "Description - EN", name: "descriptionen", widget: "text"}
+              - {label: "Image", name: "photo", widget: "image"}
+              - {label: "Numéro de téléphone", name: "phone", widget: "string"}
+              - {label: "Courriel", name: "user_email", widget: "string"}
+              - {label: "Site internet", name: "user_url", widget: "string", pattern: ["^https?", "N'oubliez pas le http:// ou https://"]}
 
   - name: "articlesfr" # Used in routes, e.g. /admin/collections/blog
     label: "Articles-FR" # Used in the UI
@@ -124,11 +122,11 @@ collections:
       - {label: "Type", name: "type", widget: "hidden", default: "post"}
       - {label: "Catégories", name: "categories", widget: "list"}
       - {label: "Langue", name: "i18nlanguage", widget: "hidden", default: "fr"}
-      # - {label: "Voir sur la page d'accueil", name: "isfront", widget: "boolean", required: false, default: false}
-      # - {label: "Voir sur la page Orthèses Professionels", name: "orthese_pro", widget: "boolean", required: false, default: false}
-      # - {label: "Voir sur la page Orthèses Patients", name: "orthese_patients", widget: "boolean", required: false, default: false}
-      # - {label: "Voir sur la page Cryovizion Professionels", name: "cryovizion_pro", widget: "boolean", required: false, default: false}
-      # - {label: "Voir sur la page Cryovizion Patients", name: "cryovizion_patients", widget: "boolean", required: false, default: false}
+      - {label: "Voir sur la page d'accueil", name: "isfront", widget: "boolean", required: false, default: false}
+      - {label: "Voir sur la page Orthèses Professionels", name: "orthese_pro", widget: "boolean", required: false, default: false}
+      - {label: "Voir sur la page Orthèses Patients", name: "orthese_patients", widget: "boolean", required: false, default: false}
+      - {label: "Voir sur la page Cryovizion Professionels", name: "cryovizion_pro", widget: "boolean", required: false, default: false}
+      - {label: "Voir sur la page Cryovizion Patients", name: "cryovizion_patients", widget: "boolean", required: false, default: false}
   
   - name: "articlesen" # Used in routes, e.g. /admin/collections/blog
     label: "Articles-EN" # Used in the UI
@@ -152,11 +150,11 @@ collections:
       - {label: "Type", name: "type", widget: "hidden", default: "post"}
       - {label: "Catégories", name: "categories", widget: "list"}
       - {label: "Langue", name: "i18nlanguage", widget: "hidden", default: "en"}
-      # - {label: "Voir sur la page d'accueil", name: "isfront", widget: "boolean", required: false, default: false}
-      # - {label: "Voir sur la page Orthèses Professionels", name: "orthese_pro", widget: "boolean", required: false, default: false}
-      # - {label: "Voir sur la page Orthèses Patients", name: "orthese_patients", widget: "boolean", required: false, default: false}
-      # - {label: "Voir sur la page Cryovizion Professionels", name: "cryovizion_pro", widget: "boolean", required: false, default: false}
-      # - {label: "Voir sur la page Cryovizion Patients", name: "cryovizion_patients", widget: "boolean", required: false, default: false}
+      - {label: "Voir sur la page d'accueil", name: "isfront", widget: "boolean", required: false, default: false}
+      - {label: "Voir sur la page Orthèses Professionels", name: "orthese_pro", widget: "boolean", required: false, default: false}
+      - {label: "Voir sur la page Orthèses Patients", name: "orthese_patients", widget: "boolean", required: false, default: false}
+      - {label: "Voir sur la page Cryovizion Professionels", name: "cryovizion_pro", widget: "boolean", required: false, default: false}
+      - {label: "Voir sur la page Cryovizion Patients", name: "cryovizion_patients", widget: "boolean", required: false, default: false}
         
 
   - name: "cliniques-fr" # Used in routes, e.g. /admin/collections/blog

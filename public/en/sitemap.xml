@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://systems-analyst-elephant-50207.netlify.com/en/steps-to-wearing-foot-orthotics/</loc>
+    <lastmod>2017-06-25T21:19:52+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://systems-analyst-elephant-50207.netlify.com/les-etapes-du-port-dortheses-plantaires/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://systems-analyst-elephant-50207.netlify.com/en/steps-to-wearing-foot-orthotics/"
+                />
+  </url>
+  
+  <url>
     <loc>http://systems-analyst-elephant-50207.netlify.com/en/professionals/cryovizion/</loc>
     <lastmod>2017-05-09T12:50:31-04:00</lastmod>
     <xhtml:link
@@ -499,17 +514,18 @@
   </url>
   
   <url>
-    <loc>http://systems-analyst-elephant-50207.netlify.com/en/authors/</loc>
+    <loc>http://systems-analyst-elephant-50207.netlify.com/en/articles/</loc>
+    <lastmod>2017-06-25T21:19:52+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://systems-analyst-elephant-50207.netlify.com/authors/"
+                href="http://systems-analyst-elephant-50207.netlify.com/articles/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://systems-analyst-elephant-50207.netlify.com/en/authors/"
+                href="http://systems-analyst-elephant-50207.netlify.com/en/articles/"
                 />
   </url>
   
@@ -599,7 +615,7 @@
   
   <url>
     <loc>http://systems-analyst-elephant-50207.netlify.com/en/</loc>
-    <lastmod>2017-05-09T12:50:31-04:00</lastmod>
+    <lastmod>2017-06-25T21:19:52+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -632,6 +648,12 @@
                 hreflang="en"
                 href="http://systems-analyst-elephant-50207.netlify.com/en/patients/faq/"
                 />
+  </url>
+  
+  <url>
+    <loc>http://systems-analyst-elephant-50207.netlify.com/en/categories/foot-orthotics/</loc>
+    <lastmod>2017-06-25T21:19:52+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -668,21 +690,6 @@
     <loc>http://systems-analyst-elephant-50207.netlify.com/en/professionals/</loc>
     <lastmod>2017-05-09T12:50:31-04:00</lastmod>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://systems-analyst-elephant-50207.netlify.com/en/tags/</loc>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="http://systems-analyst-elephant-50207.netlify.com/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://systems-analyst-elephant-50207.netlify.com/en/tags/"
-                />
   </url>
   
 </urlset>

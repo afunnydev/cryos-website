@@ -1,13 +1,17 @@
 {{ if .Params.author }}
 {{ $thisauthor := .Params.author }}
-{{ $author := index $.Site.Data.authors.authors $thisauthor }}
+{{ range $.Site.Data.authors.authors }}
+	{{ if eq .user_nicename $thisauthor}}
+	 	{{ $.Scratch.Set "display" .display_name }}
+	{{ end }}
+{{ end }}
 <div class="col s12 article box">
 	<a href="{{ .Permalink }}"><img src="{{ .Site.BaseURL }}{{ .Params.blog_img }}" alt="{{ .Params.titre }}" class="responsive-img"></a>
 	<div class="resume">
 		<a href="{{ .Permalink }}" class="titre">{{ .Params.titre }}</a>
-		<p class="meta">{{ if eq .Lang "fr" }}par {{ else if eq .Lang "en" }}by {{ end }}<span class="auteur">{{ $author.display_name }}</span>| {{ .Date.Format "02/01/2006"  }}</p>
+		<p class="meta">{{ if eq .Lang "fr" }}par {{ else if eq .Lang "en" }}by {{ end }}<span class="auteur">{{ $.Scratch.Get "display" }}</span>| {{ .Date.Format "02/01/2006"  }}</p>
 		<p class="summary">{{ .Summary }}</br>...</p>
-		<p class="categories">{{ if eq .Lang "fr" }}Mots-clés:{{ else if eq .Lang "en" }}Keywords:{{ end }}{{ range .Params.categories }} <a href="{{ $.Site.BaseURL }}categories/{{ . | urlize }}">{{.}}</a>/ {{end}}</p>
+		<p class="categories">{{ if eq .Lang "fr" }}Mots-clés:{{ range .Params.categories }} <a href="{{ $.Site.BaseURL }}categories/{{ . | urlize }}">{{.}}</a>/ {{end}}{{ else if eq .Lang "en" }}Keywords:{{ range .Params.categories }} <a href="{{ $.Site.BaseURL }}en/categories/{{ . | urlize }}">{{.}}</a>/ {{end}}{{ end }}</p>
 	</div>
 	<div class="info">
 		<div class="comments valign-wrapper">

@@ -1,6 +1,19 @@
 <!-- Template for single article -->
 {{ $thisauthor := .Params.author }}
-{{ $author := index $.Site.Data.authors.authors $thisauthor }}
+{{ range $.Site.Data.authors.authors }}
+    {{ if eq .user_nicename $thisauthor}}
+        {{ $.Scratch.Set "address" .address }}
+        {{ $.Scratch.Set "city" .city }}
+        {{ $.Scratch.Set "description" .description }}
+        {{ $.Scratch.Set "display" .display_name }}
+        {{ $.Scratch.Set "phone" .phone }}
+        {{ $.Scratch.Set "email" .user_email }}
+        {{ $.Scratch.Set "nicename" .user_nicename }}
+        {{ $.Scratch.Set "url" .user_url }}
+        {{ $.Scratch.Set "photo" .photo }}
+        {{ $.Scratch.Set "descriptionen" .descriptionen }}
+    {{ end }}
+{{ end }}
 {{ partial "head.html" . }}
 
     {{ partial "header.html" . }}
@@ -35,19 +48,31 @@
                 <div class="col m12 l9 contenu">
                     <div>
                         {{ .Content }}
-                        <p class="categories">{{ if eq .Lang "fr" }}Mots-clés:{{ else if eq .Lang "en" }}Keywords:{{ end }} {{ range .Params.categories }} <a href="{{ $.Site.BaseURL }}categories/{{ . | urlize }}">{{.}}</a>/ {{end}}</p>
+                        <p class="categories">{{ if eq .Lang "fr" }}Mots-clés:{{ range .Params.categories }} <a href="{{ $.Site.BaseURL }}categories/{{ . | urlize }}">{{.}}</a>/ {{end}}{{ else if eq .Lang "en" }}Keywords:{{ range .Params.categories }} <a href="{{ $.Site.BaseURL }}en/categories/{{ . | urlize }}">{{.}}</a>/ {{end}}{{ end }}</p>
                         <div id="disqus_thread"></div>
                     </div>
                 </div>
                 <div class="col m12 l3 auteur">
-                    <img src="{{ .Site.BaseURL }}img/avatar/{{ $author.user_nicename }}/profile_podiatre.jpg" alt="{{ $author.user_nicename }}" class="responsive-img">
-                    <h5>{{ $author.display_name }}</h5>
-                    <p> {{ $author.description }}</p>
+                    {{ if $.Scratch.Get "photo"}}
+                        <img src='{{ .Site.BaseURL }}{{$.Scratch.Get "photo"}}' alt='{{ $.Scratch.Get "nicename" }}' class="responsive-img">
+                    {{ else }}
+                    <img src='{{ .Site.BaseURL }}img/avatar/{{ $.Scratch.Get "nicename" }}/profile_podiatre.jpg' alt='{{ $.Scratch.Get "nicename" }}' class="responsive-img">
+                    {{ end }}
+                    <h5>{{ $.Scratch.Get "display" }}</h5>
+                    {{ if eq .Lang "fr" }}
+                    <p>{{ $.Scratch.Get "description" }}</p>
+                    {{ else if eq .Lang "en" }}
+                        {{ if $.Scratch.Get "descriptionen"}}
+                        <p>{{ $.Scratch.Get "descriptionen" }}</p>
+                        {{ else }}
+                        <p>{{ $.Scratch.Get "description" }}</p>
+                        {{ end }}
+                    {{ end }}
                     <ul>
-                        <li> {{ $author.address }}</li>
-                        <li> {{ $author.city }}</li>
-                        <li> {{ $author.phone }}</li>
-                        <li><a href="{{ $author.user_url }}">{{ if eq .Lang "fr" }}Site web{{ else if eq .Lang "en" }}Website{{ end }}</a></li> 
+                        <li> {{ $.Scratch.Get "address" }}</li>
+                        <li> {{ $.Scratch.Get "city" }}</li>
+                        <li> {{ $.Scratch.Get "phone" }}</li>
+                        <li><a href='{{ $.Scratch.Get "url" }}'>{{ if eq .Lang "fr" }}Site web{{ else if eq .Lang "en" }}Website{{ end }}</a></li> 
                     </ul>
                 </div>
             </div>

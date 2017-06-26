@@ -13,24 +13,33 @@
 				      <div class="collapsible-body categories mobile box">
 				      	{{ $tags := $.Site.Taxonomies.categories.ByCount }}
 								<ul>
+								{{ if eq .Lang "fr" }}
 								{{ range $tags }}
 								<a href="{{ $.Site.BaseURL }}categories/{{ .Term | urlize }}"><li>{{ .Term }} <!-- ({{ .Count }}) --></li></a>
 								{{ end }}
-								</ul>
+								{{ else if eq .Lang "en" }}
+								{{ range $tags }}
+								<a href="{{ $.Site.BaseURL }}en/categories/{{ .Term | urlize }}"><li>{{ .Term }} <!-- ({{ .Count }}) --></li></a>
+								{{ end }}
+								{{ end }}								</ul>
 				      </div>
 				    </li>
 				  </ul>
 				</div>
 			{{ range where $.Site.Pages "Type" "post" }}
-				{{ $thisauthor := .Params.author }}
-				{{ $author := index $.Site.Data.authors.authors $thisauthor }}
+			{{ $thisauthor := .Params.author }}
+				{{ range $.Site.Data.authors.authors }}
+			    {{ if eq .user_nicename $thisauthor}}
+			        {{ $.Scratch.Set "display" .display_name }}
+			    {{ end }}
+				{{ end }}
 				<div class="col s12 article box">
 					<a href="{{ .Permalink }}"><img src="{{ .Site.BaseURL }}{{ .Params.blog_img }}" alt="{{ .Params.titre }}" class="responsive-img"></a>
 					<div class="resume">
 						<a href="{{ .Permalink }}" class="titre">{{ .Params.titre }}</a>
-						<p class="meta">{{ if eq .Lang "fr" }}par {{ else if eq .Lang "en" }}by {{ end }}<span class="auteur">{{ $author.display_name }}</span>| {{ .Date.Format "02/01/2006"  }}</p>
+						<p class="meta">{{ if eq .Lang "fr" }}par {{ else if eq .Lang "en" }}by {{ end }}<span class="auteur">{{ $.Scratch.Get "display" }}</span>| {{ .Date.Format "02/01/2006"  }}</p>
 						<p class="summary">{{ .Summary }}</br>...</p>
-						<p class="categories">{{ if eq .Lang "fr" }}Mots-clés:{{ else if eq .Lang "en" }}Keywords:{{ end }}{{ range .Params.categories }} <a href="{{ $.Site.BaseURL }}categories/{{ . | urlize }}">{{.}}</a>/ {{end}}</p>
+						<p class="categories">{{ if eq .Lang "fr" }}Mots-clés:{{ range .Params.categories }} <a href="{{ $.Site.BaseURL }}categories/{{ . | urlize }}">{{.}}</a>/ {{end}}{{ else if eq .Lang "en" }}Keywords:{{ range .Params.categories }} <a href="{{ $.Site.BaseURL }}en/categories/{{ . | urlize }}">{{.}}</a>/ {{end}}{{ end }}</p>
 					</div>
 					<div class="info">
 						<div class="comments valign-wrapper">
@@ -60,16 +69,22 @@
 					  <div id="SignUp">
 					    <!--<input type="text" name="fields_fname" placeholder="*Nom:" required>
 					    <input type="text" name="fields_lname" placeholder="prénom:">-->
+					    {{ if eq .Lang "fr" }}
 					    <input id="news-email" type="email" name="fields_email" placeholder="Courriel" required>
-
+							{{ else if eq .Lang "en" }}
+							<input id="news-email" type="email" name="fields_email" placeholder="Email" required>
+							{{ end }}
 					    <input type="hidden" name="listid" value="17836">
 					    <input type="hidden" name="specialid:17836" value="RCDM">
 					    <input type="hidden" name="clientid" value="1523569">
 					    <input type="hidden" name="formid" value="1006">
 					    <input type="hidden" name="reallistid" value="1">
 					    <input type="hidden" name="doubleopt" value="0">
-
+							{{ if eq .Lang "fr" }}
 					    <input type="submit" name="Submit" value="S'abonner" class="btn">
+							{{ else if eq .Lang "en" }}
+							<input type="submit" name="Submit" value="Subscribe" class="btn">
+							{{ end }}
 					  </div>
 					</form>
 
@@ -88,15 +103,27 @@
 					</script>
         </div>
 			</div>
-			<h5>{{ if eq .Lang "fr" }}Catégories {{ else if eq .Lang "en" }}Categories {{ end }}</h5>
+			{{ if eq .Lang "fr" }}
+			<h5>Catégories</h5>
 			<div class="categories box">
-				{{ $tags := $.Site.Taxonomies.categories.ByCount }}
+				{{ $tags := .Site.Taxonomies.categories.ByCount }}
 				<ul>
 				{{ range $tags }}
 				<a href="{{ $.Site.BaseURL }}categories/{{ .Term | urlize }}"><li>{{ .Term }} <!-- ({{ .Count }}) --></li></a>
 				{{ end }}
 				</ul>
 			</div>
+			{{ else if eq .Lang "en" }}
+			<h5>Categories</h5>
+			<div class="categories box">
+				{{ $tags := .Site.Taxonomies.categories.ByCount }}
+				<ul>
+				{{ range $tags }}
+				<a href="{{ $.Site.BaseURL }}en/categories/{{ .Term | urlize }}"><li>{{ .Term }} <!-- ({{ .Count }}) --></li></a>
+				{{ end }}
+				</ul>
+			</div>
+			{{ end }}
 		</div>
 	</div>
 	
