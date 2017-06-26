@@ -1,27 +1,29 @@
 ---
-author: frederic
-blog_img: img/posts/analyse-3d-morphologie-des-pieds.jpg
-categories:
-- Orthèses plantaires
-- Pieds plats
-date: 2017-04-23
-description: Découvrez les différentes façons d’analyser la morphologie de vos pieds
-  afin de vous procurer des orthèses plantaires sur mesure.
-short_desc: Les orthèses sur mesure sont fabriquées à partir d’une empreinte des pieds.
-  Cette dernière doit être précise pour atteindre les résultats visés par le traitement.
-  Bien qu’il existe diverses techniques de prise d’empreintes, certaines s’avèrent
-  plus efficaces et augmentent la qualité des orthèses.
-slug: lanalyse-du-pied-2d-et-3d-les-differences-a-savoir/
-title: Analyse 2D-3D | Morphologie des pieds - Cryos Technologies
 titre: Analyse 2D-3D | Morphologie des pieds
-type: post
+title: Analyse 2D-3D | Morphologie des pieds - Cryos Technologies
+description: >-
+  Découvrez les différentes façons d’analyser la morphologie de vos pieds afin
+  de vous procurer des orthèses plantaires sur mesure.
+slug: lanalyse-du-pied-2d-et-3d-les-differences-a-savoir/
 identifiant: 20-analyse2d
+short_desc: >-
+  Les orthèses sur mesure sont fabriquées à partir d’une empreinte des pieds.
+  Cette dernière doit être précise pour atteindre les résultats visés par le
+  traitement. Bien qu’il existe diverses techniques de prise d’empreintes,
+  certaines s’avèrent plus efficaces et augmentent la qualité des orthèses.
+author: frederic
+date: 2017-04-23T00:00:00.000Z
+blog_img: img/posts/analyse-3d-morphologie-des-pieds.jpg
+type: post
+categories:
+  - Orthèses plantaires
+  - Pieds plats
+i18nlanguage: fr
 isfront: true
 orthese_pro: false
-orthese_patients: false
+orthese_patients: true
 cryovizion_pro: true
 cryovizion_patients: true
-i18nlanguage: fr
 ---
 
 <p style="font-size: 18px;">Les orthèses sur mesure sont fabriquées à partir d’une empreinte des pieds. Cette dernière doit être précise pour atteindre les résultats visés par le traitement. Bien qu’il existe diverses techniques de prise d’empreintes, certaines s’avèrent plus efficaces et augmentent la qualité des orthèses. Découvrez l’avis d’un podiatre sur les empreintes 2D et celles 3D.</p>
@@ -45,3 +47,4 @@ i18nlanguage: fr
 <h3 style="color: #800080;">Un incontournable à considérer avant l’achat d’orthèses plantaires.</h3>
 <p>Les orthèses plantaires sur mesure sont un traitement personnalisé qui évolue au fil du temps. Cette dernière se démarque sur le marché par son mouvement de flexion-extention, son confort, sa taille et sa polyvalence. Puisqu’elle s’harmonise aux pieds sans limiter leurs mouvements, l’orthèse dynamique Cryos est qualifiée comme la plus adaptative sur le marché. Cet avantage est possible grâce à la prise d’empreintes tridimensionnelles et à la technique en semi-charge qui procurent une précision supérieure de la morphologie des pieds.</p>
 <p>Le choix du podiatre est tout aussi important, puisqu’il a pour rôle de guider adéquatement ses patients vers la meilleure solution remédiant à leurs maux. Avant d’opter pour des orthèses, il faut sélectionner le bon professionnel qui répondra à vos questions et à vos attentes. Vous serez en mesure de mieux comprendre les avantages des orthèses et l’évolution de votre traitement à court ou à long terme.</p>
+
