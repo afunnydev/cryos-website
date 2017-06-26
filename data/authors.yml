@@ -1,5 +1,6 @@
 authors:
   - address: 86 Prom Du Portage
+    arnaud: null
     city: 'Gatineau, Québec, J8X 2K1'
     description: >-
       Annie Jean, DPM, a complété ses études en Sciences biopharmaceutiques à
@@ -15,7 +16,6 @@ authors:
     user_email: anniejean81@hotmail.com
     user_nicename: annie-jean
     user_url: 'http://www.cpoutaouais.com/'
-    arnaud:
   - address: '650 Boulevard du Fort St Louis,'
     city: 'Boucherville, QC J4B 1S9'
     description: >-
@@ -35,6 +35,23 @@ authors:
       utilisé dans le domaine médical, celui-ci permettant de pouvoir émettre
       une identification précise de la problématique et de faire, au besoin, des
       injections ciblées.
+    descriptionen: >-
+      Originally from Boucherville, Dr. Arnaud Vouligny, a Doctor of Podiatric
+      Medicine (DPM), has been a member of l’Ordre des podiatres du Québec since
+      2012. He holds an undergraduate degree in Podiatric Medicine from
+      l’Université du Québec à Trois- Rivières, having completed this four-year
+      university program. He also completed a four-month internship at the New
+      York College of Podiatric Medicine in New York. Committed to always
+      providing the best care for his patients, he continues to expand on his
+      knowledge through ongoing educational and training activities. He has also
+      taken a specialty course in foot mobility, namely, Foot Mobilization
+      Technique Level 1, and the Active Release Technique course for muscle and
+      ligament treatment. Dr. Vouligny, DPM, also completed the Echo-Guided
+      Ultrasound/Infiltration course which permits him to use ultrasound devices
+      for diagnostic purposes. This is a powerful tool that is increasingly
+      being used in the field of medicine. It enables the precise identification
+      and location of certain problems and allows for very targeted injections,
+      if necessary.
     display_name: Arnaud Vouligny
     phone: (450) 906-3939
     user_email: temp@cms54.ca
@@ -69,6 +86,15 @@ authors:
       Boisclair, DPM continue de parfaire ses connaissances en participant à de
       nombreuses formations. Elle pratique maintenant dans la région de Québec
       et à Rimouski.
+    descriptionen: >-
+      A native of Trois-Rivières, Dr. Charlène Boisclair, DPM always knew that
+      she wanted to work with people. And that’s the reason she decided to
+      pursue her studies in podiatric medicine. After completing a four-month
+      internship at the New York College of Podiatric Medicine, she graduated
+      from l'Université du Québec à Trois-Rivières in June 2013. She is a member
+      of l’Ordre des podiatres du Québec, and continues to expand on her
+      knowledge by participating in numerous training and educational
+      activities. She practices in both the Quebec City area, and Rimouski.
     display_name: Charlène Boisclair
     phone: (418) 622-0732
     user_email: charleneboisclair@gmail.com
@@ -150,6 +176,20 @@ authors:
       s'implique aussi auprès des jeunes de sa communauté en tant
       qu'assistant-entraineur de soccer et en tant qu'entraineur de hockey à
       Candiac.
+    descriptionen: >-
+      Graduating from the College of Podiatric Medicine in Philadelphia in 1996,
+      Dr. Frédéric Gremillet, DPM, is passionate about foot health. Since 2003,
+      he has conducted research and development work on posture, as well as the
+      technological innovations in materials, design, and leading edge
+      manufacturing processes for the improvement of orthotic devices. He is
+      highly attentive to the development and future of his profession, and
+      mentors and trains students from l’Université du Québec à Trois-Rivières
+      during their Podiatric Medicine internship. He is also a contributor to
+      biomechanical training at the Chiropody program at the Michener Institute
+      in Toronto. A great athlete in his own right, he has a particular interest
+      in the proper posture and performance of athletes and has studied and
+      trained on the assessment and analysis of runners. His community
+      involvement includes coaching youth soccer and hockey in Candiac. 
     display_name: 'Frédéric Gremillet, DPM'
     phone: 450-659-9011
     user_email: info@gremilletpodiatres.com
@@ -274,6 +314,22 @@ authors:
       lieu partout dans la province à tous les ans. Fière du développement de la
       profession de podiatre au Québec, elle accueille des stagiaires en
       podiatrie qui complètent leur formation.
+    descriptionen: >-
+      Inspired by her father's career, Dr. Lynda Cormier, DPM, began her career
+      in 1984 as a podiatry assistant in Montreal. In 1986, she graduated as a
+      Chiropodist from the "SMAE INSTITUTE" in England. In 1992, she earned her
+      Doctor of Podiatric Medicine degree from the New York College of Podiatric
+      Medicine in the United States, following which she became a member of
+      l'Ordre des podiatres du Québec (OPQ). While practicing, she has completed
+      courses and training in biomechanics and ambulatory surgery for the feet,
+      and in 2003, she was awarded the "Fellowship of the Academy of Ambulatory
+      Foot and Ankle Surgery". That same year, she contributed to the Paralympic
+      Games by providing knowledge and services at the athletes' foot clinic.
+      Since 2006, and a as part of the organization, she has been the Director
+      of “Fit Feet Quebec.” Every year, the games are held throughout the
+      province of Quebec. A proud supporter of the development of the foot
+      doctor’s profession in Quebec, she enthusiastically takes on interns to
+      help with the completion of their training.
     display_name: 'Lynda Cormier, DPM'
     phone: 819-205-7433
     user_email: lcormier.cpo@videotron.ca
@@ -364,6 +420,17 @@ authors:
       demi-marathons, marathons et Ironman 70.3 au Mont-Tremblant 2014 et se
       fera un plaisir de vous faire bénéficier de la grande expertise développée
       dans le domaine.
+    descriptionen: >-
+      In 1996, Dr. Philippe Legaré graduated from Pennsylvania College of
+      Podiatric Medicine (Temple University) as a DPM, following which he opened
+      his clinic in Trois-Rivières. Passionate about his profession, Dr. Legaré
+      is continually educating and improving himself through specialized
+      training in manual therapies that include posturology, biomechanical
+      improvement, and running gait analysis. Finally, Dr. Legaré is passionate
+      about everything that involves running and has participated in several
+      half marathons and marathons as well as the 2014 Ironman 70.3 at
+      Mont-Tremblant. It would be a pleasure for him to share with you the vast
+      knowledge and expertise he’s developed in the field.
     display_name: 'Philippe Legaré, DPM'
     phone: (819) 693-9393
     user_email: plegare@cryos.com
