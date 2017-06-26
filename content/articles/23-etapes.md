@@ -13,7 +13,7 @@ type: post
 categories:
   - Orthèses plantaires
 i18nlanguage: fr
-isfront: true
+isfront: false
 orthese_pro: false
 orthese_patients: false
 cryovizion_pro: false
@@ -57,3 +57,4 @@ Si le port d’orthèses plantaires est le traitement indiqué, le podiatre fera
 
 <h3 style="color: #800080;">Les rencontres de suivis des orthèses plantaires.</h3>
 Une première rencontre de suivi est prévue dans les semaines suivant la remise des orthèses plantaires. L’objectif est de vérifier l’évolution de la cause initiale et de valider la progression du traitement visant à remédier aux douleurs plantaires ou à l’amélioration de la posture. Le podiatre s’assure du confort des orthèses plantaires durant cette période d’adaptation. Si des modifications doivent être faites, le podiatre effectuera les ajustements adéquats. Par la suite, un suivi annuel est recommandé pour les adultes tandis que les enfants doivent préférablement consulter le podiatre tous les 6 mois.
+
