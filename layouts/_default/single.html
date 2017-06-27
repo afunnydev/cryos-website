@@ -48,7 +48,7 @@
                 <div class="col m12 l9 contenu">
                     <div>
                         {{ .Content }}
-                        <p class="categories">{{ if eq .Lang "fr" }}Mots-clés:{{ range .Params.categories }} <a href="{{ $.Site.BaseURL }}categories/{{ . | urlize }}">{{.}}</a>/ {{end}}{{ else if eq .Lang "en" }}Keywords:{{ range .Params.categories }} <a href="{{ $.Site.BaseURL }}en/categories/{{ . | urlize }}">{{.}}</a>/ {{end}}{{ end }}</p>
+                        <p class="categories">{{ if eq .Lang "fr" }}Mots-clés:{{ range $i, $e := .Params.categories }}{{ if $i }}/{{ end }} <a href="{{ $.Site.BaseURL }}categories/{{ $e | urlize }}">{{$e}}</a>/ {{end}}{{ else if eq .Lang "en" }}Keywords:{{ range $i, $e := .Params.categories }}{{ if $i }}/{{ end }} <a href="{{ $.Site.BaseURL }}en/categories/{{ $e | urlize }}">{{$e}}</a>/ {{end}}{{ end }}</p>
                         <div id="disqus_thread"></div>
                     </div>
                 </div>

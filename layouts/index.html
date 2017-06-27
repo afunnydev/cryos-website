@@ -123,6 +123,35 @@
 			</div>
 		</div>
 	</div>
+{{ else if eq .Lang "en" }}
+	<div id="nouvelles">
+		<div class="container">
+			<h2>news</h2>
+			<div class="owl-carousel owl-theme" id="nouvelles-carousel">
+				<!-- check if isfront is true in the .md -->
+			  {{ range where .Site.Pages ".Params.isfront" true }}
+			  	<a href="{{ .Permalink }}">
+			  		<div class="nouvelles-img">
+					  	<img src="{{.Site.BaseURL}}{{ .Params.blog_img}}" alt="{{ .Title }}">
+					  	<div class="blue-hover hide-on-small-only">
+					  		<!-- <i class="fa fa-facebook"></i>
+					  		<i class="fa fa-thumbs-o-up"></i>
+					  		<i class="fa fa-comments"></i> -->
+					  	</div>
+					  	<h6 class="hide-on-small-only">{{ .Params.titre }}</h6>
+					  	<p class="summary hide-on-small-only">{{ .Summary }}</p>
+					  	<!-- The short one is showing only between 600px and 820px because summary too big -->
+					  	<p class="short">{{ .Params.short_desc }}</p>
+				  	</div>
+				  	<div class="hide-on-med-and-up mobile-text">
+				  		<h6>{{ .Params.titre }}</h6>
+					  	<p class="summary">{{ .Summary }}</p>
+				  	</div>
+					</a>
+			  {{ end }}
+			</div>
+		</div>
+	</div>
 {{ end }}
 	<!-- End-Nouvelles -->
 	<!-- Partenaires -->

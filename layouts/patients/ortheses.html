@@ -163,6 +163,27 @@
         </div>
     </div>
 </div>
+{{ else if eq .Lang "en" }}
+<div class="had-container" id="news">
+    <div class="container">
+        <div class="row">
+            <div class="col s12">
+                <h1 class="orange-bar">Articles</h1>
+                <div class="owl-carousel owl-theme" id="news-carousel">
+                    <!-- check if orthese_patients is true in the .md -->
+                    {{ range where .Site.Pages ".Params.orthese_patients" true }}
+                    <div class="card small item">
+                        <div class="card-img"><a href="{{ .Permalink }}"><img src="{{.Site.BaseURL}}{{ .Params.blog_img}}" alt="{{ .Params.titre }}"></a></div>
+                        <a href="{{ .Permalink }}"><div class="card-title">{{ .Params.titre }}</div></a>
+                        <div class="card-txt"><a href="{{ .Permalink }}">{{ .Summary }}</a></div>
+                        <div class="card-link"><a href="{{ .Permalink }}">See full article ></a></div>
+                    </div>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 {{ end }}
 
 <div class="had-container" id="clients_satisfaits">
