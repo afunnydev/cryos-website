@@ -118,7 +118,6 @@ collections:
       - {label: "Auteur", name: "author", widget: "string"}
       - {label: "Date de publication", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
       - {label: "Image", name: "blog_img", widget: "image"}
-      - {label: "Texte", name: "body", widget: "markdown"}
       - {label: "Type", name: "type", widget: "hidden", default: "post"}
       - {label: "Catégories", name: "categories", widget: "list"}
       - {label: "Langue", name: "i18nlanguage", widget: "hidden", default: "fr"}
@@ -127,6 +126,8 @@ collections:
       - {label: "Voir sur la page Orthèses Patients", name: "orthese_patients", widget: "boolean", required: false, default: false}
       - {label: "Voir sur la page Cryovizion Professionels", name: "cryovizion_pro", widget: "boolean", required: false, default: false}
       - {label: "Voir sur la page Cryovizion Patients", name: "cryovizion_patients", widget: "boolean", required: false, default: false}
+      - {label: "Texte", name: "body", widget: "markdown"}
+      
   
   - name: "articlesen" # Used in routes, e.g. /admin/collections/blog
     label: "Articles-EN" # Used in the UI
@@ -146,7 +147,6 @@ collections:
       - {label: "Auteur", name: "author", widget: "string"}
       - {label: "Date de publication", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
       - {label: "Image", name: "blog_img", widget: "image"}
-      - {label: "Texte", name: "body", widget: "markdown"}
       - {label: "Type", name: "type", widget: "hidden", default: "post"}
       - {label: "Catégories", name: "categories", widget: "list"}
       - {label: "Langue", name: "i18nlanguage", widget: "hidden", default: "en"}
@@ -155,8 +155,8 @@ collections:
       - {label: "Voir sur la page Orthèses Patients", name: "orthese_patients", widget: "boolean", required: false, default: false}
       - {label: "Voir sur la page Cryovizion Professionels", name: "cryovizion_pro", widget: "boolean", required: false, default: false}
       - {label: "Voir sur la page Cryovizion Patients", name: "cryovizion_patients", widget: "boolean", required: false, default: false}
+      - {label: "Texte", name: "body", widget: "markdown"}
         
-
   - name: "cliniques-fr" # Used in routes, e.g. /admin/collections/blog
     label: "Cliniques FR" # Used in the UI
     folder: "content/location" # The path to the folder where the documents are stored

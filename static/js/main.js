@@ -77,13 +77,13 @@ jQuery(document).ready(function ($) {
     navText: ['<img src="/img/fleche-gauche.png" alt="" />', '<img src="/img/fleche-droite.png" alt="" />']
   });
   if (Modernizr.mq('only all and (max-width: 600px)')) {}
-  else if (Modernizr.mq('only all and (min-width: 601px) and (max-width: 992px)')) {
-    $('.year').each(function () {
-      var h = $(this).parent().find(".list").height();
-      $(this).css('height', h);
-      $(this).find('span').css('margin-top', h / 2 - $(this).find('span').height());
-    });
-  }
+  // else if (Modernizr.mq('only all and (min-width: 601px) and (max-width: 992px)')) {
+  //   $('.year').each(function () {
+  //     var h = $(this).parent().find(".list").height();
+  //     $(this).css('height', h);
+  //     $(this).find('span').css('margin-top', h / 2 - $(this).find('span').height());
+  //   });
+  // }
   else {
     $('.year').each(function () {
       var h = $(this).parent().find(".list").height();
