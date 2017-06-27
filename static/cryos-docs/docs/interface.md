@@ -28,7 +28,7 @@ Ouverte par le menu, elle contient les onglets pour modifier et créer les élé
 
 #### L'onglet "Settings"
 
-C'est dans cet ongle que vous pourrez modifier les Auteurs, les Membres de l'équipe, les Témoignages et les Partenaires
+C'est dans cet onglet que vous pourrez modifier les Auteurs, les Membres de l'équipe, les Témoignages et les Partenaires
 
 ### Partie principale (avec fond blanc)
 

@@ -7,7 +7,9 @@
 Pour que tout le monde soit sur la même longueur d'onde, voici quelques termes utilisés tout au long de ce document:
 
 - *CMS* : Système de gestion de contenu, comme par exemple Wordpress. C'est tout le rouage qui permet de modifier le contenu de site web au travers un tableau de bord.
-- *Carousel* : Élément du site présentant une collection d'élément de manière dynamique. On en retrouve pour présenter les articles, les membres de l'équipe et les partenaires
+- *Caroussel* : Élément du site présentant une collection d'élément de manière dynamique. On en retrouve pour présenter les articles, les membres de l'équipe et les partenaires
+- *Switch vrai/faux* : Voici un exemple de switch active ![switch](docs/switch.png) et non-active ![switch-non](docs/switch-non.png)
+- *build* : Terme utilisé pour représenter l'action de Netlify quand il prend les données que vous lui soumettez et il bâti la nouvelle version de votre site
 
 ## Qu'est-ce qu'un site statique? 
 
@@ -41,8 +43,8 @@ Tout au long de votre aventure dans le CMS, vous croiserez souvent le champ "ide
 - Deux articles différents **ne doivent pas** avoir le même identifiant.
 - La version française d'un article et la version anglaise d'un article **ont le même identifiant**.
 
-Je vais élaborer sur ce sujet dans la section [Modification]
+Je vais élaborer sur ce sujet dans la section Modification
 
 ### Flow de travail
 
-J'utilise une fonctionnalité qui permet de travailler sur des changements avant de les mettre officiellement en ligne. Vous verrez que lorsque vous cliquer sur "Save" sur une page que vous avez modifié, cette modification est envoyée dans le champ "Draft" (Brouillon). Une fois satisfait, si vous voulez que quelqu'un d'autre l'approuve, vous pouvez le déplacer dans "Review" (Révision). Une fois prêt, vous pouvez le déplacer dans "Publish". **Vous devez absolument cliquer sur "Publish Now" pour chaque élément que vous voulez publier.**
+J'utilise une fonctionnalité qui permet de travailler sur des changements avant de les mettre officiellement en ligne. Vous verrez que lorsque vous cliquer sur "Save" sur une page que vous avez modifié, cette modification est envoyée dans le champ "Draft" (Brouillon). Une fois satisfait, si vous voulez que quelqu'un d'autre l'approuve, vous pouvez le déplacer dans "Waiting for Review" (Révision). Une fois prêt, vous pouvez le déplacer dans "Waiting to go live". **Vous devez absolument cliquer sur "Publish Now" pour chaque élément que vous voulez publier.**

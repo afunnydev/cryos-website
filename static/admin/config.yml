@@ -94,8 +94,8 @@ collections:
               - {label: "Adresse (rue)", name: "address", widget: "string", default: "999 rue de l'Example"}
               - {label: "Ville, Province et code postal", name: "city", widget: "string", default: "Montréal, QC, X0X 0X0"}
               - {label: "Description - FR", name: "description", widget: "text"}
-              - {label: "Description - EN", name: "descriptionen", widget: "text"}
-              - {label: "Image", name: "photo", widget: "image"}
+              - {label: "Description - EN", name: "descriptionen", widget: "text", required: false}
+              - {label: "Image", name: "photo", widget: "image", required: false}
               - {label: "Numéro de téléphone", name: "phone", widget: "string"}
               - {label: "Courriel", name: "user_email", widget: "string"}
               - {label: "Site internet", name: "user_url", widget: "string", pattern: ["^https?", "N'oubliez pas le http:// ou https://"]}
@@ -166,9 +166,9 @@ collections:
       field: "i18nlanguage"
       value: "fr"
     fields: # The fields for each document, usually in front matter
-      - {label: "Nom de la clinique (identique dans les deux langues)", name: "nomclinique", widget: "string"}
+      - {label: "Nom de la clinique", name: "nomclinique", widget: "string"}
       - {label: "Adresse", name: "address", widget: "string", default: "Numéro et nom de rue"}
-      - {label: "Ville et province", name: "ville", widget: "string", default: "Montréal, Québec, H2R 2R5"}
+      - {label: "Ville, province et code postal", name: "ville", widget: "string", default: "Montréal, Québec, H2R 2R5"}
       - {label: "Pays", name: "pays", widget: "string", default: "Canada"}
       - {label: "Latitude", name: "latitude", widget: "number"}
       - {label: "Longitude", name: "longitude", widget: "number"}
@@ -188,7 +188,7 @@ collections:
     fields: # The fields for each document, usually in front matter
       - {label: "Nom de la clinique", name: "nomclinique", widget: "string"}
       - {label: "Adresse", name: "address", widget: "string", default: "Numéro et nom de rue"}
-      - {label: "Ville et province", name: "ville", widget: "string", default: "Montréal, Québec, H2R 2R5"}
+      - {label: "Ville, province et code postal", name: "ville", widget: "string", default: "Montréal, Québec, H2R 2R5"}
       - {label: "Pays", name: "pays", widget: "string", default: "Canada"}
       - {label: "Latitude", name: "latitude", widget: "number"}
       - {label: "Longitude", name: "longitude", widget: "number"}
