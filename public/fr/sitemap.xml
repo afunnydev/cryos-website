@@ -40,11 +40,31 @@
   <url>
     <loc>http://systems-analyst-elephant-50207.netlify.com/comment-soigner-une-tendinite-au-tendon-dachille/</loc>
     <lastmod>2017-05-02T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://systems-analyst-elephant-50207.netlify.com/en/how-to-treat-achilles-tendinitis/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://systems-analyst-elephant-50207.netlify.com/comment-soigner-une-tendinite-au-tendon-dachille/"
+                />
   </url>
   
   <url>
     <loc>http://systems-analyst-elephant-50207.netlify.com/lefficacite-de-lanalyse-posturale-en-cas-de-douleurs-physiques/</loc>
     <lastmod>2017-04-29T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://systems-analyst-elephant-50207.netlify.com/en/postural-evaluation-by-imaging/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://systems-analyst-elephant-50207.netlify.com/lefficacite-de-lanalyse-posturale-en-cas-de-douleurs-physiques/"
+                />
   </url>
   
   <url>
@@ -855,6 +875,16 @@
     <loc>http://systems-analyst-elephant-50207.netlify.com/categories/posture/</loc>
     <lastmod>2017-04-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://systems-analyst-elephant-50207.netlify.com/en/categories/posture/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://systems-analyst-elephant-50207.netlify.com/categories/posture/"
+                />
   </url>
   
   <url>

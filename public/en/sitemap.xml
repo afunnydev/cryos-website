@@ -38,6 +38,36 @@
   </url>
   
   <url>
+    <loc>http://systems-analyst-elephant-50207.netlify.com/en/how-to-treat-achilles-tendinitis/</loc>
+    <lastmod>2017-05-02T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://systems-analyst-elephant-50207.netlify.com/comment-soigner-une-tendinite-au-tendon-dachille/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://systems-analyst-elephant-50207.netlify.com/en/how-to-treat-achilles-tendinitis/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://systems-analyst-elephant-50207.netlify.com/en/postural-evaluation-by-imaging/</loc>
+    <lastmod>2017-04-29T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://systems-analyst-elephant-50207.netlify.com/lefficacite-de-lanalyse-posturale-en-cas-de-douleurs-physiques/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://systems-analyst-elephant-50207.netlify.com/en/postural-evaluation-by-imaging/"
+                />
+  </url>
+  
+  <url>
     <loc>http://systems-analyst-elephant-50207.netlify.com/en/location/centre-podiatrique-lambert-2/</loc>
     <xhtml:link
                 rel="alternate"
@@ -530,7 +560,14 @@
   </url>
   
   <url>
+    <loc>http://systems-analyst-elephant-50207.netlify.com/en/categories/biomechanical/</loc>
+    <lastmod>2017-04-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://systems-analyst-elephant-50207.netlify.com/en/categories/</loc>
+    <lastmod>2017-04-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -657,6 +694,12 @@
   </url>
   
   <url>
+    <loc>http://systems-analyst-elephant-50207.netlify.com/en/categories/injuries/</loc>
+    <lastmod>2017-05-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://systems-analyst-elephant-50207.netlify.com/en/location/</loc>
     <priority>0</priority>
     <xhtml:link
@@ -669,6 +712,12 @@
                 hreflang="en"
                 href="http://systems-analyst-elephant-50207.netlify.com/en/location/"
                 />
+  </url>
+  
+  <url>
+    <loc>http://systems-analyst-elephant-50207.netlify.com/en/categories/pain/</loc>
+    <lastmod>2017-05-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -687,8 +736,30 @@
   </url>
   
   <url>
+    <loc>http://systems-analyst-elephant-50207.netlify.com/en/categories/posture/</loc>
+    <lastmod>2017-04-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://systems-analyst-elephant-50207.netlify.com/categories/posture/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://systems-analyst-elephant-50207.netlify.com/en/categories/posture/"
+                />
+  </url>
+  
+  <url>
     <loc>http://systems-analyst-elephant-50207.netlify.com/en/professionals/</loc>
     <lastmod>2017-05-09T12:50:31-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://systems-analyst-elephant-50207.netlify.com/en/categories/sporting-injuries/</loc>
+    <lastmod>2017-04-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
