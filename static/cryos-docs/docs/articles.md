@@ -55,7 +55,7 @@ Exemple de nom de fichier: 04-example-article.jpg, soigne-vos-pieds.jpg, les-pod
 *Mauvais exemple de nom de fichier*: soigné vos pieds.jpg, cryospôdiatrie.jpg
 ```
 
-- *Catégories* : C'est ici que vous entrerez les noms des catégories utilisées. **Vous devez être constants dans le nom des catégories** pour qu'Hugo fasse le lien entre les articles. S'il y a plusieurs articles, vous devez les séparer d'une virgule et d'un espace. Vous pouvez entrer un nombre illimité de catégories. Vous n'avez qu'à jeter un coup d'oeil à la page blog pour voir la liste des catégories actives et apporter les corrections nécessaires si une erreur s'est glissée.
+- *Catégories* : C'est ici que vous entrerez les noms des catégories utilisées. **Vous devez être constants dans le nom des catégories** pour qu'Hugo fasse le lien entre les articles. S'il y a plusieurs articles, vous devez les séparer d'une virgule et d'un espace. Vous pouvez entrer un nombre illimité de catégories. Vous n'avez qu'à jeter un coup d'oeil à la page blogue pour voir la liste des catégories actives et apporter les corrections nécessaires si une erreur s'est glissée.
 
 ```hint|directive
 Voici un example si vous avez 4 catégories: Biomécanique, Blessures sportives, Orthèses plantaires, Posture
@@ -131,4 +131,4 @@ Cette portion est encore en construction, ne vous y fiez pas pour le moment, pui
 
 ## Modification
 
-Pour modifier un article, tous les champs sont identiques que ceux de la création. **Ne modifiez jamais un identifiant ou bien le lien de l'article**. La personne en charge de votre référencement vous taperais sur les doigts. Il faut comprendre que Google indexe les liens de votre site et que si vous changez le lien, les gens ne pourront pu y accéder par Google tant que Google ne sera pas passer à nouveau sur votre site, ce qui peut être long, il a autre chose à faire ;) Si vous devez vraiment changer un lien, faites-moi signe!
+Pour modifier un article, tous les champs sont identiques que ceux de la création. **Ne modifiez jamais un identifiant ou bien le lien de l'article**. La personne en charge de votre référencement vous taperait sur les doigts. Il faut comprendre que Google indexe les liens de votre site et que si vous changez le lien, les gens ne pourront pu y accéder par Google tant que Google ne sera pas passer à nouveau sur votre site, ce qui peut être long, il a autre chose à faire ;) Si vous devez vraiment changer un lien, faites-moi signe!

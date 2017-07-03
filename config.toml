@@ -7,7 +7,7 @@ preserveTaxonomyNames = true
 RemovePathAccents = true
 
 [permalinks]
-  	articles= "/:slug/"
+  	articles = "/:slug/"
 
 [taxonomies]
   	tag = "tags"
