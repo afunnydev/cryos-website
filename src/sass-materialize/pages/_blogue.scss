@@ -152,7 +152,7 @@
 }
 
 #article {
-	h2 {
+	h1 {
 		color: black;
 		font-size: 2rem;
 		font-weight: 800;
@@ -204,6 +204,7 @@
 		color: $dgrey;
 		margin-top: 30px;
 	}
+	h2,
 	h3,
 	h4 {
 		font-size: 1rem;
@@ -239,7 +240,7 @@
 					color: $rpurple;
 				}
 			}
-			h4 {
+			h2, h4 {
 				color:$rpurple;
 			}
 			ul {

@@ -19,7 +19,7 @@ Voici un fichier qui va grandement vous aider à vous retrouver. C'est surtout l
 - Après chaque symbole Markdown, vous devez mettre un espace pour que le système fasse la distinction entre le texte et l'organisation
 
 ```hint|warning
-*####Qu'est-ce que la podiatrie?* ne fonctionne pas :) Vous devez utiliser *\#\#\#\# Qu'est-ce que la podiatrie*
+*##Qu'est-ce que la podiatrie?* ne fonctionne pas :) Vous devez utiliser *\#\# Qu'est-ce que la podiatrie*
 ```
 
 - Espacer bien votre texte et vos titres avec des sauts de ligne
@@ -30,7 +30,7 @@ Voici un fichier qui va grandement vous aider à vous retrouver. C'est surtout l
 
 Voici les choses à savoir qui vous seront utiles:
 
-- Toutes les questions/sous-titres devraient être précédées de \#\#\#\# (avec un espace entre après le dernier \#), car elle sont des <h4>. La couleur ainsi que les majuscules seront appliquées **automatiquement** une fois rendu sur votre site, donc vous devriez écrire ces titres en **minuscules**
+- Toutes les questions/sous-titres devraient être précédées de \#\# (avec un espace entre après le dernier \#), car elle sont des <h2>. La couleur ainsi que les majuscules seront appliquées **automatiquement** une fois rendu sur votre site, donc vous devriez écrire ces titres en **minuscules**
 - J'ai mis tous les premiers paragraphes d'introduction en italique
 - Pour mettre en emphase des éléments avec style, vous pouvez ajouter un \> au début de la ligne. Voici un exemple:
 
