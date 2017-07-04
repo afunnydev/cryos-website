@@ -43,7 +43,7 @@ http://www.google.com ou https://www.facebook.com sont des bons exemples.
 cryos.com ou www.cliniquepodiatrique.com ne sont pas des bons exemples.
 ```
 
-- *Identifiant* : Nous en avons discuté dans l'introduction. C'est l'identifiant unique de cette clinique, qui doit être le même dans **toutes les langues traduites**. Il peut contenir seulement des chiffes, lettres et tirets, mais peut être aussi long que vous voulez. Il sera aussi utiliser comme lien sur votre site, alors ne faites pas de folie :) Ex: clinique-des-chutes
+- *Identifiant* : Nous en avons discuté dans l'introduction. C'est l'identifiant unique de cette clinique, qui doit être le même dans **toutes les langues traduites**. Il peut contenir seulement des chiffes, lettres et tirets, mais peut être aussi long que vous voulez. Il sera aussi utiliser comme lien sur votre site, alors ne faites pas de folie :) Lorsque vous commencerez à taper votre identifiant, une recherche se fera automatiquement parmi les identifiants existants. Si vous créez une nouvelle clinique, assurez-vous d'écrire un nouvel identifiant unique jamais utilisé. Si vous faites la traduction d'une clinique, assurez-vous de sélectionner le bon identifiant dans la liste. Si vous ne la voyez pas, descendez un peu dans la page :) Ex: clinique-des-chutes
 
 ### L'aperçu
 
