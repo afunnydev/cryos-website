@@ -5,7 +5,7 @@ description: >-
   Discover the benefits of foot orthotics before and after surgery to the
   forefoot in case of an hallux valgus or other patologies.
 slug: the-benefits-of-foot-orthotics-before-and-after-surgery
-identifiant: 09-orthese-sportif
+identifiant: 19-avant-chirurgie
 short_desc: null
 author: lyndacormier
 date: '04/17/2017 10:07 AM'
@@ -72,6 +72,7 @@ If the wearing of orthotics is prescribed at a young age, it is possible to dela
 
 
   
+
 
 
 
