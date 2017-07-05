@@ -21,9 +21,7 @@ orthese_patients: false
 cryovizion_pro: false
 cryovizion_patients: false
 ---
-# 2D/3D Analysis | Foot Morphology
-
-Custom-made orthotics are created by taking impressions of the feet. Precision is of the utmost importance in achieving the intended results of the treatment. While there are several impression taking techniques, some have been proven to be more effective and increase the quality of orthotic devices. Read on to get a foot specialists opinion on 2D and 3D impression taking techniques
+*Custom-made orthotics are created by taking impressions of the feet. Precision is of the utmost importance in achieving the intended results of the treatment. While there are several impression taking techniques, some have been proven to be more effective and increase the quality of orthotic devices. Read on to get a foot specialists opinion on 2D and 3D impression taking techniques*
 
 ## **WHY DOES A DPM TAKE FOOTPRINTS?**
 
@@ -59,16 +57,4 @@ The 3D footprinting method is unique in the world, and it provides a huge benefi
 Custom-made foot orthotics are a highly tailored treatment that evolves over time. The best devices on the market stand out because of their flexion-extension movement, comfort, size, and versatility. Because these devices are designed to work in harmony with the foot without restricting movement, Cryos dynamic orthotic devices have been qualified as some of the most adaptive devices on the market. This advantage is made possible because of the use of 3D impression taking systems and a semi-weight impression taking technique that provides superior precision in capturing the morphology of the feet.
  
 Your choice of doctor is equally important, since their role in guiding patients towards the best solution to treat their condition is critical. Before choosing to use orthotics, you have to select the right medical professional to identify the issue, answer your questions, and meet your expectations. This will help you to better understand the benefits of orthotics, and the progression of your treatment in both the short and long term.
-  
-
-
-
-
-  
-
-
-
-
-
-
 
