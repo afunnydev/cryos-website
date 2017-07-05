@@ -58,3 +58,4 @@ Custom-made foot orthotics are a highly tailored treatment that evolves over tim
  
 Your choice of doctor is equally important, since their role in guiding patients towards the best solution to treat their condition is critical. Before choosing to use orthotics, you have to select the right medical professional to identify the issue, answer your questions, and meet your expectations. This will help you to better understand the benefits of orthotics, and the progression of your treatment in both the short and long term.
 
+
