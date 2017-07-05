@@ -21,10 +21,7 @@ orthese_patients: false
 cryovizion_pro: false
 cryovizion_patients: false
 ---
-
-# **Foot Orthotics and Surgery**
-
-Forefoot surgery is a treatment used for conditions such as hallux abducto valgus (a deformity commonly called a bunion). When a patient is experiencing pain or limitations that are detrimental to his or her quality of life, surgery in the forefoot is a possible solution. In fact, surgical treatment may be combined with foot orthotics to attain increased beneficial effects that can be felt both before and after surgery.
+*Forefoot surgery is a treatment used for conditions such as hallux abducto valgus (a deformity commonly called a bunion). When a patient is experiencing pain or limitations that are detrimental to his or her quality of life, surgery in the forefoot is a possible solution. In fact, surgical treatment may be combined with foot orthotics to attain increased beneficial effects that can be felt both before and after surgery.*
 
 ## **WHAT QUESTIONS SHOULD A PATIENT ASK BEFORE FOREFOOT SURGERY?**
 
@@ -54,25 +51,3 @@ Following forefoot surgery, the DPM may modify the anterior foot orthotics or pr
 ## **CAN THE WEARING OF ORTHOTICS DELAY OR PREVENT THE NEED FOR FOREFOOT SURGERY?**
 
 If the wearing of orthotics is prescribed at a young age, it is possible to delay or prevent certain foot surgeries required to correct biomechanical deformities such as hallux valgus, hammer toe, and other conditions. In fact, many patients with biomechanical problems have to wear orthotics, even after forefoot surgery, while some can choose to wear orthotics without having to resort to surgery. It is recommended to consult a foot doctor to help you determine which solution best fits your situation and needs.
-
-  
-
-
-  
-
-
-  
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
