@@ -1,7 +1,9 @@
 ---
 titre: 2D/3D Analysis | Foot Morphology
 title: 2D/3D Foot Morphology- Cryos Technologies
-description: 'This is an article about foot morphology, explaining how it works. '
+description: >-
+  This is an article about foot morphology, explaining how 2d and 3d analysis is
+  working to shape the foot orthotics that suits best your needs! 
 slug: 2d-3d-analysis-foot-morphology/
 identifiant: 20-analyse2d
 short_desc: null
@@ -63,6 +65,7 @@ Your choice of doctor is equally important, since their role in guiding patients
 
 
   
+
 
 
 
