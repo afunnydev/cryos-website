@@ -1,14 +1,14 @@
 ---
 titre: Foot Orthotics and Surgery
-title: Foot Orthotics and Surgery
+title: Foot Orthotics and Surgery - Cryos Technologies
 description: >-
-  The different problems with the foot and how foot orthotics can help.In what
-  situation should you consider Surgery.
-slug: foot-orthotics-and-surgery
+  Discover the benefits of foot orthotics before and after surgery to the
+  forefoot in case of an hallux valgus or other patologies.
+slug: the-benefits-of-foot-orthotics-before-and-after-surgery
 identifiant: 09-orthese-sportif
 short_desc: null
 author: lyndacormier
-date: 04/17/2017 10:07 AM
+date: '04/17/2017 10:07 AM'
 blog_img: /img/uploads/foot-orthotics-and-surgery-hallux-valgus.jpg
 type: post
 categories:
@@ -72,5 +72,6 @@ If the wearing of orthotics is prescribed at a young age, it is possible to dela
 
 
   
+
 
 
