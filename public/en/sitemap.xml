@@ -68,6 +68,36 @@
   </url>
   
   <url>
+    <loc>http://systems-analyst-elephant-50207.netlify.com/en/2d-3d-analysis-foot-morphology/</loc>
+    <lastmod>2017-04-23T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://systems-analyst-elephant-50207.netlify.com/lanalyse-du-pied-2d-et-3d-les-differences-a-savoir/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://systems-analyst-elephant-50207.netlify.com/en/2d-3d-analysis-foot-morphology/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://systems-analyst-elephant-50207.netlify.com/en/the-benefits-of-foot-orthotics-before-and-after-surgery/</loc>
+    <lastmod>2017-02-10T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://systems-analyst-elephant-50207.netlify.com/un-sportif-devrait-il-porter-une-orthese-plantaire-sur-mesure-dans-ses-patins/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://systems-analyst-elephant-50207.netlify.com/en/the-benefits-of-foot-orthotics-before-and-after-surgery/"
+                />
+  </url>
+  
+  <url>
     <loc>http://systems-analyst-elephant-50207.netlify.com/en/location/centre-podiatrique-lambert-2/</loc>
     <xhtml:link
                 rel="alternate"
@@ -685,6 +715,12 @@
                 hreflang="en"
                 href="http://systems-analyst-elephant-50207.netlify.com/en/patients/faq/"
                 />
+  </url>
+  
+  <url>
+    <loc>http://systems-analyst-elephant-50207.netlify.com/en/categories/flat-feet/</loc>
+    <lastmod>2017-04-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>

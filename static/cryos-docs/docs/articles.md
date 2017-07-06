@@ -28,7 +28,7 @@ La version française et la version anglaise de votre article sont séparées da
 
 - *Titre officiel* : Ceci est le titre de l'article que tout le monde pourra voir dans la liste et sur la page d'un article individuel. Il est officiellement votre H1 (voir la portion sur le référencement).
 - *Titre SEO* : Titre de la page web, indexé par Google. *non-visible*
-- *Description SEO* : Description de la page web, indexé par Google. *non-visible*
+- *Description SEO* : Description de la page web, indexé par Google. *non-visible*. Vous avez le droit à 155 caractères. Veuillez vous référer à la section sur le référencement pour plus d'information.
 - *Lien* : La portion de lien de la page web qui sera après le http://www.cryos.com ou http://www.cryos.com/en. Il peut contenir seulement des chiffes, lettres et tirets. C'est très important de le choisir intelligement, pour le référencement. 
 
 ```hint|directive
@@ -36,8 +36,8 @@ Exemple en français: "ceci-est-un-exemple" donnera http://www.cryos.com/ceci-es
 Exemple en anglais: "this-is-my-example" donnera http://www.cryos.com/en/this-is-my-example
 ```
 
-- *Identifiant* : Nous en avons discuté dans l'introduction. C'est l'identifiant unique de cet article, qui doit être le même dans toutes les langues traduites. Il peut contenir seulement des chiffes, lettres et tirets. Lorsque vous commencerez à taper votre identifiant, une recherche se fera automatiquement parmi les identifiants existants. Si vous créez un nouvel article, assurez-vous d'écrire un nouvel identifiant unique jamais utilisé. Si vous faites la traduction d'un article, assurez-vous de sélectionner le bon identifiant dans la liste. Si vous ne la voyez pas, descendez un peu dans la page :) Ex: 04-exemple-article
-- *Résumé court* : Notre ami Hugo (encore une fois pas le nom) crée automatiquement des résumé d'article pour les carousel et les pages où il y plusieurs articles. Cependant, sur certaines tailles d'appareil, cette description est trop grande sur la page d'accueil. Écrivez donc ici quelque chose entre 250 et 300 caractères seulement si l'article est sur la page d'accueil
+- *Identifiant* : Nous en avons discuté dans l'introduction. C'est l'identifiant unique de cet article, qui doit être le même dans toutes les langues traduites. Il peut contenir seulement des chiffes, lettres et tirets. Lorsque vous commencerez à taper votre identifiant, une recherche se fera automatiquement parmi les identifiants existants. Si vous créez un nouvel article, assurez-vous d'écrire un nouvel identifiant unique jamais utilisé. Si vous faites la traduction d'un article, assurez-vous de sélectionner le bon identifiant dans la liste. Si vous ne la voyez pas, descendez un peu dans la page :) Voici la nomenclature que j'ai suivie, je conseille de poursuivre dans la même lignée: #-mot-cle -> Ex: 22-analyse-posturale
+- *Résumé court* : Notre ami Hugo (encore une fois pas le nom) crée automatiquement des résumé d'article pour les carousel et les pages où il y plusieurs articles. Cependant, sur certaines tailles d'appareil, cette description est trop grande sur la page d'accueil. Écrivez donc ici quelque chose entre 250 et 300 caractères seulement si l'article est sur la page d'accueil. Vous pouvez copier-coller seulement les 250 premiers caractères de votre texte :)
 - *Auteur* : C'est bien important d'appliquer le concept d'identifiant ici, pour qu'Hugo puisse retrouver les informations de l'auteur. Chaque auteur possède un identifiant unique, qu'il faut utiliser ici pour associer l'article à l'auteur. Lorsque vous commencerez à taper votre identifiant, une recherche se fera automatiquement parmi les identifiants **DÉJÀ UTILISÉS DANS LES ARTICLES EN FRANÇAIS. Ça ne contient pas nécessairement tous vos auteurs**. Si vous venez de créer cet auteur et il n'a pas été utlisé, vous pouvez quand même indiquer son identifiant ici et tout fonctionnera. Cette liste est seulement pour vous aider si cet article est écrit par un auteur déjà utilisé. Si vous ne voyez pas la liste, descendez un peu dans la page :)
 
 ```hint|directive
@@ -78,7 +78,11 @@ Exemple de nom de fichier: 04-example-article.jpg, soigne-vos-pieds.jpg, les-pod
 *Mauvais exemple de nom de fichier*: soigné vos pieds.jpg, cryospôdiatrie.jpg
 ```
 
-- *Catégories* : C'est ici que vous entrerez les noms des catégories utilisées. **Vous devez être constants dans le nom des catégories** pour qu'Hugo fasse le lien entre les articles. S'il y a plusieurs articles, vous devez les séparer d'une virgule et d'un espace. Vous pouvez entrer un nombre illimité de catégories. Vous n'avez qu'à jeter un coup d'oeil à la page blogue pour voir la liste des catégories actives et apporter les corrections nécessaires si une erreur s'est glissée.
+- *Catégories* : C'est ici que vous entrerez les noms des catégories utilisées. **Vous devez être constants dans le nom des catégories** pour qu'Hugo fasse le lien entre les articles. S'il y a plusieurs catégories, vous devez les séparer d'une virgule et d'un espace. Vous pouvez entrer un nombre illimité de catégories. Vous n'avez qu'à jeter un coup d'oeil à la page blogue pour voir la liste des catégories actives et apporter les corrections nécessaires si une erreur s'est glissée. Veuillez noter que vous catégories en anglais et en français sont totalement indépendantes.
+
+```hint|directive
+Le simple fait d'utiliser un nom de catégorie qui n'existe pas va **AUTOMATIQUEMENT** en créer une nouvelle et l'ajouter dans la barre à droite.
+```
 
 ```hint|directive
 Voici un example si vous avez 4 catégories: Biomécanique, Blessures sportives, Orthèses plantaires, Posture

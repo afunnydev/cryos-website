@@ -26,9 +26,9 @@ La version française et la version anglaise de votre article sont séparées da
 
 ### Les champs
 
-- *Titre officiel* : Ceci est le titre de l'article que tout le monde pourra voir dans la liste et sur la page d'un article individuel
+- *Titre officiel* : Ceci est le titre de l'article que tout le monde pourra voir dans la liste et sur la page d'un article individuel. Il est officiellement votre H1 (voir la portion sur le référencement).
 - *Titre SEO* : Titre de la page web, indexé par Google. *non-visible*
-- *Description SEO* : Description de la page web, indexé par Google. *non-visible*
+- *Description SEO* : Description de la page web, indexé par Google. *non-visible*. Vous avez le droit à 155 caractères. Veuillez vous référer à la section sur le référencement pour plus d'information.
 - *Lien* : La portion de lien de la page web qui sera après le http://www.cryos.com ou http://www.cryos.com/en. Il peut contenir seulement des chiffes, lettres et tirets. C'est très important de le choisir intelligement, pour le référencement. 
 
 ```hint|directive
@@ -36,8 +36,8 @@ Exemple en français: "ceci-est-un-exemple" donnera http://www.cryos.com/ceci-es
 Exemple en anglais: "this-is-my-example" donnera http://www.cryos.com/en/this-is-my-example
 ```
 
-- *Identifiant* : Nous en avons discuté dans l'introduction. C'est l'identifiant unique de cet article, qui doit être le même dans toutes les langues traduites. Il peut contenir seulement des chiffes, lettres et tirets. Lorsque vous commencerez à taper votre identifiant, une recherche se fera automatiquement parmi les identifiants existants. Si vous créez un nouvel article, assurez-vous d'écrire un nouvel identifiant unique jamais utilisé. Si vous faites la traduction d'un article, assurez-vous de sélectionner le bon identifiant dans la liste. Si vous ne la voyez pas, descendez un peu dans la page :) Ex: 04-exemple-article
-- *Résumé court* : Notre ami Hugo (encore une fois pas le nom) crée automatiquement des résumé d'article pour les carousel et les pages où il y plusieurs articles. Cependant, sur certaines tailles d'appareil, cette description est trop grande sur la page d'accueil. Écrivez donc ici quelque chose entre 250 et 300 caractères seulement si l'article est sur la page d'accueil
+- *Identifiant* : Nous en avons discuté dans l'introduction. C'est l'identifiant unique de cet article, qui doit être le même dans toutes les langues traduites. Il peut contenir seulement des chiffes, lettres et tirets. Lorsque vous commencerez à taper votre identifiant, une recherche se fera automatiquement parmi les identifiants existants. Si vous créez un nouvel article, assurez-vous d'écrire un nouvel identifiant unique jamais utilisé. Si vous faites la traduction d'un article, assurez-vous de sélectionner le bon identifiant dans la liste. Si vous ne la voyez pas, descendez un peu dans la page :) Voici la nomenclature que j'ai suivie, je conseille de poursuivre dans la même lignée: #-mot-cle -> Ex: 22-analyse-posturale
+- *Résumé court* : Notre ami Hugo (encore une fois pas le nom) crée automatiquement des résumé d'article pour les carousel et les pages où il y plusieurs articles. Cependant, sur certaines tailles d'appareil, cette description est trop grande sur la page d'accueil. Écrivez donc ici quelque chose entre 250 et 300 caractères seulement si l'article est sur la page d'accueil. Vous pouvez copier-coller seulement les 250 premiers caractères de votre texte :)
 - *Auteur* : C'est bien important d'appliquer le concept d'identifiant ici, pour qu'Hugo puisse retrouver les informations de l'auteur. Chaque auteur possède un identifiant unique, qu'il faut utiliser ici pour associer l'article à l'auteur. Lorsque vous commencerez à taper votre identifiant, une recherche se fera automatiquement parmi les identifiants **DÉJÀ UTILISÉS DANS LES ARTICLES EN FRANÇAIS. Ça ne contient pas nécessairement tous vos auteurs**. Si vous venez de créer cet auteur et il n'a pas été utlisé, vous pouvez quand même indiquer son identifiant ici et tout fonctionnera. Cette liste est seulement pour vous aider si cet article est écrit par un auteur déjà utilisé. Si vous ne voyez pas la liste, descendez un peu dans la page :)
 
 ```hint|directive
@@ -78,7 +78,11 @@ Exemple de nom de fichier: 04-example-article.jpg, soigne-vos-pieds.jpg, les-pod
 *Mauvais exemple de nom de fichier*: soigné vos pieds.jpg, cryospôdiatrie.jpg
 ```
 
-- *Catégories* : C'est ici que vous entrerez les noms des catégories utilisées. **Vous devez être constants dans le nom des catégories** pour qu'Hugo fasse le lien entre les articles. S'il y a plusieurs articles, vous devez les séparer d'une virgule et d'un espace. Vous pouvez entrer un nombre illimité de catégories. Vous n'avez qu'à jeter un coup d'oeil à la page blogue pour voir la liste des catégories actives et apporter les corrections nécessaires si une erreur s'est glissée.
+- *Catégories* : C'est ici que vous entrerez les noms des catégories utilisées. **Vous devez être constants dans le nom des catégories** pour qu'Hugo fasse le lien entre les articles. S'il y a plusieurs catégories, vous devez les séparer d'une virgule et d'un espace. Vous pouvez entrer un nombre illimité de catégories. Vous n'avez qu'à jeter un coup d'oeil à la page blogue pour voir la liste des catégories actives et apporter les corrections nécessaires si une erreur s'est glissée. Veuillez noter que vous catégories en anglais et en français sont totalement indépendantes.
+
+```hint|directive
+Le simple fait d'utiliser un nom de catégorie qui n'existe pas va **AUTOMATIQUEMENT** en créer une nouvelle et l'ajouter dans la barre à droite.
+```
 
 ```hint|directive
 Voici un example si vous avez 4 catégories: Biomécanique, Blessures sportives, Orthèses plantaires, Posture
@@ -101,47 +105,51 @@ Pour prévisualiser le passage du format Markdown au format texte, vous pouvez c
 - *Les liens* : Vous n'avez qu'à surligner un portion de texte et cliquer sur cette outil. Votre CMS vous demandera le lien que vous voulez mettre. Vous n'avez qu'à le rentrer et cliquer sur OK, le formattage se fera tout seul.
 - *Le +* : Utilisé pour insérer une image. Vous choisissez une image sur votre ordinateur et puis vous entrez 1 mot ou 2 pour la décrire (Alt text), votre CMS se charge de formatter le tout
 
+#### Le format utilisé
+
+La seule chose que vous devez savoir, c'est que tous les sous-titres (et toutes les questions en mauves) sont des H2, ce qui signifie que vous devez les précéder de \#\#.
+
 #### Exemple d'article
 
 ```
 *Comme parents, il est normal que les douleurs aux pieds de vos enfants vous inquiètent. C’est d’autant plus vrai si vous-mêmes, vous êtes aux prises avec ce même genre de problèmes.
 C’est pourquoi plusieurs parents questionnent les podiatres afin de savoir s’il existe un lien entre les douleurs aux pieds et le facteur héréditaire. Afin de vous renseigner sur la question, nous nous sommes adressés à Dre Marie-Michelle Fecteau, podiatre.*
 
-#### Est-ce que certaines affections podiariques présentes chez l’enfant peuvent être héréditaires ?
+## Est-ce que certaines affections podiariques présentes chez l’enfant peuvent être héréditaires ?
 
 Certaines conditions podiatriques chez l’enfant peuvent, c’est vrai, être léguées par les parents. Je pense, par exemple, à certaines malformations ou au pied plat, etc. Par contre, il faut préciser que l’enfant n’héritera pas automatiquement des problèmes de pieds de ses parents.
 
-#### Dans le cas du pied plat chez l’enfant, est-ce que c’est assurément héréditaire?
+## Dans le cas du pied plat chez l’enfant, est-ce que c’est assurément héréditaire?
 
 Premièrement, il faut savoir que chaque enfant naît avec le pied plat. L’arche prendra sa forme definitive entre 3 et 5 ans.
 
 Si après coup son pied reste plat, l’hérédité peut en être la cause mais ce n’est pas un automatisme. Et, comme nous le disons à plusieurs parents, il existe de nombreuses façons d’aider les enfants dans ce genre de situation.
 
-#### Est-ce que l’historique familial est un facteur déterminant dans ce genre de situation?
+## Est-ce que l’historique familial est un facteur déterminant dans ce genre de situation?
 
 Bien sûr, si les deux parents souffrent de douleurs aux pieds causées par leur morphologie, l’enfant a de plus grandes chances d’en hériter.
 
-#### Est-ce que la mère risque davantage de transmettre des problèmes à son enfant que le père?
+## Est-ce que la mère risque davantage de transmettre des problèmes à son enfant que le père?
 
 Les problèmes héréditaires peuvent être transmis autant par la mère que par le père. Par contre, l’enfant peut développer certains problèmes lorsqu’il est à l’intérieur du ventre de sa mère. Il est possible que le bébé ait les jambes compressées aux parois de l’utérus et qu’il manque d’espace, ce qui peut causer une malformation comme le pied bot ou une torsion tibiale.
 
-#### Est-ce que les problèmes podiatriques héréditaires peuvent être soignés?
+## Est-ce que les problèmes podiatriques héréditaires peuvent être soignés?
 
 Dans les cas des douleurs aux pieds qui sont causés par une condition biomécanique, oui, c’est possible d’aider l’enfant. Par exemple, il est possible de lui conseiller de faire certains exercices ou encore de porter des orthèses plantaires.
 
 > Bien sûr, plus tôt nous avons la chance de voir l’enfant, plus vite il est possible de l’aider.
 
-#### Est-ce que le parent peut influencer l’enfant par son comportement?
+## Est-ce que le parent peut influencer l’enfant par son comportement?
 
 Oui, absolument! Si l’enfant voit l’un de ses parents marcher ou encore s’asseoir d’une telle façon, il pourrait être porté à l’imiter.
 
 C’est tout à fait dans la nature de l’enfant de faire ça. Le parent qui souhaite aider son enfant doit donc surveiller sa posture, son type de chaussures ou la façon dont il s’assseoit.
 
-#### Si les deux parents souffrent d’une mauvaise condition podiatrique, est-ce que l’enfant en héritera automatiquement?
+## Si les deux parents souffrent d’une mauvaise condition podiatrique, est-ce que l’enfant en héritera automatiquement?
 
 Non, pas nécessairement. Bien sûr, l’enfant dont les deux parents souffrent du pied plat, par exemple, aura de plus grandes chances d’en hériter aussi. Mais il est tout à fait possible qu’il profite d’une parfaite santé des pieds sans la moindre douleur.
 
-#### En conclusion, est-ce que les douleurs aux pieds peuvent être héréditaires?
+## En conclusion, est-ce que les douleurs aux pieds peuvent être héréditaires?
 
 Dans certains oui, c’est possible, mais ça n’arrive pas tout le temps. Comme nous le disons aux parents, il est inutile de se blâmer systématiquement si votre enfant souffre des mêmes douleurs aux pieds que lui.
 

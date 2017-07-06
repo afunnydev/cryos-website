@@ -25,6 +25,18 @@ Voici un fichier qui va grandement vous aider à vous retrouver. C'est surtout l
 - Espacer bien votre texte et vos titres avec des sauts de ligne
 - Pour mettre quelque chose en italique, encercler votre mot ou paragraphe de \* et cela se fera automatiquement, comme suit \*test\*
 - Si vous devez utiliser le symbole \# ou \*, vous devez ajouter \ devant le \# ou le \* pour que le système sache qu'il ne doit pas l'interpréter
+- Si vous voulez creér un lien qui va s'ouvrir dans un nouvel onglet, il faut utiliser la forme HTML, malheureusement: <a href="http://votrelien.ca" target="_blank">Texte du lien</a>
+
+```hint|directive
+- N'oubliez pas le *http://* dans le lien
+- Vous remarquerez le *target="_blank"*, c'est ce qui indique que vous voulez que le lien s'ouvre dans un autre onglet.
+
+Voici un vrai exemple:
+<a href="http://www.cryos.com" target="_blank">J'adore Cryos</a> donne 
+```
+```html
+<a href="http://www.cryos.com" target="_blank">J'adore Cryos</a>
+```
 
 #### Ce que vous devez savoir
 
