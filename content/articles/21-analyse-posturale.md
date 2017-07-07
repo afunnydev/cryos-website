@@ -1,29 +1,31 @@
 ---
-author: philippe_legare
-blog_img: img/posts/anayse-posturale.jpg
-categories:
-- Biomécanique
-- Blessures sportives
-- Orthèses plantaires
-- Posture
-date: 2017-04-29
-description: Toujours mal au dos? Peut-être avez vous un problème de posture? Voyez
-  comment l'évaluation posturale par imagerie peut vous être bénéfique!
-short_desc: Les professionnels de la santé utilisent les systèmes d’imagerie pour
-  diverses raisons médicales. Selon l’approche préconisée, certains podiatres ont
-  recours à l’imagerie, afin de mieux évaluer et de mesurer les problèmes posturaux
-  et biomécaniques.
-slug: lefficacite-de-lanalyse-posturale-en-cas-de-douleurs-physiques/
-title: Évaluation posturale par Imagerie - Cryos Technologies
 titre: Évaluation posturale par Imagerie
-type: post
+title: Évaluation posturale par Imagerie - Cryos Technologies
+description: >-
+  Toujours mal au dos? Peut-être avez vous un problème de posture? Voyez comment
+  l'évaluation posturale par imagerie peut vous être bénéfique!
+slug: lefficacite-de-lanalyse-posturale-en-cas-de-douleurs-physiques/
 identifiant: 21-analyse-posturale
+short_desc: >-
+  Les professionnels de la santé utilisent les systèmes d’imagerie pour diverses
+  raisons médicales. Selon l’approche préconisée, certains podiatres ont recours
+  à l’imagerie, afin de mieux évaluer et de mesurer les problèmes posturaux et
+  biomécaniques.
+author: philippe_legare
+date: 2017-04-29T00:00:00.000Z
+blog_img: img/posts/anayse-posturale.jpg
+type: post
+categories:
+  - Biomécanique
+  - Blessures sportives
+  - Orthèses plantaires
+  - Posture
+i18nlanguage: fr
 isfront: true
 orthese_pro: false
 orthese_patients: false
 cryovizion_pro: true
 cryovizion_patients: true
-i18nlanguage: fr
 ---
 
 *Les professionnels de la santé utilisent les systèmes d’imagerie pour diverses raisons médicales. Selon l’approche préconisée, certains podiatres ont recours à l’imagerie, afin de mieux évaluer et de mesurer les problèmes posturaux et biomécaniques. Cette technologie permet aux patients de comprendre la mécanique de leurs maux et leurs impacts sur la posture.*
@@ -57,7 +59,7 @@ Développé par Cryos Technologies, le système d’imagerie CryoVizion est un o
 
 #### Le système d’imagerie CryoVizion, est-il efficace?
 
-Le système d’imagerie CryoVizion cumule des données cliniques depuis près de 20 ans. D’ailleurs, l’efficacité du CryoVizion est validée scientifiquement par l’Université de Montréal, en raison de la qualité des informations fournies, lors de l’analyse de la posture.
+Le système d’imagerie CryoVizion cumule des données cliniques depuis près de 20 ans. D’ailleurs, l’efficacité du CryoVizion est validée scientifiquement par l’[[Université de Montréal](http://www.umontreal.ca/en/)](http://www.cryos.com/patients/faq/), en raison de la qualité des informations fournies, lors de l’analyse de la posture.
 
 [Voyez de plus amples informations en cliquant ici.](http://www.cryos.com/img/autres/color-coded-video-based-system.pdf)
 
@@ -67,7 +69,7 @@ La première étape consiste à entrer dans une cabine d'observation, où des ca
 
 #### Quels sont les avantages de l’imagerie?
 
-L’imagerie est fréquemment utilisée en raison de sa précision et de son objectivité. Par ailleurs, puisqu'elle n'émet aucune radiation, et grâce à son système de réflexion, cette technologie d'évaluation posturale est totalement sécuritaire. De plus, l’imagerie procure des résultats immédiats, ce qui accélère le processus d’analyse de la posture pour le podiatre. Le patient visualisera les images et comprendra plus facilement les changements de posture. L’imagerie est donc bénéfique pour celui qui désire suivre l’évolution de son traitement et constater ses changements posturaux en temps réel.
+L’imagerie est fréquemment utilisée en raison de sa précision et de son objectivité. Par ailleurs, puisqu'elle n'émet aucune radiation, et grâce à son système de réflexion, [cette technologie d'évaluation posturale est totalement sécuritaire](http://www.cryos.com/patients/faq/). De plus, l’imagerie procure des résultats immédiats, ce qui accélère le processus d’analyse de la posture pour le podiatre. Le patient visualisera les images et comprendra plus facilement les changements de posture. L’imagerie est donc bénéfique pour celui qui désire suivre l’évolution de son traitement et constater ses changements posturaux en temps réel.
 
 #### Pourquoi analyser les pieds lors d’une évaluation posturale?
 
@@ -75,4 +77,4 @@ Le pied est à la base même du corps. Pour parvenir à un diagnostic complet, u
 
 #### Pourquoi consulter un podiatre en cas de douleurs reliées à la posture?
 
-Le podiatre établit un plan de traitement pour remédier aux douleurs reliées à une anomalie posturale ou biomécanique. Lorsqu’un mal perdure, il est appelé à contribuer au traitement prescrit par un autre professionnel de la santé. Son expertise devient alors un complément qui maximise les résultats et la guérison. Inversement, s’il le juge nécessaire, le podiatre recommandera à ses patients de consulter un physiothérapeute, un ostéopathe, un chiropraticien, un massothérapeute, etc. Son objectif étant de guérir à la source les problèmes, tout en améliorant, par le fait même, la qualité de vie de ses patients.
+Le podiatre établit un plan de traitement pour remédier aux douleurs reliées à une anomalie posturale ou biomécanique. Lorsqu’un mal perdure, il est appelé à contribuer au traitement prescrit par un autre professionnel de la santé. Son expertise devient alors un complément qui maximise les résultats et la guérison. Inversement, s’il le juge nécessaire, le podiatre recommandera à ses patients de consulter un physiothérapeute, un ostéopathe, un chiropraticien, un massothérapeute, etc. Son objectif étant de guérir à la source les problèmes, tout en améliorant, par le fait même, la qualité de vie de ses patients.[](http://www.umontreal.ca/en/)
