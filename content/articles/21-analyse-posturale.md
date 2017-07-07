@@ -59,7 +59,7 @@ Développé par Cryos Technologies, le système d’imagerie CryoVizion est un o
 
 #### Le système d’imagerie CryoVizion, est-il efficace?
 
-Le système d’imagerie CryoVizion cumule des données cliniques depuis près de 20 ans. D’ailleurs, l’efficacité du CryoVizion est validée scientifiquement par l’[[Université de Montréal](http://www.umontreal.ca/en/)](http://www.cryos.com/patients/faq/), en raison de la qualité des informations fournies, lors de l’analyse de la posture.
+Le système d’imagerie CryoVizion cumule des données cliniques depuis près de 20 ans. D’ailleurs, l’efficacité du CryoVizion est validée scientifiquement par l’[Université de Montréal](http://www.umontreal.ca/en/), en raison de la qualité des informations fournies, lors de l’analyse de la posture.
 
 [Voyez de plus amples informations en cliquant ici.](http://www.cryos.com/img/autres/color-coded-video-based-system.pdf)
 
@@ -77,4 +77,5 @@ Le pied est à la base même du corps. Pour parvenir à un diagnostic complet, u
 
 #### Pourquoi consulter un podiatre en cas de douleurs reliées à la posture?
 
-Le podiatre établit un plan de traitement pour remédier aux douleurs reliées à une anomalie posturale ou biomécanique. Lorsqu’un mal perdure, il est appelé à contribuer au traitement prescrit par un autre professionnel de la santé. Son expertise devient alors un complément qui maximise les résultats et la guérison. Inversement, s’il le juge nécessaire, le podiatre recommandera à ses patients de consulter un physiothérapeute, un ostéopathe, un chiropraticien, un massothérapeute, etc. Son objectif étant de guérir à la source les problèmes, tout en améliorant, par le fait même, la qualité de vie de ses patients.[](http://www.umontreal.ca/en/)
+Le podiatre établit un plan de traitement pour remédier aux douleurs reliées à une anomalie posturale ou biomécanique. Lorsqu’un mal perdure, il est appelé à contribuer au traitement prescrit par un autre professionnel de la santé. Son expertise devient alors un complément qui maximise les résultats et la guérison. Inversement, s’il le juge nécessaire, le podiatre recommandera à ses patients de consulter un physiothérapeute, un ostéopathe, un chiropraticien, un massothérapeute, etc. Son objectif étant de guérir à la source les problèmes, tout en améliorant, par le fait même, la qualité de vie de ses patients.
+
