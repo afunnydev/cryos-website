@@ -20,7 +20,7 @@ cryovizion_pro: false
 cryovizion_patients: false
 ---
 
-*Le port d’orthèses plantaires est un traitement prescrit pour remédier aux problèmes de pieds et de posture. Avant d’obtenir une telle prescription, il faut toutefois consulter un professionnel de la santé afin qu’il procède à différentes analyses. Découvrez les principales étapes pour obtenir une prescription d’orthèses plantaires par un podiatre, le spécialiste de la santé des pieds.*
+*Le port d’<a href="http://www.cryos.com/produits/orthese-cryos">orthèses plantaires</a> est un traitement prescrit pour remédier aux problèmes de pieds et de posture. Avant d’obtenir une telle prescription, il faut toutefois consulter un professionnel de la santé afin qu’il procède à différentes analyses. Découvrez les principales étapes pour obtenir une prescription d’orthèses plantaires par un podiatre, le spécialiste de la santé des pieds.*
 
 #### Qu’elles sont les raisons qui mènent à une première consultation pour des orthèses plantaires ?
 
@@ -64,4 +64,5 @@ Si le port d’orthèses plantaires est le traitement indiqué, le podiatre fera
 #### Les rencontres de suivis des orthèses plantaires.
 
 Une première rencontre de suivi est prévue dans les semaines suivant la remise des orthèses plantaires. L’objectif est de vérifier l’évolution de la cause initiale et de valider la progression du traitement visant à remédier aux douleurs plantaires ou à l’amélioration de la posture. Le podiatre s’assure du confort des orthèses plantaires durant cette période d’adaptation. Si des modifications doivent être faites, le podiatre effectuera les ajustements adéquats. Par la suite, un suivi annuel est recommandé pour les adultes tandis que les enfants doivent préférablement consulter le podiatre tous les 6 mois.
+
 
