@@ -1,23 +1,25 @@
 ---
-author: arnaud
-blog_img: img/posts/comment-soigner-une-tendinite-au-tendon-dachille.jpg
-categories:
-- Blessures sportives
-- Douleur aux pieds
-date: 2017-05-02
-description: Découvrez les conseils d'un podiatre sur les causes, les signes avant-coureurs,
-  les douleurs et les traitements d'une tendinite au tendon d'Achille.
-slug: comment-soigner-une-tendinite-au-tendon-dachille/
-title: Comment soigner une tendinite au tendon d'Achille? - Cryos Technologies
 titre: Comment soigner une tendinite au tendon d'Achille?
-type: post
+title: Comment soigner une tendinite au tendon d'Achille? - Cryos Technologies
+description: >-
+  Découvrez les conseils d'un podiatre sur les causes, les signes
+  avant-coureurs, les douleurs et les traitements d'une tendinite au tendon
+  d'Achille.
+slug: comment-soigner-une-tendinite-au-tendon-dachille/
 identifiant: 22-tendinite-achille
+author: arnaud
+date: 2017-05-02T00:00:00.000Z
+blog_img: img/posts/comment-soigner-une-tendinite-au-tendon-dachille.jpg
+type: post
+categories:
+  - Blessures sportives
+  - Douleur aux pieds
+i18nlanguage: fr
 isfront: false
 orthese_pro: false
 orthese_patients: false
 cryovizion_pro: false
 cryovizion_patients: false
-i18nlanguage: fr
 ---
 
 *Le tendon d’Achille figure parmi les tendons les plus forts du corps humain. Il est responsable de la flexibilité plantaire et de la propulsion du corps. Lorsque des douleurs apparaissent à la cheville, il vaut mieux consulter un podiatre qui saura soigner la tendinite au tendon d’Achille. Bien que cette pathologie, la tendinopathie du tendon d’Achille, soit difficile à traiter, le podiatre est outillé pour amener ses patients vers une guérison rapide. Voici les traitements possibles pour soigner une tendinite au talon d’Achille.*
@@ -52,4 +54,7 @@ Le rôle des orthèses plantaires est de balancer le pied et de le guider dans l
 
 ## Pourquoi consulter un podiatre pour une tendinite au tendon d’Achille?
 
-Le podiatre est l’un des professionnels le plus formé et le mieux outillé pour remédier aux pathologies des membres inférieurs. Comme il maîtrise les traitements pour une tendinite au tendon d’Achille, il vous conseillera celui qui convient à votre condition, comme le port de chaussures adéquates ou les étirements. Il pourra aussi effectuer des techniques de tapping, donner des exercices de renforcement et prescrire des orthèses plantaires fabriquées sur mesure.
+Le podiatre est l’un des professionnels le plus formé et le mieux outillé pour remédier aux pathologies des membres inférieurs. Comme il maîtrise les traitements pour une tendinite au tendon d’Achille, il vous conseillera celui qui convient à votre condition, comme le port de chaussures adéquates ou les étirements. Il pourra aussi effectuer des techniques de tapping, donner des exercices de renforcement et [prescrire des orthèses plantaires](/pourquoi-porter-une-orthese-plantaire-pendant-un-sport-dete/) fabriquées sur mesure.
+[Renseignez-vous auprès d’un podiatre certifié pour connaitre les traitements disponibles](/trouver-une-clinique/).
+
+
