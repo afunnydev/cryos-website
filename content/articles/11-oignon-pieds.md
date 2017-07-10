@@ -1,24 +1,27 @@
 ---
-author: caroline
-blog_img: img/posts/oignon-au-pied1.jpg
-categories:
-- Chirurgie des pieds
-- Douleur aux pieds
-- Oignons
-date: 2017-02-19
-description: Découvrez les conseils et les traitements pour remédier aux oignons aux
-  pieds, aussi appelés Hallux valgus. Un podiatre vous conseille.
-slug: les-traitements-possibles-pour-remedier-a-lhallux-valgus-oignon-aux-pieds/
-title: Traitements pour remédier aux hallux valgus (oignons au pied) - Cryos Technologies
 titre: Traitements pour remédier aux hallux valgus (oignons au pied)
-type: post
+title: >-
+  Traitements pour remédier aux hallux valgus (oignons au pied) - Cryos
+  Technologies
+description: >-
+  Découvrez les conseils et les traitements pour remédier aux oignons aux pieds,
+  aussi appelés Hallux valgus. Un podiatre vous conseille.
+slug: les-traitements-possibles-pour-remedier-a-lhallux-valgus-oignon-aux-pieds/
 identifiant: 11-oignon-pieds
+author: caroline
+date: 2017-02-19T00:00:00.000Z
+blog_img: img/posts/oignon-au-pied1.jpg
+type: post
+categories:
+  - Chirurgie des pieds
+  - Douleur aux pieds
+  - Oignons
+i18nlanguage: fr
 isfront: false
 orthese_pro: false
 orthese_patients: false
 cryovizion_pro: false
 cryovizion_patients: false
-i18nlanguage: fr
 ---
 
 *L’oignon au pied, connu sous le terme médical hallux valgus, provient d’une déviation osseuse du premier métatarse étant reliée à une faiblesse biomécanique. L’oignon entraîne une déviation du gros orteil vers les autres occasionnant ainsi un élancement intra-articulaire et une douleur à long terme. Les personnes souffrant d’un hallux valgus peuvent avoir recours à différents traitements podiatriques afin d’améliorer leur condition.*
@@ -41,11 +44,11 @@ Il existe deux types de traitements pour remédier à cette problématique.
 
 Le traitement plus conservateur recommandé pour les oignons au pied est le port d’orthèses. Celles-ci contrôlent les douleurs et les symptômes de l’hallux valgus, en plus de ralentir sa progression dans le temps. Avant de prescrire des orthèses plantaires, le podiatre effectue une analyse posturale et manipule le pied pour déterminer sa mobilité. Si les orthèses sont nécessaires, il effectuera un moule pour concevoir par la suite un produit sur mesure. Ce traitement est très efficace et nécessite une légère adaptation pouvant aller d’une à trois semaines.
 
-Par ailleurs, dans certains cas une chirurgie osseuse peut être envisagée. Ce traitement demande une opération du pied pour corriger la déviation occasionnée par l’oignon. Par la suite, le port d’orthèses plantaires est exigé à long terme.
+Par ailleurs, dans certains cas une [chirurgie osseuse peut être envisagée](http://www.cryos.com/pourquoi-les-ortheses-plantaires-sont-elles-conseillees-avec-la-chirurgie-aux-avant-pieds/). Ce traitement demande une opération du pied pour corriger la déviation occasionnée par l’oignon. Par la suite, le port d’orthèses plantaires est exigé à long terme.
 
 ## L’efficacité des orthèses plantaires à long terme pour un hallux valgus
 
-Les oignons aux pieds diminuent le confort à la marche et entrainent une irritation constante ou une douleur vive. L’orthèse plantaire permet de répartir le poids sous le pied afin d’enlever la pression dans l’articulation. Dès son utilisation, le patient ressentira un meilleur confort et une plus grande endurance, surtout lors de la marche à pied. Avec le temps, les douleurs seront moins fréquentes grâce au port d’orthèses.
+Les oignons aux pieds diminuent le confort à la marche et entrainent une irritation constante ou une douleur vive. L’orthèse plantaire permet de répartir le poids sous le pied afin d’enlever la pression dans l’articulation. Dès son utilisation, le patient ressentira un meilleur confort et une plus grande endurance, surtout lors de la marche à pied. Avec le temps, les douleurs seront moins fréquentes grâce au [port d’orthèses](http://www.cryos.com/les-etapes-du-port-dortheses-plantaires/).
 
 ## Astuce pour pallier à la douleur
 
@@ -54,4 +57,5 @@ Les oignons aux pieds diminuent le confort à la marche et entrainent une irrita
 - Évitez de marcher pieds nus, car le pied affecté a besoin de support.
 
 Consultez un podiatre pour des conseils sur les traitements disponibles et les moyens pour soulager vos douleurs occasionnées par un hallux valgus.
+
 
