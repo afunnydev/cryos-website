@@ -1,23 +1,24 @@
 ---
-author: frederic
-blog_img: img/posts/enfant-pied-plat.jpg
-categories:
-- Pieds plats
-- Santé du pied chez l'enfant
-date: 2017-01-24
-description: Apprenez sur les causes, symptômes et traitements des pieds plats. Chez
+titre: Le pied plat chez l'enfant - Ce qu'il faut connaître
+title: Le pied plat chez l'enfant - Ce qu'il faut connaître - Cryos Technologies
+description: >-
+  Apprenez sur les causes, symptômes et traitements des pieds plats. Chez
   l'enfant, il est important de demander l'avis d'un professionnel rapidement.
 slug: pied-plat-chez-lenfant-causes-symptomes-traitements-connaitre/
-title: Le pied plat chez l'enfant - Ce qu'il faut connaître - Cryos Technologies
-titre: Le pied plat chez l'enfant - Ce qu'il faut connaître
-type: post
 identifiant: 05-pied-plat
+author: frederic
+date: 2017-01-24T00:00:00.000Z
+blog_img: img/posts/enfant-pied-plat.jpg
+type: post
+categories:
+  - Pieds plats
+  - Santé du pied chez l'enfant
+i18nlanguage: fr
 isfront: false
 orthese_pro: false
 orthese_patients: true
 cryovizion_pro: false
 cryovizion_patients: false
-i18nlanguage: fr
 ---
 
 *Chez l’enfant, le pied plat est une condition très répandue. Toutefois, en tant que parent, il est tout à fait normal de ne pas toujours bien connaître l’impact de cette condition sur la santé de son enfant.
@@ -71,9 +72,9 @@ Par contre, si l’on oublie le facteur du bagage héréditaire, un enfant n’e
 
 ## Est-ce qu’il y a des traitements capables de soulager le pied plat chez l’enfant?
 
-C’est certain que le port de l’orthèse plantaire est une option que je suggère souvent, car elle donne de bons résultats.
+C’est certain que le port de l’[orthèse plantaire est une option que je suggère souvent](http://www.cryos.com/produits/orthese-cryos/), car elle donne de bons résultats.
 
-J’ajouterais aussi que plus le podiatre a la chance d’intervenir rapidement, plus il aura la chance de pouvoir aider l’enfant. Je soigne personnellement des enfants qui ont à peine 18 mois. Si le parent a un doute, il est toujours préférable qu’il consulte un spécialiste afin d’avoir l’heure juste.
+J’ajouterais aussi que plus le podiatre a la chance d’intervenir rapidement, plus il aura la chance de pouvoir aider l’enfant. Je soigne personnellement des enfants qui ont à peine 18 mois. Si le parent a un doute, il est toujours préférable qu’il [consulte un spécialiste](http://www.cryos.com/trouver-une-clinique/) afin d’avoir l’heure juste.
 
 ## Comment le podiatre peut-il aider l’enfant au cours de son traitement?
 
