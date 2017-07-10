@@ -1,26 +1,31 @@
 ---
-author: giroux
-blog_img: img/posts/orthese-plantaire-muscle.jpg
-categories:
-- Douleur aux pieds
-- Orthèses plantaires
-date: 2017-03-25
-description: 'Découvrez l''effet du port d''orthèse plantaire sur les muscles. Un
-  podiatre répond à : Les muscles vont-ils s''affaiblir avec des orthèses?'
-short_desc: Le port d’orthèses plantaires permet de remédier à certaines douleurs
-  ou problèmes biomécaniques et posturaux. Selon la prescription établie par le podiatre,
-  le port d’orthèse aura des effets à court et à long terme sur les muscles.
-slug: le-port-d-ortheses-plantaires-et-ses-effets-sur-les-muscles/
-title: Le port d’orthèses plantaires et ses effets sur les muscles. - Cryos Technologies
 titre: Le port d’orthèses plantaires et ses effets sur les muscles
-type: post
+title: >-
+  Le port d’orthèses plantaires et ses effets sur les muscles. - Cryos
+  Technologies
+description: >-
+  Découvrez l'effet du port d'orthèse plantaire sur les muscles. Un podiatre
+  répond à : Les muscles vont-ils s'affaiblir avec des orthèses?
+slug: le-port-d-ortheses-plantaires-et-ses-effets-sur-les-muscles/
 identifiant: 15-effets-muscles
+short_desc: >-
+  Le port d’orthèses plantaires permet de remédier à certaines douleurs ou
+  problèmes biomécaniques et posturaux. Selon la prescription établie par le
+  podiatre, le port d’orthèse aura des effets à court et à long terme sur les
+  muscles.
+author: giroux
+date: 2017-03-25T00:00:00.000Z
+blog_img: img/posts/orthese-plantaire-muscle.jpg
+type: post
+categories:
+  - Douleur aux pieds
+  - Orthèses plantaires
+i18nlanguage: fr
 isfront: true
 orthese_pro: true
 orthese_patients: false
 cryovizion_pro: true
 cryovizion_patients: true
-i18nlanguage: fr
 ---
 
 *Le port d’orthèses plantaires permet de remédier à certaines douleurs ou problèmes biomécaniques et posturaux. Selon la prescription établie par le podiatre, le port d’orthèse aura des effets à court et à long terme sur les muscles. Découvrez comment ce traitement podiatrique peut influencer positivement la qualité de vie des patients grâce à ses répercussions sur le corps et les muscles.*
@@ -37,9 +42,9 @@ Non, en aucun cas le port d’orthèse plantaire ne peut affaiblir les muscles. 
 
 En améliorant ou corrigeant la biomécanique du patient, ce traitement podiatrique peut diminuer ou guérir les problèmes mécaniques, musculo-squelettiques, posturaux, etc. Les principales douleurs traitées par le port d’orthèses plantaires sont :
 
-- Fasciite plantaire/ Épine de Lenoir
+- [Fasciite plantaire](http://www.cryos.com/fasciite-plantaire-quels-sont-les-symptomes-et-les-traitements-disponibles/)/ Épine de Lenoir
 - Bursite/ Capsulite
-- Tendinite
+- [Tendinite](http://www.cryos.com/comment-soigner-une-tendinite-au-tendon-dachille/)
 - Orteils marteaux
 - Hallux valgus
 - Pieds plats
