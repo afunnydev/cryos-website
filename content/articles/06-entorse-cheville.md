@@ -1,22 +1,23 @@
 ---
-author: gabriel
-blog_img: img/posts/entorse-cheville.jpg
-categories:
-- Douleur aux pieds
-date: 2017-01-26
-description: Découvrez les conseils d’un podiatre pour bien soigner une entorse à
-  la cheville!
-slug: quoi-faire-en-cas-dentorse-a-la-cheville/
-title: Soignez efficacement votre entorse à la cheville! - Cryos Technologies
 titre: Soignez efficacement votre entorse à la cheville!
-type: post
+title: Soignez efficacement votre entorse à la cheville! - Cryos Technologies
+description: >-
+  Découvrez les conseils d’un podiatre pour bien soigner une entorse à la
+  cheville!
+slug: quoi-faire-en-cas-dentorse-a-la-cheville/
 identifiant: 06-entorse-cheville
+author: gabriel
+date: 2017-01-26T00:00:00.000Z
+blog_img: img/posts/entorse-cheville.jpg
+type: post
+categories:
+  - Douleur aux pieds
+i18nlanguage: fr
 isfront: false
 orthese_pro: false
 orthese_patients: false
 cryovizion_pro: false
 cryovizion_patients: false
-i18nlanguage: fr
 ---
 
 *L’entorse à la cheville est souvent traitée de façon maladroite alors qu’elle devrait être prise au sérieux tout autant qu’une fracture. Sachez que si celle-ci survient vous devez rester calme et consulter votre podiatre afin de la traiter adéquatement le plus rapidement possible. La foulure à la cheville est très fréquente et ses risques à long terme souvent minimisés dans la population. C’est pourquoi, afin de vous guider dans la guérison de l’entorse à la cheville, nous nous sommes entretenus avec Dr Gabriel Beaudoin-Côté, podiatre.*
@@ -89,6 +90,6 @@ Pour les 3 ou 4 premiers jours d’inflammation, il faut se reposer afin d’év
 
 ## Est-ce que le port de l’orthèse peut aider à accélérer la guérison des entorses aux chevilles?
 
-Dans un premier temps, il est recommandé de reprendre les activités physiques le plus tôt possible afin de favoriser une guérison optimale. Il est important d’écouter votre corps et de ne pas dépasser la limite d’activité qui vous est favorable. La douleur est un bon guide pour vous avertir lorsque vous faites trop d’activité et risquez d’entraver le processus de réparation de vos tissus.
+Dans un premier temps, [il est recommandé de reprendre les activités physiques le plus tôt possible](http://www.cryos.com/reprendre-la-course-a-pied-apres-une-blessure/) afin de favoriser une guérison optimale. Il est important d’écouter votre corps et de ne pas dépasser la limite d’activité qui vous est favorable. La douleur est un bon guide pour vous avertir lorsque vous faites trop d’activité et risquez d’entraver le processus de réparation de vos tissus.
 
-Donc, selon le pied et le type d’entorse, si le patient est prêt à reprendre l’exercice, l’orthèse peut lui être bénéfique. Elle peut guider son pied et lui permettre une reprise précoce d’activité tout en diminuant sa douleur et en favorisant une guérison et une stabilité optimale de la cheville.
+Donc, selon le pied et le type d’entorse, si le patient est prêt à reprendre l’exercice, l’[orthèse peut lui être bénéfique](http://www.cryos.com/le-port-d-ortheses-plantaires-et-ses-effets-sur-les-muscles/). Elle peut guider son pied et lui permettre une reprise précoce d’activité tout en diminuant sa douleur et en favorisant une guérison et une stabilité optimale de la cheville.
