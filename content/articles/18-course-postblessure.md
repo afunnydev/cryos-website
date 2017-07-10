@@ -1,24 +1,25 @@
 ---
-author: annie-jean
-blog_img: img/posts/blessure-au-pied-reprendre-la-course.jpg
-categories:
-- Blessures sportives
-- Douleur aux pieds
-- Sport d'été
-date: 2017-04-10
-description: Découvrez les conseils d’un podiatre sur le retour à la course à pied
-  sans risque de blessures chroniques ou de séquelles.
-slug: reprendre-la-course-a-pied-apres-une-blessure/
-title: La course à pied après une blessure - Cryos Technologies
 titre: La course à pied après une blessure
-type: post
+title: La course à pied après une blessure - Cryos Technologies
+description: >-
+  Découvrez les conseils d’un podiatre sur le retour à la course à pied sans
+  risque de blessures chroniques ou de séquelles.
+slug: reprendre-la-course-a-pied-apres-une-blessure/
 identifiant: 18-course-postblessure
+author: annie-jean
+date: 2017-04-10T00:00:00.000Z
+blog_img: img/posts/blessure-au-pied-reprendre-la-course.jpg
+type: post
+categories:
+  - Blessures sportives
+  - Douleur aux pieds
+  - Sport d'été
+i18nlanguage: fr
 isfront: false
 orthese_pro: false
 orthese_patients: false
 cryovizion_pro: false
 cryovizion_patients: false
-i18nlanguage: fr
 ---
 
 *Les coureurs ayant subi une blessure aux pieds sont parfois contraints d’arrêter leur sport pendant une période déterminée. Durant cette période, les coureurs peuvent être suivis par un podiatre afin d'entreprendre un plan de traitement pour atteindre une guérison optimale et permettre le retour aux activités.*
@@ -56,7 +57,7 @@ Selon le type de blessure, le podiatre peut avoir recours à plusieurs types de�
 - le laser,
 - la cryothérapie,
 - le tapping,
-- le port d'orthèses plantaires,
+- [le port d'orthèses plantaires](http://www.cryos.com/patients/ortheses/),
 - les techniques de manipulation ou de mobilisation (Active Release ou Graston).
 
 Durant la période d’arrêt, le coureur peut être suivi de deux à quatre fois par semaine avec ces types de traitements afin d’assurer une guérison complète et permanente de sa blessure.
@@ -84,7 +85,7 @@ Les blessures aux pieds les plus lentes à guérir sont situées aux zones moins
 
 ## Comment éviter les blessures chroniques suite à un arrêt?
 
-Les raideurs matinales peuvent être le signe d’une accumulation d’inflammation qui nécessite des séances spécifiques d’étirements ou certainement une consultation chez le podiatre. Il est donc recommandé d'étirer les membres inférieurs tous les matins et tous les soirs. Ces séances permettent de diminuer les symptômes de raideurs et ainsi éviter les blessures chroniques. De plus, si le coureur possède des orthèses plantaires, il doit les porter dès le lever et ce, durant toute la journée.
+Les raideurs matinales peuvent être le signe d’une accumulation d’inflammation qui nécessite des séances spécifiques d’étirements ou certainement une [consultation chez le podiatre](http://www.cryos.com/trouver-une-clinique/). Il est donc recommandé d'étirer les membres inférieurs tous les matins et tous les soirs. Ces séances permettent de diminuer les symptômes de raideurs et ainsi éviter les blessures chroniques. De plus, si le coureur possède des orthèses plantaires, il doit les porter dès le lever et ce, durant toute la journée.
 
 ## Une mémoire musculaire incroyable et un retour optimal :
 
