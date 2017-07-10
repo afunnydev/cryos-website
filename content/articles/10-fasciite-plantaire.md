@@ -1,24 +1,25 @@
 ---
-author: marilyne
-blog_img: img/posts/fasciite-plantaire.jpg
-categories:
-- Douleur aux pieds
-- Epine de Lenoir
-- Fasciite plantaire
-date: 2017-02-14
-description: Quels sont les symptômes d’une fasciite plantaire? Comment soulager les
+titre: 'La fasciite plantaire: symptômes, douleurs et traitements'
+title: 'La fasciite plantaire: symptômes, douleurs et traitements - Cryos Technologies'
+description: >-
+  Quels sont les symptômes d’une fasciite plantaire? Comment soulager les
   douleurs? Quels traitements suivre? Voici les réponses d’une podiatre!
 slug: fasciite-plantaire-quels-sont-les-symptomes-et-les-traitements-disponibles/
-title: 'La fasciite plantaire: symptômes, douleurs et traitements - Cryos Technologies'
-titre: 'La fasciite plantaire: symptômes, douleurs et traitements'
-type: post
 identifiant: 10-fasciite-plantaire
+author: marilyne
+date: 2017-02-14T00:00:00.000Z
+blog_img: img/posts/fasciite-plantaire.jpg
+type: post
+categories:
+  - Douleur aux pieds
+  - Epine de Lenoir
+  - Fasciite plantaire
+i18nlanguage: fr
 isfront: false
 orthese_pro: false
 orthese_patients: false
 cryovizion_pro: false
 cryovizion_patients: false
-i18nlanguage: fr
 ---
 
 *La fasciite plantaire est l’une des conditions inflammatoires les plus répandues au Québec. Les vives douleurs qu’elles provoquent (surtout un mal au talon) conduisent bon nombre de patients chez le podiatre. Il est important de comprendre que la fasciite plantaire est une inflammation du ligament fibreux, nommé fascia plantaire, ayant comme fonction le soutien de la voûte du pied.*
@@ -55,7 +56,7 @@ Oui, dans la mesure où l’on hérite de la forme du pied (par exemple un pied 
 
 ## La fasciite plantaire est-elle une condition qui peut devenir permanente?
 
-Non, pas si l’on a le traitement approprié pour la guérir. Lors de l’apparition des premières douleurs au talon, il peut être bon de faire certains étirements et d’appliquer de la glace. Si ça ne fonctionne pas, il faut rapidement consulter un podiatre.
+Non, pas si l’on a le traitement approprié pour la guérir. Lors de l’apparition des premières douleurs au talon, il peut être bon de faire certains étirements et d’appliquer de la glace. Si ça ne fonctionne pas, il faut rapidement [consulter un podiatre](http://www.cryos.com/trouver-une-clinique/).
 
 ## Comment un podiatre peut-il aider un patient à mieux vivre avec une fasciite plantaire?
 
