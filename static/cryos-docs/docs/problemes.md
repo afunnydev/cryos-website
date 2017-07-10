@@ -11,6 +11,10 @@ Si vous aviez fait ces étapes, voir le point suivant.
 
 Une fois assuré de ces points, essayer de publier à nouveau n'importe quoi (juste pour que Netlify essaie de rebâtir votre site). Si le build échoue encore, veuillez me [contacter directement par courriel](mailto:felix.deblois@akiamarketing.ca), avec le nom de la collection que vous avez modifié, ainsi que le lien de votre page. (ex: http://localhost:1313/cryos-docs/#/markdown)
 
+### J'ai cliqué sur Save, mais il ne se passe rien
+
+Promenez-vous dans la page, il y a probablement un champ en rouge, ce qui signifie qu'il est erroné ou incomplet. Assurez-vous qu'il n'y ait aucun champ en rouge pour que la sauvegarde fonctionne.
+
 ### J'ai cliqué sur Save, et la barre dans le haut de l'écran avance lentement, sans jamais se rendre au bout
 
 Veuillez me [contacter directement par courriel](mailto:felix.deblois@akiamarketing.ca), avec le nom de la collection dans laquelle vous êtes, ainsi que le lien de votre page. (ex: http://localhost:1313/cryos-docs/#/markdown)

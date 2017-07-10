@@ -26,6 +26,7 @@ collections:
             fields:
               - {label: "Nom", name: "name", widget: "string"}
               - {label: "Image", name: "file", widget: "image"}
+              - {label: "Ordre", name: "weight", widget: "number"}
       - name: "equipe"
         label: "Membres de l'équipe"
         file: "data/equipe.yml"
@@ -127,6 +128,8 @@ collections:
       - {label: "Voir sur la page Cryovizion Professionels", name: "cryovizion_pro", widget: "boolean", required: false, default: false}
       - {label: "Voir sur la page Cryovizion Patients", name: "cryovizion_patients", widget: "boolean", required: false, default: false}
       - {label: "Texte", name: "body", widget: "markdown"}
+      - {label: "Rendre l'article invisible?", name: "draft", widget: "boolean", required: false, default: false}
+
   
   - name: "articlesen" # Used in routes, e.g. /admin/collections/blog
     label: "Articles-EN" # Used in the UI
@@ -155,6 +158,7 @@ collections:
       - {label: "Voir sur la page Cryovizion Professionels", name: "cryovizion_pro", widget: "boolean", required: false, default: false}
       - {label: "Voir sur la page Cryovizion Patients", name: "cryovizion_patients", widget: "boolean", required: false, default: false}
       - {label: "Texte", name: "body", widget: "markdown"}
+      - {label: "Rendre l'article invisible?", name: "draft", widget: "boolean", required: false, default: false}
         
   - name: "cliniques-fr" # Used in routes, e.g. /admin/collections/blog
     label: "Cliniques FR" # Used in the UI

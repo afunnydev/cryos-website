@@ -20,6 +20,7 @@ Aucune distinction entre les langues
 
 - *Nom* : Nom du partenaire, obligatoire
 - *Image* : L'image, **sans fond (background)**, obligatoire. Elles devraient être en format png, puisque c'est le format qui supporte les images sans fond.
+- *Ordre* : Les partenaires sont classés en ordre croissant. Si vous ajoutez un nouveau partenaire, soyez sur de bien modifier l'ordre des partenaires après lui pour que tout fonctionne. Obligatoire
 
 ### L'aperçu
 

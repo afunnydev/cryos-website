@@ -51,26 +51,26 @@ cryos.com ou www.cliniquepodiatrique.com ne sont pas des bons exemples.
 ```
 ### Liste de tous les identifiants d'auteur déjà utilisés en date du 26 juin 2017
 
-- annie-jean
-- arnaud
-- audree
-- boisclair
-- bonneau
-- caroline
-- elizabeth
-- frederic
-- gabriel
-- gabrielle
-- giroux
-- gravel
-- keven
-- lyndacormier
-- marie-michelle
-- marilyne
-- melanie
-- morel
-- philippe_legare
-- william
+- annie-jean = Annie Jean, DPM
+- arnaud = Arnaud Vouligny
+- audree = Audrée Quinn-Carignan, DPM
+- boisclair = Charlène Boisclair
+- bonneau = Stéphanie Bonneau, DPM
+- caroline = Caroline Guimont, DPM
+- elizabeth = Élizabeth Piché, DPM
+- frederic = Frédéric Gremillet, DPM
+- gabriel = Gabriel Beaudoin-Côté, DPM
+- gabrielle = Gabrielle Castonguay, DPM
+- giroux = François Giroux, DPM
+- gravel = Marie-Michelle Gravel, DPM
+- keven = Keven Lambert, DPM
+- lyndacormier = Lynda Cormier, DPM
+- marie-michelle = Marie-Michelle Fecteau, DPM
+- marilyne = Marilyne Langlois, DPM
+- melanie = Mélanie Laplante, DPM
+- morel = Alexandre Morel, DPM
+- philippe_legare = Philippe Legaré, DPM
+- william = William Constant, DPM
 
 ### L'aperçu
 

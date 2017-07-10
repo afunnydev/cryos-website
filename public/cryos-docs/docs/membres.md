@@ -21,7 +21,7 @@ Chaque membre de l'équipe a sa propre boîte dans laquelle vous pouvez modifier
 - *Nom* : Nom du membre, obligatoire
 - *Fonction FR ou EN* : Fonction du membre (dans les deux langues), obligatoire. Ex: Podiatre et propriétaire
 - *Ordre* : Les membres sont classés en ordre croissant. Si vous ajoutez un nouveau membre, soyez sur de bien modifier l'ordre des gens après lui pour que tout fonctionne. Obligatoire
-- *Image* : L'image dans le cercle, obligatoire.
+- *Image* : L'image dans le cercle, obligatoire. Le format est de 150px par 150px. Vous devez avoir l'image dans le format circulaire avec le cercle blanc autour si vous voulez qu'elle soit dans le même format que les autres.
 
 ### L'aperçu
 

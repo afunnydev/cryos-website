@@ -22,19 +22,19 @@ i18nlanguage: fr
 
 *Les verrues plantaires peuvent être soignées efficacement par des traitements podiatriques. Découvrez les différentes approches ainsi que les conseils d’un podiatre pour les prévenir et les traiter.*
 
-#### Les causes des verrues plantaires.
+## Les causes des verrues plantaires.
 
 Une verrue plantaire est considérée comme une lésion cutanée bénigne causée par un virus (VPH). Cette lésion apparait fréquemment sur la plante des pieds, dont le talon ou les orteils, suite à une exposition au virus. Bien qu’elles ne soient pas dangereuses, les verrues plantaires sont contagieuses et peuvent se multiplier. [Renseignez-vous auprès d’un podiatre pour découvrir les traitements disponibles](/trouver-une-clinique/)
 
-#### L’expertise d’un podiatre pour traiter les verrues plantaires.
+## L’expertise d’un podiatre pour traiter les verrues plantaires.
 
 Le podiatre cible le traitement efficace et adéquat en cas de verrue au pied. Idéalement, il faut consulter dès que vous présumez une anomalie. Plus vous consultez rapidement, plus le podiatre peut traiter efficacement les verrues plantaires et éviter la contagion. Dans le cas contraire, le virus pourrait nécessiter un traitement plus laborieux.
 
-#### Les types de verrues plantaires.
+## Les types de verrues plantaires.
 
 Parmi les verrues plantaires les plus courantes, on retrouve la verrue mosaïque qui est moins profonde, mais très étendue sur le pied. De nature plus superficielle, elle est moins douloureuse. La verrue de type myrmécie est la plus répandue. Présente sous la forme d’une excroissance sous la peau, elle peut engendrer un inconfort constant et une douleur à la compression.
 
-#### Les traitements possibles pour se départir d’une verrue plantaire.
+## Les traitements possibles pour se départir d’une verrue plantaire.
 
 Consulter un podiatre vous permet d’éliminer le virus qui cause des verrues plantaires et d’éviter la contagion.
 
@@ -48,7 +48,7 @@ L’agent anti-néoplasique est requis dans les cas de virus plus résistants ou
 
 La cryothérapie est un traitement par le froid à l’azote liquide qui fait disparaître les verrues par une brûlure. Parfois utilisée en dernier recours, cette solution doit être appliquée par un professionnel de la santé. Ce traitement est peu recommandé car il requiert un grand nombre d'applications. Consultez un podiatre pour tout renseignement.
 
-#### Comment éviter de contracter une verrue plantaire?
+## Comment éviter de contracter une verrue plantaire?
 
 Les moyens pour éviter de contracter des verrues plantaires ou pour prévenir leur propagation sont efficaces et simples:
 
@@ -56,10 +56,10 @@ Les moyens pour éviter de contracter des verrues plantaires ou pour prévenir l
 - Garder les pieds secs. Certaines personnes ont tendance à transpirer des pieds. Les bas en fibres plus naturelles et tous autres produits qui contrôlent la transpiration sont recommandés.
 - Il faut couvrir les régions affectées dès qu’elles sont sous traitement.
 
-#### Les verrues plantaires chez les enfants et les adolescents:
+## Les verrues plantaires chez les enfants et les adolescents:
 
 Les verrues plantaires sont contagieuses et transmises plus facilement dans les endroits publics. On remarque que les enfants et les adolescents sont plus affectés, puisqu’ils sont exposés davantage à ce virus qui se propage dans ces lieux. Les moyens mentionnés précédemment sont particulièrement recommandés pour ces groupes d’âge.
 
-#### Les mythes et les verrues plantaires:
+## Les mythes et les verrues plantaires:
 
 Certaines informations circulent sur les verrues plantaires. Pour certains, le virus se traite seul. Bien que cette information soit parfois vraie, le virus a plus de chances de se propager que de guérir par lui-même.
