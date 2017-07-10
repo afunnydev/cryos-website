@@ -77,3 +77,4 @@ Le «scénario-catastrophe» serait la rupture complète du fascia. Toutefois, c
 ## Comment se déroule un examen pour détecter une fasciite plantaire?
 
 En général, cela se fait en 3 étapes. Tout d’abord, le podiatre pose des questions au patient pour décrire les symptômes et obtenir son historique personnel et familial. Ensuite, il palpe les structures de son pied. Enfin, il fait un examen de la biomécanique du pied du patient afin d’évaluer sa posture et sa démarche. Au terme de l’examen, le podiatre établit un diagnostic et prescrit le traitement nécessaire pour soulager le patient. S’il s’agit d’un problème au niveau de la mécanique du pied, le port de l’orthèse sur mesure sera recommandé afin de permettre au pied de reprendre une position optimale.
+
