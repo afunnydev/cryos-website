@@ -57,7 +57,7 @@ Développé par Cryos Technologies, le système d’imagerie CryoVizion est un o
 
 ## Le système d’imagerie CryoVizion, est-il efficace?
 
-Le système d’imagerie CryoVizion cumule des données cliniques depuis près de 20 ans. D’ailleurs, l’efficacité du CryoVizion est validée scientifiquement par l’Université de Montréal, en raison de la qualité des informations fournies, lors de l’analyse de la posture.
+Le système d’imagerie CryoVizion cumule des données cliniques depuis près de 20 ans. D’ailleurs, l’efficacité du CryoVizion est validée scientifiquement par l’<a href="http://www.umontreal.ca/en/" target="_blank">Université de Montréal</a>, en raison de la qualité des informations fournies, lors de l’analyse de la posture.
 
 [Voyez de plus amples informations en cliquant ici.](http://www.cryos.com/img/autres/color-coded-video-based-system.pdf)
 
