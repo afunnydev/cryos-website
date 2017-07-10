@@ -1,23 +1,26 @@
 ---
-author: gravel
-blog_img: img/posts/douleur-aux-talons.jpg
-categories:
-- Douleur aux pieds
-- Orthèses plantaires
-date: 2017-01-30
-description: Une femme qui porte un talon haut devrait-elle obligatoirement porter
-  une orthèse plantaire? Départagez ici les mythes et la réalité!
-slug: talons-hauts-ortheses-plantaires-avoir-du-style-douleurs-aux-pieds/
-title: 'Orthèse plantaire et talon haut : tout ce qu’il y a à savoir! - Cryos Technologies'
 titre: 'Orthèse plantaire et talon haut : tout ce qu’il y a à savoir!'
-type: post
+title: >-
+  Orthèse plantaire et talon haut : tout ce qu’il y a à savoir! - Cryos
+  Technologies
+description: >-
+  Une femme qui porte un talon haut devrait-elle obligatoirement porter une
+  orthèse plantaire? Départagez ici les mythes et la réalité!
+slug: talons-hauts-ortheses-plantaires-avoir-du-style-douleurs-aux-pieds/
 identifiant: 07-talons-hauts
+author: gravel
+date: 2017-01-30T00:00:00.000Z
+blog_img: img/posts/douleur-aux-talons.jpg
+type: post
+categories:
+  - Douleur aux pieds
+  - Orthèses plantaires
+i18nlanguage: fr
 isfront: false
 orthese_pro: false
 orthese_patients: false
 cryovizion_pro: false
 cryovizion_patients: false
-i18nlanguage: fr
 ---
 
 *La douleur aux pieds causée par le port du soulier à talon haut est ressentie chez plusieurs femmes. Entre les oignons aux pieds, les problèmes posturaux et plusieurs autres conditions podiatriques, de nombreuses femmes cherchent à combiner style de vie et bonne santé de leurs pieds. La solution podiatrique : des orthèses plantaires. Afin de nous apporter quelques réponses sur le sujet, nous nous sommes adressés à Dre. Marie-Michelle Gravel, podiatre. Grâce à ses conseils, plusieurs femmes trouveront le juste équilibre entre le port du soulier à talon haut et celui des orthèses plantaires.*
@@ -52,7 +55,7 @@ Cela peut être vrai, bien sûr, mais ce n’est pas un automatisme. Comme je l�
 
 Malheureusement, non. La plupart de mes patientes ignorent l’ampleur des séquelles qui peuvent découler du port de ce type de soulier.
 
-Par exemple, plusieurs souffrent d’ongles incarnés, de problèmes posturaux, d’une douleur derrière le talon, d’une fasciite plantaire, de conditions osseuses, et j’en passe! Le plus malheureux est qu’elles ignorent que ces symptômes sont directement causés par la façon dont elles portent leurs chaussures.
+Par exemple, plusieurs souffrent d’[ongles incarnés](http://www.cryos.com/ongles-incarnes-causes-et-traitements-selon-un-podiatre/), de problèmes posturaux, d’une douleur derrière le talon, d’une fasciite plantaire, de conditions osseuses, et j’en passe! Le plus malheureux est qu’elles ignorent que ces symptômes sont directement causés par la façon dont elles portent leurs chaussures.
 
 ## Quels sont les bienfaits que les orthèses peuvent apporter?
 
@@ -72,4 +75,4 @@ Oui, les fabricants d’orthèses offrent une gamme de produits assez diversifi�
 
 L’élément qui leur donne une bonne longueur d’avance, c’est le fait qu’elles soient dynamiques. Ce ne sont pas des orthèses qui vont faire obstruction au mouvement du pied : elles guident le pied pour un meilleur mouvement.
 
-De plus, grâce à sa forme discrète et petite, elles peuvent convenir à tous types de chaussures (sandale, soulier plat, talon haut, etc.), ce qui permet au patient de la porter plus souvent. Selon moi, l’orthèse plantaire de Cryos rend ce genre de traitement podiatrique à la fois plus versatile et plus accessible pour les femmes.
+De plus, grâce à sa forme discrète et petite, elles peuvent convenir à tous types de chaussures (sandale, soulier plat, talon haut, etc.), ce qui permet au patient de la porter plus souvent. Selon moi, [l’orthèse plantaire de Cryos](http://www.cryos.com/patients/ortheses/) rend ce genre de traitement podiatrique à la fois plus versatile et plus accessible pour les femmes.
