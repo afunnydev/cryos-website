@@ -1,25 +1,28 @@
 ---
-author: "keven"
-blog_img: img/posts/Bonne_posture.jpg
-categories:
-- Orthèses plantaires
-date: 2017-04-06
-description: Une bonne posture est difficile à avoir. Il existe plusieurs solutions
-  afin de l'améliorer, mais on oublie souvent que l'orthèse plantaire en est une!
-short_desc: Pour profiter d’une belle qualité de vie, avoir une bonne posture et une
-  santé des pieds sont des éléments incontournables. Toutefois, plusieurs ignorent
-  combien les orthèses plantaires peuvent contribuer à l’atteinte de cette bonne condition.
-slug: bonne-posture-et-sante-des-pieds/
-title: Comment avoir une bonne posture? - Cryos Technologies
 titre: Comment avoir une bonne posture?
-type: post
+title: Comment avoir une bonne posture? - Cryos Technologies
+description: >-
+  Une bonne posture est difficile à avoir. Il existe plusieurs solutions afin de
+  l'améliorer, mais on oublie souvent que l'orthèse plantaire en est une!
+slug: bonne-posture-et-sante-des-pieds/
 identifiant: 01-bonne-posture
+short_desc: >-
+  Pour profiter d’une belle qualité de vie, avoir une bonne posture et une santé
+  des pieds sont des éléments incontournables. Toutefois, plusieurs ignorent
+  combien les orthèses plantaires peuvent contribuer à l’atteinte de cette bonne
+  condition.
+author: keven
+date: 2017-04-06T00:00:00.000Z
+blog_img: img/posts/Bonne_posture.jpg
+type: post
+categories:
+  - Orthèses plantaires
+i18nlanguage: fr
 isfront: false
 orthese_pro: false
 orthese_patients: false
 cryovizion_pro: false
 cryovizion_patients: false
-i18nlanguage: fr
 ---
 
 *Pour profiter d’une belle qualité de vie, avoir une bonne posture et une santé des pieds sont des éléments incontournables. Toutefois, plusieurs ignorent combien les orthèses plantaires peuvent contribuer à l’atteinte de cette bonne condition.
@@ -29,7 +32,7 @@ Vous souhaitez connaître plus en détails les liens qui existent entre la bonne
 
 De façon globale, je dirais de porter attention aux premières sensations que l’on ressent en sortant du lit. Elles peuvent être très révélatrices! Les raideurs, par exemple, sont à considérer. Aussi, si le patient se fatigue rapidement en marchant, c’est également un signe qu’il peut y avoir un problème.
 
-> Dès qu’il est question de douleurs ressenties (pieds, genoux, hanches, talon, bas du dos, etc.), c’est souvent signe qu’il est temps de consulter un podiatre.
+> Dès qu’il est question de douleurs ressenties (pieds, genoux, hanches, talon, bas du dos, etc.), c’est souvent signe qu’il est temps de [consulter un podiatre](http://www.cryos.com/trouver-une-clinique/).
 
 Évidemment, je conseille toujours aux patients plus sportifs (par exemple, les coureurs, les joueurs de soccer ou de hockey) de porter une attention particulière à la santé de leurs pieds.
 
@@ -59,7 +62,7 @@ Malheureusement, c’est plus souvent considéré comme une option inaccessible.
 
 Je pense que les gens ont cette perception, en partie due à un grand manque d’informations  disponibles qui explique les réels bénéfices de l’orthèse.
 
-C’est d’ailleurs pourquoi j’estime beaucoup l’orthèse plantaire de chez CRYOS Technologies. Leurs produits permettent de corriger plusieurs conditions du pied tout en restant très discrètes pour le patient. C’est une option à la fois efficace et agréable pour lui.
+C’est d’ailleurs pourquoi j’estime beaucoup l’[orthèse plantaire de chez CRYOS Technologies](http://www.cryos.com/patients/ortheses/). Leurs produits permettent de corriger plusieurs conditions du pied tout en restant très discrètes pour le patient. C’est une option à la fois efficace et agréable pour lui.
 
 ## En conclusion, quels sont les grands bénéfices et avantages que l’orthèse plantaire peut améliorer dans la qualité de vie du patient?
 
