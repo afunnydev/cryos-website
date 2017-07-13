@@ -1,31 +1,32 @@
 ---
-author: philippe_legare
-blog_img: img/posts/anayse-posturale.jpg
-categories:
-- Biomechanical
-- Sporting injuries
-- Foot orthotics
-- Posture
-date: 2017-04-29
-description: >-
-  A validated and recommended approach used by some foot doctors 
-  is to use imaging systems to more accurately evaluate and measure
-  postural and biomechanical problems.
-short_desc: >-
-  Health professionals use imaging devices and systems for a variety of medical purposes. A validated and
-  recommended approach used by some foot doctors is to use imaging systems to more accurately evaluate and measure
-  postural and biomechanical problems.
-slug: postural-evaluation-by-imaging/
-title: Postural Evaluation By Imaging - Cryos Technologies
 titre: Postural Evaluation By Imaging
-type: post
+title: Postural Evaluation By Imaging - Cryos Technologies
+description: >-
+  A validated and recommended approach used by some foot doctors  is to use
+  imaging systems to more accurately evaluate and measure postural and
+  biomechanical problems.
+slug: postural-evaluation-by-imaging/
 identifiant: 21-analyse-posturale
+short_desc: >-
+  Health professionals use imaging devices and systems for a variety of medical
+  purposes. A validated and recommended approach used by some foot doctors is to
+  use imaging systems to more accurately evaluate and measure postural and
+  biomechanical problems.
+author: philippe_legare
+date: 2017-04-29T00:00:00.000Z
+blog_img: /img/uploads/BEFORE_AFTER_posture.png
+type: post
+categories:
+  - Biomechanical
+  - Sporting injuries
+  - Foot orthotics
+  - Posture
+i18nlanguage: en
 isfront: true
 orthese_pro: false
 orthese_patients: false
 cryovizion_pro: true
 cryovizion_patients: true
-i18nlanguage: en
 ---
 
 *Health professionals use imaging devices and systems for a variety of medical purposes. A validated and recommended approach used by some foot doctors is to use imaging systems to more accurately evaluate and measure postural and biomechanical problems. The visual nature of this technology allows patients to more easily understand the mechanics behind their condition and its impact on their posture.*
