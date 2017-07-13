@@ -15,8 +15,7 @@
 	</div>
 	<div class="info">
 		<div class="comments valign-wrapper">
-			<a href="{{ .Permalink }}" class="valign"><i class="fa fa-comments"></i></a>
-			<p class="">0 Commentaire</p>
+			<a href="{{ .Permalink }}" class="valign"><i class="fa fa-comments"></i><span class="disqus-comment-count" data-disqus-url="{{.Permalink}}">...</span></a>
 		</div>
 		<div class="socials valign-wrapper">
 			<p class="valign">{{ if eq .Lang "fr" }}Partager l'article:{{ else if eq .Lang "en" }}Share this article:{{ end }}</p> 
