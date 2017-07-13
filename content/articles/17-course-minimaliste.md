@@ -29,7 +29,7 @@ Les chaussures minimalistes procurent un support minimal aux pieds et engendrent
 
 ## Quels sont les risques de la course minimaliste et pieds nus :
 
-La course pieds nus ou minimaliste sollicite davantage les avant-pieds comparativement à la course conventionnelle qui utilise les talons. Pendant cette dernière, les sportifs sont plus enclins, sous certaines circonstances, à développer des blessures aux genoux. Dans des cas spécifiques, la course minimaliste peut être un traitement bénéfique pour les blessures aux membres inférieurs. Pour avoir des recommandations personnalisées, il est conseillé de consulter un podiatre. Il sera en mesure de venir en aide aux sportifs  ayant des antécédents de blessures ou qui éprouvent des nouvelles douleurs. Les recommandations leur éviteront d’utiliser des techniques inadéquates pouvant conduire à une surcharge à l’avant-pied et même éviter d’engendrer des blessures comme une tendinite achilléenne ou une fracture de stress.
+La course pieds nus ou minimaliste sollicite davantage les avant-pieds comparativement à la course conventionnelle qui utilise les talons. Pendant cette dernière, les sportifs sont plus enclins, sous certaines circonstances, à développer des blessures aux genoux. Dans des cas spécifiques, la course minimaliste peut être un traitement bénéfique pour les blessures aux membres inférieurs. Pour avoir des recommandations personnalisées, il est conseillé de [consulter un podiatre](http://www.cryos.com/trouver-une-clinique/). Il sera en mesure de venir en aide aux sportifs  ayant des antécédents de blessures ou qui éprouvent des nouvelles douleurs. Les recommandations leur éviteront d’utiliser des techniques inadéquates pouvant conduire à une surcharge à l’avant-pied et même éviter d’engendrer des blessures comme une tendinite achilléenne ou une fracture de stress.
 
 ## Est-ce que la course minimaliste est recommandée?
 
@@ -57,7 +57,7 @@ La transition est primordiale pour pratiquer adéquatement cette discipline pour
 
 ## Pourquoi consulter un podiatre avant d’entreprendre la course minimaliste ?
 
-Le podiatre guidera le coureur dans sa pratique afin d’éviter les risques de blessures et atteindre des performances optimales. Il effectuera une évaluation personnalisée en analysant la morphologie des pieds, le contrôle moteur, la biomécanique, etc. Le coureur sera mieux renseigné par le podiatre sur les éléments suivants:
+Le podiatre guidera le coureur dans sa pratique afin d’[éviter les risques de blessures](http://www.cryos.com/categories/blessures-sportives/) et atteindre des performances optimales. Il effectuera une évaluation personnalisée en analysant la morphologie des pieds, le contrôle moteur, la biomécanique, etc. Le coureur sera mieux renseigné par le podiatre sur les éléments suivants:
 
 - Déterminer si la course minimaliste ou pieds nus lui convient
 - Fixer ses attentes et réaliser ses buts

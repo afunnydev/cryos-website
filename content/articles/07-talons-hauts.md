@@ -52,7 +52,7 @@ Cela peut être vrai, bien sûr, mais ce n’est pas un automatisme. Comme je l�
 
 Malheureusement, non. La plupart de mes patientes ignorent l’ampleur des séquelles qui peuvent découler du port de ce type de soulier.
 
-Par exemple, plusieurs souffrent d’ongles incarnés, de problèmes posturaux, d’une douleur derrière le talon, d’une fasciite plantaire, de conditions osseuses, et j’en passe! Le plus malheureux est qu’elles ignorent que ces symptômes sont directement causés par la façon dont elles portent leurs chaussures.
+Par exemple, plusieurs souffrent d’[ongles incarnés](http://www.cryos.com/ongles-incarnes-causes-et-traitements-selon-un-podiatre/), de problèmes posturaux, d’une douleur derrière le talon, d’une fasciite plantaire, de conditions osseuses, et j’en passe! Le plus malheureux est qu’elles ignorent que ces symptômes sont directement causés par la façon dont elles portent leurs chaussures.
 
 ## Quels sont les bienfaits que les orthèses peuvent apporter?
 
@@ -72,4 +72,4 @@ Oui, les fabricants d’orthèses offrent une gamme de produits assez diversifi�
 
 L’élément qui leur donne une bonne longueur d’avance, c’est le fait qu’elles soient dynamiques. Ce ne sont pas des orthèses qui vont faire obstruction au mouvement du pied : elles guident le pied pour un meilleur mouvement.
 
-De plus, grâce à sa forme discrète et petite, elles peuvent convenir à tous types de chaussures (sandale, soulier plat, talon haut, etc.), ce qui permet au patient de la porter plus souvent. Selon moi, l’orthèse plantaire de Cryos rend ce genre de traitement podiatrique à la fois plus versatile et plus accessible pour les femmes.
+De plus, grâce à sa forme discrète et petite, elles peuvent convenir à tous types de chaussures (sandale, soulier plat, talon haut, etc.), ce qui permet au patient de la porter plus souvent. Selon moi, [l’orthèse plantaire de Cryos](http://www.cryos.com/patients/ortheses/) rend ce genre de traitement podiatrique à la fois plus versatile et plus accessible pour les femmes.

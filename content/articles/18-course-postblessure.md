@@ -68,7 +68,7 @@ Durant la période d’arrêt, le coureur peut être suivi de deux à quatre foi
 - Dès qu’il présente des symptômes de dyskinésie post-statique (douleur au talon après le repos) qui persistent plus d'une semaine malgré les étirements.
 - Dès qu'une nouvelle douleur se présente.
 - À chaque six mois pour les patients nécessitant l'orthèse plantaire afin de s’assurer que l’orthèse est stable et que le pied n’a pas changé structurellement.
-- <strong><span style="font-weight: 400;">À chaque trois mois, pour les patients nécessitant des soins de pieds pour le traitement d'ongles traumatiques ou d’hyperkératose (corne).</span></strong>
+- À chaque trois mois, pour les patients nécessitant des soins de pieds pour le traitement d'ongles traumatiques ou d’hyperkératose (corne).
 
 ## Quelles sont les blessures à risque d’être développées chez les coureurs ?
 

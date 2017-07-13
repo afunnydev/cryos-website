@@ -41,11 +41,11 @@ Il existe deux types de traitements pour remédier à cette problématique.
 
 Le traitement plus conservateur recommandé pour les oignons au pied est le port d’orthèses. Celles-ci contrôlent les douleurs et les symptômes de l’hallux valgus, en plus de ralentir sa progression dans le temps. Avant de prescrire des orthèses plantaires, le podiatre effectue une analyse posturale et manipule le pied pour déterminer sa mobilité. Si les orthèses sont nécessaires, il effectuera un moule pour concevoir par la suite un produit sur mesure. Ce traitement est très efficace et nécessite une légère adaptation pouvant aller d’une à trois semaines.
 
-Par ailleurs, dans certains cas une chirurgie osseuse peut être envisagée. Ce traitement demande une opération du pied pour corriger la déviation occasionnée par l’oignon. Par la suite, le port d’orthèses plantaires est exigé à long terme.
+Par ailleurs, dans certains cas une [chirurgie osseuse peut être envisagée](http://www.cryos.com/pourquoi-les-ortheses-plantaires-sont-elles-conseillees-avec-la-chirurgie-aux-avant-pieds/). Ce traitement demande une opération du pied pour corriger la déviation occasionnée par l’oignon. Par la suite, le port d’orthèses plantaires est exigé à long terme.
 
 ## L’efficacité des orthèses plantaires à long terme pour un hallux valgus
 
-Les oignons aux pieds diminuent le confort à la marche et entrainent une irritation constante ou une douleur vive. L’orthèse plantaire permet de répartir le poids sous le pied afin d’enlever la pression dans l’articulation. Dès son utilisation, le patient ressentira un meilleur confort et une plus grande endurance, surtout lors de la marche à pied. Avec le temps, les douleurs seront moins fréquentes grâce au port d’orthèses.
+Les oignons aux pieds diminuent le confort à la marche et entrainent une irritation constante ou une douleur vive. L’orthèse plantaire permet de répartir le poids sous le pied afin d’enlever la pression dans l’articulation. Dès son utilisation, le patient ressentira un meilleur confort et une plus grande endurance, surtout lors de la marche à pied. Avec le temps, les douleurs seront moins fréquentes grâce au [port d’orthèses](http://www.cryos.com/les-etapes-du-port-dortheses-plantaires/).
 
 ## Astuce pour pallier à la douleur
 

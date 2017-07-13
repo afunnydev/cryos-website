@@ -26,7 +26,7 @@ cryovizion_patients: false
 
 ## Quelles questions doit se poser un patient avant une chirurgie aux avant-pieds?
 
-Avant de considérer une telle chirurgie, le patient doit d’abord s’interroger sur la provenance de la pathologie. Il est recommandé de [consulter un podiatre](/[](http://www.cryos.com/trouver-une-clinique/)) qui effectuera un examen biomécanique complet, afin d’aller à la source du problème. Le podiatre sera alors en mesure d’expliquer quels facteurs biomécaniques sont responsables de la déformation aux avant-pieds. Si possible, il recommandera les traitements orthésiques avant l’intervention chirurgicale. Dans tous les cas, le patient sera mieux outillé pour comprendre et ainsi prendre une décision éclairée quant aux traitements proposés pour remédier à un problème aux avant-pieds.
+Avant de considérer une telle chirurgie, le patient doit d’abord s’interroger sur la provenance de la pathologie. Il est recommandé de [consulter un podiatre](http://www.cryos.com/trouver-une-clinique/) qui effectuera un examen biomécanique complet, afin d’aller à la source du problème. Le podiatre sera alors en mesure d’expliquer quels facteurs biomécaniques sont responsables de la déformation aux avant-pieds. Si possible, il recommandera les traitements orthésiques avant l’intervention chirurgicale. Dans tous les cas, le patient sera mieux outillé pour comprendre et ainsi prendre une décision éclairée quant aux traitements proposés pour remédier à un problème aux avant-pieds.
 
 ## Quelles sont les principales causes des déformations aux avant-pieds
 
