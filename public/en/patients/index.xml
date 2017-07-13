@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Patients on Cryos</title>
-    <link>http://systems-analyst-elephant-50207.netlify.com/en/patients/</link>
+    <link>http://www.cryos.com/en/patients/</link>
     <description>Recent content in Patients on Cryos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://systems-analyst-elephant-50207.netlify.com/en/patients/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.cryos.com/en/patients/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Cryos Technologies | CryoVizion For Patients</title>
-      <link>http://systems-analyst-elephant-50207.netlify.com/en/patients/cryovizion/</link>
+      <link>http://www.cryos.com/en/patients/cryovizion/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://systems-analyst-elephant-50207.netlify.com/en/patients/cryovizion/</guid>
+      <guid>http://www.cryos.com/en/patients/cryovizion/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cryos Technologies | Orthotics that are adapted to your needs</title>
-      <link>http://systems-analyst-elephant-50207.netlify.com/en/patients/cryos-orthotics/</link>
+      <link>http://www.cryos.com/en/patients/cryos-orthotics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://systems-analyst-elephant-50207.netlify.com/en/patients/cryos-orthotics/</guid>
+      <guid>http://www.cryos.com/en/patients/cryos-orthotics/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cryos Technologies | The Answers to Your Questions</title>
-      <link>http://systems-analyst-elephant-50207.netlify.com/en/patients/faq/</link>
+      <link>http://www.cryos.com/en/patients/faq/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://systems-analyst-elephant-50207.netlify.com/en/patients/faq/</guid>
+      <guid>http://www.cryos.com/en/patients/faq/</guid>
       <description></description>
     </item>
     
