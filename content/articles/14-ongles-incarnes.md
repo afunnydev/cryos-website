@@ -1,22 +1,25 @@
 ---
-author: bonneau
-blog_img: img/posts/ongle-incarne.jpg
-categories:
-- Ongles incarnés
-date: 2017-03-19
-description: Informez-vous sur les causes et les traitements possibles d’un ongle
-  incarné. Découvrez les conseils d’un podiatre.
-slug: ongles-incarnes-causes-et-traitements-selon-un-podiatre/
-title: 'Ongles Incarnés, Causes et Traitements: Conseils de Podiatre - Cryos Technologies'
 titre: 'Ongles Incarnés, Causes et Traitements: Conseils de Podiatre'
-type: post
+title: >-
+  Ongles Incarnés, Causes et Traitements: Conseils de Podiatre - Cryos
+  Technologies
+description: >-
+  Informez-vous sur les causes et les traitements possibles d’un ongle incarné.
+  Découvrez les conseils d’un podiatre.
+slug: ongles-incarnes-causes-et-traitements-selon-un-podiatre/
 identifiant: 14-ongles-incarnes
+author: bonneau
+date: 2017-03-19T00:00:00.000Z
+blog_img: img/posts/ongle-incarne.jpg
+type: post
+categories:
+  - Ongles incarnés
+i18nlanguage: fr
 isfront: false
 orthese_pro: false
 orthese_patients: false
 cryovizion_pro: false
 cryovizion_patients: false
-i18nlanguage: fr
 ---
 
 *Ayant de nombreuses causes, un ongle incarné survient souvent lorsque l’extrémité ou une partie de l’ongle pénètre dans la peau qui l’entoure, ce qui peut entrainer une rougeur, une enflure ou une infection à la partie touchée de l’orteil. Dès les premiers signes, il est recommandé de traiter rapidement cette affection afin d’éviter toutes complications éventuelles. Si vous souffrez d’un ongle incarné, consulter un podiatre vous permettra de bénéficier du traitement adéquat et d’éviter toutes récurrences.*
@@ -47,8 +50,8 @@ Lorsqu’une personne souffre d’ongle incarné à répétition ou d’une infe
 
 ## Soulager temporairement un ongle incarné:
 
-En attendant de consulter un podiatre, il est possible de soulager temporairement la douleur par un traitement réalisable à la maison. Tremper l'orteil affecté pendant dix minutes dans deux litres d'eau tiède avec trois cuillères à soupe de sel d'Epsom ou un petit bouchon d'eau de Javel<i>,</i> ce qui peut aider à ramollir les tissus traumatisés. Il est recommandé de masser délicatement la peau adjacente de l'ongle pendant le trempage afin de dégager les adhérences entre l'ongle et la peau. Par la suite, un onguent antibiotique peut être appliqué.
+En attendant de [consulter un podiatre](http://www.cryos.com/trouver-une-clinique/), il est possible de soulager temporairement la douleur par un traitement réalisable à la maison. Tremper l'orteil affecté pendant dix minutes dans deux litres d'eau tiède avec trois cuillères à soupe de sel d'Epsom ou un petit bouchon d'eau de Javel<i>,</i> ce qui peut aider à ramollir les tissus traumatisés. Il est recommandé de masser délicatement la peau adjacente de l'ongle pendant le trempage afin de dégager les adhérences entre l'ongle et la peau. Par la suite, un onguent antibiotique peut être appliqué.
 
 ## Un conseil judicieux :
 
-Si vous souffrez d’un ongle incarné qu’il soit infecté ou non, veuillez consulter un podiatre.
+Si vous souffrez d’[un ongle incarné](http://www.cryos.com/categories/ongles-incarnes/) qu’il soit infecté ou non, veuillez consulter un podiatre.
