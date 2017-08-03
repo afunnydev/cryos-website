@@ -48,13 +48,5 @@
 	{{ end }}
   var data = JSON.stringify(locations);
 </script>
-
-<!-- <script>
-	var locations = [];
-	{{ range where $.Site.Pages "Type" "location" }}
-		locations.push({name:{{ .Params.nomClinique }}, lat:{{ .Params.latitude }}, lng:{{ .Params.longitude }}, address:{{ .Params.address }}, city:{{ .Params.ville }}, state:{{ .Params.pays }}, web:{{ .Params.site }}, slug: {{ .Params.slug }} });
-	{{ end }}
-  var data = JSON.stringify(locations);
-</script> -->
     
 {{ partial "footer.html" . }}

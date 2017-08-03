@@ -7,5 +7,6 @@ layout: cryovizion
 title: Cryos Technologies | CryoVizion for podiatrists
 translatedslug: produits/cryovizion
 type: produits
+gab2b: true
 ---
 

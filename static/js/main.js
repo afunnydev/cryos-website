@@ -217,6 +217,46 @@ jQuery(document).ready(function ($) {
       textfield.setCustomValidity("S'il-vous-plaît remplir ce champ correctement.");  
     }
   });
+  // search bar
+  initUI();
+        
+  /******************
+   SEARCH BOX
+  ******************/
+  var input = $('#search-wrap input');
+  var sw = $('#search-wrap');
+  var tw = $('.tags-wrap');
+  var sr = $('#search-results');
+  
+  //show the search box
+  $('.search-btn').click(function(){
+      sw.addClass('active');
+      tw.addClass('active');
+      input.focus();
+  }); 
+  
+  //close the search box
+  $('#content-wrap, #li-4').click(function(){
+      //collapse bars
+      fcollapse(sw,tw)
+      
+      //reset search
+      nsearch(sr) 
+      
+  });
+  
+  /*Collapse Bars Function*/
+  function fcollapse(sw, tw){
+      sw.removeClass('active');
+      tw.removeClass('active');   
+  }
+
+  /*Clear/New function*/
+  function nsearch(sr){
+      input.val('');
+      sr.html('<ul id="results"></ul>');
+      initUI();
+  }
   if (document.getElementById('bh-sl-map-container-fr')) {
     $(function() {
         $('#bh-sl-map-container-fr').storeLocator({
@@ -275,4 +315,8 @@ jQuery(document).ready(function ($) {
         'dataRaw': data});
     });
   }
+  $('#bh-sl-submit').click(function(){
+    var searchVal = $('#bh-sl-address').val();
+    ga('send', 'event', 'Location', 'Search', searchVal);
+  })
 });

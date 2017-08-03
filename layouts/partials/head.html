@@ -34,6 +34,24 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.css">
 	<link rel="stylesheet" href="{{.Site.BaseURL}}css/materialize.css" />
 	<script src="{{.Site.BaseURL}}js/vendor/modernizr-2.8.3.min.js"></script>
+	<script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-45136162-1', 'cryos.com');
+    {{ if eq .Type "post"}}
+    ga('set', 'contentGroup1', 'Blogue');
+    {{ else if eq .Type "blogue"}}
+    ga('set', 'contentGroup1', 'Blogue');
+    {{ else if .Params.gab2b }}
+		ga('set', 'contentGroup1', 'B2B');
+		{{ else if .Params.gab2c }}
+		ga('set', 'contentGroup1', 'B2C');
+		{{ else }}
+		{{ end }}
+    ga('send', 'pageview');
+    </script>
 </head>
 
 <body>

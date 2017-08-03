@@ -263,7 +263,7 @@
                     {{ range sort $.Site.Data.equipe.equipe "weight" "asce" }}
                         <div class="member center-align">
                             <img src="{{$.Site.BaseURL}}{{ .photo }}" alt="{{ .fonction }}">
-                            <h1>{{ .nom }}</h1>
+                            <h1>{{ .name }}</h1>
                             <h2>{{ .fonction }}</h2>
                         </div>
                     {{ end }}
@@ -271,7 +271,7 @@
                     {{ range sort $.Site.Data.equipe.equipe "weight" "asce" }}
                         <div class="member center-align">
                             <img src="{{$.Site.BaseURL}}{{ .photo }}" alt="{{ .fonction }}">
-                            <h1>{{ .nom }}</h1>
+                            <h1>{{ .name }}</h1>
                             <h2>{{ .position }}</h2>
                         </div>
                     {{ end }}

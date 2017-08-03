@@ -7,5 +7,6 @@ layout: cryoscan-3d
 title: Cryos Technologies | CryoScan 3D pour les podiatres
 translatedslug: en/professionals/cryoscan-3d
 noindex: true
+gab2b: true
 ---
 

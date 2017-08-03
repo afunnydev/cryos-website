@@ -6,5 +6,6 @@ draft: false
 layout: cryovizion
 title: Cryos Technologies | CryoVizion pour les podiatres
 translatedslug: en/professionals/cryovizion
+gab2b: true
 ---
 

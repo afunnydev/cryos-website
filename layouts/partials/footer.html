@@ -68,7 +68,6 @@
         {{ end }}
             .done(function(index) {
                 pagesIndex = index;
-                console.log("index:", pagesIndex);
 
                 // Set up lunrjs by declaring the fields we use
                 // Also provide their boost level for the ranking
@@ -156,76 +155,8 @@
 
     // Let's get started
     initLunr();
-
-    $(document).ready(function() {
-        initUI();
-        
-        /*********************
-         SET ROW'S COLOR
-        *********************/
-        // $.each($('.row'), function() { 
-        //    var c = $(this).attr("data-color");
-        //    $(this).css("background",c);
-        // });
-        
-        /******************
-         SEARCH BOX
-        ******************/
-        var input = $('#search-wrap input');
-        var sw = $('#search-wrap');
-        var tw = $('.tags-wrap');
-        var sr = $('#search-results');
-        
-        //show the search box
-        $('.search-btn').click(function(){
-            sw.addClass('active');
-            tw.addClass('active');
-            input.focus();
-        }); 
-        
-        //close the search box
-        $('#content-wrap, #li-4').click(function(){
-            //collapse bars
-            fcollapse(sw,tw)
-            
-            //reset search
-            nsearch(sr) 
-            
-        });
-        
-        /*****************
-            MOBILE
-        *****************/
-        var mob = $('#menu-mob');
-        mob.click(function(){
-            $(this).toggleClass('active');
-            $('#nav-wrap ul li').toggleClass('mob');
-        }); 
-
-        /*Collapse Bars Function*/
-        function fcollapse(sw, tw){
-            sw.removeClass('active');
-            tw.removeClass('active');   
-        }
-
-        /*Clear/New function*/
-        function nsearch(sr){
-            input.val('');
-            sr.html('<ul id="results"></ul>');
-            initUI();
-        }
-    });
     </script>
     <script src="{{.Site.BaseURL}}js/main.js"></script>
-    
-    <!-- <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-    ga('create', 'UA-45136162-1', 'cryos.com');
-    ga('send', 'pageview');
-    </script> -->
 </body>
 
 </html>

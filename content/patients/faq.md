@@ -4,5 +4,6 @@ description: Une simple foire aux questions dans le but de bien répondre aux qu
   temps.
 layout: faq
 title: Cryos Technologies | Les réponses à vos questions
+gab2c: true
 ---
 

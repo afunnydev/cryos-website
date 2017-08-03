@@ -6,5 +6,6 @@ layout: orthese-cryos
 title: Cryos Technologies | Cryos Dynamic Orthotics
 translatedslug: produits/orthese-cryos
 type: produits
+gab2b: true
 ---
 

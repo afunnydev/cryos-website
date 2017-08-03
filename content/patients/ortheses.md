@@ -5,5 +5,6 @@ description: 'Les orthèses Cryos sont produites sur mesure. Leur conception uni
 layout: ortheses
 title: Cryos Technologies | L’orthèse hautement adaptée à vos besoins
 translatedslug: en/patients/cryos-orthotics
+gab2c: true
 ---
 

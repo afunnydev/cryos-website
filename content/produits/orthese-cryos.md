@@ -5,5 +5,6 @@ description: Le produit reconnu par les experts pour la correction de la dysfonc
 layout: orthese-cryos
 title: Cryos Technologies | Orthèses Cryos dynamiques
 translatedslug: en/professionals/cryos-orthotics
+gab2b: true
 ---
 

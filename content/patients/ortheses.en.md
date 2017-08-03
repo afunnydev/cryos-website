@@ -5,5 +5,6 @@ layout: ortheses
 slug: cryos-orthotics
 title: Cryos Technologies | Orthotics that are adapted to your needs
 translatedslug: patients/ortheses
+gab2c: true
 ---
 
