@@ -83,6 +83,21 @@
   </url>
   
   <url>
+    <loc>http://www.cryos.com/en/index.json</loc>
+    <lastmod>2017-03-05T21:10:52+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://www.cryos.com/index.json"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://www.cryos.com/en/index.json"
+                />
+  </url>
+  
+  <url>
     <loc>http://www.cryos.com/en/the-benefits-of-foot-orthotics-before-and-after-surgery/</loc>
     <lastmod>2017-02-10T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -576,7 +591,6 @@
   <url>
     <loc>http://www.cryos.com/en/articles/</loc>
     <lastmod>2017-06-25T21:19:52+00:00</lastmod>
-    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -613,7 +627,6 @@
   
   <url>
     <loc>http://www.cryos.com/en/company/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -667,6 +680,10 @@
   </url>
   
   <url>
+    <loc>http://www.cryos.com/en/find-a-clinic/</loc>
+  </url>
+  
+  <url>
     <loc>http://www.cryos.com/en/patients/cryos-orthotics/</loc>
     <xhtml:link
                 rel="alternate"
@@ -693,10 +710,6 @@
                 hreflang="en"
                 href="http://www.cryos.com/en/"
                 />
-  </url>
-  
-  <url>
-    <loc>http://www.cryos.com/en/find-a-clinic/</loc>
   </url>
   
   <url>
@@ -736,8 +749,13 @@
   </url>
   
   <url>
-    <loc>http://www.cryos.com/en/location/</loc>
+    <loc>http://www.cryos.com/en/categories/pain/</loc>
+    <lastmod>2017-05-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.cryos.com/en/location/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -751,14 +769,7 @@
   </url>
   
   <url>
-    <loc>http://www.cryos.com/en/categories/pain/</loc>
-    <lastmod>2017-05-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://www.cryos.com/en/patients/</loc>
-    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -790,7 +801,6 @@
   <url>
     <loc>http://www.cryos.com/en/professionals/</loc>
     <lastmod>2017-05-09T12:50:31-04:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>

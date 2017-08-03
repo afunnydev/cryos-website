@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Cryos Technologies | Technology products for podiatrists on Cryos</title>
+    <title>Cryos Technologies | Technology products for podiatrists</title>
     <link>http://www.cryos.com/en/</link>
-    <description>Recent content in Cryos Technologies | Technology products for podiatrists on Cryos</description>
+    <description>Recent content on Cryos Technologies | Technology products for podiatrists</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 25 Jun 2017 21:19:52 +0000</lastBuildDate>
@@ -66,6 +66,15 @@ WHAT IS POSTURAL IMAGING? Postural imaging is a measurement tool that helps with
       <guid>http://www.cryos.com/en/2d-3d-analysis-foot-morphology/</guid>
       <description>Custom-made orthotics are created by taking impressions of the feet. Precision is of the utmost importance in achieving the intended results of the treatment. While there are several impression taking techniques, some have been proven to be more effective and increase the quality of orthotic devices. Read on to get a foot specialists opinion on 2D and 3D impression taking techniques
 WHY DOES A DPM TAKE FOOTPRINTS? Following the diagnosis, the DPM will prescribe the treatment necessary to correct the problem.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.cryos.com/en/index.json</link>
+      <pubDate>Sun, 05 Mar 2017 21:10:52 +0100</pubDate>
+      
+      <guid>http://www.cryos.com/en/index.json</guid>
+      <description></description>
     </item>
     
     <item>
@@ -429,20 +438,20 @@ WHY DOES A DPM TAKE FOOTPRINTS? Following the diagnosis, the DPM will prescribe 
     </item>
     
     <item>
+      <title>Cryos Technologies | Find a clinic in Canada</title>
+      <link>http://www.cryos.com/en/find-a-clinic/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.cryos.com/en/find-a-clinic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Cryos Technologies | Orthotics that are adapted to your needs</title>
       <link>http://www.cryos.com/en/patients/cryos-orthotics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://www.cryos.com/en/patients/cryos-orthotics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Cryos Technologies | Technology products for podiatrists</title>
-      <link>http://www.cryos.com/en/find-a-clinic/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.cryos.com/en/find-a-clinic/</guid>
       <description></description>
     </item>
     

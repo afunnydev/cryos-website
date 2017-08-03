@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Cryos Technologies | Produits technologiques pour les podiatres on Cryos</title>
+    <title>Cryos Technologies | Produits technologiques pour les podiatres</title>
     <link>http://www.cryos.com/</link>
-    <description>Recent content in Cryos Technologies | Produits technologiques pour les podiatres on Cryos</description>
+    <description>Recent content on Cryos Technologies | Produits technologiques pour les podiatres</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 10 May 2017 00:00:00 +0000</lastBuildDate>
@@ -144,6 +144,15 @@ Les bienfaits des orthèses plantaires sur les muscles et la posture.</descripti
       <guid>http://www.cryos.com/pourquoi-porter-une-orthese-plantaire-pendant-un-sport-dete/</guid>
       <description>À la période estivale, les sportifs sont nombreux à exercer des activités physiques qui exigent un effort supplémentaire de la mécanique des pieds. Ainsi, le port d’orthèses sportives s’avère bénéfique pour les enfants et les adultes qui pratiquent un sport d’été tel que le tennis, la course, le soccer, le football, etc. Découvrez pourquoi les orthèses plantaires sont fortement recommandées pour les personnes ayant une faiblesse aux pieds.
 Contribuer aux performances sportives : Porter une orthèse plantaire aide à la biomécanique du corps.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.cryos.com/index.json</link>
+      <pubDate>Sun, 05 Mar 2017 21:10:52 +0100</pubDate>
+      
+      <guid>http://www.cryos.com/index.json</guid>
+      <description></description>
     </item>
     
     <item>
@@ -567,15 +576,6 @@ Quel pourcentage d’enfants souffre de maux de jambes durant leur croissance?</
     </item>
     
     <item>
-      <title>Cryos Technologies | Find a clinic in Canada</title>
-      <link>http://www.cryos.com/trouver-une-clinique/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.cryos.com/trouver-une-clinique/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Cryos Technologies | Les réponses à vos questions</title>
       <link>http://www.cryos.com/patients/faq/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -617,6 +617,15 @@ Quel pourcentage d’enfants souffre de maux de jambes durant leur croissance?</
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://www.cryos.com/patients/cryovizion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cryos Technologies | Trouvez une clinique au Canada</title>
+      <link>http://www.cryos.com/trouver-une-clinique/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.cryos.com/trouver-une-clinique/</guid>
       <description></description>
     </item>
     

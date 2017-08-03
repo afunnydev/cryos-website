@@ -1,7 +1,6 @@
 baseURL = "http://www.cryos.com/"
 DefaultContentLanguage = "fr"
 languageCode = "en-us"
-title = "Cryos"
 metaDataFormat = "yaml"
 preserveTaxonomyNames = true
 RemovePathAccents = true
@@ -14,8 +13,12 @@ RemovePathAccents = true
 
 [Languages]
 [Languages.en]
+description = "We offer innovative  technological solutions for podiatrists and patients. We correct foot dysfunction using natural movement."
+title = "Cryos Technologies | Technology products for podiatrists"
 [Languages.en.Taxonomies]
 category = "categories"
 [Languages.fr]
+description = "Nous offrons des solutions technologiques d'avant-garde aux podiatres et aux patients. Nous corrigeons la dysfonction du pied par le mouvement naturel."
+title = "Cryos Technologies | Produits technologiques pour les podiatres"
 [Languages.fr.Taxonomies]
 categorie = "categories"

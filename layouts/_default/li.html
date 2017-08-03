@@ -11,7 +11,7 @@
 		<a href="{{ .Permalink }}" class="titre">{{ .Params.titre }}</a>
 		<p class="meta">{{ if eq .Lang "fr" }}par {{ else if eq .Lang "en" }}by {{ end }}<span class="auteur">{{ $.Scratch.Get "display" }}</span>| {{ .Date.Format "02/01/2006"  }}</p>
 		<p class="summary">{{ .Summary }}</br>...</p>
-		<p class="categories">{{ if eq .Lang "fr" }}Mots-clés:{{ range $i, $e := .Params.categories }}{{ if $i }}/{{ end }} <a href="{{ $.Site.BaseURL }}categories/{{ $e | urlize }}">{{$e}}</a>/ {{end}}{{ else if eq .Lang "en" }}Keywords:{{ range $i, $e := .Params.categories }}{{ if $i }}/{{ end }} <a href="{{ $.Site.BaseURL }}en/categories/{{ $e | urlize }}">{{$e}}</a>/ {{end}}{{ end }}</p>
+		<p class="categories">{{ if eq .Lang "fr" }}Mots-clés:{{ range $i, $e := .Params.categories }}{{ if $i }}/{{ end }} <a href="{{ $.Site.BaseURL }}categories/{{ $e | urlize }}">{{$e}}</a> {{end}}{{ else if eq .Lang "en" }}Keywords:{{ range $i, $e := .Params.categories }}{{ if $i }}/{{ end }} <a href="{{ $.Site.BaseURL }}en/categories/{{ $e | urlize }}">{{$e}}</a> {{end}}{{ end }}</p>
 	</div>
 	<div class="info">
 		<div class="comments valign-wrapper">

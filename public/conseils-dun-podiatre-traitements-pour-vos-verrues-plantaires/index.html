@@ -53,7 +53,7 @@
     
 
 <!doctype html>
-<html class="no-js" lang="">
+<html class="no-js" lang="fr">
 
 <head>
 	<meta name="generator" content="Hugo 0.16" />
@@ -64,6 +64,16 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	
 	<link rel="shortcut icon" href="http://www.cryos.com/img/favicon.ico" />
+	
+	
+	<meta property="og:title" content="Les conseils d’un podiatre sur les traitements des verrues plantaires. - Cryos Technologies" />
+	
+	<meta property="og:description" content="Un podiatre vous informe sur les traitements efficaces et les moyens de prévenir les verrues plantaires. Découvrez les causes, les traitements et conseils." />
+	
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="http://www.cryos.com/conseils-dun-podiatre-traitements-pour-vos-verrues-plantaires/" />
+	
+		<meta property="og:image" content="img/posts/verrues-plantaires.jpg" />
 	
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1"
 	    crossorigin="anonymous">
@@ -80,7 +90,26 @@
         <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
-    
+      
+  <div id="fixed"> 
+    <div id="search-wrap" class="wrap-top search-wrap">
+      <div class="container">
+        <ul class="clearfix">
+          <li ><i class="fa fa-search"></i> <input type='' id="search" placeholder='Recherche...'></li>
+          <li id="li-4"> <i class="fa fa-times"></i> </li>
+        </ul>
+      </div>
+    </div> 
+    <div id="tags-wrap" class="wrap-top tags-wrap">
+      <div class="container">
+        <div id="search-results">
+          <ul id="results">
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </div>
+
   <nav class="nav-extended" id="top-bar">
   	<div class="nav-content">
       <ul class="left">
@@ -91,6 +120,7 @@
       
         <li class="tab"><a href="http://www.cryos.com/trouver-une-clinique">Trouver une clinique</a></li>
         <li class="tab"><a href="http://www.cryos.com/compagnie/contact">Contact</a></li>
+        <li class="s-desk tab search-btn"><a href="#">Recherche <i class="fa fa-search" style="color: white; margin-left: 10px"></i></a> </li>
       
         <li class="tab disabled"></li>
         
@@ -140,7 +170,7 @@
         
           <a href="http://www.cryos.com/trouver-une-clinique"><i class="fa fa-map-marker"></i></a>
         
-          
+          <a href="#" class="search-btn"><i class="fa fa-search"></i></a>
         
           
         
@@ -265,25 +295,7 @@
                 </div>
             </div>
         </div>
-        <script>
-
         
-
-
-        var disqus_config = function () {
-        this.page.url = "http://www.cryos.com/conseils-dun-podiatre-traitements-pour-vos-verrues-plantaires/";  
-        this.page.identifier = "conseils-dun-podiatre-traitements-pour-vos-verrues-plantaires/"; 
-        this.language = "fr";
-        };
-
-        (function() { 
-        var d = document, s = d.createElement('script');
-        s.src = 'https://cryos.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-        })();
-        </script>
-        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
  				
  				
         
@@ -334,16 +346,161 @@
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDOntm3XuQ68Q_ONIKXx1MQkJNVnFhrHPs&libraries=places"></script>
     <script src="http://www.cryos.com/js/vendor/jquery.storelocator.min.js"></script>
     <script src="http://www.cryos.com/js/plugins.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/1.0.0/lunr.min.js"></script>
+    <script type="text/javascript">
+    var lunrIndex,
+        $results,
+        pagesIndex;
+
+    
+    function initLunr() {
+        
+        
+        $.getJSON("/index.json")        
+        
+            .done(function(index) {
+                pagesIndex = index;
+                console.log("index:", pagesIndex);
+
+                
+                
+                lunrIndex = lunr(function() {
+                    this.field("title", {
+                        boost: 10
+                    });
+                    this.field("tags", {
+                        boost: 10
+                    });
+                    this.field("content");
+
+                    
+                    this.ref("href");
+                });
+
+                
+                pagesIndex.forEach(function(page) {
+                    lunrIndex.add(page);
+                });
+            })
+            .fail(function(jqxhr, textStatus, error) {
+                var err = textStatus + ", " + error;
+                console.error("Error getting Hugo index flie:", err);
+            });
+    }
+
+    
+    function initUI() {
+        $results = $("#results");
+        $("#search").keyup(function() {
+            $results.empty();
+
+            
+            var query = $(this).val();
+            if (query.length < 2) {
+                return;
+            }
+
+            var results = search(query);
+
+            renderResults(results);
+        });
+    }
+
+    
+
+    function search(query) {
+        
+        
+        
+        
+        
+        return lunrIndex.search(query).map(function(result) {
+                return pagesIndex.filter(function(page) {
+                    return page.href === result.ref;
+                })[0];
+            });
+    }
+
+    
+
+    function renderResults(results) {
+        if (!results.length) {
+            return;
+        }
+
+        
+        results.slice(0, 10).forEach(function(result) {
+            var $result = $("<li><i class='fa fa-search'>");
+            $result.append($("<a>", {
+                href: result.href,
+                text: result.title
+            }));
+            $results.append($result);
+        });
+    }
+
+    
+    initLunr();
+
+    $(document).ready(function() {
+        initUI();
+        
+        
+
+        
+        
+        
+        
+        
+        
+
+        var input = $('#search-wrap input');
+        var sw = $('#search-wrap');
+        var tw = $('.tags-wrap');
+        var sr = $('#search-results');
+        
+        
+        $('.search-btn').click(function(){
+            sw.addClass('active');
+            tw.addClass('active');
+            input.focus();
+        }); 
+        
+        
+        $('#content-wrap, #li-4').click(function(){
+            
+            fcollapse(sw,tw)
+            
+            
+            nsearch(sr) 
+            
+        });
+        
+        
+
+        var mob = $('#menu-mob');
+        mob.click(function(){
+            $(this).toggleClass('active');
+            $('#nav-wrap ul li').toggleClass('mob');
+        }); 
+
+         
+        function fcollapse(sw, tw){
+            sw.removeClass('active');
+            tw.removeClass('active');   
+        }
+
+         
+        function nsearch(sr){
+            input.val('');
+            sr.html('<ul id="results"></ul>');
+            initUI();
+        }
+    });
+    </script>
     <script src="http://www.cryos.com/js/main.js"></script>
     
-    <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-    ga('create', 'UA-45136162-1', 'cryos.com');
-    ga('send', 'pageview');
-    </script>
+    
 </body>
 
 </html>

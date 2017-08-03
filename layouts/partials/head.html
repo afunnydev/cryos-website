@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="{{ .Site.Params.locale }}">
+<html class="no-js" lang="{{ .Lang }}">
 
 <head>
 	<meta name="generator" content="Hugo 0.16" />
@@ -13,6 +13,20 @@
 	{{ end }}
 	<link rel="shortcut icon" href="{{.Site.BaseURL}}img/favicon.ico" />
 	<!-- Place favicon.ico in the root directory -->
+	<!-- Required Open Graph Info -->
+	<meta property="og:title" content="{{ .Title }}" />
+	{{ if eq .Lang "fr" }}
+	<meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else if .Summary }}{{ .Summary }}{{ else }}Nous offrons des solutions technologiques d'avant-garde aux podiatres et aux patients. Nous corrigeons la dysfonction du pied par le mouvement naturel.{{ end }}" />
+	{{ else if eq .Lang "en" }}
+	<meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else if .Summary }}{{ .Summary }}{{ else }}We offer innovative  technological solutions for podiatrists and patients. We correct foot dysfunction using natural movement.{{ end }}" />
+	{{ end }}
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="{{ .Permalink }}" />
+	{{ if .Params.blog_img }}
+		<meta property="og:image" content="{{ .Params.blog_img }}" />
+	{{ else }}
+		<meta property="og:image" content="/img/Logo_CRYOS_FR.png" />
+	{{ end }}
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1"
 	    crossorigin="anonymous">
 	<!-- Owl Carousel CDN -->

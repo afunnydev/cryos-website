@@ -123,6 +123,21 @@
   </url>
   
   <url>
+    <loc>http://www.cryos.com/index.json</loc>
+    <lastmod>2017-03-05T21:10:52+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://www.cryos.com/en/index.json"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://www.cryos.com/index.json"
+                />
+  </url>
+  
+  <url>
     <loc>http://www.cryos.com/conseils-dun-podiatre-traitements-pour-vos-verrues-plantaires/</loc>
     <lastmod>2017-02-28T00:00:00+00:00</lastmod>
   </url>
@@ -666,7 +681,6 @@
   <url>
     <loc>http://www.cryos.com/articles/</loc>
     <lastmod>2017-05-10T00:00:00+00:00</lastmod>
-    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -715,7 +729,6 @@
   
   <url>
     <loc>http://www.cryos.com/compagnie/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -730,10 +743,6 @@
                 hreflang="fr"
                 href="http://www.cryos.com/blogue/"
                 />
-  </url>
-  
-  <url>
-    <loc>http://www.cryos.com/trouver-une-clinique/</loc>
   </url>
   
   <url>
@@ -812,6 +821,10 @@
   </url>
   
   <url>
+    <loc>http://www.cryos.com/trouver-une-clinique/</loc>
+  </url>
+  
+  <url>
     <loc>http://www.cryos.com/compagnie/a-propos/</loc>
   </url>
   
@@ -838,21 +851,6 @@
   </url>
   
   <url>
-    <loc>http://www.cryos.com/location/</loc>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://www.cryos.com/en/location/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="http://www.cryos.com/location/"
-                />
-  </url>
-  
-  <url>
     <loc>http://www.cryos.com/categories/oignons/</loc>
     <lastmod>2017-02-19T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -871,8 +869,21 @@
   </url>
   
   <url>
+    <loc>http://www.cryos.com/location/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://www.cryos.com/en/location/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://www.cryos.com/location/"
+                />
+  </url>
+  
+  <url>
     <loc>http://www.cryos.com/patients/</loc>
-    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -910,7 +921,6 @@
   <url>
     <loc>http://www.cryos.com/produits/</loc>
     <lastmod>2017-05-09T12:50:31-04:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>

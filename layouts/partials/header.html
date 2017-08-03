@@ -1,3 +1,22 @@
+<!-- Search bar -->  
+  <div id="fixed"> 
+    <div id="search-wrap" class="wrap-top search-wrap">
+      <div class="container">
+        <ul class="clearfix">
+          <li ><i class="fa fa-search"></i> <input type='' id="search" placeholder='{{ if eq .Lang "fr" }}Recherche...{{ else if eq .Lang "en" }}Search...{{end}}'></li>
+          <li id="li-4"> <i class="fa fa-times"></i> </li>
+        </ul>
+      </div>
+    </div> 
+    <div id="tags-wrap" class="wrap-top tags-wrap">
+      <div class="container">
+        <div id="search-results">
+          <ul id="results">
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </div>
 <!-- Navbar -->
   <nav class="nav-extended" id="top-bar">
   	<div class="nav-content">
@@ -9,9 +28,11 @@
       {{ if eq .Lang "fr" }}
         <li class="tab"><a href="{{.Site.BaseURL}}trouver-une-clinique">Trouver une clinique</a></li>
         <li class="tab"><a href="{{.Site.BaseURL}}compagnie/contact">Contact</a></li>
+        <li class="s-desk tab search-btn"><a href="#">Recherche <i class="fa fa-search" style="color: white; margin-left: 10px"></i></a> </li>
       {{ else if eq .Lang "en" }}
         <li class="tab"><a href="{{.Site.BaseURL}}en/find-a-clinic">Find a clinic</a></li>
         <li class="tab"><a href="{{.Site.BaseURL}}en/company/contact">Contact</a></li>
+        <li class="s-desk tab search-btn"><a href="#">Search <i class="fa fa-search" style="color: white; margin-left: 10px"></i></a> </li>
       {{end}}
         <li class="tab disabled"></li>
         {{ if .Params.translatedslug }}
@@ -95,7 +116,7 @@
         {{ else if eq .Lang "en" }}
           <a href="{{.Site.BaseURL}}en/find-a-clinic"><i class="fa fa-map-marker"></i></a>
         {{ end }}
-          <!-- <a href="#!"><i class="fa fa-search"></i></a> -->
+          <a href="#" class="search-btn"><i class="fa fa-search"></i></a>
         {{ if .Params.translatedslug }}
           {{ if eq .Lang "fr" }}
             <a href="{{ .Site.BaseURL }}{{ .Params.translatedslug }}" class="language-selector">EN</a>
