@@ -157,6 +157,7 @@ jQuery(document).ready(function ($) {
       $(this).css('min-height', w * 0.60);
     });
   });
+
   // Select all links with hashes for smooth scroll
   $('a[href*="#"]')
   // Remove links that don't actually link to anything
@@ -193,6 +194,8 @@ jQuery(document).ready(function ($) {
       }
     }
   });
+
+  // Change error message
   $('#contact-page input, #contact-page textarea ').on('change invalid', function() {
     var textfield = $(this).get(0);
     
@@ -217,7 +220,8 @@ jQuery(document).ready(function ($) {
       textfield.setCustomValidity("S'il-vous-plaît remplir ce champ correctement.");  
     }
   });
-  // search bar
+
+  // search bar implementation
   initUI();
         
   /******************
@@ -257,6 +261,13 @@ jQuery(document).ready(function ($) {
       sr.html('<ul id="results"></ul>');
       initUI();
   }
+
+  // pdf click send GA
+  $('a.send-ga').click(function(){
+    var clickID = $(this).attr('id');
+    ga('send', 'event', 'Download', 'PDFclick', clickID);
+  })
+
   if (document.getElementById('bh-sl-map-container-fr')) {
     $(function() {
         $('#bh-sl-map-container-fr').storeLocator({
