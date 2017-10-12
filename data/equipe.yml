@@ -1,96 +1,76 @@
 equipe:
-  - name: Dr.Frédéric Gremillet
-    fonction: Podiatre et propriétaire
+  - fonction: Podiatre et propriétaire
+    name: Dr.Frédéric Gremillet
+    photo: img/uploads/membre_equipe4.png
     position: Podiatrist and owner
     weight: 1
-    photo: img/uploads/membre_equipe4.png
-
-  - name: Dr.Philippe Legaré
-    fonction: Podiatre et propriétaire
+  - fonction: Podiatre et propriétaire
+    name: Dr.Philippe Legaré
+    photo: img/uploads/membre_equipe5.png
     position: Podiatrist and owner
     weight: 2
-    photo: img/uploads/membre_equipe5.png
-
-  - name: John Stimpson
-    fonction: Président
+  - fonction: Président
+    name: John Stimpson
+    photo: img/uploads/membre_equipe13.png
     position: President
     weight: 3
-    photo: img/uploads/membre_equipe13.png
-
-  - name: André Lemire
-    fonction: Directeur Général
+  - fonction: Directeur Général
+    name: André Lemire
+    photo: img/uploads/membre_equipe1.png
     position: Direction manager
     weight: 4
-    photo: img/uploads/membre_equipe1.png
-
-  - name: Ginette Beauséjour
-    fonction: Administration
+  - fonction: Administration
+    name: Ginette Beauséjour
+    photo: img/uploads/membre_equipe10.png
     position: Accounting
     weight: 5
-    photo: img/uploads/membre_equipe10.png
-
-  - name: Julie Labrecque
-    fonction: Administration
-    position: Accounting
-    weight: 6
-    photo: img/uploads/membre_equipe14.png
-
-  - name: François Coulombe
-    fonction: Informatique
+  - fonction: Informatique
+    name: François Coulombe
+    photo: img/uploads/membre_equipe9.png
     position: IT
     weight: 7
-    photo: img/uploads/membre_equipe9.png
-
-  - name: Jean-François Lanthier
-    fonction: Informatique
+  - fonction: Informatique
+    name: Jean-François Lanthier
+    photo: img/uploads/membre_equipe11.png
     position: IT
     weight: 8
-    photo: img/uploads/membre_equipe11.png
-
-  - name: Johanne Gagnon
-    fonction: Informatique
+  - fonction: Informatique
+    name: Johanne Gagnon
+    photo: img/uploads/membre_equipe12.png
     position: IT
     weight: 9
-    photo: img/uploads/membre_equipe12.png
-
-  - name: Eve-Lyne Ducharme
-    fonction: Marketing
+  - fonction: Marketing
+    name: Eve-Lyne Ducharme
+    photo: img/uploads/membre_equipe8.png
     position: Marketing
     weight: 10
-    photo: img/uploads/membre_equipe8.png
-
-  - name: Caroline George
-    fonction: Production et R&D
+  - fonction: Production et R&D
+    name: Caroline George
+    photo: img/uploads/membre_equipe2.png
     position: Production and R&D
     weight: 11
-    photo: img/uploads/membre_equipe2.png
-
-  - name: Louise Prescott
-    fonction: Production
+  - fonction: Production
+    name: Louise Prescott
+    photo: img/uploads/membre_equipe15.png
     position: Production
     weight: 12
-    photo: img/uploads/membre_equipe15.png
-
-  - name: Mohammed Lachhab
-    fonction: Production et R&D
+  - fonction: Production et R&D
+    name: Mohammed Lachhab
+    photo: img/uploads/membre_equipe17.png
     position: Production and R&D
     weight: 13
-    photo: img/uploads/membre_equipe17.png
-
-  - name: Nicholas Watts
-    fonction: R&D
+  - fonction: R&D
+    name: Nicholas Watts
+    photo: img/uploads/membre_equipe18.png
     position: R&D
     weight: 14
-    photo: img/uploads/membre_equipe18.png
-
-  - name: Yan Desgagné
-    fonction: R&D
+  - fonction: R&D
+    name: Yan Desgagné
+    photo: img/uploads/membre_equipe19.png
     position: R&D
     weight: 15
-    photo: img/uploads/membre_equipe19.png
-
-  - name: Émilie Bélanger
-    fonction: Ressources humaines
+  - fonction: Ressources humaines
+    name: Émilie Bélanger
+    photo: img/uploads/membre_equipe6.png
     position: Human ressources
     weight: 16
-    photo: img/uploads/membre_equipe6.png
