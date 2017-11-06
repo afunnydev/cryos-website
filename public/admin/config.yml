@@ -100,6 +100,55 @@ collections:
               - {label: "Numéro de téléphone", name: "phone", widget: "string"}
               - {label: "Courriel", name: "user_email", widget: "string"}
               - {label: "Site internet", name: "user_url", widget: "string", pattern: ["^https?", "N'oubliez pas le http:// ou https://"]}
+      - name: "emplois"
+        label: "Emplois"
+        file: "data/emplois.yml"
+        description: "Les emplois disponibles chez Cryos"
+        fields:
+          - {label: "Emplois disponibles?", name: "disponible", widget: "boolean", required: false, default: false}
+          - name: emplois
+            label: Emplois
+            widget: list
+            create: true
+            required: false 
+            fields:
+              - {label: "Ordre", name: "ordre", widget: "number"}
+              - name: francais
+                label: "Français"
+                widget: object
+                fields:
+                  - {label: "Titre du poste", name: "titre", widget: "string"}
+                  - {label: "Description du candidat idéal", name: "candidat", widget: "text"}
+                  - name: description
+                    label: Description du poste
+                    widget: list
+                    create: true 
+                    fields:
+                      - {label: "Ligne", name: "text", widget: "string"}
+                  - name: qualifications
+                    label: Description du poste
+                    widget: list
+                    create: true 
+                    fields:
+                      - {label: "Ligne", name: "text", widget: "string"}
+              - name: anglais
+                label: "Anglais"
+                widget: object
+                fields:
+                  - {label: "Titre du poste", name: "titre", widget: "string"}
+                  - {label: "Description du candidat idéal", name: "candidat", widget: "text"}
+                  - name: description
+                    label: Description du poste
+                    widget: list
+                    create: true 
+                    fields:
+                      - {label: "Ligne", name: "text", widget: "string"}
+                  - name: qualifications
+                    label: Description du poste
+                    widget: list
+                    create: true 
+                    fields:
+                      - {label: "Ligne", name: "text", widget: "string"}
 
   - name: "articlesfr" # Used in routes, e.g. /admin/collections/blog
     label: "Articles-FR" # Used in the UI

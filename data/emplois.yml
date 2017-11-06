@@ -1,0 +1,44 @@
+disponible: false
+emplois:
+  - ordre: 1
+    francais:
+      titre: "Réceptionniste"
+      candidat: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+      description:
+        - text: Lorem ipsum dolor sit amet, consectetur adipisicing elit
+        - text: Lorem ipsum dolor sit amet, consectetur adipisicing elit
+        - text: Lorem ipsum dolor sit amet, consectetur adipisicing elit
+      qualifications:
+        - text: Lorem ipsum dolor sit amet, consectetur adipisicing elit
+        - text: Lorem ipsum dolor sit amet, consectetur adipisicing elit
+    anglais:
+      titre: "Receptionnist"
+      candidat: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+      description:
+        - text: Lorem ipsum dolor sit amet, consectetur adipisicing elit
+        - text: Lorem ipsum dolor sit amet, consectetur adipisicing elit
+        - text: Lorem ipsum dolor sit amet, consectetur adipisicing elit
+      qualifications:
+        - text: Lorem ipsum dolor sit amet, consectetur adipisicing elit
+        - text: Lorem ipsum dolor sit amet, consectetur adipisicing elit
+  - ordre: 2
+    francais:
+      titre: "Adjointe"
+      candidat: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+      description:
+        - text: Lorem ipsum dolor sit amet, consectetur adipisicing elit
+        - text: Lorem ipsum dolor sit amet, consectetur adipisicing elit
+        - text: Lorem ipsum dolor sit amet, consectetur adipisicing elit
+      qualifications:
+        - text: Lorem ipsum dolor sit amet, consectetur adipisicing elit
+        - text: Lorem ipsum dolor sit amet, consectetur adipisicing elit
+    anglais:
+      titre: "Assistant"
+      candidat: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+      description:
+        - text: Lorem ipsum dolor sit amet, consectetur adipisicing elit
+        - text: Lorem ipsum dolor sit amet, consectetur adipisicing elit
+        - text: Lorem ipsum dolor sit amet, consectetur adipisicing elit
+      qualifications:
+        - text: Lorem ipsum dolor sit amet, consectetur adipisicing elit
+        - text: Lorem ipsum dolor sit amet, consectetur adipisicing elit

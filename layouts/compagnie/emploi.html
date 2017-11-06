@@ -10,12 +10,15 @@
         </div>
         <div class="col s12 m5 l5 offset-m1 offset-l1 postes">
             <h2>Postes disponibles</h2>
-            <!-- <ul>
-                <li>Réceptionniste</li>
-                <li>Programmeur back-end</li>
-                <li>Machiniste</li>
-            </ul> -->
+            {{ if .Site.Data.emplois.disponible }}
+            <ul>
+                {{ range $i, $e := sort .Site.Data.emplois.emplois ".ordre" "asce" }}
+                <li><a href="#listing{{$i}}">{{$e.francais.titre}}</a></li>
+                {{ end }}
+            </ul>
+            {{ else }}
             <p>Malheureusement, il n’y a aucun poste de disponible pour l’instant.</p>
+            {{ end }}
             <p><a href="#postes_details">Détails plus bas</a></p>
         </div>
     {{ else if eq .Lang "en" }}
@@ -26,12 +29,15 @@
         </div>
         <div class="col s12 m5 l5 offset-m1 offset-l1 postes">
             <h2>Job openings</h2>
-            <!-- <ul>
-                <li>Réceptionniste</li>
-                <li>Programmeur back-end</li>
-                <li>Machiniste</li>
-            </ul> -->
+            {{ if .Site.Data.emplois.disponible }}
+            <ul>
+                {{ range $i, $e := sort .Site.Data.emplois.emplois ".ordre" "asce" }}
+                <li><a href="#listing{{$i}}">{{$e.anglais.titre}}</a></li>
+                {{ end }}
+            </ul>
+            {{ else }}
             <p>Unfortunately, there’s no job opening at the moment. </p>
+            {{ end }}
             <p><a href="#postes_details">Details below</a></p>
         </div>
     {{ end }}
@@ -117,126 +123,82 @@
         <div class="col s12">
         {{ if eq .Lang "fr" }}
             <h1 class="blue-bar">Détails sur les postes à combler</h1>
-            <!-- <ul class="collapsible" data-collapsible="accordion">
-                <li>
-                    <div class="collapsible-header">Réceptionniste</div>
+            {{ if .Site.Data.emplois.disponible }}
+            <ul class="collapsible" data-collapsible="accordion">
+                {{ range $i, $e := sort .Site.Data.emplois.emplois ".ordre" "asce" }}
+                <li id="listing{{$i}}">
+                    <div class="collapsible-header">{{ $e.francais.titre }}</div>
                     <div class="collapsible-body">
                         <div class="had-ontainer">
                             <div class="row">
                                 <div class="col s12" id="candidat">
                                     <h3>Le candidat idéal</h3>
-                                    <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-                                        Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at
-                                        lobortis. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Nullam
-                                        id dolor id nibh ultricies vehicula ut id elit.</p>
+                                    <p>{{ $e.francais.candidat }}</p>
                                 </div>
                                 <div class="col s12 m6 l6" id="description_poste">
                                     <h3>Description du poste</h3>
                                     <ul>
-                                        <li>Aenean lacinia bibendum nulla sed consectetur.</li>
-                                        <li>Nulla vitae elit libero, a pharetra augue.</li>
-                                        <li>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum
-                                            massa justo sit amet risus.</li>
-                                        <li>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</li>
-                                        <li>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</li>
+                                        {{ range $e.francais.description }}
+                                        <li>{{ .text }}</li>
+                                        {{ end }}
                                     </ul>
                                 </div>
                                 <div class="col s12 m6 l6" id="qualifications">
                                     <h3>Qualifications requises</h3>
                                     <ul>
-                                        <li>Aenean lacinia bibendum nulla sed consectetur.</li>
-                                        <li>Nulla vitae elit libero, a pharetra augue.</li>
-                                        <li>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum
-                                            massa justo sit amet risus.</li>
-                                        <li>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</li>
-                                        <li>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</li>
+                                        {{ range $e.francais.qualifications }}
+                                        <li>{{.text}}</li>
+                                        {{ end }}
                                     </ul>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </li>
-                <li>
-                    <div class="collapsible-header">Programmeur back-end</div>
-                    <div class="collapsible-body">
-                        <div class="had-ontainer">
-                            <div class="row">
-                                <div class="col s12" id="candidat">
-                                    <h3>Le candidat idéal</h3>
-                                    <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-                                        Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at
-                                        lobortis. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Nullam
-                                        id dolor id nibh ultricies vehicula ut id elit.</p>
-                                </div>
-                                <div class="col s12 m6 l6" id="description_poste">
-                                    <h3>Description du poste</h3>
-                                    <ul>
-                                        <li>Aenean lacinia bibendum nulla sed consectetur.</li>
-                                        <li>Nulla vitae elit libero, a pharetra augue.</li>
-                                        <li>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum
-                                            massa justo sit amet risus.</li>
-                                        <li>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</li>
-                                        <li>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</li>
-                                    </ul>
-                                </div>
-                                <div class="col s12 m6 l6" id="qualifications">
-                                    <h3>Qualifications requises</h3>
-                                    <ul>
-                                        <li>Aenean lacinia bibendum nulla sed consectetur.</li>
-                                        <li>Nulla vitae elit libero, a pharetra augue.</li>
-                                        <li>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum
-                                            massa justo sit amet risus.</li>
-                                        <li>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</li>
-                                        <li>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="collapsible-header">Machiniste</div>
-                    <div class="collapsible-body">
-                        <div class="had-ontainer">
-                            <div class="row">
-                                <div class="col s12" id="candidat">
-                                    <h3>Le candidat idéal</h3>
-                                    <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-                                        Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at
-                                        lobortis. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Nullam
-                                        id dolor id nibh ultricies vehicula ut id elit.</p>
-                                </div>
-                                <div class="col s12 m6 l6" id="description_poste">
-                                    <h3>Description du poste</h3>
-                                    <ul>
-                                        <li>Aenean lacinia bibendum nulla sed consectetur.</li>
-                                        <li>Nulla vitae elit libero, a pharetra augue.</li>
-                                        <li>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum
-                                            massa justo sit amet risus.</li>
-                                        <li>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</li>
-                                        <li>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</li>
-                                    </ul>
-                                </div>
-                                <div class="col s12 m6 l6" id="qualifications">
-                                    <h3>Qualifications requises</h3>
-                                    <ul>
-                                        <li>Aenean lacinia bibendum nulla sed consectetur.</li>
-                                        <li>Nulla vitae elit libero, a pharetra augue.</li>
-                                        <li>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum
-                                            massa justo sit amet risus.</li>
-                                        <li>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</li>
-                                        <li>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-            </ul> -->
+                {{ end }}
+            </ul>
+            {{ else }}
             <p>Malheureusement, il n’y a aucun poste de disponible pour l’instant.</p>
+            {{ end }}
         {{ else if eq .Lang "en" }}
             <h1 class="blue-bar">Details on our job openings</h1>
+            {{ if .Site.Data.emplois.disponible }}
+            <ul class="collapsible" data-collapsible="accordion">
+                {{ range $i, $e := sort .Site.Data.emplois.emplois ".ordre" "asce" }}
+                <li id="listing{{$i}}">
+                    <div class="collapsible-header">{{ $e.anglais.titre }}</div>
+                    <div class="collapsible-body">
+                        <div class="had-ontainer">
+                            <div class="row">
+                                <div class="col s12" id="candidat">
+                                    <h3>The ideal candidate</h3>
+                                    <p>{{ $e.anglais.candidat }}</p>
+                                </div>
+                                <div class="col s12 m6 l6" id="description_poste">
+                                    <h3>Job description</h3>
+                                    <ul>
+                                        {{ range $e.anglais.description }}
+                                        <li>{{ .text }}</li>
+                                        {{ end }}
+                                    </ul>
+                                </div>
+                                <div class="col s12 m6 l6" id="qualifications">
+                                    <h3>Qualifications and requirements</h3>
+                                    <ul>
+                                        {{ range $e.anglais.qualifications }}
+                                        <li>{{.text}}</li>
+                                        {{ end }}
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                {{ end }}
+            </ul>
+            {{ else }}
             <p>Unfortunately, there’s no job opening at the moment. </p>
+            {{ end }}
         {{ end }}
         </div>
     </div>
