@@ -271,13 +271,13 @@ jQuery(document).ready(function ($) {
   if (document.getElementById('bh-sl-map-container-fr')) {
     $(function() {
         $('#bh-sl-map-container-fr').storeLocator({
-          'autoGeocode': true,
+          'autoGeocode': false,
           'fullMapStart': true,
           'featuredLocations': true,
           'locationsPerPage': -1,
           'mapSettings': {zoom: 8},
-          'autoComplete': true,
-          'autoCompleteDisableListener': true,
+          'autoComplete': false,
+          'autoCompleteDisableListener': false,
           // 'visibleMarkersList': true,
           'infowindowTemplatePath': '/templates/infowindow-description.html',
           'listTemplatePath': '/templates/location-list-description.html',
@@ -304,13 +304,16 @@ jQuery(document).ready(function ($) {
   } else if (document.getElementById('bh-sl-map-container-en')) {
     $(function() {
       $('#bh-sl-map-container-en').storeLocator({
-        'autoGeocode': true,
+        'autoGeocode': false,
         'fullMapStart': true,
         'featuredLocations': true,
         'locationsPerPage': -1,
         'mapSettings': {zoom: 8},
-        'autoComplete': true,
+        'autoComplete': false,
         'autoCompleteDisableListener': true,
+        // 'autoCompleteOptions': {types: ['(regions)']},
+        // 'callbackSuccess': function(callback){console.log(callback)},
+        // 'querystringParams': true,
         // 'visibleMarkersList': true,
         'infowindowTemplatePath': '/templates/infowindow-description.html',
         'listTemplatePath': '/templates/location-list-description-en.html',
@@ -326,8 +329,19 @@ jQuery(document).ready(function ($) {
         'dataRaw': data});
     });
   }
+  var regex = /^[A-Za-z]\d[A-Za-z][ -]?\d[A-Za-z]\d$/;
   $('#bh-sl-submit').click(function(){
     var searchVal = $('#bh-sl-address').val();
-    ga('send', 'event', 'Location', 'Search', searchVal);
+    var match = regex.exec(searchVal);
+    if (match){
+        if ( (searchVal.indexOf("-") !== -1 || searchVal.indexOf(" ") !== -1 ) && searchVal.length == 7 ) {
+            ga('send', 'event', 'Location', 'Search', searchVal);
+        } else if ( (searchVal.indexOf("-") == -1 || searchVal.indexOf(" ") == -1 ) && searchVal.length == 6 ) {
+            ga('send', 'event', 'Location', 'Search', searchVal);
+        }
+    } else {
+            alert('Veuillez entrer un code postal valide canadien');
+            return false;
+    };
   })
 });

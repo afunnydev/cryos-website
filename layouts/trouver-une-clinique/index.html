@@ -9,7 +9,7 @@
     		<form id="bh-sl-user-location" action="#">
     			<div class="col m9 s12">
 						<div class="form-input">
-							<label for="bh-sl-address">{{ if eq .Lang "fr" }}code postal, adresse ou ville{{ else if eq .Lang "en" }}area code, address or city{{ end }}</label>
+							<label for="bh-sl-address">{{ if eq .Lang "fr" }}code postal seulement{{ else if eq .Lang "en" }}area code only{{ end }}</label>
 							<input type="text" id="bh-sl-address" name="bh-sl-address" placeholder="" />
 							<select id="bh-sl-maxdistance" name="bh-sl-maxdistance">
 	              <option value="10">10 km</option>
@@ -44,7 +44,9 @@
 <script>
 	var locations = [];
 	{{ range where $.Site.Pages "Type" "location"}}
+	{{ if .Params.latitude }}
 		locations.push({name:{{ .Params.nomclinique }}, lat:{{ .Params.latitude }}, lng:{{ .Params.longitude }}, address:{{ .Params.address }}, city:{{ .Params.ville }}, state:{{ .Params.pays }}, web:{{ .Params.site }}, slug: {{ .Permalink }} });
+	{{ end }}
 	{{ end }}
   var data = JSON.stringify(locations);
 </script>
