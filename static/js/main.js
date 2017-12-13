@@ -267,7 +267,8 @@ jQuery(document).ready(function ($) {
     var clickID = $(this).attr('id');
     ga('send', 'event', 'Download', 'PDFclick', clickID);
   })
-
+  var regex = /^[A-Za-z]\d[A-Za-z][ -]?\d[A-Za-z]\d$/;
+  var regexUSA = /^\d{5}$/;
   if (document.getElementById('bh-sl-map-container-fr')) {
     $(function() {
         $('#bh-sl-map-container-fr').storeLocator({
@@ -301,6 +302,25 @@ jQuery(document).ready(function ($) {
           // 'defaultLng': 73.56725599999999,
           'dataRaw': data});
       });
+    $('#bh-sl-submit').click(function(){
+      var searchVal = $('#bh-sl-address').val();
+      var match1 = regex.exec(searchVal);
+      var match2 = regexUSA.exec(searchVal);
+      if (match1){
+          if ( (searchVal.indexOf("-") !== -1 || searchVal.indexOf(" ") !== -1 ) && searchVal.length == 7 ) {
+              ga('send', 'event', 'Location', 'Search', searchVal);
+          } else if ( (searchVal.indexOf("-") == -1 || searchVal.indexOf(" ") == -1 ) && searchVal.length == 6 ) {
+              ga('send', 'event', 'Location', 'Search', searchVal);
+          }
+      } else if (match2) {
+          if ( searchVal.length == 5 ) {
+              ga('send', 'event', 'Location', 'Search', searchVal);
+          }
+      } else {
+              alert('Veuillez entrer un code postal valide');
+              return false;
+      };
+    })
   } else if (document.getElementById('bh-sl-map-container-en')) {
     $(function() {
       $('#bh-sl-map-container-en').storeLocator({
@@ -328,20 +348,25 @@ jQuery(document).ready(function ($) {
         // 'defaultLng': 73.56725599999999,
         'dataRaw': data});
     });
+    $('#bh-sl-submit').click(function(){
+      var searchVal = $('#bh-sl-address').val();
+      var match1 = regex.exec(searchVal);
+      var match2 = regexUSA.exec(searchVal);
+      if (match1){
+          if ( (searchVal.indexOf("-") !== -1 || searchVal.indexOf(" ") !== -1 ) && searchVal.length == 7 ) {
+              ga('send', 'event', 'Location', 'Search', searchVal);
+          } else if ( (searchVal.indexOf("-") == -1 || searchVal.indexOf(" ") == -1 ) && searchVal.length == 6 ) {
+              ga('send', 'event', 'Location', 'Search', searchVal);
+          }
+      } else if (match2) {
+          if ( searchVal.length == 5 ) {
+              ga('send', 'event', 'Location', 'Search', searchVal);
+          }
+      } else {
+              alert('Please enter a valid area code');
+              return false;
+      };
+    })
   }
-  var regex = /^[A-Za-z]\d[A-Za-z][ -]?\d[A-Za-z]\d$/;
-  $('#bh-sl-submit').click(function(){
-    var searchVal = $('#bh-sl-address').val();
-    var match = regex.exec(searchVal);
-    if (match){
-        if ( (searchVal.indexOf("-") !== -1 || searchVal.indexOf(" ") !== -1 ) && searchVal.length == 7 ) {
-            ga('send', 'event', 'Location', 'Search', searchVal);
-        } else if ( (searchVal.indexOf("-") == -1 || searchVal.indexOf(" ") == -1 ) && searchVal.length == 6 ) {
-            ga('send', 'event', 'Location', 'Search', searchVal);
-        }
-    } else {
-            alert('Veuillez entrer un code postal valide canadien');
-            return false;
-    };
-  })
+  
 });
