@@ -1,7 +1,7 @@
 ---
-titre: Est-ce que une orthèse plantaire peut être portée dans un patin?
+titre: Est-ce qu'une orthèse plantaire peut être portée dans un patin?
 title: >-
-  Est-ce que une orthèse plantaire peut être portée dans un patin? - Cryos
+  Est-ce qu'une orthèse plantaire peut être portée dans un patin? - Cryos
   Technologies
 description: >-
   La question est souvent posée par les sportifs sur patins; apprenez quels
@@ -48,3 +48,4 @@ C’est un fait, l’orthèse plantaire sur mesure améliore la biomécanique du
 Dans le cas d’un patient qui pratique un sport de glace, l’[orthèse dynamique de Cryos est conseillée](http://www.cryos.com/patients/ortheses/). Contrairement aux orthèses traditionnelles, les orthèses Cryos guide le pied dans le mouvement approprié, sans le bloquer. Sur le plan pratique, l’orthèse dynamique est plus étroite, ce qui permet de l’ajuster facilement dans les patins. Puisqu’elles sont faites en partie de plastique, ces orthèses plantaires sur mesure sont faciles d’entretien et captent moins les odeurs.
 
 Si vous ressentez une douleur aux pieds durant votre sport de glace ou au quotidien, il est [fortement recommandé de consulter un podiatre afin d’éviter les blessures](http://www.cryos.com/trouver-une-clinique/) ou améliorer votre bien-être en cas de douleurs.
+
