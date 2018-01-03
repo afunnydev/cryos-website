@@ -1,24 +1,27 @@
 ---
-author: melanie
-blog_img: img/posts/orthese-sportive.jpg
-categories:
-- Blessures sportives
-- Sport d'hiver
-- Orthèses plantaires
-date: 2017-02-10
-description: La question est souvent posée par les sportifs sur patins; apprenez quels
+titre: Est-ce que une orthèse plantaire peut être portée dans un patin?
+title: >-
+  Est-ce que une orthèse plantaire peut être portée dans un patin? - Cryos
+  Technologies
+description: >-
+  La question est souvent posée par les sportifs sur patins; apprenez quels
   bénéfices procure le port d'orthèses plantaires dans vos patins.
 slug: un-sportif-devrait-il-porter-une-orthese-plantaire-sur-mesure-dans-ses-patins/
-title: Est-ce que une othèse plantaire peut être portée dans un patin? - Cryos Technologies
-titre: Est-ce que une othèse plantaire peut être portée dans un patin?
-type: post
 identifiant: 09-orthese-sportif
+author: melanie
+date: 2017-02-10T00:00:00.000Z
+blog_img: img/posts/orthese-sportive.jpg
+type: post
+categories:
+  - Blessures sportives
+  - Sport d'hiver
+  - Orthèses plantaires
+i18nlanguage: fr
 isfront: false
 orthese_pro: false
 orthese_patients: false
 cryovizion_pro: false
 cryovizion_patients: false
-i18nlanguage: fr
 ---
 
 *Les risques de blessures sont présents dans les sports de glace. Que ce soit au hockey ou en patinage artistique, le port d’orthèse plantaire sur mesure favorise une démarche sportive adéquate en plus de soulager les blessures existantes. Puisque le pied est à la base même de chaque mouvement de patins, l’intervention d’un podiatre s’avère bénéfique pour la performance et le confort du sportif. Pour quelles raisons un sportif doit-il consulter un podiatre? Certains consultent un podiatre à titre préventif. En tant que spécialiste de la santé des pieds, il valide en profondeur la démarche sportive. Si la biomécanique est inadéquate, le podiatre conseille des solutions pratiques afin d’éviter les blessures. Cependant, la majorité des consultations est pour soulager une blessure existante qui nuit au sport de patin. Le podiatre est donc appelé à trouver des solutions pour éliminer la douleur et cibler celle qui permettra de mieux pratiquer son sport de glace.*
