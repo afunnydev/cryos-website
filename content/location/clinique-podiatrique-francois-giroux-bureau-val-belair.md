@@ -1,14 +1,15 @@
 ---
-address: '1451 Rue de l''Etna #203'
+nomclinique: Clinique Podiatrique François Giroux (bureau Val-Bélair)
+address: 1787 Avenue Industrielle
+ville: ' Ville de Québec, QC G3K 1L8'
+pays: Canada
 latitude: 46.85447
 longitude: -71.416306
-nomclinique: Clinique Podiatrique François Giroux (bureau Val-Bélair)
-pays: Canada
 phone: (418) 915-9399
-site: http://www.podiatregiroux.com
-type: location
-ville: Québec, Quebec G3K 2S1
+site: 'http://www.podiatregiroux.com'
 identifiant: clinique-podiatrique-francois-giroux-bureau-val-belair
+type: location
 i18nlanguage: fr
 ---
+
 
