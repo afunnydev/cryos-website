@@ -46,7 +46,7 @@
             <h1 class="blue-bar">Vous avez des questions?</h1>
             <h2>Consultez notre section FAQ <a href="{{.Site.BaseURL}}patients/faq">ici</a></h2>
             <p>Pour de plus amples renseignements, remplissez le formulaire ci-dessous et nous communiquerons avec vous sous peu.</p>
-            <form action="/merci" name="contact-page-fr" id="contact-page" style="padding: 0.75rem;" netlify netlify-honeypot="bot-field" method="post">
+            <form action="/merci" name="contact-page-fr" id="contact-page" style="padding: 0.75rem;" netlify netlify-honeypot="bot-field" method="post" >
                 <div class="col s12 m4 l4">
                     <input type="text" placeholder="NOM ET PRÉNOM" name="nom_et_prenom" required>
                 </div>
@@ -59,6 +59,9 @@
                 </div>
                 <div class="col s12">
                     <textarea placeholder="QUELS RENSEIGNEMENTS DÉSIREZ-VOUS?" name="renseignements" required></textarea>
+                </div>
+                <div class="col s12">
+                    <div netlify-recaptcha></div>
                 </div>
                 <div class="col s6 m3 l3 pad_to_right">
                     <input type="submit" value="ENVOYER" class="poste_envoyer">
@@ -81,6 +84,9 @@
                 </div>
                 <div class="col s12">
                     <textarea placeholder="HOW CAN WE HELP YOU?" name="renseignements" required></textarea>
+                </div>
+                <div class="col s12">
+                    <div netlify-recaptcha></div>
                 </div>
                 <div class="col s6 m3 l3 pad_to_right">
                     <input type="submit" value="SEND" class="poste_envoyer">
