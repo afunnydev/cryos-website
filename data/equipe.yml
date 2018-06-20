@@ -17,7 +17,7 @@ equipe:
   - fonction: Directeur Général
     name: André Lemire
     photo: img/uploads/membre_equipe1.png
-    position: Direction manager
+    position: General manager
     weight: 4
   - fonction: Administration
     name: Ginette Beauséjour
