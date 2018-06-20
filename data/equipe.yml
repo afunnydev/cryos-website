@@ -2,12 +2,12 @@ equipe:
   - fonction: Podiatre et propriétaire
     name: Dr.Frédéric Gremillet
     photo: img/uploads/membre_equipe4.png
-    position: Podiatrist and owner
+    position: Podiatrist and co-owner
     weight: 1
   - fonction: Podiatre et propriétaire
     name: Dr.Philippe Legaré
     photo: img/uploads/membre_equipe5.png
-    position: Podiatrist and owner
+    position: Podiatrist and co-owner
     weight: 2
   - fonction: Président
     name: John Stimpson
@@ -17,7 +17,7 @@ equipe:
   - fonction: Directeur Général
     name: André Lemire
     photo: img/uploads/membre_equipe1.png
-    position: General manager
+    position: General Manager
     weight: 4
   - fonction: Administration
     name: Ginette Beauséjour
