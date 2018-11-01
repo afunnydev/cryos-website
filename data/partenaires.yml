@@ -8,9 +8,6 @@ partenaires:
   - file: /img/uploads/brio.png
     name: Brio
     weight: 3
-  - file: /img/uploads/maman-pourla-vie.png
-    name: Maman pour la vie
-    weight: 4
   - file: /img/uploads/olympiques_speciaux.png
     name: Olympiques speciaux
     weight: 5
