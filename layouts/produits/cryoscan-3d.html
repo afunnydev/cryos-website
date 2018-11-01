@@ -1,36 +1,53 @@
-{{ partial "head.html" . }}
-
-    {{ partial "header.html" . }}
+{{ partial "head.html" . }} {{ partial "header.html" . }}
 
 <div class="container cryoscan" id="oc-carousel">
     <div class="row">
         <div class="col s12">
             <div class="col s12 m5 l4 oc-title">
-                <h1>Cryoscan 3D <span>Technologie à venir</span></h1>
-                <p>La nouvelle génération d'imagerie médicale du pied</p>
-                <div><a href=" {{ .Site.BaseURL }}compagnie/contact/"><span class="token">Contactez-nous</span></a></div>
+                <h1>Cryoscan 3D</h1>
+                <p>The next generation 3D foot-scanning technology to deliver the best fitting orthotics</p>
+                <div><a href=" {{ .Site.BaseURL }}en/company/contact/"><span class="token">Contact us</span></a></div>
             </div>
             <div class="col s12 m7 l8" style="padding:0;">
+                <div class="video-container">
+                {{ if eq .Lang "fr" }}
+                    <iframe width="100%" src="https://www.youtube.com/embed/0JMJc5VoAn4?rel=0&amp;showinfo=0&autoplay=1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                {{ else if eq .Lang "en" }}
+                    <iframe width="100%" src="https://www.youtube.com/embed/lSKSUzBVzxE?rel=0&amp;showinfo=0&autoplay=1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                {{ end }}
+                </div>
                 <div class="owl-carousel owl-theme">
                     <div class="owl-content">
-                        <img src="{{.Site.BaseURL}}img/scan3d_pro/video_scan3D_2.jpg" alt="">
-                        <h3>Caisson de suspension pour le pied</h3>
-                        <p>Offre l'option de scanner en semi-charge et remplace avantageusement les biomousses.</p>
+                        <!-- <img src="{{.Site.BaseURL}}img/orthese_pro/1_efficacite.jpg" alt="orthese efficace"> -->
+                    {{ if eq .Lang "fr" }}
+                    {{ else if eq .Lang "en" }}
+                        <h3>TRANSITION TO DIGITAL CASTING WITH THE UTMOST CONFIDENCE</h3>
+                        <p>The CryoScan 3D is a huge improvement over traditional casting methods and sets a new standard in digital casting. Only taking seconds to capture a 3D image without any extra cost or mess, ensuring you are satisfied with every scan. </p>
+                    {{ end }}
                     </div>
                     <div class="owl-content">
-                        <img src="{{.Site.BaseURL}}img/scan3d_pro/video_scan3D_3.jpg" alt="">
-                        <h3>Caméra pour l'ajustement du positionnement des pieds</h3>
-                        <p>Assure le positionnement exact des pieds et produit une image impeccable, à chaque fois.</p>
+                        <!-- <img src="{{.Site.BaseURL}}img/orthese_pro/2_petite.jpg" alt="petite orthese"> -->
+                    {{ if eq .Lang "fr" }}
+                    {{ else if eq .Lang "en" }}
+                        <h3>NO COMPROMISE: CHOOSE THE METHOD THAT’S BEST FOR YOUR PATIENTS.</h3>
+                        <p>Cryos recommends scanning in a semi-weight bearing position; this is a well-tested and widely adopted method utilized by foot health professionals. CryoScan 3D is also able to capture scans in non-weight bearing or full-weight bearing positions. CryoScan3D was designed from the ground up to scan in all three positions. There is no compromise, allowing the clinician to choose what’s best for the patient!</p>
+                    {{ end }}
                     </div>
                     <div class="owl-content">
-                        <img src="{{.Site.BaseURL}}img/scan3d_pro/video_scan3D_1.jpg" alt="">
-                        <h3>Verre à haute résistance</h3>
-                        <p>Permet d'effecture une numérisation en pleine charge (jusqu'à 181 kilos - 400 livres.)</p>
+                        <!-- <img src="{{.Site.BaseURL}}img/orthese_pro/3_confortables.png" alt="orthese confortables"> -->
+                    {{ if eq .Lang "fr" }}
+                    {{ else if eq .Lang "en" }}
+                        <h3>REDUCE YOUR COST AND YOUR ECOLOGICAL FOOTPRINT</h3>
+                        <p>The benefits of going digital go beyond precision, presentation and practicality.  Digital methods significantly reduce the cost of materials, and more importantly, ecological footprint from casting and shipping.  Start helping the planet, one scan at a time. </p>
+                    {{ end }}
                     </div>
                     <div class="owl-content">
-                        <img src="{{.Site.BaseURL}}img/scan3d_pro/" alt="">
-                        <h3>Huit caméras encastrées</h3>
-                        <p>Pour obtenir une image tridimensionnelle de très grande qualité du pied, sur toute sa hauteur.</p>
+                        <!-- <img src="{{.Site.BaseURL}}img/orthese_pro/4_resistante.jpg" alt="orthese resistante"> -->
+                    {{ if eq .Lang "fr" }}
+                    {{ else if eq .Lang "en" }}
+                        <h3>SEE BEYOND AND BE PROACTIVE</h3>
+                        <p>The view finder inside the scanner allows for the viewing and positioning of the patient’s foot prior to capturing a scan. This allows for the positioning of the foot in exactly the manner necessary to ensure the forefoot - rear foot relationship is properly aligned each time. </p>
+                    {{ end }}
                     </div>
                 </div>
             </div>
@@ -41,13 +58,13 @@
 <div class="had-container" id="mauve">
     <div class="container">
         <div class="row">
-            <h1 class="black-bar">Plus d'informations</h1>
+            <h1 class="black-bar">More information</h1>
             <div class="item-1 col s12">
                 <div class="row valign-wrapper">
                     <div class="col s12 m12 l7 oc-img valign"></div>
                     <div class="col s12 m12 l5 oc-txt valign">
-                        <h3>Précision de haut niveau</h3>
-                        <p>Permet d’effectuer une numérisation d’une précision atteignant 250 microns.</p>
+                        <h3>THE FSS<sup>3D</sup></h3>
+                        <p>The foot suspension system is positioned on top of the scanner allowing for semi-weight bearing scanning. The semi-weight bearing position is used to create an orthotic that stimulates the healthy movement of the foot.  The FSS3D is the unique combination of an air cushion and air compressor. The foot positioning surface of the air cushion is a preformed silicone membrane and allows for the practitioner to inflate or deflate the air cushion as needed. The FSS3D enables the capture of all foot shapes from the flattest to highest arches with confidence. </p>
                     </div>
                 </div>
             </div>
@@ -55,12 +72,8 @@
                 <div class="row valign-wrapper">
                     <div class="col s12 m12 l7 oc-img push-l5 valign"></div>
                     <div class="col s12 m12 l5 oc-txt pull-l7 valign">
-                        <h3>Distorsion quasi inexistante</h3>
-                        <ul>
-                            <li>La capture d’image instantanée (en moins de 0.1 seconde) élimine le risque d’images floues ou ondulées.</li>
-                            <li>Les images tridimensionnelles à haute résolution en couleur permettent de suivre toutes les pathologies visibles du pied.</li> 
-    						<li>La numérisation reproduit précisément la réalité en 3D (contrairement à la correspondance la plus proche d’une bibliothèque de modèles).</li>
-                        </ul>
+                        <h3>How does this help your clinicians and their patients? </h3>
+                        <p>The precision of the foot cast is a critical element in the production of a highly effective orthotic device.  By eliminating the variability that is inherent with traditional casting technic, clinicians can take a giant step towards helping patients achieve the best treatment outcomes. This also helps to minimize the adjustments made by the lab in the production process, reducing turnaround time and leading to a more satisfied patient. </p>
                     </div>
                 </div>
             </div>
@@ -68,8 +81,8 @@
                 <div class="row valign-wrapper">
                     <div class="col s12 m12 l7 oc-img valign"></div>
                     <div class="col s12 m12 l5 oc-txt valign">
-                        <h3>Polyvalence</h3>
-                        <p>Capacité de scanner le pied en pleine charge, en semi-charge et sans charge. </p>
+                        <h3>Easy to use with voice recognition</h3>
+                        <p>The CryoScan 3D is equipped with a user-friendly voice-recognition system that can easily be operated by one practitioner and activated through a single voice command. No buttons to press, just concentrate on your patient and say «Scan»! Providing a truly high-tech and fun experience for clinicians and their patients. </p>
                     </div>
                 </div>
             </div>
@@ -77,12 +90,17 @@
                 <div class="row valign-wrapper">
                     <div class="col s12 m12 l7 oc-img push-l5 valign"></div>
                     <div class="col s12 m12 l5 oc-txt pull-l7 valign">
-                        <h3>Sans tracas</h3>
-                        <ul>
-                            <li>Fiabilité supérieure grâce à l’absence de pièces mobiles</li>
-                            <li>Appareil compact facilement intégrable en clinique (38,5cm – largeur, 68,5cm – longueur 17 cm – hauteur) </li> 
-                            <li>Processus propre et efficace, sans biomousse et sans saleté laissé par le plâtre.</li>
-                        </ul>
+                        <h3>How accurate is the CryoScan3D?</h3>
+                        <p>In 3D technology, we measure performance by accuracy and resolution. The CryoScan 3D has the accuracy of 0.5mm (thickness of 5 sheets of paper) which means that it can faithfully create a 3-dimensional image of the foot. The resolution is high enough to properly reproduce that level of accuracy and to assure a quick view of the result is available after a scan is captured. To create the CryoScan3D, we partnered with the team behind the iQube scanner, a proven 3D imaging technology that has been widely accepted in the market. The CryoScan3D offers clinicians and patients the best 3D scanning experience available. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="item-5 col s12">
+                <div class="row valign-wrapper">
+                    <div class="col s12 m12 l7 oc-img valign"></div>
+                    <div class="col s12 m12 l5 oc-txt valign">
+                        <h3>What you scan is what you get! </h3>
+                        <p>Cryos’ orthotics are custom made from each patient’s own 3D scan, 2D images and prescription provided. Cryos never matches the scan to existing pre-processed images or prefabricated orthotic models. The preparation of the mould and prescription is kept in our secured database for future reference or to reorder a duplicate pair of the same orthotics.</p>
                     </div>
                 </div>
             </div>
