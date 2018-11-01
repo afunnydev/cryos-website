@@ -27,7 +27,7 @@ gulp.task('styles', function() {
 
 //calls Hugo to generate pages
 gulp.task('hugo', ['styles'], function() {
-  return exec('hugo', function(err, stdout, stderr) {
+  return exec('hugo --cleanDestinationDir', function(err, stdout, stderr) {
     console.log(stdout);
     console.log(stderr);
   });
