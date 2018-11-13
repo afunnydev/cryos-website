@@ -2,11 +2,15 @@
 
     {{ partial "header.html" . }}
     <!-- Hero -->
+    {{ if eq .Lang "fr" }}
 	<div id="hero">
-		<div class="container home-slider">
-			{{ if eq .Lang "fr" }}
+		<div class="container">
 			<script src="https://fast.wistia.com/embed/medias/rwsactzul8.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_rwsactzul8 videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
-			{{ else if eq .Lang "en" }}
+		</div>
+	</div>
+	{{ else if eq .Lang "en" }}
+	<div id="hero" class="with-slider">
+		<div class="container home-slider">
 			<!-- <script src="https://fast.wistia.com/embed/medias/9pa39jngkp.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_9pa39jngkp videoFoam=true" style="height:100%;position:relative;width:100%">&nbsp;</div></div></div> -->
 			<div id="home-slider" class="owl-carousel owl-theme">
 				{{ range .Params.slider }}
@@ -19,9 +23,9 @@
 				</div>
 				{{ end }}
 			</div>
-			{{ end }}
 		</div>
 	</div>
+	{{ end }}
 	<!-- End-Hero -->
 	<!-- Produits -->
 		<div id="produits" class="container">

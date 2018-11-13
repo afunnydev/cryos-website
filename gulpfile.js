@@ -41,9 +41,9 @@ gulp.task('build', function(done) {
 // watching
 gulp.task("watch", function() {
 
-  // browserSync.init({
-  //     proxy: "http://localhost:1313/"
-  // });
+  browser.init({
+      proxy: "http://localhost:1313/"
+  });
 
   gulp.watch('src/sass-materialize/**/*.scss', ['styles']);
   // gulp.watch('themes/smartbooking/assets/js/**/*.js', ['scripts']);
