@@ -21,7 +21,7 @@
                 <p><span>courriel</span>info@cryos.com</p>
                 {{ else if eq .Lang "en" }}
                 <h1>Cryos Technologies head office</h1>
-                <p><span>address</span>385 de Salaberry street</p>
+                <p><span>address</span>385 de Salaberry Street</p>
                 <p><span></span>Joliette, Quebec, Canada, J6E 4G4</p>
                 <p><span>phone</span>1-877-272-7967</p>
                 <p><span>fax</span>(450) 755-4953</p>
@@ -73,7 +73,7 @@
             <p>For more information, please use the form below and we will be in touch with you shortly.</p>
             <form action="/en/thank-you" name="contact-page-en" id="contact-page" style="padding: 0.75rem;" netlify netlify-honeypot="bot-field" method="post">
                 <div class="col s12 m4 l4">
-                    <input type="text" placeholder="LAST NAME AND FIRST NAME" name="nom_et_prenom" required>
+                    <input type="text" placeholder="FIRST AND LAST NAME" name="nom_et_prenom" required>
                 </div>
                 <div class="col s12 m4 l4">
                     <input type="email" placeholder="EMAIL" name="email" required>
@@ -83,7 +83,7 @@
                     <p class="hidden"><label>Bot field: <input name="bot-field"></label></p>
                 </div>
                 <div class="col s12">
-                    <textarea placeholder="HOW CAN WE HELP YOU?" name="renseignements" required></textarea>
+                    <textarea placeholder="DO YOU HAVE QUESTIONS?" name="renseignements" required></textarea>
                 </div>
                 <div class="col s12">
                     <div netlify-recaptcha></div>

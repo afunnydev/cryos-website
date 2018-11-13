@@ -8,7 +8,7 @@ slug: 2d-3d-analysis-foot-morphology/
 identifiant: 20-analyse2d
 short_desc: null
 author: frederic
-date: '2017-04-23T00:00:00.000Z'
+date: '2018-04-23T00:00:00.000Z'
 blog_img: /img/uploads/3d-foot-morphology-analysis.jpg
 type: post
 categories:

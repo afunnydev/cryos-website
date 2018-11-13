@@ -1,4 +1,14 @@
 jQuery(document).ready(function ($) {
+  $('#home-slider').owlCarousel({
+    nav: true,
+    navText: ['<img src="/img/fleche-gauche.png" alt="" />', '<img src="/img/fleche-droite.png" alt="" />'],
+    dots: false,
+    items: 1,
+    lazyLoad: true,
+    onInitialize: function() {
+      $('.container.home-slider').addClass('owl-initialize-done');
+    }
+  });
   $('.dropdown-button').dropdown({
     inDuration: 300,
     outDuration: 225,

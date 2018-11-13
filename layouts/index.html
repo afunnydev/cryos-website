@@ -3,11 +3,22 @@
     {{ partial "header.html" . }}
     <!-- Hero -->
 	<div id="hero">
-		<div class="container">
+		<div class="container home-slider">
 			{{ if eq .Lang "fr" }}
 			<script src="https://fast.wistia.com/embed/medias/rwsactzul8.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_rwsactzul8 videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
 			{{ else if eq .Lang "en" }}
-			<script src="https://fast.wistia.com/embed/medias/9pa39jngkp.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_9pa39jngkp videoFoam=true" style="height:100%;position:relative;width:100%">&nbsp;</div></div></div>
+			<!-- <script src="https://fast.wistia.com/embed/medias/9pa39jngkp.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_9pa39jngkp videoFoam=true" style="height:100%;position:relative;width:100%">&nbsp;</div></div></div> -->
+			<div id="home-slider" class="owl-carousel owl-theme">
+				{{ range .Params.slider }}
+				<div class="slides" style="background-image: url('{{- .image -}}');">
+					<div class="text">
+						<h1><span>{{- .title1 -}}</span></br>{{- .title2 -}}</h1>
+						<h6>{{- .subtitle | markdownify -}}</h6>
+						<a href="{{- $.Site.BaseURL -}}{{- .btn.link -}}" class="btn vide trouver-btn {{ .btn.color }}">{{- .btn.title -}}<i class="fa fa-chevron-right"></i></a>
+					</div>
+				</div>
+				{{ end }}
+			</div>
 			{{ end }}
 		</div>
 	</div>
@@ -39,15 +50,17 @@
 					</div>
 				{{ else if eq .Lang "en" }}
 					<div>
-						<img src="{{.Site.BaseURL}}img/accueil/picto_orthese.jpg" class="responsive-img" alt="orthese cryos">
-						<h4>Cryos dynamic orthotics</h4>
-						<p>Biomechanical correction through healthy movement</p>
+						<a href="{{.Site.BaseURL}}en/professionals/cryos-orthotics">
+							<img src="{{.Site.BaseURL}}img/accueil/picto_orthese.jpg" class="responsive-img" alt="orthese cryos">
+							<h4>Cryos dynamic orthotics</h4>
+							<p>Biomechanical correction through healthy movement</p>
+						</a>
 					</div>
-					<div class="hovered center-align">
+					<!-- <div class="hovered center-align">
 						<h4>You are:</h4>
 						<a class="btn vide trouver-btn" href="{{.Site.BaseURL}}en/professionals/cryos-orthotics">Professional <i class="fa fa-chevron-right"></i></a>
-						<!-- <a class="btn vide trouver-btn" href="{{.Site.BaseURL}}en/patients/cryos-orthotics">Patient <i class="fa fa-chevron-right"></i></a> -->
-					</div>
+						<a class="btn vide trouver-btn" href="{{.Site.BaseURL}}en/patients/cryos-orthotics">Patient <i class="fa fa-chevron-right"></i></a>
+					</div> -->
 				{{ end }}
 				</div>
 				<!-- </a> -->
@@ -65,15 +78,17 @@
 					</div>
 				{{ else if eq .Lang "en" }}
 					<div>
-						<img src="{{.Site.BaseURL}}img/accueil/picto_cryovizion.jpg" class="responsive-img" alt="cryovizion cryos">
-						<h4>CryoVizion imaging system</h4>
-						<p>In a single image, a clear and complete view of your patient’s postural condition.</p>
+						<a href="{{.Site.BaseURL}}en/professionals/cryovizion">
+							<img src="{{.Site.BaseURL}}img/accueil/picto_cryovizion.jpg" class="responsive-img" alt="cryovizion cryos">
+							<h4>CryoVizion imaging system</h4>
+							<p>In a single image, a clear and complete view of your patient’s postural condition.</p>
+						</a>
 					</div>
-					<div class="hovered center-align">
+					<!-- <div class="hovered center-align">
 						<h4>You are:</h4>
 						<a class="btn vide trouver-btn" href="{{.Site.BaseURL}}en/professionals/cryovizion">Professional <i class="fa fa-chevron-right"></i></a>
-						<!-- <a class="btn vide trouver-btn" href="{{.Site.BaseURL}}en/patients/cryovizion">Patient <i class="fa fa-chevron-right"></i></a> -->
-					</div>
+						<a class="btn vide trouver-btn" href="{{.Site.BaseURL}}en/patients/cryovizion">Patient <i class="fa fa-chevron-right"></i></a>
+					</div> -->
 				{{ end }}
 				</div>
 				<div class="col l3 m12 s12 cryovizion">
@@ -85,15 +100,17 @@
 					</div>
 					{{ else if eq .Lang "en" }}
 					<div>
-						<img src="{{.Site.BaseURL}}img/accueil/picto_scan3D.jpg" class="responsive-img" alt="scan3D cryos">
-						<h4>Cryoscan</br>3D</h4>
-						<p>The next generation 3D foot-scanning technology to deliver the best fitting orthotics</p>
+						<a href="{{.Site.BaseURL}}en/professionals/cryoscan-3d/">
+							<img src="{{.Site.BaseURL}}img/accueil/picto_scan3D.jpg" class="responsive-img" alt="scan3D cryos">
+							<h4>Cryoscan</br>3D</h4>
+							<p>The next generation 3D foot-scanning technology to deliver the best fitting orthotics</p>
+						</a>
 					</div>
-					<div class="hovered center-align">
+					<!-- <div class="hovered center-align">
 						<h4>You are:</h4>
 						<a class="btn vide trouver-btn" href="{{.Site.BaseURL}}en/professionals/cryoscan-3d/">Professional <i class="fa fa-chevron-right"></i></a>
-						<!-- <a class="btn vide trouver-btn" href="{{.Site.BaseURL}}en/patients/cryovizion">Patient <i class="fa fa-chevron-right"></i></a> -->
-					</div>
+						<a class="btn vide trouver-btn" href="{{.Site.BaseURL}}en/patients/cryovizion">Patient <i class="fa fa-chevron-right"></i></a>
+					</div> -->
 					{{ end }}
 				</div>
 			</div>
@@ -105,7 +122,7 @@
 			{{ if eq .Lang "fr" }}
 				<a class="btn vide trouver-btn" href="{{.Site.BaseURL}}trouver-une-clinique">Trouver une clinique <i class="fa fa-chevron-right"></i></a>
 			{{ else if eq .Lang "en" }}
-				<a class="btn vide trouver-btn" href="{{.Site.BaseURL}}en/find-a-clinic">Find a clinic <i class="fa fa-chevron-right"></i></a>
+				<a class="btn vide trouver-btn" href="{{.Site.BaseURL}}en/company/contact/">Contact us <i class="fa fa-chevron-right"></i></a>
 			{{ end }}
 			</div>
 	</div>
@@ -135,7 +152,7 @@
 				  		<h6>{{ .Params.titre }}</h6>
 					  	<p class="summary">{{ .Summary }}</p>
 				  	</div>
-					</a>
+				</a>
 			  {{ end }}
 			</div>
 		</div>

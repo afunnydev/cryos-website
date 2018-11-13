@@ -8,7 +8,7 @@ slug: the-benefits-of-foot-orthotics-before-and-after-surgery
 identifiant: 09-orthese-sportif
 short_desc: null
 author: lyndacormier
-date: '2017-02-10'
+date: '2018-02-10'
 blog_img: /img/uploads/foot-orthotics-and-surgery-hallux-valgus.jpg
 type: post
 categories:

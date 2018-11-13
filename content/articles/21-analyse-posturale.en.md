@@ -13,7 +13,7 @@ short_desc: >-
   use imaging systems to more accurately evaluate and measure postural and
   biomechanical problems.
 author: philippe_legare
-date: 2017-04-29T00:00:00.000Z
+date: 2018-04-29T00:00:00.000Z
 blog_img: /img/uploads/BEFORE_AFTER_posture.png
 type: post
 categories:

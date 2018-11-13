@@ -38,6 +38,17 @@ gulp.task('build', function(done) {
   sequence('clean', 'styles', 'hugo', done);
 });
 
+// watching
+gulp.task("watch", function() {
+
+  // browserSync.init({
+  //     proxy: "http://localhost:1313/"
+  // });
+
+  gulp.watch('src/sass-materialize/**/*.scss', ['styles']);
+  // gulp.watch('themes/smartbooking/assets/js/**/*.js', ['scripts']);
+});
+
 // Start a server with LiveReload to preview the site in
 gulp.task('server', function() {
   setTimeout(function(){

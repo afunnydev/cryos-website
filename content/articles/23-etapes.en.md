@@ -8,7 +8,7 @@ slug: steps-to-wearing-foot-orthotics
 identifiant: 23-etapes
 short_desc: null
 author: boisclair
-date: 2017-06-25T21:19:52.296Z
+date: 2018-06-25T21:19:52.296Z
 blog_img: /img/uploads/ortheses-plantaires.jpg
 type: post
 categories:

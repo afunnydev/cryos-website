@@ -9,8 +9,8 @@
                 <p>Correction de la dysfonction biomécanique par le mouvement naturel</p>
                 <div><a href=" {{ .Site.BaseURL }}compagnie/contact/"><span class="token">Contactez-nous</span></a></div>
             {{ else if eq .Lang "en" }}
-                <h1>Cryos dynamic orthotics</h1>
-                <p>Biomechanical correction through healthy movement</p>
+                <h1>Cryos 3D dynamic orthotics</h1>
+                <p>Offering biomechanical correction through the healthy movement of the foot with the support of precision 3D technologies.</p>
                 <div><a href=" {{ .Site.BaseURL }}en/company/contact/"><span class="token">Contact us</span></a></div>
             {{ end }}
             </div>
@@ -30,7 +30,7 @@
                         <p>Sans immobiliser le pied, les orthèses dynamiques Cryos le guident dans le mouvement approprié, ce qui préserve et stimule sa force, sa souplesse et sa mobilité durant la correction.</p>
                     {{ else if eq .Lang "en" }}
                         <h3>Efficient</h3>
-                        <p>They guide the foot in it’s proper movement without immobilizing it, preserving and stimulating foot strength, flexibility and mobility while being corrected.</p>
+                        <p>Guides the foot in its proper movement without the need for immobilization. Stimulates foot strength, flexibility and mobility while simultaneously providing correction.</p>
                     {{ end }}
                     </div>
                     <div class="owl-content">
@@ -39,8 +39,8 @@
                         <h3>Petites</h3>
                         <p>Elles s’insèrent facilement dans tous les types de chaussures, ce qui permet de les porter plus souvent et d’obtenir de meilleurs résultats, plus rapidement. Il n’est donc plus nécessaire d’acheter des chaussures spécialement conçues pour les orthèses puisque les patients conservent les leurs et bénéficient ainsi d’économies substantielles. </p>
                     {{ else if eq .Lang "en" }}
-                        <h3>Small</h3>
-                        <p>They fit easily into all types of shoes which allows patients to wear them more often providing faster and better results. Furthermore, no need to buy shoes specifically made to accommodate the orthotics; patients can keep their own regular shoes, representing significant savings. </p>
+                        <h3>Useful</h3>
+                        <p>Can be worn with almost any type of footwear including running shoes or high heels. It is not necessary to purchase special shoes to accommodate the Cryos orthotic.</p>
                     {{ end }}
                     </div>
                     <div class="owl-content">
@@ -50,7 +50,7 @@
                         <p>Les orthèses sont uniques et adaptées aux besoins particuliers du patient, ce qui lui permet d’oublier qu’il en porte.</p>
                     {{ else if eq .Lang "en" }}
                         <h3>Comfortable</h3>
-                        <p>Cryos dynamic orthotics are specifically made according to each patient’s unique needs. In fact, patient quickly forget they are wearing orthotics. </p>
+                        <p>Made to each patients’ unique foot composition and created with a precise 3D printing process to ensure optimal comfort in every pair. </p>
                     {{ end }}
                     </div>
                     <div class="owl-content">
@@ -59,8 +59,8 @@
                         <h3>Résistantes</h3>
                         <p>Elles sont fabriquées à partir d’un polymère hypoallergène, un matériau particulièrement durable et résistant qui prolonge leur durée de vie. </p>
                     {{ else if eq .Lang "en" }}
-                        <h3>Durable</h3>
-                        <p>Made from a very sturdy and long-lasting hypoallergenic polymer extending the product life.</p>
+                        <h3>Safe and durable</h3>
+                        <p>Made from a hypoallergenic and long-lasting polymer material unique to our medical 3D printing process.  </p>
                     {{ end }}
                     </div>
                     <div class="owl-content">
@@ -69,8 +69,8 @@
                         <h3>Discrètes</h3>
                         <p>Elles sont très discrètes. Le patient peut donc les porter en toute confiance. </p>
                     {{ else if eq .Lang "en" }}
-                        <h3>Discreet</h3>
-                        <p>Cryos dynamic orthotics are highly discreet, so the patient can wear them with confidence.</p>
+                        <h3>Responsible</h3>
+                        <p>Eco-friendly, with almost zero waste in the production process. 3D printing of the orthotics not only increases their precision but also reduces non-reusable waste by 95% versus traditional production methods.</p>
                     {{ end }}
                     </div>
                 </div>
@@ -82,7 +82,7 @@
 <div class="had-container" id="orange">
     <div class="container">
         <div class="row">
-            <h1 class="black-bar">{{ if eq .Lang "fr" }}Les parties de l'orthèse{{ else if eq .Lang "en" }}Orthotics' parts{{ end }}</h1>
+            <h1 class="black-bar">{{ if eq .Lang "fr" }}Les parties de l'orthèse{{ else if eq .Lang "en" }}A UNIQUELY DESIGNED ORTHOTIC CREATED TO GUIDE THE FOOT IN IT’S NATURAL MOTION {{ end }}</h1>
             <div class="item-1 col s12">
                 <div class="row valign-wrapper">
                     <div class="col s12 m12 l7 oc-img valign"></div>
@@ -168,13 +168,13 @@
     </div>
 </div>
 {{ else if eq .Lang "en" }}
-<div class="had-container" id="news">
+<!-- <div class="had-container" id="news">
     <div class="container">
         <div class="row">
             <div class="col s12">
                 <h1 class="orange-bar">Articles</h1>
                 <div class="owl-carousel owl-theme" id="news-carousel">
-                    <!-- check if orthese_pro is true in the .md -->
+                    check if orthese_pro is true in the .md
                     {{ range where .Site.Pages ".Params.orthese_pro" true }}
                     <div class="card small item">
                         <div class="card-img"><a href="{{ .Permalink }}"><img src="{{.Site.BaseURL}}{{ .Params.blog_img}}" alt="{{ .Params.titre }}"></a></div>
@@ -187,7 +187,7 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
 {{ end }}
 
 <div class="had-container" id="clients_satisfaits">

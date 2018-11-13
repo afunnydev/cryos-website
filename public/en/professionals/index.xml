@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Products by Cryos Technologies on Cryos Technologies | Technology products for podiatrists</title>
+    <link>http://www.cryos.com/en/professionals/</link>
+    <description>Recent content in Products by Cryos Technologies on Cryos Technologies | Technology products for podiatrists</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 09 May 2017 12:51:12 -0400</lastBuildDate>
+    
+	<atom:link href="http://www.cryos.com/en/professionals/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cryos Technologies | 3D CryoScan for podiatrists</title>
+      <link>http://www.cryos.com/en/professionals/cryoscan-3d/</link>
+      <pubDate>Tue, 09 May 2017 12:51:12 -0400</pubDate>
+      
+      <guid>http://www.cryos.com/en/professionals/cryoscan-3d/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cryos Technologies | CryoVizion for podiatrists</title>
+      <link>http://www.cryos.com/en/professionals/cryovizion/</link>
+      <pubDate>Tue, 09 May 2017 12:50:31 -0400</pubDate>
+      
+      <guid>http://www.cryos.com/en/professionals/cryovizion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cryos Technologies | Cryos Dynamic Orthotics</title>
+      <link>http://www.cryos.com/en/professionals/cryos-orthotics/</link>
+      <pubDate>Tue, 09 May 2017 12:49:55 -0400</pubDate>
+      
+      <guid>http://www.cryos.com/en/professionals/cryos-orthotics/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

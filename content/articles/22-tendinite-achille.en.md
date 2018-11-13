@@ -4,7 +4,7 @@ blog_img: img/posts/comment-soigner-une-tendinite-au-tendon-dachille.jpg
 categories:
 - Injuries
 - Pain
-date: 2017-05-02
+date: 2018-05-02
 description: >-
   More information on the condition and the possible treatments available for treating Achilles tendinitis.
 slug: how-to-treat-achilles-tendinitis?/
