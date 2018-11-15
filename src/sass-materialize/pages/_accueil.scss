@@ -25,6 +25,9 @@
 		}
 	}
 	#home-slider {
+		.owl-stage-outer {
+			width: 100% !important;
+		}
 		.slides {
 			position: relative;
 			padding: 56.25% 0 0 0;
@@ -86,7 +89,7 @@
 		    margin: 0;
 		    padding: 0;
 		    list-style-type: none;
-		    opacity: 1;
+		    opacity: 0.5;
 		    > div {
 		    	display: inline-block;
 			    width: 40px;

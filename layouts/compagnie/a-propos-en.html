@@ -1,0 +1,168 @@
+{{ partial "head.html" . }} {{ partial "header.html" . }}
+
+<div class="had-container en" id="approche">
+    <div class="container">
+        <div class="row" style="padding-top: 30px"></div>
+        <div class="row">
+            <div class="col s12 offset-l1 l10">
+                <script src="https://fast.wistia.com/embed/medias/9pa39jngkp.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_9pa39jngkp videoFoam=true" style="height:100%;position:relative;width:100%">&nbsp;</div></div></div>
+            </div>
+        </div>
+        <div class="row" style="padding-top: 30px">
+            <div class="col s12 offset-m1 m10 offset-l2 l8">
+                <p class="quote">« Treating patients every day motivated us to pursue our research to produce an orthotic that would fit into most shoes, stimulate movement and most importantly, help patients to regain their mobility and active lifestyles. »</p>
+                <span class="author">Philippe Legaré, DPM and Cryos leader.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="had-container" id="mission-en">
+    <div class="container">
+        <div class="row">
+            <h1 class="black-bar">Our story</h1>
+            <div class="item-1 col s12">
+                <div class="row valign-wrapper">
+                    <div class="col s12 m12 l7 oc-img valign"></div>
+                    <div class="col s12 m12 l5 oc-txt valign">
+                    {{ if eq .Lang "fr" }}
+                        <h3>L’arrière pied dynamique </h3>
+                        <p>L'encoche et les bras (soit médial ou latéral) permettent un positionnement correctif de l'arrière pied, normalement sans l'ajout de matériau extrinsèque. Ils guident l'articulation sous-astragalienne au moment du contact du talon vers la pronation ou supination, selon le cas, permettant à l'articulation médio-tarse de s'engager totalement, menant à la résupination et à une propulsion saine. Aussi, l'encoche libère l'orthèse pour générer plus de torsion ; ceci augmente la flexion-extension et maximise le transfert des forces de façon à optimiser l'efficacité musculaire lors du cycle de marche. L'orthèse possède la capacité intrinsèque de diriger correctement ces forces ; ce facteur clé permet à l'orthèse de requérir très peu et souvent aucun matériau extrinsèque pour guider et contrôler le positionnement du pied.</p>
+                    {{ else if eq .Lang "en" }}
+                        <p>We were trained in the US podiatric system (PCPM) with the root theory of biomechanics and to use conventional orthotics to immobilize the foot in its neutral position. We soon discovered that theory and practice don’t always converge... After graduating, we started our practices in Quebec.  Almost immediately we began to observe the limits of traditional orthotics; this is when we met our mentor, podiatrist, Ronald Perrault. As a visionary, Ronald was already working on his own dynamic orthotic and measurement system; he believed we needed to keep the feet moving to find a solution to foot dysfunction.</p>
+                    {{ end }}
+                    </div>
+                </div>
+            </div>
+            <div class="item-2 col s12">
+                <div class="row valign-wrapper">
+                    <div class="col s12 m12 l6 oc-img push-l5 valign"></div>
+                    <div class="col s12 m12 l5 oc-txt pull-l7 valign">
+                    {{ if eq .Lang "fr" }}
+                        <h3>Le contrôle de l’arche flexible</h3>
+                        <p>Grâce à l'arche flexible, ajustée aux besoins spécifiques de chaque patient, le pied n'est pas immobilisé, mais plutôt guidé dans son mouvement naturel.</p>
+                    {{ else if eq .Lang "en" }}
+                        <p>We knew from our collaboration with other health professionals including physical therapists that removing the movement from orthotic therapy was not the optimal solution to address faulty biomechanics. Also, being active ourselves and having a background in exercise science, we agreed with our mentor that the movement of the foot was essential. It was clear to us that orthotic therapy would not just have a significant impact on the feet but also the lower extremities and ultimately the whole posture of our patients.</p>
+                    {{ end }}
+                    </div>
+                </div>
+            </div>
+            <div class="item-3 col s12">
+                <div class="row valign-wrapper">
+                    <div class="col s12 m12 l6 oc-img valign"></div>
+                    <div class="col s12 m12 l5 oc-txt valign">
+                    {{ if eq .Lang "fr" }}
+                        <h3>Polymère hypoallergène : un plastique spécialement adapté</h3>
+                        <p>Les orthèses Cryos sont fabriquées à partir d'un polymère hypoallergénique spécialement conçu afin d'augmenter ses propriétés de force, de flexibilité et de mémoire flexion-extension. C'est un matériau particulièrement durable et résistant allongeant ainsi la durée de vie des orthèses.</p>
+                    {{ else if eq .Lang "en" }}
+                        <p>At the time, the orthotic solutions available in the podiatric market did not meet our needs challenging us to question the conventional thinking; the result was the creation of a dynamic orthotic solution; one that would stimulate movement, strengthen muscles and guide the foot in its proper motion without constraining it. This is how the <a href="{{- $.Site.BaseURL -}}en/professionals/cryos-orthotics/" title="Cryos dynamic orthotic" style="color: white; text-decoration: underline;">Cryos dynamic orthotic</a>, that is still being improved today, was born. In 2003, after the sudden passing of our mentor, we decided to continue this process and in doing so, honoring his vision.  </p>
+                    {{ end }}
+                    </div>
+                </div>
+            </div>
+            <div class="item-4 col s12">
+                <div class="row valign-wrapper">
+                    <div class="col s12 m12 l4 oc-img push-l6 valign"></div>
+                    <div class="col s12 m12 l5 oc-txt pull-l7 valign">
+                    {{ if eq .Lang "fr" }}
+                        <h3>Les dents de scie de l’avant du pied </h3>
+                        <p>Assurent le positionnement adéquat de l'avant-pied et stabilisent ou auto-corrigent la position de l'orthèse en mouvement.</p>
+                    {{ else if eq .Lang "en" }}
+                        <p>As with any health treatment, the measurement of outcomes is essential to the success of the treatment. We realized that without tools for measuring the outcomes of orthotics, the results obtained with the dynamic orthotics would be difficult to ascertain. We knew it was important to objectively validate the treatment’s effectiveness and monitor progress over time. </p>
+                    {{ end }}
+                    </div>
+                </div>
+            </div>
+            <div class="item-5 col s12">
+                <div class="row valign-wrapper">
+                    <div class="col s12 m12 l7 oc-img valign"></div>
+                    <div class="col s12 m12 l5 oc-txt valign">
+                    {{ if eq .Lang "fr" }}
+                        <h3>Polymère hypoallergène : un plastique spécialement adapté</h3>
+                        <p>Les orthèses Cryos sont fabriquées à partir d'un polymère hypoallergénique spécialement conçu afin d'augmenter ses propriétés de force, de flexibilité et de mémoire flexion-extension. C'est un matériau particulièrement durable et résistant allongeant ainsi la durée de vie des orthèses.</p>
+                    {{ else if eq .Lang "en" }}
+                        <p>We first started using the <a href="{{- $.Site.BaseURL -}}en/professionals/cryovizion/" title="Cryos dynamic orthotic" style="color: white; text-decoration: underline;">CryoVizion imaging system</a> in our practices more than 15 years ago and even today, we continue to see how the images improve our interaction with patients. The images permit the patient to more easily understand what is being accomplished through treatment and how it will improve their postural state. </p>
+                    {{ end }}
+                    </div>
+                </div>
+            </div>
+            <div class="item-6 col s12">
+                <div class="row valign-wrapper">
+                    <div class="col s12 m12 l7 oc-img push-l5 valign"></div>
+                    <div class="col s12 m12 l5 oc-txt pull-l7 valign">
+                    {{ if eq .Lang "fr" }}
+                        <h3>Les dents de scie de l’avant du pied </h3>
+                        <p>Assurent le positionnement adéquat de l'avant-pied et stabilisent ou auto-corrigent la position de l'orthèse en mouvement.</p>
+                    {{ else if eq .Lang "en" }}
+                        <p>Striving to continuously improve orthotic effectiveness, we had to acknowledge that the variability caused by manual casting and production methods were critical in a business where millimeters count. We took the necessary time to develop a foot scanning system, the <a href="{{- $.Site.BaseURL -}}en/professionals/cryoscan-3d/" title="Cryos dynamic orthotic" style="color: white; text-decoration: underline;">CryoScan 3D</a>, that is precise, versatile and easy to use; most importantly it allows for the foot to be scanned in a semi-weight bearing position; the best position for the foot to be in to create a dynamic orthotic. With CryoScan 3D, what you scan is what you get! </p>
+                    {{ end }}
+                    </div>
+                </div>
+            </div>
+            <div class="item-7 col s12">
+                <div class="row valign-wrapper">
+                    <div class="col s12 m12 l7 oc-img valign"></div>
+                    <div class="col s12 m12 l5 oc-txt valign">
+                    {{ if eq .Lang "fr" }}
+                        <h3>Polymère hypoallergène : un plastique spécialement adapté</h3>
+                        <p>Les orthèses Cryos sont fabriquées à partir d'un polymère hypoallergénique spécialement conçu afin d'augmenter ses propriétés de force, de flexibilité et de mémoire flexion-extension. C'est un matériau particulièrement durable et résistant allongeant ainsi la durée de vie des orthèses.</p>
+                    {{ else if eq .Lang "en" }}
+                        <p>We understand your reality as we have faced the same challenges as you for the past 20 years working and owning our practices. We want to help you make a significant impact in your patient’s lives. We are perfectly aware that what we are doing challenges the conventional way of thinking, but we also know that the results are remarkable and that it’s a change well worth pursuing. Are you ready to move forward with us?</p>
+                    {{ end }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="had-container" id="equipe">
+    <div class="container">
+        <div class="row">
+            <div class="col s12">
+                <h1 class="blue-bar">{{ if eq .Lang "fr" }}L'équipe{{ else if eq .Lang "en" }}Team{{ end }}</h1>
+                <div class="owl-carousel">
+                {{ if eq .Lang "fr" }}
+                    {{ range sort $.Site.Data.equipe.equipe "weight" "asce" }}
+                        <div class="member center-align">
+                            <img src="{{$.Site.BaseURL}}{{ .photo }}" alt="{{ .fonction }}">
+                            <h1>{{ .name }}</h1>
+                            <h2>{{ .fonction }}</h2>
+                        </div>
+                    {{ end }}
+                {{ else if eq .Lang "en" }}
+                    {{ range sort $.Site.Data.equipe.equipe "weight" "asce" }}
+                        <div class="member center-align">
+                            <img src="{{$.Site.BaseURL}}{{ .photo }}" alt="{{ .fonction }}">
+                            <h1>{{ .name }}</h1>
+                            <h2>{{ .position }}</h2>
+                        </div>
+                    {{ end }}
+                {{ end }}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="had-container" id="trouver_clinique">
+    <div class="container">
+        <div class="row">
+            <div class="col s12 center-align">
+                {{ if eq .Lang "fr" }}<a href="{{ .Site.BaseURL }}trouver-une-clinique">Trouver une clinique{{ else if eq .Lang "en" }}<a href="{{ .Site.BaseURL }}en/company/contact/">Contact us{{ end }}</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="had-container" id="nos_partenaires">
+    <div class="container">
+        <div class="row">
+            <div class="col s12">
+
+            </div>
+        </div>
+    </div>
+</div>
+
+{{ partial "footer.html" . }}

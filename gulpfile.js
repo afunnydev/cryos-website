@@ -19,8 +19,8 @@ gulp.task('styles', function() {
         .pipe($.sourcemaps.init())
         .pipe($.sass())
         .on('error', $.sass.logError)
-        .pipe($.sourcemaps.write())
         .pipe(cleanCSS({compatibility: 'ie9'}))
+        .pipe($.sourcemaps.write('maps'))
         .pipe(gulp.dest('static/css'))
         .pipe(browser.stream());
 });

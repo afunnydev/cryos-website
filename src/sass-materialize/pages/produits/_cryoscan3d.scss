@@ -145,7 +145,15 @@
     } 
     #oc-carousel.cryoscan {
         .video-container {
-            display: none;
+            background-image: url('/img/scan3d_pro/cryoscan-3d-slider-image.jpg');
+            background-size: 100% auto;
+            background-repeat: no-repeat;
+            background-position: center center;
+            display: block !important;
+            margin-top: 30px !important;
+            iframe {
+                display: none;
+            }
         }
         .oc-title h1 {
             margin-top: -40px;
@@ -162,7 +170,7 @@
             }
         }
         .owl-carousel {
-            margin-top: 80px;
+            margin-top: 20px;
         }
     }
 
