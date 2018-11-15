@@ -27,6 +27,6 @@ slider:
     btn:
       title: "Discover our technologies"
       color: purple
-      link: en/professionals/cryoscan-3d/
+      link: en/technologies/
 ---
 
