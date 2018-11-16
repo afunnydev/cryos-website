@@ -393,6 +393,7 @@
 @media #{$medium-and-up} {
     // For animation to work
     .had-container {
+        overflow-x: hidden;
         .oc-img,
         .oc-txt {
             -webkit-transition: 0.6s;
