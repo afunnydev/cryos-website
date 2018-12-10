@@ -1,8 +1,7 @@
 ---
 author: elizabeth
-description: We offer innovative  technological solutions for podiatrists and patients.
-  We correct foot dysfunction using natural movement.
-title: Cryos Technologies | Technology products for podiatrists
+description: We offer innovative technological solutions for health care professionals and patients. We correct foot dysfunction using natural movement.
+title: Cryos Technologies | Technology products for health care professionals
 slider:
   - title1: We put movement
     title2: into orthotic therapy

@@ -5,9 +5,8 @@ description: The 3D CryoScan is the next generation of foot scanning technology.
 draft: false
 layout: cryoscan-3d
 title: Cryos Technologies | 3D CryoScan for podiatrists
-<!-- translatedslug: produits/cryoscan-3d -->
 type: produits
-noindex: true
+noindex: false
 gab2b: true
 ---
 
