@@ -1,7 +1,9 @@
 backend:
-  name: github
-  repo: felixdb/cryos-website # Path to your Github repository
+  name: git-gateway
+  accept_roles: #optional - accepts all users if left out
+    - admin
   branch: master # Branch to update (master by default)
+  squash_merges: true
 
 media_folder: "static/img/uploads" # Folder where user uploaded files should go
 public_folder: "img/uploads" # The src attribute for uploaded media will begin with img/uploads
@@ -149,7 +151,13 @@ collections:
                     create: true 
                     fields:
                       - {label: "Ligne", name: "text", widget: "string"}
-
+      - name: "inserts"
+        label: "Insert Header and Footer"
+        file: "data/inserts.yml"
+        description: "Insert scripts in header and footer"
+        fields:
+          - {label: "Header scripts", name: "header", widget: "text", required: false}
+          - {label: "Footer scripts", name: "footer", widget: "text", required: false}
   - name: "articlesfr" # Used in routes, e.g. /admin/collections/blog
     label: "Articles-FR" # Used in the UI
     folder: "content/articles" # The path to the folder where the documents are stored

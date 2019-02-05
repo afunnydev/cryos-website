@@ -157,6 +157,7 @@
     initLunr();
     </script>
     <script src="{{.Site.BaseURL}}js/main.js"></script>
+    {{ $.Site.Data.inserts.scripts.footer | safeHTML }}
 </body>
 
 </html>

@@ -54,6 +54,8 @@
     ga('send', 'pageview');
     </script>
   {{ end }}
+  <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  {{ $.Site.Data.inserts.scripts.header | safeHTML }}
 </head>
 
 <body>
