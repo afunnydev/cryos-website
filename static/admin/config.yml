@@ -156,8 +156,11 @@ collections:
         file: "data/inserts.yml"
         description: "Insert scripts in header and footer"
         fields:
-          - {label: "Header scripts", name: "header", widget: "text", required: false}
-          - {label: "Footer scripts", name: "footer", widget: "text", required: false}
+          - name: scripts
+            label: "Scripts"
+            widget: object
+              - {label: "Header scripts", name: "header", widget: "text", required: false}
+              - {label: "Footer scripts", name: "footer", widget: "text", required: false}
   - name: "articlesfr" # Used in routes, e.g. /admin/collections/blog
     label: "Articles-FR" # Used in the UI
     folder: "content/articles" # The path to the folder where the documents are stored
