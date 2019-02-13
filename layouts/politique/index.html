@@ -1,0 +1,79 @@
+{{ partial "head.html" . }} {{ partial "header.html" . }}
+
+<div class="container" id="contact-title">
+    <div class="row">
+        <div class="col s12">
+            <h1 class="blue-bar" style="">{{ .Params.titre }}</h1>
+        </div>
+    </div>
+</div>
+
+<div class="had-container" id="privacy">
+    <div class="container" >
+        <div class="row">
+            <div class="col s12">
+                {{ .Content }}
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- <div class="container" id="questions">
+    <div class="row">
+        <div class="col s12" style="padding: 0;">
+            {{ if eq .Lang "fr" }}
+            <h1 class="blue-bar">Vous avez des questions?</h1>
+            <h2>Consultez notre section FAQ <a href="{{.Site.BaseURL}}patients/faq">ici</a></h2>
+            <p>Pour de plus amples renseignements, remplissez le formulaire ci-dessous et nous communiquerons avec vous sous peu.</p>
+            <form action="/merci" name="contact-page-fr" id="contact-page" style="padding: 0.75rem;" netlify netlify-honeypot="bot-field" method="post" >
+                <div class="col s12 m4 l4">
+                    <input type="text" placeholder="NOM ET PRÉNOM" name="nom_et_prenom" required>
+                </div>
+                <div class="col s12 m4 l4">
+                    <input type="email" placeholder="ADRESSE COURRIEL" name="email" required>
+                </div>
+                <div class="col s12 m4 l4">
+                    <input type="text" placeholder="TÉLÉPHONE" name="phone" required>
+                    <p class="hidden"><label>Bot field: <input name="bot-field"></label></p>
+                </div>
+                <div class="col s12">
+                    <textarea placeholder="QUELS RENSEIGNEMENTS DÉSIREZ-VOUS?" name="renseignements" required></textarea>
+                </div>
+                <div class="col s12">
+                    <div netlify-recaptcha></div>
+                </div>
+                <div class="col s6 m3 l3 pad_to_right">
+                    <input type="submit" value="ENVOYER" class="poste_envoyer">
+                </div>
+            </form>
+            {{ else if eq .Lang "en" }}
+            <h1 class="blue-bar">Do you have questions?</h1>
+            <h2>Visit our FAQ <a href="{{.Site.BaseURL}}en/patients/faq">here</a></h2>
+            <p>For more information, please use the form below and we will be in touch with you shortly.</p>
+            <form action="/en/thank-you" name="contact-page-en" id="contact-page" style="padding: 0.75rem;" netlify netlify-honeypot="bot-field" method="post">
+                <div class="col s12 m4 l4">
+                    <input type="text" placeholder="FIRST AND LAST NAME" name="nom_et_prenom" required>
+                </div>
+                <div class="col s12 m4 l4">
+                    <input type="email" placeholder="EMAIL" name="email" required>
+                </div>
+                <div class="col s12 m4 l4">
+                    <input type="text" placeholder="PHONE" name="phone" required>
+                    <p class="hidden"><label>Bot field: <input name="bot-field"></label></p>
+                </div>
+                <div class="col s12">
+                    <textarea placeholder="DO YOU HAVE QUESTIONS?" name="renseignements" required></textarea>
+                </div>
+                <div class="col s12">
+                    <div netlify-recaptcha></div>
+                </div>
+                <div class="col s6 m3 l3 pad_to_right">
+                    <input type="submit" value="SEND" class="poste_envoyer">
+                </div>
+            </form>
+            {{ end }}
+        </div>
+    </div>
+</div> -->
+
+{{ partial "footer.html" . }}
