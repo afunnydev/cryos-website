@@ -29,11 +29,11 @@ La version française et la version anglaise de votre article sont séparées da
 - *Titre officiel* : Ceci est le titre de l'article que tout le monde pourra voir dans la liste et sur la page d'un article individuel. Il est officiellement votre H1 (voir la portion sur le référencement).
 - *Titre SEO* : Titre de la page web, indexé par Google. *non-visible*
 - *Description SEO* : Description de la page web, indexé par Google. *non-visible*. Vous avez le droit à 155 caractères. Veuillez vous référer à la section sur le référencement pour plus d'information.
-- *Lien* : La portion de lien de la page web qui sera après le http://www.cryos.com ou http://www.cryos.com/en. Il peut contenir seulement des chiffes, lettres et tirets. C'est très important de le choisir intelligement, pour le référencement. 
+- *Lien* : La portion de lien de la page web qui sera après le https://www.cryos.com ou https://www.cryos.com/en. Il peut contenir seulement des chiffes, lettres et tirets. C'est très important de le choisir intelligement, pour le référencement. 
 
 ```hint|directive
-Exemple en français: "ceci-est-un-exemple" donnera http://www.cryos.com/ceci-est-un-example
-Exemple en anglais: "this-is-my-example" donnera http://www.cryos.com/en/this-is-my-example
+Exemple en français: "ceci-est-un-exemple" donnera https://www.cryos.com/ceci-est-un-example
+Exemple en anglais: "this-is-my-example" donnera https://www.cryos.com/en/this-is-my-example
 ```
 
 - *Identifiant* : Nous en avons discuté dans l'introduction. C'est l'identifiant unique de cet article, qui doit être le même dans toutes les langues traduites. Il peut contenir seulement des chiffes, lettres et tirets. Lorsque vous commencerez à taper votre identifiant, une recherche se fera automatiquement parmi les identifiants existants. Si vous créez un nouvel article, assurez-vous d'écrire un nouvel identifiant unique jamais utilisé. Si vous faites la traduction d'un article, assurez-vous de sélectionner le bon identifiant dans la liste. Si vous ne la voyez pas, descendez un peu dans la page :) Voici la nomenclature que j'ai suivie, je conseille de poursuivre dans la même lignée: #-mot-cle -> Ex: 22-analyse-posturale

@@ -50,7 +50,7 @@ Malheureusement, il n’y a pas de réponse exacte ici. Très souvent, l’enfan
 
 ## Est-ce que l’hérédité peut jouer un rôle dans ses douleurs de croissance?
 
-Pour la douleur en elle-même, non. Il n’y a pas un gène précis qui est à l’origine des maux de jambes dont souffre votre enfant. Par contre, il peut avoir une prédisposition pour celles-ci, notamment s’il est victime d’un problème biomécanique ([par exemple un pied plat](http://www.cryos.com/pied-plat-chez-lenfant-causes-symptomes-traitements-connaitre/)). C’est donc plus la position ou la démarche de son pied que son bagage génétique qui peut lui causer des douleurs de croissance.
+Pour la douleur en elle-même, non. Il n’y a pas un gène précis qui est à l’origine des maux de jambes dont souffre votre enfant. Par contre, il peut avoir une prédisposition pour celles-ci, notamment s’il est victime d’un problème biomécanique ([par exemple un pied plat](https://www.cryos.com/pied-plat-chez-lenfant-causes-symptomes-traitements-connaitre/)). C’est donc plus la position ou la démarche de son pied que son bagage génétique qui peut lui causer des douleurs de croissance.
 
 ## À quel âge mon enfant risque d’avoir des douleurs de croissance aux jambes?
 
@@ -64,7 +64,7 @@ Encore une fois, ça dépend de votre enfant, car il n’y a pas deux corps huma
 
 ## Si mon enfant ne se plaint pas, comment puis-je remarquer ses douleurs aux jambes?
 
-Le jeune enfant qui souffre de maux de jambes demandera plus souvent à être pris dans les bras. Il préférera aussi les jeux assis où il doit utiliser plutôt ses mains que ses pieds. Chez les enfants qui sont plus vieux, ça va parfois se traduire par un désintérêt quant aux activités sportives. Vous pourrez aussi le remarquer si votre enfant boite ou présente une démarche qui n’est pas symétrique. Ce sont des signes annonciateurs qu’[il est pertinent de consulter un podiatre](http://www.cryos.com/trouver-une-clinique/).
+Le jeune enfant qui souffre de maux de jambes demandera plus souvent à être pris dans les bras. Il préférera aussi les jeux assis où il doit utiliser plutôt ses mains que ses pieds. Chez les enfants qui sont plus vieux, ça va parfois se traduire par un désintérêt quant aux activités sportives. Vous pourrez aussi le remarquer si votre enfant boite ou présente une démarche qui n’est pas symétrique. Ce sont des signes annonciateurs qu’[il est pertinent de consulter un podiatre](https://www.cryos.com/trouver-une-clinique/).
 
 ## Comme parent, quels sont les pièges à éviter si je veux aider mon enfant à soulager ses maux de jambes?
 

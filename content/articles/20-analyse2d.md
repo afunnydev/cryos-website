@@ -50,7 +50,7 @@ Une prise d’empreintes s’effectue de diverses manières, selon l’approche 
 
 ## Quelle méthode est la plus efficace?
 
-[La prise d’empreintes en trois dimensions](http://www.cryos.com/produits/cryovizion/) offre une efficacité supérieure comparativement à celle en deux dimensions. Les informations fournies sont plus élaborées et précises, ce qui facilite la fabrication des orthèses plantaires. De plus, les risques d’erreur découlant de l’intervention humaine sont réduits par l’usage de la technologie 3D. Par ailleurs, une empreinte non conforme à la morphologie des pieds réduira l’efficacité des orthèses plantaires à court et à long terme.
+[La prise d’empreintes en trois dimensions](https://www.cryos.com/produits/cryovizion/) offre une efficacité supérieure comparativement à celle en deux dimensions. Les informations fournies sont plus élaborées et précises, ce qui facilite la fabrication des orthèses plantaires. De plus, les risques d’erreur découlant de l’intervention humaine sont réduits par l’usage de la technologie 3D. Par ailleurs, une empreinte non conforme à la morphologie des pieds réduira l’efficacité des orthèses plantaires à court et à long terme.
 
 ## Quels sont les avantages de la prise d’empreintes 3D?
 
@@ -58,6 +58,6 @@ La méthode de prise d’empreintes 3D est unique au monde. Elle s’avère bén
 
 ## Un incontournable à considérer avant l’achat d’orthèses plantaires.
 
-Les orthèses plantaires sur mesure sont un traitement personnalisé qui évolue au fil du temps. Cette dernière se démarque sur le marché par son mouvement de flexion-extention, son confort, sa taille et sa polyvalence. Puisqu’elle s’harmonise aux pieds sans limiter leurs mouvements, [l’orthèse dynamique Cryos](http://www.cryos.com/patients/ortheses/) est qualifiée comme la plus adaptative sur le marché. Cet avantage est possible grâce à la prise d’empreintes tridimensionnelles et à la technique en semi-charge qui procurent une précision supérieure de la morphologie des pieds.
+Les orthèses plantaires sur mesure sont un traitement personnalisé qui évolue au fil du temps. Cette dernière se démarque sur le marché par son mouvement de flexion-extention, son confort, sa taille et sa polyvalence. Puisqu’elle s’harmonise aux pieds sans limiter leurs mouvements, [l’orthèse dynamique Cryos](https://www.cryos.com/patients/ortheses/) est qualifiée comme la plus adaptative sur le marché. Cet avantage est possible grâce à la prise d’empreintes tridimensionnelles et à la technique en semi-charge qui procurent une précision supérieure de la morphologie des pieds.
 
 Le choix du podiatre est tout aussi important, puisqu’il a pour rôle de guider adéquatement ses patients vers la meilleure solution remédiant à leurs maux. Avant d’opter pour des orthèses, il faut sélectionner le bon professionnel qui répondra à vos questions et à vos attentes. Vous serez en mesure de mieux comprendre les avantages des orthèses et l’évolution de votre traitement à court ou à long terme.

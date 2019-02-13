@@ -32,7 +32,7 @@ Certaines conditions podiatriques chez l’enfant peuvent, c’est vrai, être l
 
 ## Dans le cas du pied plat chez l’enfant, est-ce que c’est assurément héréditaire?
 
-Premièrement, il faut savoir que [chaque enfant naît avec le pied plat](http://www.cryos.com/pied-plat-chez-lenfant-causes-symptomes-traitements-connaitre/). L’arche prendra sa forme definitive entre 3 et 5 ans.
+Premièrement, il faut savoir que [chaque enfant naît avec le pied plat](https://www.cryos.com/pied-plat-chez-lenfant-causes-symptomes-traitements-connaitre/). L’arche prendra sa forme definitive entre 3 et 5 ans.
 
 Si après coup son pied reste plat, l’hérédité peut en être la cause mais ce n’est pas un automatisme. Et, comme nous le disons à plusieurs parents, il existe de nombreuses façons d’aider les enfants dans ce genre de situation.
 
@@ -64,4 +64,4 @@ Non, pas nécessairement. Bien sûr, l’enfant dont les deux parents souffrent 
 
 Dans certains oui, c’est possible, mais ça n’arrive pas tout le temps. Comme nous le disons aux parents, il est inutile de se blâmer systématiquement si votre enfant souffre des mêmes douleurs aux pieds que lui.
 
-Nous leur conseillons plutôt de [consulter un podiatre](http://www.cryos.com/trouver-une-clinique/). De cette façon, nous pouvons rapidement trouver des solutions afin de lui venir en aide.
+Nous leur conseillons plutôt de [consulter un podiatre](https://www.cryos.com/trouver-une-clinique/). De cette façon, nous pouvons rapidement trouver des solutions afin de lui venir en aide.

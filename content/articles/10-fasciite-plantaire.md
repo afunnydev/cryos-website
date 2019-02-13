@@ -56,7 +56,7 @@ Oui, dans la mesure où l’on hérite de la forme du pied (par exemple un pied 
 
 ## La fasciite plantaire est-elle une condition qui peut devenir permanente?
 
-Non, pas si l’on a le traitement approprié pour la guérir. Lors de l’apparition des premières douleurs au talon, il peut être bon de faire certains étirements et d’appliquer de la glace. Si ça ne fonctionne pas, il faut rapidement [consulter un podiatre](http://www.cryos.com/trouver-une-clinique/).
+Non, pas si l’on a le traitement approprié pour la guérir. Lors de l’apparition des premières douleurs au talon, il peut être bon de faire certains étirements et d’appliquer de la glace. Si ça ne fonctionne pas, il faut rapidement [consulter un podiatre](https://www.cryos.com/trouver-une-clinique/).
 
 ## Comment un podiatre peut-il aider un patient à mieux vivre avec une fasciite plantaire?
 

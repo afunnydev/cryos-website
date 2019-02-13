@@ -71,9 +71,9 @@ Par contre, si l’on oublie le facteur du bagage héréditaire, un enfant n’e
 
 ## Est-ce qu’il y a des traitements capables de soulager le pied plat chez l’enfant?
 
-C’est certain que le port de l'[orthèse plantaire est une option que je suggère souvent](http://www.cryos.com/produits/orthese-cryos/), car elle donne de bons résultats.
+C’est certain que le port de l'[orthèse plantaire est une option que je suggère souvent](https://www.cryos.com/produits/orthese-cryos/), car elle donne de bons résultats.
 
-J’ajouterais aussi que plus le podiatre a la chance d’intervenir rapidement, plus il aura la chance de pouvoir aider l’enfant. Je soigne personnellement des enfants qui ont à peine 18 mois. Si le parent a un doute, il est toujours préférable qu’il [consulte un spécialiste](http://www.cryos.com/trouver-une-clinique/) afin d’avoir l’heure juste.
+J’ajouterais aussi que plus le podiatre a la chance d’intervenir rapidement, plus il aura la chance de pouvoir aider l’enfant. Je soigne personnellement des enfants qui ont à peine 18 mois. Si le parent a un doute, il est toujours préférable qu’il [consulte un spécialiste](https://www.cryos.com/trouver-une-clinique/) afin d’avoir l’heure juste.
 
 ## Comment le podiatre peut-il aider l’enfant au cours de son traitement?
 

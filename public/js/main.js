@@ -1,8 +1,15 @@
 jQuery(document).ready(function ($) {
   $('#home-slider').owlCarousel({
     nav: true,
+    navText: ['<img src="/img/fleche-gauche.png" alt="" />', '<img src="/img/fleche-droite.png" alt="" />'],
     dots: false,
-    items: 1
+    items: 1,
+    lazyLoad: true,
+    autoplay: true,
+    autoplaySpeed: 1000,
+    onInitialize: function() {
+      $('.container.home-slider').addClass('owl-initialize-done');
+    }
   });
   $('.dropdown-button').dropdown({
     inDuration: 300,
@@ -100,6 +107,9 @@ jQuery(document).ready(function ($) {
       {selector: '.item-2 .oc-img', offset: 60, callback: function(el) { $('.item-2 .oc-img, .item-2 .oc-txt').toggleClass('moved'); } },
       {selector: '.item-3 .oc-img', offset: 60, callback: function(el) { $('.item-3 .oc-img, .item-3 .oc-txt').toggleClass('moved'); } },
       {selector: '.item-4 .oc-img', offset: 60, callback: function(el) { $('.item-4 .oc-img, .item-4 .oc-txt').toggleClass('moved'); } },
+      {selector: '.item-5 .oc-img', offset: 60, callback: function(el) { $('.item-5 .oc-img, .item-5 .oc-txt').toggleClass('moved'); } },
+      {selector: '.item-6 .oc-img', offset: 60, callback: function(el) { $('.item-6 .oc-img, .item-6 .oc-txt').toggleClass('moved'); } },
+      {selector: '.item-7 .oc-img', offset: 60, callback: function(el) { $('.item-7 .oc-img, .item-7 .oc-txt').toggleClass('moved'); } },
     ]; 
     Materialize.scrollFire(options);
   }

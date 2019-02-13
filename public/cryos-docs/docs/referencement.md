@@ -67,7 +67,7 @@ Lorsque que vous faites un lien interne ou externe, assurez-vous que le texte du
 ![référencement](docs/exemple-referencement.png)
  
 1.	H1 | le mot clé est présent dans celui-ci
-2.	Lien interne vers la page http://www.cryos.com/fasciite-plantaire-quels-sont-les-symptomes-et-les-traitements-disponibles/
+2.	Lien interne vers la page https://www.cryos.com/fasciite-plantaire-quels-sont-les-symptomes-et-les-traitements-disponibles/
 3.	H2 pour sous-diviser le texte
 4.	Lien externe vers https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4400011/
 

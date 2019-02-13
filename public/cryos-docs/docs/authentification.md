@@ -17,7 +17,7 @@ Vous ne connaissez peut-être pas [Github](https://github.com), mais c'est ce qu
 
 ## Connexion à l'espace administrateur
 
-1. Se rendre sur http://www.cryos.com/admin et cliquer sur la boîte
+1. Se rendre sur https://www.cryos.com/admin et cliquer sur la boîte
 2. Connectez-vous avec vos accès Github
 3. Game on!
 

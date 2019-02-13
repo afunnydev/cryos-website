@@ -37,9 +37,9 @@ Non, en aucun cas le port d’orthèse plantaire ne peut affaiblir les muscles. 
 
 En améliorant ou corrigeant la biomécanique du patient, ce traitement podiatrique peut diminuer ou guérir les problèmes mécaniques, musculo-squelettiques, posturaux, etc. Les principales douleurs traitées par le port d’orthèses plantaires sont :
 
-- [Fasciite plantaire](http://www.cryos.com/fasciite-plantaire-quels-sont-les-symptomes-et-les-traitements-disponibles/)/ Épine de Lenoir
+- [Fasciite plantaire](https://www.cryos.com/fasciite-plantaire-quels-sont-les-symptomes-et-les-traitements-disponibles/)/ Épine de Lenoir
 - Bursite/ Capsulite
-- [Tendinite](http://www.cryos.com/comment-soigner-une-tendinite-au-tendon-dachille/)
+- [Tendinite](https://www.cryos.com/comment-soigner-une-tendinite-au-tendon-dachille/)
 - Orteils marteaux
 - Hallux valgus
 - Pieds plats

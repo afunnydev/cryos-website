@@ -45,7 +45,7 @@ La mécanique du pied et la posture peuvent s’améliorer avant la fin de la cr
 
 ## L’entretien facile à la suite d’une activité physique:
 
-[L’orthèse dynamique de Cryos](http://www.cryos.com/produits/orthese-cryos/) est très appréciée par les sportifs pour sa facilité d’entretien. Elle n’accumule pas les odeurs et ne s’use pas rapidement puisqu’elle est composée de plastique. Dès qu’il s’avère nécessaire, l’orthèse peut être nettoyée sans aucune restriction.
+[L’orthèse dynamique de Cryos](https://www.cryos.com/produits/orthese-cryos/) est très appréciée par les sportifs pour sa facilité d’entretien. Elle n’accumule pas les odeurs et ne s’use pas rapidement puisqu’elle est composée de plastique. Dès qu’il s’avère nécessaire, l’orthèse peut être nettoyée sans aucune restriction.
 
 Très versatile, l’orthèse dynamique est transférable des souliers aux espadrilles ou aux chaussures à crampons.
 
@@ -55,7 +55,7 @@ Si vous portez une orthèse plantaire, il est recommandé de prêter une attenti
 
 ## Quoi faire en cas de douleurs?
 
-Si vous ressentez fréquemment des douleurs aux membres inférieurs lorsque vous exercez un sport, veuillez rencontrer un professionnel de la santé des pieds. Une [consultation avec un podiatre](http://www.cryos.com/trouver-une-clinique/) vous permettra de savoir si le port d’orthèses sportives peut vous être bénéfique.
+Si vous ressentez fréquemment des douleurs aux membres inférieurs lorsque vous exercez un sport, veuillez rencontrer un professionnel de la santé des pieds. Une [consultation avec un podiatre](https://www.cryos.com/trouver-une-clinique/) vous permettra de savoir si le port d’orthèses sportives peut vous être bénéfique.
 
 > Si vous portez déjà des orthèses plantaires, vous devez maintenir cette habitude lors de toutes activités sportives pour les raisons mentionnées précédemment. 
 

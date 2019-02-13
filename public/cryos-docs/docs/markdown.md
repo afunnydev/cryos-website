@@ -32,10 +32,10 @@ Voici un fichier qui va grandement vous aider à vous retrouver. C'est surtout l
 - Vous remarquerez le *target="_blank"*, c'est ce qui indique que vous voulez que le lien s'ouvre dans un autre onglet.
 
 Voici un vrai exemple:
-<a href="http://www.cryos.com" target="_blank">J'adore Cryos</a> donne 
+<a href="https://www.cryos.com" target="_blank">J'adore Cryos</a> donne 
 ```
 ```html
-<a href="http://www.cryos.com" target="_blank">J'adore Cryos</a>
+<a href="https://www.cryos.com" target="_blank">J'adore Cryos</a>
 ```
 
 #### Ce que vous devez savoir

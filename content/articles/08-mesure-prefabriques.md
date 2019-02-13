@@ -23,7 +23,7 @@ cryovizion_pro: false
 cryovizion_patients: false
 ---
 
-*Acheter une orthèse plantaire n’est pas une mince affaire. Doit-on acheter une orthèse en magasin? Est-il nécessaire de [consulter un podiatre](http://www.cryos.com/trouver-une-clinique/) et d’opter pour un modèle sur mesure? Afin de nous éclairer sur la question, nous nous sommes entretenus avec le docteur Alexandre Morel, podiatre. Ses explications précises vous tracent le portrait des différences majeures qui existent entre les orthèses faites sur mesure et celles achetées en magasin.*
+*Acheter une orthèse plantaire n’est pas une mince affaire. Doit-on acheter une orthèse en magasin? Est-il nécessaire de [consulter un podiatre](https://www.cryos.com/trouver-une-clinique/) et d’opter pour un modèle sur mesure? Afin de nous éclairer sur la question, nous nous sommes entretenus avec le docteur Alexandre Morel, podiatre. Ses explications précises vous tracent le portrait des différences majeures qui existent entre les orthèses faites sur mesure et celles achetées en magasin.*
 
 ## Quelle est la plus grande différence entre l’orthèse sur mesure et celle obtenue en magasin?
 
@@ -31,7 +31,7 @@ En premier lieu, nous pouvons parler du niveau de conformité par rapport au pie
 
 ## Est-ce que l’orthèse prescrite par un podiatre peut soigner toutes les conditions podiatriques?
 
-Oui, dans la mesure où les conditions traitées soient associées à une mauvaise posture du pied, et non provoquées par un traumatisme externe précis. Prenons l’exemple d’un patient qui fait une mauvaise chute. Il développe par la suite une douleur au talon qui se transforme en fasciite plantaire ou en ‘’épine de Lenoir’’. Étant donné la nature traumatique de la blessure, il serait plutôt conseillé d’opter pour une thérapie anti-inflammatoire conjointement à une immobilisation partielle et temporaire du pied. Par exemple, une infiltration de cortisone pourrait être réalisée au besoin, en plus d’un bandage de soutien de l’arche plantaire. La blessure serait par la suite réévaluée et des [orthèses plantaires sur mesure pourraient s’avérer une bonne option à long terme ](http://www.cryos.com/patients/ortheses/)si celle-ci persistait.
+Oui, dans la mesure où les conditions traitées soient associées à une mauvaise posture du pied, et non provoquées par un traumatisme externe précis. Prenons l’exemple d’un patient qui fait une mauvaise chute. Il développe par la suite une douleur au talon qui se transforme en fasciite plantaire ou en ‘’épine de Lenoir’’. Étant donné la nature traumatique de la blessure, il serait plutôt conseillé d’opter pour une thérapie anti-inflammatoire conjointement à une immobilisation partielle et temporaire du pied. Par exemple, une infiltration de cortisone pourrait être réalisée au besoin, en plus d’un bandage de soutien de l’arche plantaire. La blessure serait par la suite réévaluée et des [orthèses plantaires sur mesure pourraient s’avérer une bonne option à long terme ](https://www.cryos.com/patients/ortheses/)si celle-ci persistait.
 
 ## L’orthèse podiatrique sur mesure convient-elle mieux pour corriger une condition podiatrique ou pour soulager ses symptômes?
 

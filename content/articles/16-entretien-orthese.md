@@ -56,11 +56,11 @@ Oui, car le corps humain est constamment en changement. Même un patient dont le
 
 ## Un entretien inadéquat peut-il avoir des répercussions?
 
-Effectivement, une orthèse usée ne travaille pas comme prescrit, ce qui peut [nuire à la posture ](http://www.cryos.com/bonne-posture-et-sante-des-pieds/)et engendrer des nouvelles douleurs. C’est alors que le traitement devient inadéquat pour le patient.
+Effectivement, une orthèse usée ne travaille pas comme prescrit, ce qui peut [nuire à la posture ](https://www.cryos.com/bonne-posture-et-sante-des-pieds/)et engendrer des nouvelles douleurs. C’est alors que le traitement devient inadéquat pour le patient.
 
 ## L’orthèse dynamique Cryos est-elle différente au niveau de l’entretien<b>?</b>
 
-Les [orthèses Cryos](http://www.cryos.com/patients/ortheses/) sont conçues pour être prescrites dans la grande majorité des cas sans recouvrement, c’est-à-dire sans tissu. Cela facilite énormément l’entretien, car il n’y a aucune usure de tissu, pas d’odeur associée à l’absorption de la transpiration et des bactéries par les matériaux de recouvrement. Cette orthèse peut être facilement nettoyée à l’eau tiède savonneuse.
+Les [orthèses Cryos](https://www.cryos.com/patients/ortheses/) sont conçues pour être prescrites dans la grande majorité des cas sans recouvrement, c’est-à-dire sans tissu. Cela facilite énormément l’entretien, car il n’y a aucune usure de tissu, pas d’odeur associée à l’absorption de la transpiration et des bactéries par les matériaux de recouvrement. Cette orthèse peut être facilement nettoyée à l’eau tiède savonneuse.
 
 ## Un précieux conseil sur l’entretien et les suivis d’orthèses.
 

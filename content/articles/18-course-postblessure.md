@@ -57,7 +57,7 @@ Selon le type de blessure, le podiatre peut avoir recours à plusieurs types de�
 - le laser,
 - la cryothérapie,
 - le tapping,
-- [le port d'orthèses plantaires](http://www.cryos.com/patients/ortheses/),
+- [le port d'orthèses plantaires](https://www.cryos.com/patients/ortheses/),
 - les techniques de manipulation ou de mobilisation (Active Release ou Graston).
 
 Durant la période d’arrêt, le coureur peut être suivi de deux à quatre fois par semaine avec ces types de traitements afin d’assurer une guérison complète et permanente de sa blessure.
@@ -85,7 +85,7 @@ Les blessures aux pieds les plus lentes à guérir sont situées aux zones moins
 
 ## Comment éviter les blessures chroniques suite à un arrêt?
 
-Les raideurs matinales peuvent être le signe d’une accumulation d’inflammation qui nécessite des séances spécifiques d’étirements ou certainement une [consultation chez le podiatre](http://www.cryos.com/trouver-une-clinique/). Il est donc recommandé d'étirer les membres inférieurs tous les matins et tous les soirs. Ces séances permettent de diminuer les symptômes de raideurs et ainsi éviter les blessures chroniques. De plus, si le coureur possède des orthèses plantaires, il doit les porter dès le lever et ce, durant toute la journée.
+Les raideurs matinales peuvent être le signe d’une accumulation d’inflammation qui nécessite des séances spécifiques d’étirements ou certainement une [consultation chez le podiatre](https://www.cryos.com/trouver-une-clinique/). Il est donc recommandé d'étirer les membres inférieurs tous les matins et tous les soirs. Ces séances permettent de diminuer les symptômes de raideurs et ainsi éviter les blessures chroniques. De plus, si le coureur possède des orthèses plantaires, il doit les porter dès le lever et ce, durant toute la journée.
 
 ## Une mémoire musculaire incroyable et un retour optimal :
 

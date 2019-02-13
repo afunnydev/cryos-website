@@ -26,7 +26,7 @@ cryovizion_patients: false
 
 ## Quelles questions doit se poser un patient avant une chirurgie aux avant-pieds?
 
-Avant de considérer une telle chirurgie, le patient doit d’abord s’interroger sur la provenance de la pathologie. Il est recommandé de [consulter un podiatre](http://www.cryos.com/trouver-une-clinique/) qui effectuera un examen biomécanique complet, afin d’aller à la source du problème. Le podiatre sera alors en mesure d’expliquer quels facteurs biomécaniques sont responsables de la déformation aux avant-pieds. Si possible, il recommandera les traitements orthésiques avant l’intervention chirurgicale. Dans tous les cas, le patient sera mieux outillé pour comprendre et ainsi prendre une décision éclairée quant aux traitements proposés pour remédier à un problème aux avant-pieds.
+Avant de considérer une telle chirurgie, le patient doit d’abord s’interroger sur la provenance de la pathologie. Il est recommandé de [consulter un podiatre](https://www.cryos.com/trouver-une-clinique/) qui effectuera un examen biomécanique complet, afin d’aller à la source du problème. Le podiatre sera alors en mesure d’expliquer quels facteurs biomécaniques sont responsables de la déformation aux avant-pieds. Si possible, il recommandera les traitements orthésiques avant l’intervention chirurgicale. Dans tous les cas, le patient sera mieux outillé pour comprendre et ainsi prendre une décision éclairée quant aux traitements proposés pour remédier à un problème aux avant-pieds.
 
 ## Quelles sont les principales causes des déformations aux avant-pieds
 
@@ -43,7 +43,7 @@ Le patient ayant une déformation osseuse, comme un hallux valgus, aura de meill
 
 ## En quoi consiste le port d’orthèses plantaires lors d’une chirurgie aux avant-pieds?
 
-La majorité des chirurgies aux avant-pieds proviennent d’une biomécanique inadéquate comme celle d’un hallux valgus. Les patients souffrant de pathologies biomécaniques devraient, selon les recommandations du podiatre, porter des orthèses fonctionnelles entre 3 et 6 mois avant de subir une intervention chirurgicale. Le podiatre peut alors [prescrire des orthèses](http://www.cryos.com/patients/ortheses/) plantaires pour corriger, prévenir et compenser les déformations biomécaniques.
+La majorité des chirurgies aux avant-pieds proviennent d’une biomécanique inadéquate comme celle d’un hallux valgus. Les patients souffrant de pathologies biomécaniques devraient, selon les recommandations du podiatre, porter des orthèses fonctionnelles entre 3 et 6 mois avant de subir une intervention chirurgicale. Le podiatre peut alors [prescrire des orthèses](https://www.cryos.com/patients/ortheses/) plantaires pour corriger, prévenir et compenser les déformations biomécaniques.
 
 Suite à la chirurgie aux avant-pieds, le podiatre pourra modifier les orthèses plantaires antécédantes ou en prescrire de nouvelles dans le but de contrôler les axes de mouvement des pieds. Comme la structure du pied aura changé suite à la chirurgie, il est nécessaire de faire réévaluer ses pieds et ses orthèses par le podiatre. L’orthèse dynamique Cryos pourra être un outil de choix pour le faire.
 

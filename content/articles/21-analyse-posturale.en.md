@@ -62,7 +62,7 @@ Developed by Cryos Technologies, the CryoVizion imaging system is a tool used by
  
 The CryoVizion imaging system has been gathering clinical data for nearly 20 years. Further to this, the effectiveness of CryoVizion has been scientifically validated by researchers at l’Université de Montréal because of the quality of the information it provides during postural analysis.
 
-<a id="pdf-analyse-posturale" href="http://www.cryos.com/img/autres/color-coded-video-based-system.pdf" class="send-ga" target="_blank">Click here for more information.</a>
+<a id="pdf-analyse-posturale" href="https://www.cryos.com/img/autres/color-coded-video-based-system.pdf" class="send-ga" target="_blank">Click here for more information.</a>
 
 ## HOW DOES CRYOVIZION WORK?
 The first step is to enter the observation booth where cameras capture the reflection of light projected over the entire body. The imaging system then renders the results with the help of highly detailed images. The DPM analyzes the images in the presence of the patient, in order to help the patient better understand their condition.

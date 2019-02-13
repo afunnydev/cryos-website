@@ -19,7 +19,7 @@ Promenez-vous dans la page, il y a probablement un champ en rouge, ce qui signif
 
 Veuillez me [contacter directement par courriel](mailto:felix.deblois@akiamarketing.ca), avec le nom de la collection dans laquelle vous êtes, ainsi que le lien de votre page. (ex: http://localhost:1313/cryos-docs/#/markdown)
 
-### J'ai publié mon nouveau site, et puis certains éléments n'apparaissent plus dans mon site. Pire encore, un message d'erreur apparaît quand je vais sur http://www.cryos.com/
+### J'ai publié mon nouveau site, et puis certains éléments n'apparaissent plus dans mon site. Pire encore, un message d'erreur apparaît quand je vais sur https://www.cryos.com/
 
 Veuillez m'appeler directement au 514-638-3539.
 
