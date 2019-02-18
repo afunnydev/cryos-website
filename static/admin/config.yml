@@ -159,6 +159,7 @@ collections:
           - name: scripts
             label: "Scripts"
             widget: object
+            fields:
               - {label: "Header scripts", name: "header", widget: "text", required: false}
               - {label: "Footer scripts", name: "footer", widget: "text", required: false}
   - name: "articlesfr" # Used in routes, e.g. /admin/collections/blog
