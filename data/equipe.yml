@@ -19,11 +19,6 @@ equipe:
     photo: img/uploads/membre_equipe1.png
     position: General Manager
     weight: 4
-  - fonction: Administration
-    name: Ginette Beauséjour
-    photo: img/uploads/membre_equipe10.png
-    position: Accounting
-    weight: 5
   - fonction: Informatique
     name: François Coulombe
     photo: img/uploads/membre_equipe9.png
@@ -34,11 +29,6 @@ equipe:
     photo: img/uploads/membre_equipe11.png
     position: IT
     weight: 8
-  - fonction: Informatique
-    name: Johanne Gagnon
-    photo: img/uploads/membre_equipe12.png
-    position: IT
-    weight: 9
   - fonction: Marketing
     name: Eve-Lyne Ducharme
     photo: img/uploads/membre_equipe8.png
