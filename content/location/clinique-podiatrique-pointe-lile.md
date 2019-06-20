@@ -1,5 +1,5 @@
 ---
-nomclinique: Clinique Podiatrique de la Pointe-de-l’île
+nomclinique: PiedRéseau - Clinique Podiatrique de la Pointe-de-l’île
 address: 115-1300 Boul. Saint-Jean-Baptiste
 ville: 'Montréal, Québec H1B 4A4'
 pays: Canada
