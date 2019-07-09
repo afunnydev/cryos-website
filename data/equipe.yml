@@ -29,11 +29,6 @@ equipe:
     photo: img/uploads/membre_equipe11.png
     position: IT
     weight: 8
-  - fonction: Marketing
-    name: Eve-Lyne Ducharme
-    photo: img/uploads/membre_equipe8.png
-    position: Marketing
-    weight: 10
   - fonction: Production et R&D
     name: Caroline George
     photo: img/uploads/membre_equipe2.png
