@@ -19,6 +19,11 @@ equipe:
     photo: img/uploads/membre_equipe1.png
     position: General Manager
     weight: 4
+  - fonction: Adminsitration
+    name: Catherine Groulx
+    photo: /img/uploads/0g7a9173-modifier.jpg
+    position: Administration
+    weight: 5
   - fonction: Informatique
     name: François Coulombe
     photo: img/uploads/membre_equipe9.png
@@ -59,8 +64,3 @@ equipe:
     photo: img/uploads/membre_equipe6.png
     position: Human ressources
     weight: 16
-  - fonction: Adminsitration
-    name: Catherine Groulx
-    photo: /img/uploads/0g7a9173-modifier.jpg
-    position: Administration
-    weight: 5
