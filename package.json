@@ -4,7 +4,8 @@
   "description": "Hugo Gulp Sass Boilerplate",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp build"
   },
   "repository": {
     "type": "git",
@@ -18,13 +19,12 @@
   "homepage": "https://github.com/bniedermeyer/hugo-gulp-sass-boilerplate",
   "devDependencies": {
     "browser-sync": "^2.13.0",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp-autoprefixer": "^3.1.0",
     "gulp-clean-css": "^3.3.1",
     "gulp-load-plugins": "^1.2.4",
-    "gulp-sass": "^2.3.2",
+    "gulp-sass": "^4.0.2",
     "gulp-sourcemaps": "^1.6.0",
-    "rimraf": "^2.5.2",
-    "run-sequence": "^1.2.1"
+    "rimraf": "^2.5.2"
   }
 }
