@@ -19,6 +19,16 @@ equipe:
     photo: img/uploads/membre_equipe1.png
     position: General Manager
     weight: 4
+  - photo: img/uploads/essaie-cryos-membre-de-l-équipe-5-.png
+    name: Catherine Groulx
+    fonction: Administration
+    position: Administration
+    weight: 5
+  - photo: img/uploads/essaie-cryos-membre-de-l-équipe-6-.png
+    name: Martine Arsenault
+    fonction: Administration
+    position: Administration
+    weight: 4
   - fonction: Informatique
     name: François Coulombe
     photo: img/uploads/membre_equipe9.png
@@ -59,13 +69,3 @@ equipe:
     photo: img/uploads/membre_equipe6.png
     position: Human ressources
     weight: 16
-  - photo: img/uploads/essaie-cryos-membre-de-l-équipe-5-.png
-    name: Catherine Groulx
-    fonction: Administration
-    position: Administration
-    weight: 5
-  - photo: img/uploads/essaie-cryos-membre-de-l-équipe-6-.png
-    name: Martine Arsenault
-    fonction: Administration
-    position: Administration
-    weight: 4
