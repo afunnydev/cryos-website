@@ -28,7 +28,7 @@ equipe:
     name: Martine Arsenault
     fonction: Administration
     position: Administration
-    weight: 4
+    weight: 6
   - fonction: Informatique
     name: François Coulombe
     photo: img/uploads/membre_equipe9.png
