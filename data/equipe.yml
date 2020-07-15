@@ -59,3 +59,13 @@ equipe:
     photo: img/uploads/membre_equipe6.png
     position: Human ressources
     weight: 16
+  - photo: img/uploads/essaie-cryos-membre-de-l-équipe-2-.png
+    name: Membre de l'équipe
+    fonction: Membre de l'équipe
+    position: Membre de l'équipe
+    weight: 17
+  - photo: img/uploads/essaie-cryos-membre-de-l-équipe-4-.png
+    name: Membre de l'equipe
+    fonction: Membre de l'equipe
+    position: Membre de l'equipe
+    weight: 18
