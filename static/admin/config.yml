@@ -234,8 +234,8 @@ collections:
       - {label: "Adresse", name: "address", widget: "string", default: "Numéro et nom de rue"}
       - {label: "Ville, province et code postal", name: "ville", widget: "string", default: "Montréal, Québec, H2R 2R5"}
       - {label: "Pays", name: "pays", widget: "string", default: "Canada"}
-      - {label: "Latitude", name: "latitude", widget: "number"}
-      - {label: "Longitude", name: "longitude", widget: "number"}
+      - {label: "Latitude", name: "latitude", widget: "number", valueType: "float"}
+      - {label: "Longitude", name: "longitude", widget: "number", valueType: "float"}
       - {label: "Numéro de téléphone", name: "phone", widget: "string"}
       - {label: "Site internet", name: "site", widget: "string", pattern: ["^https?", "N'oubliez pas le http:// ou https://"]}
       - {label: "Identifiant UNIQUE (identique dans les deux langues)", name: "identifiant", pattern: ["^[a-z0-9]+(?:-[a-z0-9]+)*$", "Svp utilisez le format ceci-est-un-test"], widget: "relation", collection: "cliniques-en", searchFields: ["identifiant","nomclinique"], valueField: "identifiant"} 
@@ -254,8 +254,8 @@ collections:
       - {label: "Adresse", name: "address", widget: "string", default: "Numéro et nom de rue"}
       - {label: "Ville, province et code postal", name: "ville", widget: "string", default: "Montréal, Québec, H2R 2R5"}
       - {label: "Pays", name: "pays", widget: "string", default: "Canada"}
-      - {label: "Latitude", name: "latitude", widget: "number"}
-      - {label: "Longitude", name: "longitude", widget: "number"}
+      - {label: "Latitude", name: "latitude", widget: "number", valueType: "float"}
+      - {label: "Longitude", name: "longitude", widget: "number", valueType: "float"}
       - {label: "Numéro de téléphone", name: "phone", widget: "string"}
       - {label: "Site internet", name: "site", widget: "string", pattern: ["^https?", "N'oubliez pas le http:// ou https://"]} 
       - {label: "Identifiant UNIQUE (identique dans les deux langues)", name: "identifiant", pattern: ["^[a-z0-9]+(?:-[a-z0-9]+)*$", "Svp utilisez le format ceci-est-un-test"], widget: "relation", collection: "cliniques-fr", searchFields: ["identifiant","nomclinique"], valueField: "identifiant"}
