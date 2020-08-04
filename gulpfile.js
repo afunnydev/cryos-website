@@ -8,7 +8,7 @@ var cleanCSS = require('gulp-clean-css');
 gulp.task('clean', (done) => {
     //Delete our old css files
     // rimraf('{public,static/css}/**/*', done);
-    rimraf('{public,static/materialize.css', done);
+    rimraf('{public,static/css/maps,static/css/materialize.css}', done);
 });
 
 // Compile SCSS files to CSS
@@ -40,7 +40,7 @@ gulp.task("watch", () => {
       proxy: "http://localhost:1313/"
   });
 
-  gulp.watch('src/sass-materialize/**/*.scss', ['styles']);
+  gulp.watch('src/sass-materialize/**/*.scss', gulp.series('styles'));
 });
 
 // Start a server with LiveReload to preview the site in
@@ -54,7 +54,7 @@ gulp.task('server', () => {
 
   setTimeout(() => {
   // watch for changes to files and build again if any are found
-  gulp.watch(['content/**/*.html','layouts/**/*.html', 'src/sass-materialize/**/*.scss', 'src/sass-materialize/components/**/*.scss', 'static/**/*.js'], ['build']);
+  gulp.watch(['content/**/*.html','layouts/**/*.html', 'src/sass-materialize/**/*.scss', 'static/**/*.js'], gulp.series('build'));
   // gulp.watch(['public/**/*']).on('change', function(){
   //   setTimeout(browser.reload, 1000);
   // });
