@@ -9,6 +9,8 @@
 }
 
 .hero {
+  position: relative;
+
   &-logo-wrap {
     margin-top: -35px;
     text-align: center;
@@ -26,6 +28,10 @@
     font-weight: 700;
     text-align: center;
   }
+}
+
+.benefits--desktop {
+  display: none;
 }
 
 .benefit {
@@ -107,6 +113,236 @@
 
     a {
       color: $primary-bg-color;
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .holder {
+    max-width: 700px;
+  }
+
+  .hero {
+    &-title {
+      position: absolute;
+      top: 0;
+      left: 50%;
+      max-width: 840px;
+      transform: translateX(-50%);
+    }
+
+    &-logo-wrap {
+      margin-top: -75px;
+      text-align: left;
+
+      img {
+        max-width: 200px;
+      }
+    }
+  }
+
+  .benefits {
+    &--mobile {
+      display: none;
+    }
+
+    &--desktop {
+      display: flex;
+      flex-wrap: wrap;
+      margin: -45px -35px 0;
+    }
+
+    &-group {
+      width: 50%;
+    }
+
+    &-group--first {
+      margin-top: 55px;
+    }
+
+    &-group--last {
+      width: 100%;
+      margin-top: 50px;
+
+      .benefit {
+        display: flex;
+        max-width: none;
+      }
+
+      .benefit-image {
+        width: 50%;
+        max-width: 650px;
+      }
+
+      .benefit-content {
+        width: 50%;
+        max-width: 650px;
+        margin-left: 70px;
+      }
+    }
+  }
+
+  .benefit {
+    max-width: 650px;
+    padding: 0 35px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .landing-footer {
+    margin-top: 80px;
+
+    &-logo-wrap {
+      margin-bottom: -55px;
+
+      img {
+        max-width: 150px;
+      }
+    }
+
+    &-content {
+      padding-top: 80px;
+    }
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .holder {
+    max-width: 800px;
+  }
+
+  .hero {
+    &-title {
+      margin: 36px 0;
+      font-size: 36px;
+    }
+  }
+
+  .benefit {
+    &-title {
+      font-size: 28px;
+    }
+
+    &-caption {
+      font-size: 18px;
+    }
+
+    &-points {
+      font-size: 16px;
+    }
+  }
+
+  .landing-footer {
+    font-size: 15px;
+
+    &-title {
+      font-size: 15px;
+    }
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .holder {
+    max-width: 1024px;
+  }
+
+  .hero {
+    &-title {
+      width: 65%;
+      margin: 40px 0;
+      font-size: 50px;
+    }
+
+    &-logo-wrap {
+      margin-top: -110px;
+
+      img {
+        max-width: 300px;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1570px) {
+  .holder {
+    max-width: 1500px;
+  }
+
+  .hero {
+    &-title {
+      font-size: 64px;
+    }
+
+    &-logo-wrap {
+      margin-top: -145px;
+
+      img {
+        max-width: 400px;
+      }
+    }
+  }
+
+  .benefits {
+    &--desktop {
+      margin-top: -115px;
+    }
+
+    &-group--first {
+      margin-top: 145px;
+    }
+
+    &-group--last {
+      margin-top: 70px;
+    }
+  }
+
+  .benefit {
+    padding: 0;
+    margin-bottom: 70px;
+
+    &-title {
+      margin-bottom: 40px;
+      font-size: 47px;
+    }
+
+    &-caption {
+      margin-bottom: 40px;
+      font-size: 29px;
+    }
+
+    &-points {
+      font-size: 25px;
+      line-height: 1.5;
+    }
+
+    &-point {
+      margin-top: 40px;
+    }
+  }
+
+  .landing-footer {
+    margin-top: 155px;
+    font-size: 26px;
+
+    &-logo-wrap {
+      margin-bottom: -88px;
+
+      img {
+        max-width: 240px;
+      }
+    }
+
+    &-content {
+      padding-top: 135px;
+      padding-bottom: 90px;
+    }
+
+    &-title {
+      font-size: 26px;
+    }
+
+    &-contacts {
+      margin-top: 35px;
     }
   }
 }
