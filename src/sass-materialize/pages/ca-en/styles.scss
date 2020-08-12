@@ -10,6 +10,7 @@
 
 .hero {
   position: relative;
+  text-align: center;
 
   &-logo-wrap {
     margin-top: -35px;
@@ -149,11 +150,14 @@
     &--desktop {
       display: flex;
       flex-wrap: wrap;
+      justify-content: space-between;
       margin: -45px -35px 0;
     }
 
     &-group {
       width: 50%;
+      max-width: 650px;
+      padding: 0 35px;
     }
 
     &-group--first {
@@ -162,10 +166,12 @@
 
     &-group--last {
       width: 100%;
+      max-width: none;
       margin-top: 50px;
 
       .benefit {
         display: flex;
+        justify-content: space-between;
         max-width: none;
       }
 
@@ -180,13 +186,6 @@
         margin-left: 70px;
       }
     }
-  }
-
-  .benefit {
-    max-width: 650px;
-    padding: 0 35px;
-    margin-left: auto;
-    margin-right: auto;
   }
 
   .landing-footer {
@@ -249,7 +248,7 @@
   .hero {
     &-title {
       width: 65%;
-      margin: 40px 0;
+      margin: 4% 0;
       font-size: 50px;
     }
 
@@ -284,7 +283,11 @@
 
   .benefits {
     &--desktop {
-      margin-top: -115px;
+      margin: -115px 0 0;
+    }
+
+    &-group {
+      padding: 0;
     }
 
     &-group--first {
@@ -292,13 +295,22 @@
     }
 
     &-group--last {
-      margin-top: 70px;
+      margin-top: 85px;
+
+      .benefit-content {
+        margin: 0;
+      }
+
+      .benefit-image {
+        max-width: none;
+        text-align: right;
+      }
     }
   }
 
   .benefit {
     padding: 0;
-    margin-bottom: 70px;
+    margin-bottom: 85px;
 
     &-title {
       margin-bottom: 40px;
