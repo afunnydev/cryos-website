@@ -271,6 +271,7 @@ collections:
       fields: # The fields for each document, usually in front matter
       - {label: "Title of page", name: "title", widget: "string", hint: "70 chars max, including spaces", pattern: ['^.{2,70}$', "Must have at least 2 and less than 70 characters (spaces takes in count)"]}
       - {label: "Meta description", name: "description", widget: "string", hint: "160 chars max, including spaces", pattern: ['^.{5,160}$', "Must have at least 5 and less than 160 characters (spaces takes in count)"]}
+      - {label: "Share image", name: "share_image", widget: "image", hint: "Used when sharing this page in social networks. Recommended size is 1200×628"}
       - label: "Hero section"
         name: hero
         widget: object
@@ -280,7 +281,7 @@ collections:
           name: image
           widget: object
           fields:
-          - {label: "Source", name: "src", widget: "image", default: "img/ca-en/shutterstock_1294920118-new.jpg"}
+          - {label: "Source", name: "src", widget: "image", default: "/img/uploads/landing-hero.jpg"}
           - {label: "Description", name: "alt", widget: "string"}
         - label: "Logo"
           name: logo
