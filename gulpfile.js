@@ -25,7 +25,17 @@ gulp.task('styles', () => {
 
 //calls Hugo to generate pages
 gulp.task('hugo', () => {
-  return exec('hugo --cleanDestinationDir', (err, stdout, stderr) => {
+  var hugoWithArgs = ["hugo", "--cleanDestinationDir"];
+  var envValues = process.env;
+
+  if (envValues.CONTEXT === "deploy-preview" && envValues.DEPLOY_PRIME_URL) {
+    hugoWithArgs.push("-b");
+    hugoWithArgs.push("$DEPLOY_PRIME_URL");
+  } else if (envValues.CONTEXT === "production") {
+    hugoWithArgs.push("--minify");
+  }
+
+  return exec(hugoWithArgs.join(" "), (err, stdout, stderr) => {
     console.log(stdout);
     console.log(stderr);
   });
