@@ -28,7 +28,10 @@ gulp.task('hugo', () => {
   var hugoWithArgs = ["hugo", "--cleanDestinationDir"];
   var envValues = process.env;
 
-  if (envValues.CONTEXT === "production") {
+  if (envValues.CONTEXT === "deploy-preview" && envValues.DEPLOY_PRIME_URL) {
+    hugoWithArgs.push("-b");
+    hugoWithArgs.push("$DEPLOY_PRIME_URL/");
+  } else if (envValues.CONTEXT === "production") {
     hugoWithArgs.push("--minify");
   }
 
