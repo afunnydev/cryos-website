@@ -13,9 +13,7 @@
   <meta property="og:description" content="{{.}}" />
   {{end}}
   <meta property="og:url" content="{{.Permalink}}" />
-  {{with .Params.share_image}}
-  <meta property="og:image" content="{{. | absURL}}" />
-  {{end}}
+  <meta property="og:image" content="{{(.Params.share_image | default `/img/Logo_CRYOS_FR.png`) | absURL}}" />
   <meta property="og:type" content="website" />
   <link rel="stylesheet" href="{{`/css/materialize.css` | relURL}}" />
 
