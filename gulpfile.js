@@ -28,14 +28,9 @@ gulp.task('hugo', () => {
   var hugoWithArgs = ["hugo", "--cleanDestinationDir"];
   var envValues = process.env;
 
-  if (envValues.CONTEXT === "deploy-preview" && envValues.DEPLOY_PRIME_URL) {
-    hugoWithArgs.push("-b");
-    hugoWithArgs.push(envValues.DEPLOY_PRIME_URL);
-  } else if (envValues.CONTEXT === "production") {
+  if (envValues.CONTEXT === "production") {
     hugoWithArgs.push("--minify");
   }
-
-  console.log(envValues.CONTEXT, envValues.DEPLOY_PRIME_URL, envValues);
 
   return exec(hugoWithArgs.join(" "), (err, stdout, stderr) => {
     console.log(stdout);
