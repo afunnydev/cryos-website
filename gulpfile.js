@@ -35,6 +35,8 @@ gulp.task('hugo', () => {
     hugoWithArgs.push("--minify");
   }
 
+  console.log(envValues.CONTEXT, envValues.DEPLOY_PRIME_URL, envValues);
+
   return exec(hugoWithArgs.join(" "), (err, stdout, stderr) => {
     console.log(stdout);
     console.log(stderr);
