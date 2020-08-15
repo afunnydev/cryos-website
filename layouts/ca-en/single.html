@@ -70,28 +70,7 @@
     {{with $benefits}}
     <div class="benefits benefits--mobile">
       {{range .}}
-      <div class="benefit">
-        {{with .image}}
-        <div class="benefit-image">
-          <img src="{{.src | relURL}}" alt="{{.alt}}" class="resp-img" />
-        </div>
-        {{end}}
-        <div class="benefit-content">
-          {{with .title}}
-          <h2 class="benefit-title">{{.}}</h2>
-          {{end}}
-          {{with .caption}}
-          <h3 class="benefit-caption">{{.}}</h3>
-          {{end}}
-          {{with .points}}
-          <ul class="benefit-points">
-            {{range .}}
-            <li class="benefit-point">&#8226; {{.item}}</li>
-            {{end}}
-          </ul>
-          {{end}}
-        </div>
-      </div>
+        {{template "benefit" .}}
       {{end}}
     </div>
     {{end}}
@@ -103,28 +82,7 @@
       {{range $index, $val := .}}
         {{if and $hasOddItems (eq $index (sub $oddBenefitsCount 1))}}
         {{else}}
-        <div class="benefit">
-          {{with .image}}
-          <div class="benefit-image">
-            <img src="{{.src | relURL}}" alt="{{.alt}}" class="resp-img" />
-          </div>
-          {{end}}
-          <div class="benefit-content">
-            {{with .title}}
-            <h2 class="benefit-title">{{.}}</h2>
-            {{end}}
-            {{with .caption}}
-            <h3 class="benefit-caption">{{.}}</h3>
-            {{end}}
-            {{with .points}}
-            <ul class="benefit-points">
-              {{range .}}
-              <li class="benefit-point">&#8226; {{.item}}</li>
-              {{end}}
-            </ul>
-            {{end}}
-          </div>
-        </div>
+          {{template "benefit" .}}
         {{end}}
       {{end}}
       </div>
@@ -132,28 +90,7 @@
       {{with $evenBenefits}}
       <div class="benefits-group">
       {{range .}}
-        <div class="benefit">
-          {{with .image}}
-          <div class="benefit-image">
-            <img src="{{.src | relURL}}" alt="{{.alt}}" class="resp-img" />
-          </div>
-          {{end}}
-          <div class="benefit-content">
-            {{with .title}}
-            <h2 class="benefit-title">{{.}}</h2>
-            {{end}}
-            {{with .caption}}
-            <h3 class="benefit-caption">{{.}}</h3>
-            {{end}}
-            {{with .points}}
-            <ul class="benefit-points">
-              {{range .}}
-              <li class="benefit-point">&#8226; {{.item}}</li>
-              {{end}}
-            </ul>
-            {{end}}
-          </div>
-        </div>
+        {{template "benefit" .}}
       {{end}}
       </div>
       {{end}}
@@ -161,28 +98,7 @@
       {{$oddBenefit := last 1 $oddBenefits}}
       <div class="benefits-group benefits-group--last">
       {{range $oddBenefit}}
-        <div class="benefit">
-          {{with .image}}
-          <div class="benefit-image">
-            <img src="{{.src | relURL}}" alt="{{.alt}}" class="resp-img" />
-          </div>
-          {{end}}
-          <div class="benefit-content">
-            {{with .title}}
-            <h2 class="benefit-title">{{.}}</h2>
-            {{end}}
-            {{with .caption}}
-            <h3 class="benefit-caption">{{.}}</h3>
-            {{end}}
-            {{with .points}}
-            <ul class="benefit-points">
-              {{range .}}
-              <li class="benefit-point">&#8226; {{.item}}</li>
-              {{end}}
-            </ul>
-            {{end}}
-          </div>
-        </div>
+        {{template "benefit" .}}
       {{end}}
       </div>
       {{end}}
@@ -214,3 +130,29 @@
   {{end}}
 </body>
 </html>
+
+{{/* Inline template used for benefit item */}}
+{{define "benefit"}}
+  <div class="benefit">
+    {{with .image}}
+    <div class="benefit-image">
+      <img src="{{.src | relURL}}" alt="{{.alt}}" class="resp-img" />
+    </div>
+    {{end}}
+    <div class="benefit-content">
+      {{with .title}}
+      <h2 class="benefit-title">{{.}}</h2>
+      {{end}}
+      {{with .caption}}
+      <h3 class="benefit-caption">{{.}}</h3>
+      {{end}}
+      {{with .points}}
+      <ul class="benefit-points">
+        {{range .}}
+        <li class="benefit-point">&#8226; {{.item}}</li>
+        {{end}}
+      </ul>
+      {{end}}
+    </div>
+  </div>
+{{end}}
