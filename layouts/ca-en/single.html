@@ -4,6 +4,10 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  {{if .Params.noindex}}
+  <meta name="robots" content="noindex, nofollow" />
+  {{end}}
+
   {{with .Title | default "Landing"}}
   <title>{{.}}</title>
   <meta property="og:title" content="{{.}}" />
@@ -13,9 +17,11 @@
   <meta property="og:description" content="{{.}}" />
   {{end}}
   <meta property="og:url" content="{{.Permalink}}" />
-  <meta property="og:image" content="{{(.Params.share_image | default `/img/Logo_CRYOS_FR.png`) | absURL}}" />
+  <meta property="og:image" content="{{(.Params.share_image | default `img/Logo_CRYOS_FR.png`) | absURL}}" />
   <meta property="og:type" content="website" />
-  <link rel="stylesheet" href="{{`/css/materialize.css` | relURL}}" />
+
+  <link rel="shortcut icon" href="{{`img/favicon.ico` | relURL}}" />
+  <link rel="stylesheet" href="{{`css/materialize.css` | relURL}}" />
 
   {{$gtm := .Site.Params.googleTagManagerID}}
   {{if and hugo.IsProduction $gtm}}
