@@ -134,6 +134,40 @@
     {{end}}
   </footer>
   {{end}}
+  <div class="info info-redirect">
+    <div class="info-wrap">
+      <button class="info-close" aria-label="Close Info Box">×</button>
+      <p>Vous êtes du Québec? <a href="/">Cliquez ici</a> pour voir la version complète de notre site web en français</p>
+    </div>
+  </div>
+  <script>
+    function pageReady(fn) {
+      if (document.readyState != 'loading'){
+        fn();
+      } else {
+        document.addEventListener('DOMContentLoaded', fn);
+      }
+    };
+
+    function initRedirectPanel(redirectPanel) {
+      var closeButton = redirectPanel.querySelector(".info-close");
+      var body = document.body;
+
+      body.classList.add("show-info");
+
+      closeButton.addEventListener('click', function() {
+        body.classList.remove("show-info");
+      });
+    };
+
+    pageReady(function() {
+      var redirectPanel = document.querySelector(".info-redirect");
+
+      if (redirectPanel) {
+        initRedirectPanel(redirectPanel);
+      }
+    });
+  </script>
 </body>
 </html>
 
