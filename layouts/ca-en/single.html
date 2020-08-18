@@ -134,11 +134,12 @@
     {{end}}
   </footer>
   {{end}}
+  {{with .Params.info}}
   <div class="info info-redirect">
-    <div class="info-wrap">
-      <p>Vous êtes du Québec? <a href="/">Cliquez ici</a> pour voir la version complète de notre site web en français</p>
-    </div>
+    <div class="info-wrap"><p>{{. | markdownify}}</p></div>
   </div>
+  {{end}}
+  {{with .Params.detectLocation}}
   <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
   <script>
     function pageReady(fn) {
@@ -155,7 +156,7 @@
       var checked = (localStorage.getItem("checked") || false) == 'true';
 
       if (!redirect && !checked) {
-        var url = "http://api.ipstack.com/check?access_key=6ceab29461dde7a3a84036ecd547ffca";
+        var url = "{{.endpoint}}";
         axios(url).then(function(response) {
           var responseData = response.data;
 
@@ -181,6 +182,7 @@
       }
     });
   </script>
+  {{end}}
 </body>
 </html>
 
