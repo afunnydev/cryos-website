@@ -151,18 +151,24 @@
 
     function initRedirectPanel(redirectPanel) {
       var body = document.body;
-      var redirect = localStorage.getItem("redirect") || false;
+      var redirect = (localStorage.getItem("redirect") || false) == 'true';
+      var checked = (localStorage.getItem("checked") || false) == 'true';
 
-      if (!redirect) {
-        axios("https://json.geoiplookup.io/").then(function(response) {
+      if (!redirect && !checked) {
+        var url = "http://api.ipstack.com/check?access_key=6ceab29461dde7a3a84036ecd547ffca";
+        axios(url).then(function(response) {
           var responseData = response.data;
 
-          if (responseData && responseData.region === "Quebec") {
-            localStorage.setItem("redirect", true);
+          if (responseData && responseData.region_name === "Quebec") {
             body.classList.add("show-info");
+            localStorage.setItem("redirect", true);
           }
+
+          localStorage.setItem("checked", true);
         });
-      } else {
+      }
+
+      if (redirect && checked) {
         body.classList.add("show-info");
       }
     };
