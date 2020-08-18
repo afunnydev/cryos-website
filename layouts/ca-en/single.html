@@ -136,13 +136,13 @@
   {{end}}
   <div class="info info-redirect">
     <div class="info-wrap">
-      <button class="info-close" aria-label="Close Info Box">×</button>
       <p>Vous êtes du Québec? <a href="/">Cliquez ici</a> pour voir la version complète de notre site web en français</p>
     </div>
   </div>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
   <script>
     function pageReady(fn) {
-      if (document.readyState != 'loading'){
+      if (document.readyState != 'loading') {
         fn();
       } else {
         document.addEventListener('DOMContentLoaded', fn);
@@ -150,14 +150,21 @@
     };
 
     function initRedirectPanel(redirectPanel) {
-      var closeButton = redirectPanel.querySelector(".info-close");
       var body = document.body;
+      var redirect = localStorage.getItem("redirect") || false;
 
-      body.classList.add("show-info");
+      if (!redirect) {
+        axios("https://json.geoiplookup.io/").then(function(response) {
+          var responseData = response.data;
 
-      closeButton.addEventListener('click', function() {
-        body.classList.remove("show-info");
-      });
+          if (responseData && responseData.region === "Quebec") {
+            localStorage.setItem("redirect", true);
+            body.classList.add("show-info");
+          }
+        });
+      } else {
+        body.classList.add("show-info");
+      }
     };
 
     pageReady(function() {
