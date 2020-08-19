@@ -160,7 +160,7 @@
         axios(url).then(function(response) {
           var responseData = response.data;
 
-          if (responseData && responseData.region_name === "Quebec") {
+          if (responseData && responseData.region === "Quebec") {
             body.classList.add("show-info");
             localStorage.setItem("redirect", true);
           }

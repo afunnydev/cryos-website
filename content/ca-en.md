@@ -76,5 +76,5 @@ footer:
 info: Vous êtes du Québec? <a href="/">Cliquez ici</a> pour voir la version complète de notre site web en français
 
 detectLocation:
-  endpoint: http://api.ipstack.com/check?access_key=6ceab29461dde7a3a84036ecd547ffca
+  endpoint: https://json.geoiplookup.io/
 ---
