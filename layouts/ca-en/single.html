@@ -136,6 +136,7 @@
   {{end}}
   {{with .Params.info}}
   <div class="info info-redirect">
+    <button class="info-close" aria-label="Close Info Box">×</button>
     <div class="info-wrap"><p>{{. | markdownify}}</p></div>
   </div>
   {{end}}
@@ -154,6 +155,7 @@
       var body = document.body;
       var redirect = (localStorage.getItem("redirect") || false) == 'true';
       var checked = (localStorage.getItem("checked") || false) == 'true';
+      var closeButton = redirectPanel.querySelector(".info-close");
 
       if (!redirect && !checked) {
         var url = "{{.endpoint}}";
@@ -174,6 +176,10 @@
         body.classList.add("show-info");
         initRedirectLink();
       }
+
+      closeButton.addEventListener('click', function() {
+        body.classList.remove("show-info");
+      });
     };
 
     function initRedirectLink() {
