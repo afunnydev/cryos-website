@@ -20,7 +20,7 @@ benefits:
     src: img/uploads/specialists.jpg
     alt: Image description
   title: For Foot Specialists
-  caption: Benefits to Foor Specialists
+  caption: Benefits to Foot Specialists
   points:
   - item: Reduces wasted therapeutic effort from patient non compliance
   - item: Enables long term management of patient with structured follow up process
@@ -32,7 +32,7 @@ benefits:
   caption: Benefits to Patients
   points:
   - item: Comfort, pain relief, freedom to be active
-  - item: Orthotic solution that matches their lifestyle and foorwear choices
+  - item: Orthotic solution that matches their lifestyle and footwear choices
   - item: Ongoing engagement and sense of co-management of condition with foot specialist
 - image:
     src: img/uploads/clinic-staff.jpg
