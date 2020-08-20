@@ -73,7 +73,7 @@ footer:
     email: info@cryos.com
     telephone: "Tel. : +1 (877) 272-7967"
 
-info: Vous êtes du Québec? <a href="/?l=fr" class="redirect-link">Cliquez ici</a> pour voir la version complète de notre site web en français
+info: Vous êtes du Québec? <a href="/?lang=fr" class="redirect-link">Cliquez ici</a> pour voir la version complète de notre site web en français
 
 detectLocation:
   endpoint: https://json.geoiplookup.io/
