@@ -123,6 +123,10 @@
   &-email {
     margin-right: 15px;
   }
+
+  &-spacer {
+    display: none;
+  }
 }
 
 .info {
@@ -173,9 +177,15 @@
   }
 }
 
-.show-info .info {
-  opacity: 1;
-  visibility: visible;
+.show-info {
+  .info {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .landing-footer-spacer {
+    display: block;
+  }
 }
 
 @media only screen and (min-width: 768px) {

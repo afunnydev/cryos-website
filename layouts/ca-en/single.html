@@ -130,6 +130,7 @@
       {{with .contacts}}
       <p class="landing-footer-contacts">{{with .email}}<a href="mailto:{{.}}" class="landing-footer-email">{{.}}</a>{{end}}{{with .telephone}}{{. | markdownify}}{{end}}</p>
       {{end}}
+      <div class="landing-footer-spacer"></div>
     </div>
     {{end}}
   </footer>
@@ -151,6 +152,30 @@
       }
     };
 
+    var footerSpacer = (function() {
+      var footerSpacer, panelEl;
+      var footerSpacerGap = 30;
+
+      function setSpacerHeight() {
+        var panelHeight = parseFloat(getComputedStyle(panelEl, null).height.replace("px", ""));
+        footerSpacer.style.paddingTop = (panelHeight - footerSpacerGap) + "px";
+      };
+
+      return {
+        init: function(panel) {
+          footerSpacer = document.querySelector(".landing-footer-spacer");
+          panelEl = panel;
+
+          window.addEventListener("resize", setSpacerHeight);
+          window.addEventListener("load", setSpacerHeight);
+        },
+        destroy: function() {
+          window.removeEventListener("resize", setSpacerHeight);
+          window.removeEventListener("load", setSpacerHeight);
+        }
+      }
+    })();
+
     function initRedirectPanel(redirectPanel) {
       var body = document.body;
       var redirect = (localStorage.getItem("redirect") || false) == 'true';
@@ -164,6 +189,7 @@
 
           if (responseData && responseData.region === "Quebec") {
             body.classList.add("show-info");
+            footerSpacer.init(redirectPanel);
             localStorage.setItem("redirect", true);
             initRedirectLink();
           }
@@ -174,11 +200,13 @@
 
       if (redirect && checked) {
         body.classList.add("show-info");
+        footerSpacer.init(redirectPanel);
         initRedirectLink();
       }
 
       closeButton.addEventListener('click', function() {
         body.classList.remove("show-info");
+        footerSpacer.destroy();
       });
     };
 
