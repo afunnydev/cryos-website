@@ -14,6 +14,9 @@
 	<meta name="generator" content="Hugo 0.16" />
 	<meta charset="UTF-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
+  {{if and .IsHome (eq .Lang "fr")}}
+    <link rel="canonical" href="{{.Permalink}}" />
+  {{end}}
 	<title>{{.Title}}</title>
 	<meta name="description" content="{{.Description}}">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
