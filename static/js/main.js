@@ -403,17 +403,4 @@ jQuery(document).ready(function ($) {
       return this.substring(this_len - search.length, this_len) === search;
     };
   }
-
-  (function() {
-    if (getCookie("nf_lang") === "fr") {
-      var links = document.querySelectorAll("a");
-
-      links.forEach(function(link) {
-        var linkSource = link.getAttribute("href");
-        if (linkSource && linkSource.endsWith(location.host + "/")) {
-          link.href = linkSource + "?lang=fr";
-        }
-      });
-    }
-  })();
 });
