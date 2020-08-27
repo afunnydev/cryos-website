@@ -40,8 +40,14 @@ gulp.task('hugo', () => {
   });
 });
 
+gulp.task("postBuild", (done) => {
+  rimraf('public/fr/index.html', done);
+  gulp.src('public/index.html')
+      .pipe(gulp.dest('public/fr/'));
+});
+
 //cleans out public, compiles Sass, and starts Hugo
-gulp.task('build', gulp.series('clean', 'styles', 'hugo'));
+gulp.task('build', gulp.series('clean', 'styles', 'hugo', 'postBuild'));
 
 // watching
 gulp.task("watch", () => {
