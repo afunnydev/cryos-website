@@ -1,3 +1,4 @@
-/  /en   302!  Country=us
-/ lang=:l /index.html 302! Language=fr
+/ /en 302! Country=us
+/ /fr 302! Language=fr
 / /ca-en/ 302! Country=ca
+/ /fr 301!
