@@ -1,27 +1,29 @@
-[[redirects]]
-from = "/"
-to = "/en/"
-status = 302
-force = true
-conditions = {Country = "us"}
+# Setup redirects
 
 [[redirects]]
-from = "/"
-to = "/fr/"
-status = 302
-force = true
-conditions = {Language = "fr"}
+  from = "/"
+  to = "/en/"
+  status = 302
+  force = true
+  conditions = {Country = "us"}
 
 [[redirects]]
-from = "/"
-to = "/ca-en/"
-status = 302
-force = true
-conditions = {Country = "ca", Language = "en"}
+  from = "/"
+  to = "/fr/"
+  status = 302
+  force = true
+  conditions = {Language = "fr"}
 
 [[redirects]]
-from = "/"
-to = "/en/"
-status = 302
-force = true
-conditions = {Language = "en"}
+  from = "/"
+  to = "/ca-en/"
+  status = 302
+  force = true
+  conditions = {Country = "ca", Language = "en"}
+
+[[redirects]]
+  from = "/"
+  to = "/en/"
+  status = 302
+  force = true
+  conditions = {Language = "en"}
