@@ -20,10 +20,3 @@
   status = 302
   force = true
   conditions = {Country = ["ca"], Language = ["en"]}
-
-[[redirects]]
-  from = "/"
-  to = "/en/"
-  status = 302
-  force = true
-  conditions = {Language = ["en"]}
