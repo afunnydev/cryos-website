@@ -40,10 +40,9 @@ gulp.task('hugo', () => {
   });
 });
 
-gulp.task("postBuild", (done) => {
-  rimraf('public/fr/index.html', done);
-  gulp.src('public/index.html')
-      .pipe(gulp.dest('public/fr/'));
+gulp.task("postBuild", () => {
+  return gulp.src('public/index.html', {base: 'public/'})
+    .pipe(gulp.dest('public/fr/'));
 });
 
 //cleans out public, compiles Sass, and starts Hugo
