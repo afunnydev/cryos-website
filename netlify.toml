@@ -5,25 +5,25 @@
   to = "/en/"
   status = 302
   force = true
-  conditions = {Country = "us"}
+  conditions = {Country = ["us"]}
 
 [[redirects]]
   from = "/"
   to = "/fr/"
   status = 302
   force = true
-  conditions = {Language = "fr"}
+  conditions = {Language = ["fr"]}
 
 [[redirects]]
   from = "/"
   to = "/ca-en/"
   status = 302
   force = true
-  conditions = {Country = "ca", Language = "en"}
+  conditions = {Country = ["ca"], Language = ["en"]}
 
 [[redirects]]
   from = "/"
   to = "/en/"
   status = 302
   force = true
-  conditions = {Language = "en"}
+  conditions = {Language = ["en"]}
