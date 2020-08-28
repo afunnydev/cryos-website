@@ -1,5 +1,4 @@
 # Setup redirects
-
 [[redirects]]
 from = "/"
 to = "/en/"
