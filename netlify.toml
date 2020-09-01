@@ -12,6 +12,13 @@
   to = "/fr/"
   status = 302
   force = true
+  conditions = {Country = ["ca"], Language = ["fr"]}
+
+[[redirects]]
+  from = "/"
+  to = "/fr/"
+  status = 302
+  force = true
   conditions = {Language = ["fr"]}
 
 [[redirects]]
@@ -20,3 +27,10 @@
   status = 302
   force = true
   conditions = {Country = ["ca"], Language = ["en"]}
+
+[[redirects]]
+  from = "/"
+  to = "/ca-en/"
+  status = 302
+  force = true
+  conditions = {Country = ["ca"]}
