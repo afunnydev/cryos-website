@@ -2,35 +2,35 @@
 
 [[redirects]]
   from = "/"
-  to = "/en/"
+  to = "/en"
   status = 302
   force = true
-  conditions = {Country = ["us"]}
+  conditions = {Country = ["US"]}
 
 [[redirects]]
   from = "/"
-  to = "/fr/"
+  to = "/fr"
   status = 302
   force = true
-  conditions = {Country = ["ca"], Language = ["fr"]}
+  conditions = {Language = ["fr"], Country = ["CA"]}
 
 [[redirects]]
   from = "/"
-  to = "/fr/"
+  to = "/fr"
   status = 302
   force = true
   conditions = {Language = ["fr"]}
 
 [[redirects]]
   from = "/"
-  to = "/ca-en/"
+  to = "/ca-en"
   status = 302
   force = true
-  conditions = {Country = ["ca"], Language = ["en"]}
+  conditions = {Language = ["en"], Country = ["CA"]}
 
 [[redirects]]
   from = "/"
-  to = "/ca-en/"
+  to = "/ca-en"
   status = 302
   force = true
-  conditions = {Country = ["ca"]}
+  conditions = {Country = ["CA"]}
