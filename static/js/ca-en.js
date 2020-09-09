@@ -63,7 +63,7 @@ function initRedirectPanel(redirectPanel) {
     axios(url).then(function(response) {
       var responseData = response.data;
 
-      if (responseData && responseData.region === "Quebec") {
+      if (responseData && responseData.region_name === "Quebec") {
         body.classList.add("show-info");
         footerSpacer.init(redirectPanel);
         localStorage.setItem("redirect", true);
