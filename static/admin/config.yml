@@ -283,6 +283,13 @@ collections:
           fields:
           - {label: "Source", name: "src", widget: "image", default: "/img/uploads/landing-hero.jpg"}
           - {label: "Description", name: "alt", widget: "string"}
+          - label: "Responsive sources"
+            name: sources
+            widget: list
+            required: false
+            fields:
+              - {label: "Width", name: "width", widget: "string", required: false}
+              - {label: "Source", name: "src", widget: "image", required: false}
         - label: "Logo"
           name: logo
           widget: object
@@ -301,6 +308,13 @@ collections:
           fields:
           - {label: "Source", name: "src", widget: "image"}
           - {label: "Description", name: "alt", widget: "string"}
+          - label: "Responsive sources"
+            name: sources
+            widget: list
+            required: false
+            fields:
+              - {label: "Width", name: "width", widget: "string", required: false}
+              - {label: "Source", name: "src", widget: "image", required: false}
         - {label: "Caption", name: "caption", widget: "string"}
         - label: "Points"
           name: points

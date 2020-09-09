@@ -44,7 +44,8 @@
   {{with .Params.hero}}
   <section class="hero">
     {{with .image}}
-    <img src="{{.src | relURL}}" alt="{{.alt}}" class="resp-img hero-image" />
+      {{$params := dict "image" . "sizes" "(min-width: 2000px) 2133px, 100vw" "class" "hero-image"}}
+      {{template "resp-image" $params}}
     {{end}}
     {{if or .title .logo}}
     <div class="holder">
@@ -154,7 +155,8 @@
   <div class="benefit">
     {{with .image}}
     <div class="benefit-image">
-      <img src="{{.src | relURL}}" alt="{{.alt}}" class="resp-img" />
+      {{$params := dict "image" . "sizes" "(min-width: 1570px) 625px, 100%"}}
+      {{template "resp-image" $params}}
     </div>
     {{end}}
     <div class="benefit-content">
@@ -173,4 +175,16 @@
       {{end}}
     </div>
   </div>
+{{end}}
+
+
+{{/* Inline template used for define responsive images */}}
+{{define "resp-image"}}
+  {{$img := .image}}
+  {{$sizes := .sizes}}
+  {{$srcset := slice}}
+  {{range $img.sources}}
+    {{$srcset = $srcset | append (print (.src | relURL) " " .width "w")}}
+  {{end}}
+  <img class="resp-img{{with .class}} {{.}}{{end}}"{{with $srcset}} srcset="{{delimit . ", "}}"{{end}}{{with .sizes}} sizes="{{.}}"{{end}} src="{{$img.src | relURL}}" alt="{{$img.alt}}" />
 {{end}}

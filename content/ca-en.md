@@ -10,6 +10,21 @@ hero:
   image:
     src: img/uploads/landing-hero.jpg
     alt: Image description
+    sources:
+    - width: 375
+      src: img/uploads/landing-hero-375w.jpg
+    - width: 768
+      src: img/uploads/landing-hero-768w.jpg
+    - width: 1024
+      src: img/uploads/landing-hero-1024w.jpg
+    - width: 1440
+      src: img/uploads/landing-hero-1440w.jpg
+    - width: 1920
+      src: img/uploads/landing-hero-1920w.jpg
+    - width: 1920
+      src: img/uploads/landing-hero-1920w.jpg
+    - width: 2133
+      src: img/uploads/landing-hero.jpg
   title: Orthotics for every shoe, every day, every occasion
   logo:
     src: img/uploads/Logo_CRYOS_FR.png
@@ -19,6 +34,15 @@ benefits:
 - image:
     src: img/uploads/specialists.jpg
     alt: Image description
+    sources:
+    - width: 320
+      src: img/uploads/specialists-320w.jpg
+    - width: 375
+      src: img/uploads/specialists-375w.jpg
+    - width: 480
+      src: img/uploads/specialists-480w.jpg
+    - width: 598
+      src: img/uploads/specialists.jpg
   title: For Foot Specialists
   caption: Benefits to Foot Specialists
   points:
@@ -28,6 +52,15 @@ benefits:
 - image:
     src: img/uploads/patients.jpg
     alt: Image description
+    sources:
+    - width: 320
+      src: img/uploads/patients-320w.jpg
+    - width: 375
+      src: img/uploads/patients-375w.jpg
+    - width: 480
+      src: img/uploads/patients-480w.jpg
+    - width: 625
+      src: img/uploads/patients.jpg
   title: For Patients
   caption: Benefits to Patients
   points:
@@ -37,6 +70,15 @@ benefits:
 - image:
     src: img/uploads/clinic-staff.jpg
     alt: Image description
+    sources:
+    - width: 320
+      src: img/uploads/clinic-staff-320w.jpg
+    - width: 375
+      src: img/uploads/clinic-staff-375w.jpg
+    - width: 480
+      src: img/uploads/clinic-staff-480w.jpg
+    - width: 608
+      src: img/uploads/clinic-staff.jpg
   title: For Clinic Staff
   caption: Benefits to Clinic Staff
   points:
@@ -46,6 +88,15 @@ benefits:
 - image:
     src: img/uploads/community.jpg
     alt: Image description
+    sources:
+    - width: 320
+      src: img/uploads/community-320w.jpg
+    - width: 375
+      src: img/uploads/community-375w.jpg
+    - width: 480
+      src: img/uploads/community-480w.jpg
+    - width: 610
+      src: img/uploads/community.jpg
   title: For Community & Environment
   caption: Community & Environmental Benefits
   points:
@@ -56,6 +107,15 @@ benefits:
 - image:
     src: img/uploads/health-care.jpg
     alt: Image description
+    sources:
+    - width: 320
+      src: img/uploads/health-care-320w.jpg
+    - width: 375
+      src: img/uploads/health-care-375w.jpg
+    - width: 480
+      src: img/uploads/health-care-480w.jpg
+    - width: 629
+      src: img/uploads/health-care.jpg
   title: For Health Care
   caption: Benefits to Health Care
   points:
