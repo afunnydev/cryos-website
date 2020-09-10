@@ -290,6 +290,13 @@ collections:
             fields:
               - {label: "Width", name: "width", widget: "string", required: false}
               - {label: "Source", name: "src", widget: "image", required: false}
+          - label: "Responsive sources WebP"
+            name: sourcesWebP
+            widget: list
+            required: false
+            fields:
+              - {label: "Width", name: "width", widget: "string", required: false}
+              - {label: "Source", name: "src", widget: "image", required: false}
         - label: "Logo"
           name: logo
           widget: object
@@ -310,6 +317,13 @@ collections:
           - {label: "Description", name: "alt", widget: "string"}
           - label: "Responsive sources"
             name: sources
+            widget: list
+            required: false
+            fields:
+              - {label: "Width", name: "width", widget: "string", required: false}
+              - {label: "Source", name: "src", widget: "image", required: false}
+          - label: "Responsive sources WebP"
+            name: sourcesWebP
             widget: list
             required: false
             fields:

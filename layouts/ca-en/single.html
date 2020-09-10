@@ -182,9 +182,23 @@
 {{define "resp-image"}}
   {{$img := .image}}
   {{$sizes := .sizes}}
+
   {{$srcset := slice}}
+  {{$srcsetWebP := slice}}
   {{range $img.sources}}
     {{$srcset = $srcset | append (print (.src | relURL) " " .width "w")}}
   {{end}}
-  <img class="resp-img{{with .class}} {{.}}{{end}}"{{with $srcset}} srcset="{{delimit . ", "}}"{{end}}{{with .sizes}} sizes="{{.}}"{{end}} src="{{$img.src | relURL}}" alt="{{$img.alt}}" />
+  {{range $img.sourcesWebP}}
+    {{$srcsetWebP = $srcsetWebP | append (print (.src | relURL) " " .width "w")}}
+  {{end}}
+
+  <picture>
+    {{with $srcsetWebP}}
+    <source type="image/webp" srcset="{{delimit . ", "}}"{{with $sizes}} sizes="{{.}}"{{end}}>
+    {{end}}
+    {{with $srcset}}
+    <source srcset="{{delimit . ", "}}"{{with $sizes}} sizes="{{.}}"{{end}}>
+    {{end}}
+    <img class="resp-img{{with .class}} {{.}}{{end}}"{{with $srcset}} srcset="{{delimit . ", "}}"{{end}}{{with $sizes}} sizes="{{.}}"{{end}} src="{{$img.src | relURL}}" alt="{{$img.alt}}" />
+  </picture>
 {{end}}

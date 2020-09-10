@@ -21,10 +21,21 @@ hero:
       src: img/uploads/landing-hero-1440w.jpg
     - width: 1920
       src: img/uploads/landing-hero-1920w.jpg
-    - width: 1920
-      src: img/uploads/landing-hero-1920w.jpg
     - width: 2133
       src: img/uploads/landing-hero.jpg
+    sourcesWebP:
+    - width: 375
+      src: img/uploads/landing-hero-375w.webp
+    - width: 768
+      src: img/uploads/landing-hero-768w.webp
+    - width: 1024
+      src: img/uploads/landing-hero-1024w.webp
+    - width: 1440
+      src: img/uploads/landing-hero-1440w.webp
+    - width: 1920
+      src: img/uploads/landing-hero-1920w.webp
+    - width: 2133
+      src: img/uploads/landing-hero-2133w.webp
   title: Orthotics for every shoe, every day, every occasion
   logo:
     src: img/uploads/Logo_CRYOS_FR.png
@@ -43,6 +54,15 @@ benefits:
       src: img/uploads/specialists-480w.jpg
     - width: 598
       src: img/uploads/specialists.jpg
+    sourcesWebP:
+    - width: 320
+      src: img/uploads/specialists-320w.webp
+    - width: 375
+      src: img/uploads/specialists-375w.webp
+    - width: 480
+      src: img/uploads/specialists-480w.webp
+    - width: 598
+      src: img/uploads/specialists-598w.webp
   title: For Foot Specialists
   caption: Benefits to Foot Specialists
   points:
@@ -61,6 +81,15 @@ benefits:
       src: img/uploads/patients-480w.jpg
     - width: 625
       src: img/uploads/patients.jpg
+    sourcesWebP:
+    - width: 320
+      src: img/uploads/patients-320w.webp
+    - width: 375
+      src: img/uploads/patients-375w.webp
+    - width: 480
+      src: img/uploads/patients-480w.webp
+    - width: 625
+      src: img/uploads/patients-625w.webp
   title: For Patients
   caption: Benefits to Patients
   points:
@@ -79,6 +108,15 @@ benefits:
       src: img/uploads/clinic-staff-480w.jpg
     - width: 608
       src: img/uploads/clinic-staff.jpg
+    sourcesWebP:
+    - width: 320
+      src: img/uploads/clinic-staff-320w.webp
+    - width: 375
+      src: img/uploads/clinic-staff-375w.webp
+    - width: 480
+      src: img/uploads/clinic-staff-480w.webp
+    - width: 608
+      src: img/uploads/clinic-staff-608w.webp
   title: For Clinic Staff
   caption: Benefits to Clinic Staff
   points:
@@ -97,6 +135,15 @@ benefits:
       src: img/uploads/community-480w.jpg
     - width: 610
       src: img/uploads/community.jpg
+    sourcesWebP:
+    - width: 320
+      src: img/uploads/community-320w.webp
+    - width: 375
+      src: img/uploads/community-375w.webp
+    - width: 480
+      src: img/uploads/community-480w.webp
+    - width: 610
+      src: img/uploads/community-610w.webp
   title: For Community & Environment
   caption: Community & Environmental Benefits
   points:
@@ -116,6 +163,15 @@ benefits:
       src: img/uploads/health-care-480w.jpg
     - width: 629
       src: img/uploads/health-care.jpg
+    sourcesWebP:
+    - width: 320
+      src: img/uploads/health-care-320w.webp
+    - width: 375
+      src: img/uploads/health-care-375w.webp
+    - width: 480
+      src: img/uploads/health-care-480w.webp
+    - width: 629
+      src: img/uploads/health-care-629w.webp
   title: For Health Care
   caption: Benefits to Health Care
   points:
