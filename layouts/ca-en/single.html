@@ -155,7 +155,7 @@
   <div class="benefit">
     {{with .image}}
     <div class="benefit-image">
-      {{$params := dict "image" . "sizes" "(min-width: 1570px) 625px, 100%"}}
+      {{$params := dict "image" . "sizes" "(min-width: 1570px) 625px, 100vw"}}
       {{template "resp-image" $params}}
     </div>
     {{end}}
