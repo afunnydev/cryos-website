@@ -66,9 +66,9 @@ benefits:
   title: For Foot Specialists
   caption: Benefits to Foot Specialists
   points:
-  - item: Reduces wasted therapeutic effort from patient non compliance
-  - item: Enables long term management of patient with structured follow up process
-  - item: Provides on going means to illustrate and communicate success to patient
+  - item: Reduces wasted therapeutic effort from patient non-compliance
+  - item: Enables long term management of patient with structured follow-up process
+  - item: Provides ongoing means to illustrate and communicate success to patient
 - image:
     src: img/uploads/patients.jpg
     alt: Image description
@@ -122,7 +122,7 @@ benefits:
   points:
   - item: Redeploy staff to focus on higher value clinic work
   - item: More time for patient reception and engagement
-  - item: Free up valuable clinic space
+  - item: Free-up valuable clinic space
 - image:
     src: img/uploads/community.jpg
     alt: Image description
@@ -148,7 +148,7 @@ benefits:
   caption: Community & Environmental Benefits
   points:
   - item: Less employee time away from work
-  - item: Healthier, happier more productive orthotic wearers
+  - item: Healthier, happier, more productive orthotic wearers
   - item: Environmental footprint from manufacturing and disposal of sundries is significantly reduced when essential foot measurements are captured and transmitted electronically
   - item: Orthotics are manufactured with minimal material
 - image:
