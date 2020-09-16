@@ -22,3 +22,9 @@ description = "Nous offrons des solutions technologiques d'avant-garde aux podia
 title = "Cryos Technologies | Produits technologiques pour les podiatres"
 [Languages.fr.Taxonomies]
 categorie = "categories"
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[params]
+googleTagManagerID = "GTM-NM5XH6R"

@@ -3,7 +3,7 @@
     <div id="search-wrap" class="wrap-top search-wrap">
       <div class="container">
         <ul class="clearfix">
-          <li ><i class="fa fa-search"></i> <input type='' id="search" placeholder='{{ if eq .Lang "fr" }}Recherche...{{ else if eq .Lang "en" }}Search...{{end}}'></li>
+          <li><i class="fa fa-search"></i> <input type='' id="search" placeholder='{{ if eq .Lang "fr" }}Recherche...{{ else if eq .Lang "en" }}Search...{{end}}'></li>
           <li id="li-4"> <i class="fa fa-times"></i> </li>
         </ul>
       </div>
@@ -35,7 +35,9 @@
         <!-- <li class="s-desk tab search-btn"><a href="#">Search <i class="fa fa-search" style="color: white; margin-left: 10px"></i></a> </li> -->
       {{end}}
         <li class="tab disabled"></li>
-        {{ if .Params.translatedslug }}
+        {{ if and (eq .Lang "en") .IsHome }}
+          <li class="tab"><a href="{{ .Site.BaseURL }}fr">FR</a></li>
+        {{ else if .Params.translatedslug }}
           {{ if eq .Lang "fr" }}
             <li class="tab"><a href="{{ .Site.BaseURL }}{{ .Params.translatedslug }}">EN</a></li>
           {{ else if eq .Lang "en" }}
@@ -51,7 +53,7 @@
   </nav>
   <nav class="nav-extended">
     <div class="nav-wrapper">
-      <a href='{{ if eq .Lang "fr" }}{{.Site.BaseURL}}{{ else if eq .Lang "en" }}{{.Site.BaseURL}}en{{ end }}' class="brand-logo">
+      <a href='{{ if eq .Lang "fr" }}{{.Site.BaseURL}}fr{{ else if eq .Lang "en" }}{{.Site.BaseURL}}en{{ end }}' class="brand-logo">
       {{ if eq .Lang "fr" }}
       <img src="{{.Site.BaseURL}}img/Logo_CRYOS_SloganFR.png" class="responsive-img full" alt="cryos-logo">
       {{ else if eq .Lang "en" }}
@@ -62,7 +64,7 @@
       <a href="#" data-activates="mobile-nav" class="button-collapse"><i class="fa fa-bars"></i></a>
       <ul id="nav-desktop" class="right hide-on-med-and-down">
       {{ if eq .Lang "fr" }}
-        <li><a href='{{.Site.BaseURL}}'>Accueil</a></li>
+        <li><a href='{{.Site.BaseURL}}fr'>Accueil</a></li>
         <li><a class='dropdown-button' href='#' data-activates='dropdown1'>Professionnels <i class="fa fa-caret-down"></i></a></li>
         <li><a class='dropdown-button' href='#' data-activates='dropdown2'>Patients <i class="fa fa-caret-down"></i></a></li>
         <li><a class='dropdown-button' href='#' data-activates='dropdown3'>Compagnie <i class="fa fa-caret-down"></i></a></li>

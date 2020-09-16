@@ -261,3 +261,96 @@ collections:
       - {label: "Identifiant UNIQUE (identique dans les deux langues)", name: "identifiant", pattern: ["^[a-z0-9]+(?:-[a-z0-9]+)*$", "Svp utilisez le format ceci-est-un-test"], widget: "relation", collection: "cliniques-fr", searchFields: ["identifiant","nomclinique"], valueField: "identifiant"}
       - {label: "Type", name: "type", widget: "hidden", default: "location"}
       - {label: "Langue", name: "i18nlanguage", widget: "hidden", default: "en"}
+
+  - name: "landing" # Used in routes, e.g. /admin/collections/blog
+    label: "Landing page" # Used in the UI
+    files:
+    - file: "content/ca-en.md" # The path to the folder where the documents are stored
+      name: "ca-en"
+      label: "ca-en"
+      fields: # The fields for each document, usually in front matter
+      - {label: "Title of page", name: "title", widget: "string", hint: "70 chars max, including spaces", pattern: ['^.{2,70}$', "Must have at least 2 and less than 70 characters (spaces takes in count)"]}
+      - {label: "Meta description", name: "description", widget: "string", hint: "160 chars max, including spaces", pattern: ['^.{5,160}$', "Must have at least 5 and less than 160 characters (spaces takes in count)"]}
+      - {label: "Share image", name: "share_image", widget: "image", hint: "Used when sharing this page in social networks. Recommended size is 1200×628"}
+      - label: "Hero section"
+        name: hero
+        widget: object
+        fields:
+        - {label: "Title", name: "title", widget: "string"}
+        - label: "Image"
+          name: image
+          widget: object
+          fields:
+          - {label: "Source", name: "src", widget: "image", default: "/img/uploads/landing-hero.jpg"}
+          - {label: "Description", name: "alt", widget: "string"}
+          - label: "Responsive sources"
+            name: sources
+            widget: list
+            required: false
+            fields:
+              - {label: "Width", name: "width", widget: "string", required: false}
+              - {label: "Source", name: "src", widget: "image", required: false}
+          - label: "Responsive sources WebP"
+            name: sourcesWebP
+            widget: list
+            required: false
+            fields:
+              - {label: "Width", name: "width", widget: "string", required: false}
+              - {label: "Source", name: "src", widget: "image", required: false}
+        - label: "Logo"
+          name: logo
+          widget: object
+          collapsed: true
+          fields:
+          - {label: "Source", name: "src", widget: "image", default: "/img/Logo_CRYOS_FR.png"}
+          - {label: "Description", name: "alt", widget: "string"}
+      - label: "Benefits"
+        name: benefits
+        widget: list
+        fields:
+        - {label: "Title", name: "title", widget: "string"}
+        - label: "Image"
+          name: image
+          widget: object
+          fields:
+          - {label: "Source", name: "src", widget: "image"}
+          - {label: "Description", name: "alt", widget: "string"}
+          - label: "Responsive sources"
+            name: sources
+            widget: list
+            required: false
+            fields:
+              - {label: "Width", name: "width", widget: "string", required: false}
+              - {label: "Source", name: "src", widget: "image", required: false}
+          - label: "Responsive sources WebP"
+            name: sourcesWebP
+            widget: list
+            required: false
+            fields:
+              - {label: "Width", name: "width", widget: "string", required: false}
+              - {label: "Source", name: "src", widget: "image", required: false}
+        - {label: "Caption", name: "caption", widget: "string"}
+        - label: "Points"
+          name: points
+          widget: list
+          fields:
+          - {label: "Point", name: "item", widget: "string"}
+      - label: "Footer"
+        name: footer
+        widget: object
+        fields:
+        - {label: "Title", name: "title", widget: "string"}
+        - {label: "Address", name: "address", widget: "string"}
+        - label: "Contacts"
+          name: contacts
+          widget: object
+          fields:
+          - {label: "Email", name: "email", widget: "string"}
+          - {label: "Telephone", name: "telephone", widget: "string"}
+        - label: "Logo"
+          name: logo
+          widget: object
+          collapsed: true
+          fields:
+          - {label: "Source", name: "src", widget: "image", default: "/img/Logo_CRYOS_FR.png"}
+          - {label: "Description", name: "alt", widget: "string"}

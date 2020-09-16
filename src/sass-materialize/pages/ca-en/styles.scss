@@ -1,0 +1,430 @@
+.bold {
+  font-family: Antenna-Bold, sans-serif;
+  font-weight: 700;
+}
+
+.landing-page {
+  font-family: Antenna-Light, sans-serif;
+  font-weight: 400;
+
+  h1, h2, h3 {
+    @extend .bold;
+  }
+}
+
+.resp-img {
+  max-width: 100%;
+}
+
+.holder {
+  max-width: 305px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.hero {
+  position: relative;
+  text-align: center;
+
+  &-logo-wrap {
+    margin-top: -35px;
+    text-align: center;
+
+    img {
+      max-width: 100px;
+    }
+  }
+
+  &-title {
+    margin: 30px 0;
+    color: $landing-headings;
+    font-size: 26px;
+    text-align: center;
+  }
+}
+
+.benefits--desktop {
+  display: none;
+}
+
+.benefit {
+  margin-bottom: 50px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  &-image {
+    text-align: center;
+  }
+
+  &-title {
+    margin: 40px 0 20px;
+    color: $landing-headings;
+    font-size: 25px;
+  }
+
+  &-caption {
+    margin: 20px 0;
+    font-size: 15px;
+    text-transform: none;
+  }
+
+  &-points {
+    margin: 20px 0 0;
+    font-size: 13px;
+  }
+
+  &-point {
+    margin-top: 20px;
+
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+}
+
+.landing-footer {
+  margin-top: 95px;
+  color: $primary-bg-color;
+  font-size: 11px;
+  text-align: center;
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+
+  &-logo-wrap {
+    margin-bottom: -35px;
+
+    img {
+      max-width: 100px;
+    }
+  }
+
+  &-content {
+    padding: 60px 0 50px;
+    background-color: $landing-footer;
+  }
+
+  &-title {
+    margin: 0 0 10px;
+    font-size: 11px;
+  }
+
+  &-contacts {
+    margin-top: 20px;
+
+    a {
+      color: $primary-bg-color;
+    }
+  }
+
+  &-email {
+    margin-right: 15px;
+  }
+
+  &-spacer {
+    display: none;
+  }
+}
+
+.info {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  color: $primary-bg-color;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.75);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.2s;
+
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: $landing-footer;
+    opacity: 0.9;
+    z-index: -1;
+  }
+
+  &-wrap {
+    max-width: 1170px;
+    padding: 10px 35px;
+    margin: 0 auto;
+  }
+
+  &-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0 10px;
+    font-weight: 700;
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+  }
+
+  a {
+    @extend .bold;
+    color: $primary-bg-color;
+    text-decoration: underline;
+  }
+}
+
+.show-info {
+  .info {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .landing-footer-spacer {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .holder {
+    max-width: 700px;
+  }
+
+  .hero {
+    &-title {
+      position: absolute;
+      top: 0;
+      left: 50%;
+      max-width: 840px;
+      transform: translateX(-50%);
+    }
+
+    &-logo-wrap {
+      margin-top: -75px;
+      text-align: left;
+
+      img {
+        max-width: 200px;
+      }
+    }
+  }
+
+  .benefits {
+    &--mobile {
+      display: none;
+    }
+
+    &--desktop {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin: -45px -35px 0;
+    }
+
+    &-group {
+      width: 50%;
+      max-width: 650px;
+      padding: 0 35px;
+    }
+
+    &-group--first {
+      margin-top: 55px;
+    }
+
+    &-group--last {
+      width: 100%;
+      max-width: none;
+      margin-top: 50px;
+
+      .benefit {
+        display: flex;
+        justify-content: space-between;
+        max-width: none;
+      }
+
+      .benefit-image {
+        width: 50%;
+        max-width: 650px;
+      }
+
+      .benefit-content {
+        width: 50%;
+        max-width: 650px;
+        margin-left: 70px;
+      }
+    }
+  }
+
+  .landing-footer {
+    margin-top: 80px;
+
+    &-logo-wrap {
+      margin-bottom: -55px;
+
+      img {
+        max-width: 150px;
+      }
+    }
+
+    &-content {
+      padding-top: 80px;
+    }
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .holder {
+    max-width: 800px;
+  }
+
+  .hero {
+    &-title {
+      margin: 36px 0;
+      font-size: 36px;
+    }
+  }
+
+  .benefit {
+    &-title {
+      font-size: 28px;
+    }
+
+    &-caption {
+      font-size: 18px;
+    }
+
+    &-points {
+      font-size: 16px;
+    }
+  }
+
+  .landing-footer {
+    font-size: 15px;
+
+    &-title {
+      font-size: 15px;
+    }
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .holder {
+    max-width: 1024px;
+  }
+
+  .hero {
+    &-title {
+      width: 65%;
+      margin: 4% 0;
+      font-size: 50px;
+    }
+
+    &-logo-wrap {
+      margin-top: -110px;
+
+      img {
+        max-width: 300px;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1570px) {
+  .holder {
+    max-width: 1500px;
+  }
+
+  .hero {
+    &-title {
+      font-size: 64px;
+    }
+
+    &-logo-wrap {
+      margin-top: -145px;
+
+      img {
+        max-width: 400px;
+      }
+    }
+  }
+
+  .benefits {
+    &--desktop {
+      margin: -115px 0 0;
+    }
+
+    &-group {
+      padding: 0;
+    }
+
+    &-group--first {
+      margin-top: 145px;
+    }
+
+    &-group--last {
+      margin-top: 85px;
+
+      .benefit-content {
+        margin: 0;
+      }
+
+      .benefit-image {
+        max-width: none;
+        text-align: right;
+      }
+    }
+  }
+
+  .benefit {
+    padding: 0;
+    margin-bottom: 85px;
+
+    &-title {
+      margin-bottom: 40px;
+      font-size: 47px;
+    }
+
+    &-caption {
+      margin-bottom: 40px;
+      font-size: 29px;
+    }
+
+    &-points {
+      font-size: 25px;
+      line-height: 1.5;
+    }
+
+    &-point {
+      margin-top: 40px;
+    }
+  }
+
+  .landing-footer {
+    margin-top: 155px;
+    font-size: 26px;
+
+    &-logo-wrap {
+      margin-bottom: -88px;
+
+      img {
+        max-width: 240px;
+      }
+    }
+
+    &-content {
+      padding-top: 135px;
+      padding-bottom: 90px;
+    }
+
+    &-title {
+      font-size: 26px;
+    }
+
+    &-contacts {
+      margin-top: 35px;
+    }
+  }
+}

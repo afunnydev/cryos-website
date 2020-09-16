@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  {{if .Params.noindex}}
+  <meta name="robots" content="noindex, nofollow" />
+  {{end}}
+
+  {{with .Title | default "Landing"}}
+  <title>{{.}}</title>
+  <meta property="og:title" content="{{.}}" />
+  {{end}}
+  {{with .Description}}
+  <meta name="description" content="{{.}}" />
+  <meta property="og:description" content="{{.}}" />
+  {{end}}
+  <meta property="og:url" content="{{.Permalink}}" />
+  <meta property="og:image" content="{{(.Params.share_image | default `img/Logo_CRYOS_FR.png`) | absURL}}" />
+  <meta property="og:type" content="website" />
+
+  <link rel="shortcut icon" href="{{`img/favicon.ico` | relURL}}" />
+  <link rel="stylesheet" href="{{`css/materialize.css` | relURL}}" />
+
+  {{$gtm := .Site.Params.googleTagManagerID}}
+  {{if and hugo.IsProduction $gtm}}
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','{{$gtm}}');</script>
+  <!-- End Google Tag Manager -->
+  {{end}}
+</head>
+<body class="landing-page">
+  {{if and hugo.IsProduction $gtm}}
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{$gtm}}"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  {{end}}
+  {{with .Params.hero}}
+  <section class="hero">
+    {{with .image}}
+      {{$params := dict "image" . "sizes" "(min-width: 2000px) 2133px, 100vw" "class" "hero-image"}}
+      {{template "resp-image" $params}}
+    {{end}}
+    {{if or .title .logo}}
+    <div class="holder">
+      {{with .logo}}
+      <div class="hero-logo-wrap">
+        <img src="{{.src | relURL}}" alt="{{.alt}}" />
+      </div>
+      {{end}}
+      {{with .title}}
+      <h1 class="hero-title">{{.}}</h1>
+      {{end}}
+    </div>
+    {{end}}
+  </section>
+  {{end}}
+  {{$benefits := .Params.benefits}}
+  {{$hasOddItems := not (modBool (len $benefits) 2)}}
+  {{$oddBenefits := slice}}
+  {{$evenBenefits := slice}}
+  {{range $index, $value := $benefits}}
+    {{if modBool $index 2}}
+      {{$oddBenefits = $oddBenefits | append .}}
+    {{else}}
+      {{$evenBenefits = $evenBenefits | append .}}
+    {{end}}
+  {{end}}
+  {{if or $benefits $oddBenefits $evenBenefits}}
+  <section class="holder">
+    {{with $benefits}}
+    <div class="benefits benefits--mobile">
+      {{range .}}
+        {{template "benefit" .}}
+      {{end}}
+    </div>
+    {{end}}
+    {{if or $oddBenefits $evenBenefits}}
+    <div class="benefits benefits--desktop">
+      {{with $oddBenefits}}
+      {{$oddBenefitsCount := len .}}
+      <div class="benefits-group benefits-group--first">
+      {{range $index, $val := .}}
+        {{if and $hasOddItems (eq $index (sub $oddBenefitsCount 1))}}
+        {{else}}
+          {{template "benefit" .}}
+        {{end}}
+      {{end}}
+      </div>
+      {{end}}
+      {{with $evenBenefits}}
+      <div class="benefits-group">
+      {{range .}}
+        {{template "benefit" .}}
+      {{end}}
+      </div>
+      {{end}}
+      {{if and $hasOddItems $oddBenefits}}
+      {{$oddBenefit := last 1 $oddBenefits}}
+      <div class="benefits-group benefits-group--last">
+      {{range $oddBenefit}}
+        {{template "benefit" .}}
+      {{end}}
+      </div>
+      {{end}}
+    </div>
+    {{end}}
+  </section>
+  {{end}}
+  {{with .Params.footer}}
+  <footer class="landing-footer">
+    {{with .logo}}
+    <div class="landing-footer-logo-wrap">
+      <img src="{{.src | relURL}}" alt="{{.alt}}" />
+    </div>
+    {{end}}
+    {{if or .title .address .contacts}}
+    <div class="landing-footer-content">
+      {{with .title}}
+      <h2 class="landing-footer-title">{{.}}</h2>
+      {{end}}
+      {{with .address}}
+      <p>{{. | markdownify}}</p>
+      {{end}}
+      {{with .contacts}}
+      <p class="landing-footer-contacts">{{with .email}}<a href="mailto:{{.}}" class="landing-footer-email">{{.}}</a>{{end}}{{with .telephone}}{{. | markdownify}}{{end}}</p>
+      {{end}}
+      <div class="landing-footer-spacer"></div>
+    </div>
+    {{end}}
+  </footer>
+  {{end}}
+  {{with .Params.info}}
+  <div class="info info-redirect">
+    <button class="info-close" aria-label="Close Info Box">×</button>
+    <div class="info-wrap"><p>{{. | markdownify}}</p></div>
+  </div>
+  {{end}}
+  {{with .Params.detectLocation}}
+  <script>var url = "{{.endpoint}}";</script>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="{{`js/ca-en.js` | relURL}}"></script>
+  {{end}}
+</body>
+</html>
+
+{{/* Inline template used for benefit item */}}
+{{define "benefit"}}
+  <div class="benefit">
+    {{with .image}}
+    <div class="benefit-image">
+      {{$params := dict "image" . "sizes" "(min-width: 1570px) 625px, 100vw"}}
+      {{template "resp-image" $params}}
+    </div>
+    {{end}}
+    <div class="benefit-content">
+      {{with .title}}
+      <h2 class="benefit-title">{{.}}</h2>
+      {{end}}
+      {{with .caption}}
+      <h3 class="benefit-caption">{{.}}</h3>
+      {{end}}
+      {{with .points}}
+      <ul class="benefit-points">
+        {{range .}}
+        <li class="benefit-point">&#8226; {{.item}}</li>
+        {{end}}
+      </ul>
+      {{end}}
+    </div>
+  </div>
+{{end}}
+
+
+{{/* Inline template used for define responsive images */}}
+{{define "resp-image"}}
+  {{$img := .image}}
+  {{$sizes := .sizes}}
+
+  {{$srcset := slice}}
+  {{$srcsetWebP := slice}}
+  {{range $img.sources}}
+    {{$srcset = $srcset | append (print (.src | relURL) " " .width "w")}}
+  {{end}}
+  {{range $img.sourcesWebP}}
+    {{$srcsetWebP = $srcsetWebP | append (print (.src | relURL) " " .width "w")}}
+  {{end}}
+
+  <picture>
+    {{with $srcsetWebP}}
+    <source type="image/webp" srcset="{{delimit . ", "}}"{{with $sizes}} sizes="{{.}}"{{end}}>
+    {{end}}
+    {{with $srcset}}
+    <source srcset="{{delimit . ", "}}"{{with $sizes}} sizes="{{.}}"{{end}}>
+    {{end}}
+    <img class="resp-img{{with .class}} {{.}}{{end}}"{{with $srcset}} srcset="{{delimit . ", "}}"{{end}}{{with $sizes}} sizes="{{.}}"{{end}} src="{{$img.src | relURL}}" alt="{{$img.alt}}" />
+  </picture>
+{{end}}

@@ -25,14 +25,28 @@ gulp.task('styles', () => {
 
 //calls Hugo to generate pages
 gulp.task('hugo', () => {
-  return exec('hugo --cleanDestinationDir', (err, stdout, stderr) => {
+  const envValues = process.env;
+  let hugoWithArgs = ["hugo", "--cleanDestinationDir"];
+
+  if (envValues.CONTEXT === "production") {
+    hugoWithArgs.push("--minify");
+  } else {
+    hugoWithArgs.push(`-b ${envValues.DEPLOY_PRIME_URL ? "$DEPLOY_PRIME_URL/" : "\"/\""}`);
+  }
+
+  return exec(hugoWithArgs.join(" "), (err, stdout, stderr) => {
     console.log(stdout);
     console.log(stderr);
   });
 });
 
+gulp.task("postBuild", () => {
+  return gulp.src('public/index.html', {base: 'public/'})
+    .pipe(gulp.dest('public/fr/'));
+});
+
 //cleans out public, compiles Sass, and starts Hugo
-gulp.task('build', gulp.series('clean', 'styles', 'hugo'));
+gulp.task('build', gulp.series('clean', 'styles', 'hugo', 'postBuild'));
 
 // watching
 gulp.task("watch", () => {
