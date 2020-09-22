@@ -238,7 +238,7 @@ collections:
       - {label: "Longitude", name: "longitude", widget: "number", valueType: "float"}
       - {label: "Numéro de téléphone", name: "phone", widget: "string"}
       - {label: "Site internet", name: "site", widget: "string", pattern: ["^https?", "N'oubliez pas le http:// ou https://"]}
-      - {label: "Identifiant UNIQUE (identique dans les deux langues)", name: "identifiant", pattern: ["^[a-z0-9]+(?:-[a-z0-9]+)*$", "Svp utilisez le format ceci-est-un-test"], widget: "relation", collection: "cliniques-en", searchFields: ["identifiant","nomclinique"], valueField: "identifiant"} 
+      - {label: "Identifiant UNIQUE (identique dans les deux langues)", name: "identifiant", pattern: ["^[a-z0-9]+(?:-[a-z0-9]+)*$", "Svp utilisez le format ceci-est-un-test"], widget: "string"}
       - {label: "Type", name: "type", widget: "hidden", default: "location"}
       - {label: "Langue", name: "i18nlanguage", widget: "hidden", default: "fr"}
   - name: "cliniques-en" # Used in routes, e.g. /admin/collections/blog
