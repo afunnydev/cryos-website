@@ -1,6 +1,6 @@
 ---
 nomclinique: Clinique Podiatrique Familiale de Boucherville
-address: 650, de Montbrun local 202
+address: 650, rue de Montbrun local 202
 ville: Boucherville, Quebec J4B 8G9
 pays: Canada
 latitude: 45.61319897963271
