@@ -1,14 +1,13 @@
 ---
-address: 650 Boulevard du Fort Saint Louis
-latitude: 45.613285
-longitude: -73.45033
 nomclinique: Clinique Podiatrique Familiale de Boucherville
+address: 650, rue de Montbrun local 202
+ville: Boucherville, Quebec J4B 8G9
 pays: Canada
+latitude: 45.61319897963271
+longitude: -73.44197407318896
 phone: (450) 906-3939
 site: http://www.podiatredeboucherville.com
-type: location
-ville: Boucherville, Quebec J4B 1S9
 identifiant: clinique-podiatrique-familiale-boucherville
+type: location
 i18nlanguage: en
 ---
-
