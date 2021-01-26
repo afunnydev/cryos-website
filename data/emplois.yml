@@ -1,52 +1,27 @@
-disponible: false
+disponible: true
 emplois:
   - anglais:
-      candidat: >-
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum
+      candidat: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum
         dolor sit amet, consectetur adipisicing elit.
       description:
-        - text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit'
-        - text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit'
-        - text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit'
+        - text: Lorem ipsum dolor sit amet, consectetur adipisicing elit
+        - text: Lorem ipsum dolor sit amet, consectetur adipisicing elit
+        - text: Lorem ipsum dolor sit amet, consectetur adipisicing elit
       qualifications:
-        - text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit'
-        - text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit'
+        - text: Lorem ipsum dolor sit amet, consectetur adipisicing elit
+        - text: Lorem ipsum dolor sit amet, consectetur adipisicing elit
       titre: Receptionnist
     francais:
-      candidat: >-
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum
-        dolor sit amet, consectetur adipisicing elit.
+      candidat: |-
+        Capacité de travailler rapidement et avec minutie
+        Grande dextérité manuelle
+        Excellente capacité visuo-spatiale
+        Apte à travailler debout toute la journée
       description:
-        - text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit'
-        - text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit'
-        - text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit'
-      qualifications:
-        - text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit'
-        - text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit'
-      titre: Réceptionniste
-    ordre: '2'
-  - anglais:
-      candidat: >-
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum
-        dolor sit amet, consectetur adipisicing elit.
-      description:
-        - text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit'
-        - text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit'
-        - text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit'
-      qualifications:
-        - text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit'
-        - text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit'
-      titre: Assistant
-    francais:
-      candidat: >-
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum
-        dolor sit amet, consectetur adipisicing elit.
-      description:
-        - text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit'
-        - text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit'
-        - text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit'
-      qualifications:
-        - text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit'
-        - text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit'
-      titre: Adjointe
-    ordre: '1'
+        - text: "Travailler à la finition des orthèses plantaires. "
+        - text: Lire les prescriptions pour déterminer le travail à effectuer.
+        - text: "Coller des éléments de matières sur l'orthèse lorsque nécessaire. "
+        - text: Ajouter des stabilisateurs aux orthèses selon les mesures prescrites.
+      qualifications: []
+      titre: Personnel de finition
+    ordre: 1
