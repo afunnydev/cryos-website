@@ -24,27 +24,4 @@ emplois:
         - text: Ajouter des stabilisateurs aux orthèses selon les mesures prescrites.
       qualifications: []
       titre: Personnel de finition
-    ordre: "2"
-  - anglais:
-      candidat: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum
-        dolor sit amet, consectetur adipisicing elit.
-      description:
-        - text: Lorem ipsum dolor sit amet, consectetur adipisicing elit
-        - text: Lorem ipsum dolor sit amet, consectetur adipisicing elit
-        - text: Lorem ipsum dolor sit amet, consectetur adipisicing elit
-      qualifications:
-        - text: Lorem ipsum dolor sit amet, consectetur adipisicing elit
-        - text: Lorem ipsum dolor sit amet, consectetur adipisicing elit
-      titre: Assistant
-    francais:
-      candidat: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum
-        dolor sit amet, consectetur adipisicing elit.
-      description:
-        - text: Lorem ipsum dolor sit amet, consectetur adipisicing elit
-        - text: Lorem ipsum dolor sit amet, consectetur adipisicing elit
-        - text: Lorem ipsum dolor sit amet, consectetur adipisicing elit
-      qualifications:
-        - text: Lorem ipsum dolor sit amet, consectetur adipisicing elit
-        - text: Lorem ipsum dolor sit amet, consectetur adipisicing elit
-      titre: Adjointe
-    ordre: "1"
+    ordre: 1
