@@ -14,21 +14,11 @@ equipe:
     photo: img/uploads/membre_equipe13.png
     position: President
     weight: 3
-  - fonction: Directeur Général
-    name: André Lemire
-    photo: img/uploads/membre_equipe1.png
-    position: General Manager
-    weight: 4
   - photo: img/uploads/essaie-cryos-membre-de-l-équipe-5-.png
     name: Catherine Groulx
     fonction: Administration
     position: Administration
     weight: 5
-  - photo: img/uploads/essaie-cryos-membre-de-l-équipe-6-.png
-    name: Martine Arsenault
-    fonction: Administration
-    position: Administration
-    weight: 6
   - fonction: Informatique
     name: François Coulombe
     photo: img/uploads/membre_equipe9.png
