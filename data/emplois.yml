@@ -19,9 +19,17 @@ emplois:
         Elles ont un souci du travail bien fait tout en travaillant avec
         rapidité et précision.
     anglais:
-      candidat: The finishing staff complete the last step in the production of fully
-        customised prescription plantar orthotics. They design, hand craft and
-        attach unique customised elements to the orthotic as prescribed by the
-        health care professional.
+      candidat: The members of the finishing team are very thorough people. They care
+        about a job well done while working quickly and precisely.
       titre: Finishing staff
-      description: []
+      description:
+        - text: "Complete the last step in the production of fully customised prescription
+            plantar orthotics. "
+        - text: Design, hand craft and attach unique customised elements to the orthotic
+            as prescribed by the health care professional.
+      qualifications:
+        - text: Ability to work quickly and thoroughly
+        - text: Great manual dexterity
+        - text: Excellent visuospatial ability
+        - text: Able to work standing all day
+        - text: No prior experience required
