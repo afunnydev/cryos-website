@@ -10,11 +10,14 @@ emplois:
         - text: Ajouter des stabilisateurs aux orthèses selon les mesures prescrites.
       qualifications:
         - text: Capacité de travailler rapidement et avec minutie
-      candidat: |
-        Capacité de travailler rapidement et avec minutie
-        Grande dextérité manuelle
-        Excellente capacité visuo-spatiale
-        Apte à travailler debout toute la journée
+        - text: Grande dextérité manuelle
+        - text: Excellente capacité visuo-spatiale
+        - text: Apte à travailler debout toute la journée
+        - text: Formation offerte à l'interne.
+      candidat: >
+        Les membres de l'équipe de finition sont des personnes très minutieuses.
+        Elles ont un souci du travail bien fait tout en travaillant avec
+        rapidité et précision.
     anglais:
       candidat: The finishing staff complete the last step in the production of fully
         customised prescription plantar orthotics. They design, hand craft and
