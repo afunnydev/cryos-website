@@ -1,2 +1,24 @@
-disponible: false
-emplois: []
+disponible: true
+emplois:
+  - ordre: 1
+    francais:
+      titre: Personnel de finition
+      description:
+        - text: Travailler à la finition des orthèses plantaires.
+        - text: Lire les prescriptions pour déterminer le travail à effectuer.
+        - text: Coller des éléments de matières sur l'orthèse lorsque nécessaire.
+        - text: Ajouter des stabilisateurs aux orthèses selon les mesures prescrites.
+      qualifications:
+        - text: Capacité de travailler rapidement et avec minutie
+      candidat: |
+        Capacité de travailler rapidement et avec minutie
+        Grande dextérité manuelle
+        Excellente capacité visuo-spatiale
+        Apte à travailler debout toute la journée
+    anglais:
+      candidat: The finishing staff complete the last step in the production of fully
+        customised prescription plantar orthotics. They design, hand craft and
+        attach unique customised elements to the orthotic as prescribed by the
+        health care professional.
+      titre: Finishing staff
+      description: []
