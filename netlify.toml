@@ -8,15 +8,6 @@
   force = true
   conditions = {Language = ["fr"]}
 
-# If the user is in Canada (and thus, doesn't have a FR browser), it is redirected
-# to the landing page
-[[redirects]]
-  from = "/"
-  to = "/ca-en"
-  status = 302
-  force = true
-  conditions = {Country = ["CA"]}
-
 # Every other user is redirected to the EN site.
 [[redirects]]
   from = "/"
