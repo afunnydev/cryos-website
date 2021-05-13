@@ -68,6 +68,9 @@
   {{ end }}
   <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   {{ $.Site.Data.inserts.scripts.header | safeHTML }}
+  {{if .IsHome}}
+    <meta name="facebook-domain-verification" content="da858e59miy07rektpuyj0mcgr8o7e" />
+  {{end}}
 </head>
 
 <body>
