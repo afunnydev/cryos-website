@@ -1,5 +1,5 @@
 scripts:
-  header: >-
+  header: >
     <!-- Facebook Pixel Code -->
 
     <script>
@@ -33,6 +33,13 @@ scripts:
     /></noscript>
 
     <!-- End Facebook Pixel Code -->
+
+
+    <!-- Facebook verified-->
+
+    <meta name="facebook-domain-verification" content="da858e59miy07rektpuyj0mcgr8o7e" />
+
+    <!-- Facebook verified-->
   footer: <!-- This is an example <script
     src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/1.0.0/lunr.min.js"></script>
     -->
