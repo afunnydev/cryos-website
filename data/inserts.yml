@@ -50,7 +50,7 @@ scripts:
     ></script>
 
     <!-- Kalviyo - Email Tracking->
-  footer: >-
+  footer: >+
     <!-- This is an example <script
     src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/1.0.0/lunr.min.js"></script>
     -->
@@ -65,5 +65,3 @@ scripts:
 
     <!-- Kalviyo - Email Tracking->
 
-
-    <div class="klaviyo-form-RziYYt"></div>
