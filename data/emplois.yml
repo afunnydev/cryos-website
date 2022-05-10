@@ -2,22 +2,47 @@ disponible: true
 emplois:
   - ordre: 1
     francais:
-      titre: Personnel de finition
+      titre: Responsable des services clients
       description:
-        - text: Travailler à la finition des orthèses plantaires.
-        - text: Lire les prescriptions pour déterminer le travail à effectuer.
-        - text: Coller des éléments de matières sur l'orthèse lorsque nécessaire.
-        - text: Ajouter des stabilisateurs aux orthèses selon les mesures prescrites.
+        - text: En collaboration avec l’équipe des ventes, participer à l’adhésion des
+            nouveaux clients en les accompagnant à travers les processus
+            d’acquisition, de développements et de fidélisation.
+        - text: Assurer l’application et l’amélioration des processus reliés à la norme
+            ISO 9001 pour les ventes et le service à la clientèle.
+        - text: Prendre en charge le déploiement et l’optimisation de l’utilisation du CRM
+            (HubSpot).
+        - text: Représenter l’entreprise auprès des clients actuels et agir comme
+            intermédiaire entre ceux-ci et les différents départements du
+            laboratoire.
+        - text: Offrir un soutien au département des ventes afin d’assurer la production
+            du matériel promotionnel.
+        - text: Coordonner le développement d'initiatives de marketing relationnel et
+            effectuer le déploiement de celles-ci.
+        - text: Analyser le succès des initiatives de gestion de la relation client afin
+            de générer un avantage concurrentiel pour l’organisation
+        - text: Tous autres projets connexes permettant de faire rayonner l’entreprise en
+            termes de services clients.
       qualifications:
-        - text: Capacité de travailler rapidement et avec minutie
-        - text: Grande dextérité manuelle
-        - text: Excellente capacité visuo-spatiale
-        - text: Apte à travailler debout toute la journée
-        - text: Formation offerte à l'interne.
-      candidat: >
-        Les membres de l'équipe de finition sont des personnes très minutieuses.
-        Elles ont un souci du travail bien fait tout en travaillant avec
-        rapidité et précision.
+        - text: Expérience démontrée en service à la clientèle et dans le maintien de
+            bonnes relations clients;
+        - text: Bilingue (Français/anglais), excellente capacité à communiquer autant à
+            l’oral qu’à l’écrit;
+        - text: Capacité à se déplacer, au besoin, chez les clients, principalement au
+            Québec, mais également en Ontario;
+        - text: Expérience dans l’utilisation d’un CRM (un atout);
+        - text: Proactif, apte à prendre des initiatives;
+        - text: Capacité de trouver des solutions efficaces;
+        - text: Faire preuve de patience, de rigueur et d’un excellent sens de
+            l’organisation.
+      candidat: >-
+        Le/la titulaire du poste de responsable des services clients aura comme
+        principale responsabilité le développement et l’exécution de la
+        stratégie du service à la clientèle. Son rôle sera d’accompagner les
+        clients à travers le ‘’Onboarding’’ et de faciliter les interventions
+        avec les différents départements de l’entreprise.
+
+
+        Étant une petite entreprise en pleine croissance, le poste à combler pourrait être appeler à évoluer rapidement en fonction des intérêts du candidat retenu.
     anglais:
       candidat: The members of the finishing team are very thorough people. They care
         about a job well done while working quickly and precisely.
