@@ -14,16 +14,6 @@ equipe:
     photo: img/uploads/membre_equipe13.png
     position: President
     weight: 3
-  - photo: img/uploads/essaie-cryos-membre-de-l-équipe-5-.png
-    name: Catherine Groulx
-    fonction: Administration
-    position: Administration
-    weight: 5
-  - fonction: Informatique
-    name: François Coulombe
-    photo: img/uploads/membre_equipe9.png
-    position: IT
-    weight: 7
   - fonction: Informatique
     name: Jean-François Lanthier
     photo: img/uploads/membre_equipe11.png
@@ -34,16 +24,6 @@ equipe:
     photo: img/uploads/membre_equipe2.png
     position: Production and R&D
     weight: 11
-  - fonction: Production
-    name: Louise Prescott
-    photo: img/uploads/membre_equipe15.png
-    position: Production
-    weight: 12
-  - fonction: Production et R&D
-    name: Mohammed Lachhab
-    photo: img/uploads/membre_equipe17.png
-    position: Production and R&D
-    weight: 13
   - fonction: R&D
     name: Nicholas Watts
     photo: img/uploads/membre_equipe18.png
@@ -54,8 +34,3 @@ equipe:
     photo: img/uploads/membre_equipe19.png
     position: R&D
     weight: 15
-  - fonction: Ressources humaines
-    name: Émilie Bélanger
-    photo: img/uploads/membre_equipe6.png
-    position: Human ressources
-    weight: 16
