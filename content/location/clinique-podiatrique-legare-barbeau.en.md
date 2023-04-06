@@ -7,7 +7,7 @@ latitude: 46.35506
 longitude: -72.577484
 phone: (819) 693-9393
 site: http://www.cliniquepodiatrique.com
-identifiant: clinique-podiatrique-legare-barbeau
+identifiant: clinique-podiatrique-trois-rivieres
 type: location
 i18nlanguage: en
 ---
