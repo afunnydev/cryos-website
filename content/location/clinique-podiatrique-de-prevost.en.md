@@ -1,6 +1,6 @@
 ---
 nomclinique: Clinique Podiatrique de Prévost
-address: 2731 Bd du Curé-Labelle
+address: 2731 Boul du Curé-Labelle
 ville: Prévost, Quebec, J0R 1T0
 pays: Canada
 latitude: 45.85230731591794
