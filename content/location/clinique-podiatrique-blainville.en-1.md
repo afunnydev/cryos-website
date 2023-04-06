@@ -7,7 +7,7 @@ latitude: 46.38279718802615
 longitude: -77.12469860819958
 phone: (613)732-3333
 site: http://www.integratedhealthcentre.ca
-identifiant: clinique-podiatrique-blainville
+identifiant: integrated-health-centre
 type: location
 i18nlanguage: en
 ---
