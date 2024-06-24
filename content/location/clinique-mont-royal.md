@@ -1,5 +1,5 @@
 ---
-nomclinique: Clinique Podiatrique Mont-Royal
+nomclinique: Clinique Podiatrique Mont-Royal | Podiatre du Plateau
 address: 304 Avenue du Mont-Royal E
 ville: Montréal, QC H2T 1P8
 pays: Canada
