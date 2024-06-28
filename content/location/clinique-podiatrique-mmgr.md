@@ -1,5 +1,5 @@
 ---
-nomclinique: Clinique Podiatrique St-Léonard
+nomclinique: Pied Réseau St-Léonard
 address: "6424 rue Jean-Talon E. #229"
 ville: Montréal, Québec  H1S 1M8
 pays: Canada
