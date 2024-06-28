@@ -1,5 +1,5 @@
 ---
-nomclinique: Pied Réseau St-Léonard
+nomclinique: PiedRéseau Saint-Léonard
 address: "6424 rue Jean-Talon E. #229"
 ville: Montréal, Québec  H1S 1M8
 pays: Canada
