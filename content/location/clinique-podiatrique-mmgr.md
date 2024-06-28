@@ -6,7 +6,7 @@ pays: Canada
 latitude: 45.591408
 longitude: -73.57483
 phone: (514) 903-9333
-site: http://www.podiatremmgr.com
+site: https://piedreseau.com/cliniques/saint-leonard/
 identifiant: clinique-podiatrique-mmgr
 type: location
 i18nlanguage: fr
